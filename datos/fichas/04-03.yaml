@@ -1,0 +1,41 @@
+codigo: '04.03'
+serie: '04'
+tipo: Ficha
+titulo: Scania T330
+años: Hasta 2005
+estado: en investigación
+imagen: img/c0403.jpg
+portada: img/c0403.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: scania t330
+datos:
+- campo: Modelo probable
+  valor: T 114 GA 4x2 NZ 330
+  estado: VERIFICAR
+  fuente: Por la potencia del frente; falta confirmar
+  url: https://camionargentino.blogspot.com/2013/08/scania-t-114-ga-4x2-nz-320-330-360.html
+- campo: Motor
+  valor: DC11 · 330 CV entre 1.600 y 1.900 rpm
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/08/scania-t-114-ga-4x2-nz-320-330-360.html
+- campo: Caja
+  valor: GRS900, 14 marchas
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/08/scania-t-114-ga-4x2-nz-320-330-360.html
+- campo: Planta
+  valor: Colombres, Tucumán
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/08/scania-t-114-ga-4x2-nz-320-330-360.html
+- campo: Fin de las trompas Scania
+  valor: Octubre de 2005
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Scania_PRT-range
+- campo: Años de producción
+  valor: —
+  estado: SIN DATO
+  fuente: La ficha consultada no los tiene
+  url: https://camionargentino.blogspot.com/2013/08/scania-t-114-ga-4x2-nz-320-330-360.html

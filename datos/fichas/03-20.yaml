@@ -1,0 +1,44 @@
+codigo: '03.20'
+serie: '03'
+tipo: Ficha
+titulo: Fiat-Materfer · Línea E
+años: Desde 1980
+estado: en investigación
+imagen: img/t20.jpg
+portada: img/t20.jpg
+pie: Frente · Reconstrucción IA
+busqueda: fiat materfer subte linea e 42b cordoba
+datos:
+- campo: Modelo
+  valor: Fiat-Materfer
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Fabricante
+  valor: Fiat-Materfer, Ferreyra, Córdoba
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Fabricación
+  valor: Desde 1980
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Recorrido por líneas
+  valor: E al principio, después D; A entre 2015 y 2019; E desde 2019
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Numeración
+  valor: Coches A y B con el mismo número; los C, con numeración propia
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Formaciones
+  valor: De 4, 5 o 6 coches
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Ejemplar documentado
+  valor: Coche 42B, «Plaza Mayo»
+  estado: DATO
+  fuente: Lectura de la imagen

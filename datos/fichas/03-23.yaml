@@ -1,0 +1,33 @@
+codigo: '03.23'
+serie: '03'
+tipo: Ficha
+titulo: ALCO RSD-16 · Tren Patagónico
+años: —
+estado: en investigación
+imagen: img/t23.jpg
+portada: img/t23.jpg
+pie: Frente · Reconstrucción IA
+busqueda: alco rsd-16 rsd16 tren patagonico 8238 locomotora rio negro
+datos:
+- campo: Fabricante
+  valor: ALCO
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Modelo
+  valor: RSD-16
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Operador
+  valor: Tren Patagónico S.A. (ex SEFEPA), de la Provincia de Río Negro, creada por el decreto 178 de 1993
+  estado: DATO1
+  fuente: Wikipedia · Tren Patagónico
+  url: https://es.wikipedia.org/wiki/Tren_Patag%C3%B3nico
+- campo: Servicio
+  valor: Viedma – San Carlos de Bariloche, semanal; volvió en mayo de 2014
+  estado: DATO1
+  fuente: Wikipedia · Tren Patagónico
+  url: https://es.wikipedia.org/wiki/Tren_Patag%C3%B3nico
+- campo: Ejemplar documentado
+  valor: Locomotora 8238
+  estado: DATO
+  fuente: Lectura de la imagen

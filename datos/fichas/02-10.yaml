@@ -1,0 +1,40 @@
+codigo: '02.10'
+serie: '02'
+tipo: Ficha
+titulo: Nuovobus Menghi · Volkswagen
+años: En servicio
+estado: en investigación
+imagen: img/0210-01.jpg
+portada: img/c0210.jpg
+pie: Línea 723, frente · Reconstrucción IA a partir de planos de carrocería
+galeria:
+- imagen: img/0210-01.jpg
+  leyenda: 01 · Frente
+- imagen: img/0210-02.jpg
+  leyenda: 02 · Lateral derecho
+  ancha: true
+- imagen: img/0210-03.jpg
+  leyenda: 03 · Lateral izquierdo
+  ancha: true
+- imagen: img/0210-04.jpg
+  leyenda: 04 · Cola
+nota_galeria: Vistas de la línea 723 · Reconstrucción IA a partir de planos de carrocería.
+busqueda: nuovobus menghi volkswagen utenor 723 tigre
+datos:
+- campo: Carrocera
+  valor: Nuovo Bus (Hepricar S.A.), Parque Industrial II de Moreno
+  estado: DATO
+  fuente: Ministerio de Transporte PBA, enero 2026
+  url: https://gba.gob.ar/transporte/noticias/potenciando_el_transporte_bonaerense_marinucci_visit%C3%B3_la_f%C3%A1brica_nuovo_bus
+- campo: Chasis del ejemplar
+  valor: Volkswagen
+  estado: DATO
+  fuente: Planos de carrocería · relevamiento archivo.tea
+- campo: Ejemplar documentado
+  valor: Línea 723, Utenor S.A., Tigre
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Dato de época
+  valor: La cola lleva la publicidad «Qatarsis» de DirecTV, del Mundial de Qatar 2022
+  estado: DATO1
+  fuente: Lectura de la imagen

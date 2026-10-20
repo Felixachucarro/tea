@@ -1,0 +1,45 @@
+codigo: '02.00'
+serie: '02'
+tipo: Prólogo
+titulo: ¿Cuánto tiempo de tu vida pasás en un colectivo?
+años: Prólogo
+estado: publicada
+imagen: img/02-00.jpg
+portada: img/c0200.jpg
+pie: Publicación de Instagram · placa 01
+galeria:
+- imagen: img/g0200-01.jpg
+  leyenda: 01 · Pregunta
+- imagen: img/g0200-02.jpg
+  leyenda: 02 · Punto de partida
+- imagen: img/g0200-03.jpg
+  leyenda: 03 · El año
+- imagen: img/g0200-04.jpg
+  leyenda: 04 · La vida
+- imagen: img/g0200-05.jpg
+  leyenda: 05 · No sos el único
+- imagen: img/g0200-06.jpg
+  leyenda: 06 · Lo que vas a ver pasar
+busqueda: prologo enmodo amba horas vida
+datos:
+- campo: Viajes solo en colectivo por día
+  valor: 7,6 millones (26,6 %)
+  estado: DATO
+  fuente: ENMODO 2018, Observatorio de Movilidad CABA (informe nov. 2022)
+- campo: Viajes por día en el AMBA
+  valor: 30,5 millones
+  estado: DATO
+  fuente: ENMODO 2018, Observatorio de Movilidad CABA (informe nov. 2022)
+- campo: Antigüedad máxima de un colectivo
+  valor: 10 años
+  estado: DATO
+  fuente: Ley 24.449, art. 53
+  url: https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/818/texact.htm
+- campo: Horas por año (caso)
+  valor: 920 h
+  estado: ESTIMACION
+  fuente: 'Cálculo propio: 4 h × 230 días'
+- campo: Vida laboral (caso)
+  valor: Casi 5 años (43.240 h)
+  estado: ESTIMACION
+  fuente: 'Cálculo propio: 18 a 65 años'

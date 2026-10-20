@@ -1,0 +1,101 @@
+codigo: '05.07'
+serie: '05'
+tipo: Ficha
+titulo: Ford Ranger
+años: 1995–hoy
+estado: en investigación
+imagen: img/c0507.jpg
+portada: img/c0507.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: ford ranger pacheco t6 cabina doble power stroke
+datos:
+- campo: Llegada
+  valor: 1995, importada de Estados Unidos («Nacida Fuerte»)
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- campo: Producción local
+  valor: Desde 1996 en Pacheco
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- campo: Primera cabina doble
+  valor: 1998, desarrollada para la región
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- campo: Unidad 1.000.000
+  valor: '2022'
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- campo: Inversión
+  valor: US$ 580 millones (anunciada en 2020)
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- campo: Capacidad
+  valor: 80.000 por año; dos tercios para exportar (anuncio de 2026)
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+linea_de_tiempo:
+- año: '1995'
+  hito: Llega importada
+  detalle: Desde Estados Unidos.
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- año: '1996'
+  hito: Empieza en Pacheco
+  detalle: Wikipedia no da el año de inicio.
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- año: '1998'
+  hito: Cabina doble
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- año: '1999'
+  hito: Raid de 70.000 km
+  detalle: De San Pablo a Tierra del Fuego, pasando por Alaska.
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- año: '2005'
+  hito: Power Stroke 3.0
+  detalle: 163 CV, el motor más vendido en Argentina.
+  estado: DATO
+  fuente: Wikipedia · Parabrisas
+  url: https://es.wikipedia.org/wiki/Ford_Ranger
+- año: '2012'
+  hito: Generación T6
+  detalle: Pacheco se moderniza. Motores Puma 2.2 y 3.2 (200 CV).
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- año: '2013'
+  hito: Seguridad de serie
+  detalle: Primera de su segmento con doble airbag, ABS y control de estabilidad.
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- año: '2022'
+  hito: Un millón
+  detalle: Se festeja la unidad un millón.
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- año: '2023'
+  hito: Nueva generación
+  detalle: V6 3.0 de 250 CV y Panther 2.0.
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- año: '2026'
+  hito: Cabina simple
+  detalle: Anunciada, con caja 50 % más larga.
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml

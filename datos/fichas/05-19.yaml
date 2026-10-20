@@ -1,0 +1,36 @@
+codigo: '05.19'
+serie: '05'
+tipo: Ficha
+titulo: Ford EcoSport
+años: 2003–2022
+estado: en investigación
+imagen: img/c0519.jpg
+portada: img/c0519.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: ford ecosport suv brasil india
+datos:
+- campo: Debut
+  valor: 2003, pensado para la región
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/ford-ecosport-cinco-datos-curiosos-argentina-historia-autos-suv.phtml
+- campo: Origen
+  valor: Brasil; después, India
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/ford-ecosport-cinco-datos-curiosos-argentina-historia-autos-suv.phtml
+- campo: Medio millón
+  valor: Unidades fabricadas en Sudamérica, alcanzadas en 2007
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/ford-ecosport-cinco-datos-curiosos-argentina-historia-autos-suv.phtml
+- campo: Segunda generación
+  valor: '2012'
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/ford-ecosport-cinco-datos-curiosos-argentina-historia-autos-suv.phtml
+- campo: Fin
+  valor: Brasil cerró en 2021, India en 2022; stock en Argentina hasta 2023
+  estado: DATO
+  fuente: Parabrisas · Wikipedia
+  url: https://parabrisas.perfil.com/noticias/novedades/ford-ecosport-cinco-datos-curiosos-argentina-historia-autos-suv.phtml

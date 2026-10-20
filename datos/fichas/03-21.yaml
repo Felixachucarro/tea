@@ -1,0 +1,25 @@
+codigo: '03.21'
+serie: '03'
+tipo: Ficha
+titulo: Subte · coche 11A
+años: —
+estado: en investigación
+imagen: img/t21.jpg
+portada: img/t21.jpg
+pie: Frente · Reconstrucción IA
+busqueda: subte 11a cnr citic 200 linea a china
+datos:
+- campo: Posible modelo
+  valor: CNR-Citic serie 200, de las líneas A y C
+  estado: VERIFICAR
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Si es CNR 200
+  valor: 'China; llegada 2013–2019; 30 formaciones de 5 coches: 21 en la A y 9 en la C'
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Ejemplar documentado
+  valor: Coche 11A
+  estado: DATO
+  fuente: Lectura de la imagen

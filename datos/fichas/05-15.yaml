@@ -1,0 +1,30 @@
+codigo: '05.15'
+serie: '05'
+tipo: Ficha
+titulo: Peugeot Partner
+años: Desde 1998
+estado: en investigación
+imagen: img/c0515.jpg
+portada: img/c0515.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: peugeot partner patagonica utilitario
+datos:
+- campo: Lanzamiento
+  valor: '1998'
+  estado: DATO1
+  fuente: Autoweb
+  url: https://www.autoweb.com.ar/?p=12776
+- campo: Unidades
+  valor: Unas 218.000 hasta fines de 2018
+  estado: DATO1
+  fuente: Autoweb
+  url: https://www.autoweb.com.ar/?p=12776
+- campo: Versiones
+  valor: Pasajeros y utilitario
+  estado: DATO1
+  fuente: Autoweb
+  url: https://www.autoweb.com.ar/?p=12776
+- campo: Planta y generaciones
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

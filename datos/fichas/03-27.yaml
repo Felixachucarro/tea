@@ -1,0 +1,45 @@
+codigo: '03.27'
+serie: '03'
+tipo: Ficha
+titulo: Tren Solidario
+años: Desde 2001
+estado: en investigación
+imagen: img/t27.jpg
+portada: img/t27.jpg
+pie: Frente · Reconstrucción IA
+busqueda: tren solidario rieles multimedio donaciones pueblos fundacion andreani a910
+datos:
+- campo: Qué es
+  valor: Viajes solidarios en tren que llevan donaciones a instituciones de todo el país y reclaman la vuelta del tren a los pueblos
+  estado: DATO1
+  fuente: Tren Solidario
+  url: https://trensolidario.org/
+- campo: Organiza
+  valor: Rieles multimedio
+  estado: DATO1
+  fuente: Tren Solidario
+  url: https://trensolidario.org/
+- campo: Primer viaje
+  valor: 8 de abril de 2001, a San Antonio de Areco, con 140 kg de donaciones y 32 colaboradores
+  estado: DATO1
+  fuente: Tren Solidario
+  url: https://trensolidario.org/
+- campo: Frecuencia
+  valor: Dos o tres viajes por año
+  estado: DATO1
+  fuente: Tren Solidario
+  url: https://trensolidario.org/
+- campo: Cómo se sostiene
+  valor: Donaciones y apoyo de empresas, organismos públicos, sindicatos, trabajadores y voluntarios
+  estado: DATO1
+  fuente: Tren Solidario
+  url: https://trensolidario.org/
+- campo: Aniversario
+  valor: 25 años en 2026
+  estado: DATO1
+  fuente: Tren Solidario
+  url: https://trensolidario.org/
+- campo: En la imagen
+  valor: Bandera con el logo de la Fundación Andreani, sobre la locomotora GM G22 A910
+  estado: DATO1
+  fuente: Lectura de la imagen

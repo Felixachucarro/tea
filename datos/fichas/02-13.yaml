@@ -1,0 +1,44 @@
+codigo: '02.13'
+serie: '02'
+tipo: Ficha
+titulo: Nuovobus Citta · Mercedes-Benz
+años: En servicio
+estado: en investigación
+imagen: img/0207-203a.jpg
+portada: img/c0214.jpg
+pie: Línea 203, frente · Reconstrucción IA a partir de planos de carrocería
+galeria:
+- imagen: img/0207-203a.jpg
+  leyenda: 01 · Frente
+- imagen: img/0207-203b.jpg
+  leyenda: 02 · Lateral derecho
+  ancha: true
+- imagen: img/0207-203c.jpg
+  leyenda: 03 · Lateral izquierdo
+  ancha: true
+- imagen: img/0207-203d.jpg
+  leyenda: 04 · Cola
+nota_galeria: Vistas de la línea 203 · Reconstrucción IA a partir de planos de carrocería.
+busqueda: nuovobus citta mercedes 203 amarillo
+datos:
+- campo: Carrocera
+  valor: Nuovo Bus (Hepricar S.A.), Parque Industrial II de Moreno
+  estado: DATO
+  fuente: Ministerio de Transporte PBA, enero 2026
+  url: https://gba.gob.ar/transporte/noticias/potenciando_el_transporte_bonaerense_marinucci_visit%C3%B3_la_f%C3%A1brica_nuovo_bus
+- campo: Chasis del ejemplar
+  valor: Mercedes-Benz
+  estado: DATO
+  fuente: Planos de carrocería · relevamiento archivo.tea
+- campo: Puertas
+  valor: '3'
+  estado: DATO
+  fuente: Planos de carrocería · relevamiento archivo.tea
+- campo: Ejemplar documentado
+  valor: Línea 203, librea amarilla
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Años de producción
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

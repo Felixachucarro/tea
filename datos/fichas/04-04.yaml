@@ -1,0 +1,35 @@
+codigo: '04.04'
+serie: '04'
+tipo: Ficha
+titulo: Scania 113 H 360
+años: Años 90
+estado: en investigación
+imagen: img/c0404.jpg
+portada: img/c0404.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: scania 113 360
+datos:
+- campo: Motor
+  valor: 11 litros, 6 cilindros en línea, turbodiésel · 360 HP
+  estado: DATO1
+  fuente: Transporte Mundial
+  url: https://transportemundial.com.ar/novedades/camion-maradona-boca-1997/
+- campo: Caja
+  valor: 10 marchas, manual
+  estado: DATO1
+  fuente: Transporte Mundial
+  url: https://transportemundial.com.ar/novedades/camion-maradona-boca-1997/
+- campo: Antecesor
+  valor: El T 112 fue la base del T 113 Topline
+  estado: DATO1
+  fuente: Planeta Camión
+  url: https://www.planetacamion.com.ar/scania-t-112-h-360-salto-en-alto-y-largo/
+- campo: Serie 3
+  valor: Producción 1987–1998 o hasta 1995
+  estado: VERIFICAR
+  fuente: Wikipedia se contradice
+  url: https://en.wikipedia.org/wiki/Scania_3-series
+- campo: Años en Argentina
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

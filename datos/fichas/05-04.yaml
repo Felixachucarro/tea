@@ -1,0 +1,40 @@
+codigo: '05.04'
+serie: '05'
+tipo: Ficha
+titulo: Ford Escort
+años: 1988–2003
+estado: en investigación
+imagen: img/c0504.jpg
+portada: img/c0504.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: ford escort xr3 ghia orion rural pacheco autolatina
+datos:
+- campo: Producción
+  valor: Desde 1988 en Pacheco, en la época de Autolatina
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/18/autos-clasicos-de-argentina-ford-escort
+- campo: Generaciones
+  valor: 4.ª (1988–1995) · 5.ª (1995–1997) · 6.ª (1997–2003)
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/18/autos-clasicos-de-argentina-ford-escort
+- campo: Fin
+  valor: 2003, reemplazado por el Focus
+  estado: DATO
+  fuente: Autocosmos · Wikipedia
+  url: https://noticias.autocosmos.com.ar/2024/04/18/autos-clasicos-de-argentina-ford-escort
+- campo: Versiones
+  valor: XR3, Ghia, Orion (sedán, 1994), Rural
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/18/autos-clasicos-de-argentina-ford-escort
+- campo: Motores
+  valor: 1.6 y 1.8 (de VW) · 1.8 y 2.0 inyección · 1.6 y 1.8 16V, 1.8 turbodiésel
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/18/autos-clasicos-de-argentina-ford-escort
+- campo: Unidades en Argentina
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

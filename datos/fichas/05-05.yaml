@@ -1,0 +1,41 @@
+codigo: '05.05'
+serie: '05'
+tipo: Ficha
+titulo: Fiat Uno
+años: 1989–2021
+estado: en investigación
+imagen: img/c0505.jpg
+portada: img/c0505.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: fiat uno scr scv fire way novo uno duna sevel el palomar cordoba
+datos:
+- campo: Producción
+  valor: Desde 1989 en El Palomar (Sevel); desde 1995 en Córdoba
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/25/autos-clasicos-de-argentina-fiat-uno-y-duna
+- campo: Primera generación
+  valor: 1989–2004
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/25/autos-clasicos-de-argentina-fiat-uno-y-duna
+- campo: Uno Fire
+  valor: 'Importado de Brasil, vendido hasta fines de 2013: no cumplía con airbag y ABS obligatorios'
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/25/autos-clasicos-de-argentina-fiat-uno-y-duna
+- campo: Nuevo Uno
+  valor: Hecho en Brasil, 2010–2021
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/25/autos-clasicos-de-argentina-fiat-uno-y-duna
+- campo: Versiones
+  valor: SCV / SCR (1992), S, SL, CL, diésel 1.7 (1995), Way, Sporting, Cargo
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/25/autos-clasicos-de-argentina-fiat-uno-y-duna
+- campo: Ediciones limitadas
+  valor: Ciao (250 unidades) · Uno EF de Edgardo Fernández (unas 40)
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/04/25/autos-clasicos-de-argentina-fiat-uno-y-duna

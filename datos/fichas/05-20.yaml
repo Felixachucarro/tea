@@ -1,0 +1,12 @@
+codigo: '05.20'
+serie: '05'
+tipo: Informe
+titulo: 'Transporte utilitario: OCA y Correo'
+años: Sin fecha
+estado: en investigación
+busqueda: oca correo argentino utilitarios reparto flota
+datos:
+- campo: Flotas, modelos y libreas
+  valor: —
+  estado: SIN DATO
+  fuente: No encontramos datos públicos de las flotas; hay que pedirlos o relevarlos

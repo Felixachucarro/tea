@@ -1,0 +1,22 @@
+'00':
+  nombre: General
+  color: var(--celeste)
+'01':
+  nombre: Curiosidades
+  color: var(--s01)
+'02':
+  nombre: Colectivos
+  color: var(--s02)
+'03':
+  nombre: Trenes y subtes
+  color: '#c8322a'
+  color2: '#e8b21a'
+'04':
+  nombre: Camiones
+  color: '#e2661c'
+'05':
+  nombre: Particulares
+  color: var(--s05)
+'06':
+  nombre: Estatales
+  color: var(--s06)

@@ -1,0 +1,48 @@
+codigo: '02.09'
+serie: '02'
+tipo: Ficha
+titulo: TodoBus Pompeya · Agrale MT 17.0 LE
+años: Plano de 2024
+estado: en investigación
+decadas: []
+imagen: img/0209-01.jpg
+portada: img/c0209.jpg
+pie: Línea 128, frente · Reconstrucción IA a partir de planos de carrocería
+busqueda: todobus todo bus pompeya agrale mt 17 cummins el puente 128
+datos:
+- campo: Denominación
+  valor: Urbano bajo para movilidad reducida, con aire acondicionado
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24 (PLANO-2024-71346916-APN-SNTYCV#CNRT)
+- campo: Chasis
+  valor: Agrale MT 17.0 LE
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24
+- campo: Motor
+  valor: Cummins ISB 6.7, 169 kW a 2.300 rpm, diésel
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24
+- campo: Capacidad
+  valor: 28 o 33 asientos más conductor
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24
+- campo: Tara / peso bruto
+  valor: 10.660 kg / hasta 16.750 kg
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24
+- campo: Tanque
+  valor: 210 l
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24
+- campo: Neumáticos
+  valor: 275/80 R22,5
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24
+- campo: Fecha del plano
+  valor: 18 de junio de 2024
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24
+- campo: Ejemplar documentado
+  valor: Línea 128, El Puente, interno 8729
+  estado: DATO
+  fuente: Relevamiento archivo.tea

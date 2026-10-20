@@ -1,0 +1,7 @@
+# Netlify arma la web en cada cambio del repo: lee datos/ y notas/, escribe _sitio/ y publica eso.
+[build]
+  command = "pip install -r requirements.txt && python scripts/build.py"
+  publish = "_sitio"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"

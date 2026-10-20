@@ -1,0 +1,19 @@
+codigo: '03.18'
+serie: '03'
+tipo: Ficha
+titulo: Subte · coche 648
+años: —
+estado: en investigación
+imagen: img/t18.jpg
+portada: img/t18.jpg
+pie: Frente · Reconstrucción IA
+busqueda: subte 648 alem amarillo
+datos:
+- campo: Modelo
+  valor: —
+  estado: VERIFICAR
+  fuente: Falta fuente
+- campo: Ejemplar documentado
+  valor: Coche 648, «L. N. Alem», amarillo con óxido
+  estado: DATO
+  fuente: Lectura de la imagen

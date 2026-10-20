@@ -1,0 +1,41 @@
+codigo: '05.09'
+serie: '05'
+tipo: Ficha
+titulo: Renault Clio
+años: 1996–2016
+estado: en investigación
+imagen: img/c0509.jpg
+portada: img/c0509.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: renault clio mio santa isabel cordoba
+datos:
+- campo: Inicio
+  valor: 8 de febrero de 1996, Santa Isabel (Córdoba)
+  estado: DATO1
+  fuente: 16 Válvulas
+  url: https://www.16valvulas.com.ar/el-renault-clio-argentino-se-despidio-despues-de-20-anos/
+- campo: Clio 1
+  valor: 1996–2000 · 81.895 unidades
+  estado: DATO1
+  fuente: 16 Válvulas
+  url: https://www.16valvulas.com.ar/el-renault-clio-argentino-se-despidio-despues-de-20-anos/
+- campo: Clio 2
+  valor: 2000–2012 · 276.955 unidades
+  estado: DATO1
+  fuente: 16 Válvulas
+  url: https://www.16valvulas.com.ar/el-renault-clio-argentino-se-despidio-despues-de-20-anos/
+- campo: Clio Mío
+  valor: 2012–2016 · 190.798 unidades
+  estado: DATO
+  fuente: 16 Válvulas · Wikipedia
+  url: https://www.16valvulas.com.ar/el-renault-clio-argentino-se-despidio-despues-de-20-anos/
+- campo: Total
+  valor: '549.648: el modelo más fabricado de la planta, por encima del Renault 12 (444.045)'
+  estado: DATO1
+  fuente: 16 Válvulas
+  url: https://www.16valvulas.com.ar/el-renault-clio-argentino-se-despidio-despues-de-20-anos/
+- campo: Fin
+  valor: Fines de octubre de 2016
+  estado: DATO1
+  fuente: 16 Válvulas
+  url: https://www.16valvulas.com.ar/el-renault-clio-argentino-se-despidio-despues-de-20-anos/

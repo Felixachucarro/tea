@@ -1,0 +1,39 @@
+codigo: '02.11'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz 1214 · Ottaviano
+años: Años 80
+estado: en investigación
+imagen: img/0211-01.jpg
+portada: img/c0211.jpg
+pie: Línea 100, frente · Reconstrucción IA basada en la foto publicada por Retrobondis (Revista Colectibondi)
+busqueda: 1214 ottaviano mercedes 100 retiro constitucion retrobondis tarsa
+datos:
+- campo: Chasis
+  valor: Mercedes-Benz 1214
+  estado: DATO1
+  fuente: Retrobondis · Revista Colectibondi
+  url: https://www.facebook.com/RevistaColectibondi/posts/retobondis-mercedes-benz-1214-carrozado-por-ottaviano-modelo-81-de-tarsa-linea-1/10159835514902837/
+- campo: Carrocería
+  valor: Ottaviano, modelo 1981
+  estado: DATO1
+  fuente: Retrobondis · Revista Colectibondi
+  url: https://www.facebook.com/RevistaColectibondi/posts/retobondis-mercedes-benz-1214-carrozado-por-ottaviano-modelo-81-de-tarsa-linea-1/10159835514902837/
+- campo: Foto de referencia
+  valor: Década de 1980
+  estado: DATO1
+  fuente: Retrobondis · Revista Colectibondi
+  url: https://www.instagram.com/p/DMs367gOsxR/
+- campo: Ejemplar documentado
+  valor: Línea 100, Retiro (Dársena D) – Constitución
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Error de la reconstrucción
+  valor: 'La chapa «1112» del frente es un error de la imagen: el modelo es 1214'
+  estado: DATO
+  fuente: archivo.tea
+- campo: Designación del chasis
+  valor: La fuente dice «1214»; el OF 1214 se fabricó desde 1983 y esta carrocería es modelo 1981
+  estado: VERIFICAR
+  fuente: Retrobondis · Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html

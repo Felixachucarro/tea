@@ -1,0 +1,40 @@
+codigo: '03.14'
+serie: '03'
+tipo: Ficha
+titulo: La Brugeoise · Línea A, librea histórica
+años: 1913–2013
+estado: en investigación
+imagen: img/t14.jpg
+portada: img/t14.jpg
+pie: Frente · Reconstrucción IA
+busqueda: la brugeoise linea a subte historico madera 1913
+datos:
+- campo: Fabricante
+  valor: La Brugeoise et Nicaise et Delcuve, Bélgica
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Fabricación
+  valor: Entre 1911 y 1919, en series; los coches 121 a 125 se armaron en Polvorín desde 1921
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Llegada
+  valor: Desde mediados de 1913, con la inauguración de la Línea A
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Numeración
+  valor: Coches 5 a 125
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Baja
+  valor: Enero de 2013
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Ejemplar documentado
+  valor: Coche 68, librea gris, azul y amarillo
+  estado: DATO
+  fuente: Lectura de la imagen

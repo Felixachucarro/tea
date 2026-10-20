@@ -1,0 +1,45 @@
+codigo: '03.15'
+serie: '03'
+tipo: Ficha
+titulo: Mitsubishi Eidan 500 · Línea B
+años: Desde 1995
+estado: en investigación
+imagen: img/t15.jpg
+portada: img/t15.jpg
+pie: Frente · Reconstrucción IA
+busqueda: mitsubishi eidan 500 linea b rojo marunouchi tokio
+datos:
+- campo: Fabricante
+  valor: Mitsubishi, Japón
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Fabricación
+  valor: 1954–1965
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Vida anterior
+  valor: Línea Marunouchi del metro de Tokio, 1954–1994
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Llegada
+  valor: 1995–1996, para la Línea B
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Flota
+  valor: 21 formaciones de la serie 500, junto a coches de las series 300 y 900
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Regreso a Japón
+  valor: Tres coches volvieron a Japón (2016–2017)
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Ejemplar documentado
+  valor: Coche 740, rojo con onda blanca
+  estado: DATO
+  fuente: Lectura de la imagen

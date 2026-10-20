@@ -1,0 +1,23 @@
+codigo: '03.29'
+serie: '03'
+tipo: Ficha
+titulo: GM G22 · Estrella del Norte
+años: —
+estado: en investigación
+imagen: img/t29.jpg
+portada: img/t29.jpg
+pie: Frente · Reconstrucción IA
+busqueda: gm g22 estrella del norte ferrocarriles argentinos
+datos:
+- campo: Modelo
+  valor: General Motors G22
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Nombre
+  valor: Estrella del Norte
+  estado: VERIFICAR
+  fuente: Falta fuente
+- campo: Librea documentada
+  valor: Blanca, roja y azul con el logo de Ferrocarriles Argentinos
+  estado: DATO1
+  fuente: Lectura de la imagen

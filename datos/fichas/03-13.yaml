@@ -1,0 +1,23 @@
+codigo: '03.13'
+serie: '03'
+tipo: Ficha
+titulo: CSR eléctrico · Línea Roca
+años: —
+estado: en investigación
+imagen: img/t13.jpg
+portada: img/t13.jpg
+pie: Frente · Reconstrucción IA
+busqueda: csr roca electrico pantografo
+datos:
+- campo: Fabricante
+  valor: CSR, China
+  estado: VERIFICAR
+  fuente: Falta fuente
+- campo: Línea
+  valor: Roca, eléctrico con pantógrafo
+  estado: DATO1
+  fuente: Lectura de la imagen
+- campo: Ejemplar documentado
+  valor: Coche 152 A
+  estado: DATO
+  fuente: Lectura de la imagen

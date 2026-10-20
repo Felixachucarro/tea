@@ -1,0 +1,27 @@
+codigo: '02.08'
+serie: '02'
+tipo: Ficha
+titulo: TodoBus Retiro · Agrale
+años: En servicio
+estado: en investigación
+imagen: img/0208-01.jpg
+portada: img/c0208.jpg
+pie: Línea 28, frente · Reconstrucción IA a partir de planos de carrocería
+busqueda: todobus todo bus retiro agrale dota 28
+datos:
+- campo: Carrocera
+  valor: Carrocerías Todo Bus S.A., Lomas de Zamora
+  estado: DATO
+  fuente: CNRT · Plano TB-57/24
+- campo: Chasis del ejemplar
+  valor: Agrale
+  estado: DATO
+  fuente: Planos de carrocería · relevamiento archivo.tea
+- campo: Ejemplar documentado
+  valor: Línea 28, DOTA, interno 82
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Años de producción
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

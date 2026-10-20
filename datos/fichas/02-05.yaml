@@ -1,0 +1,25 @@
+codigo: '02.05'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz OH 1621 L-SB Euro V
+años: Desde 2016
+estado: en investigación
+imagen: img/0205-01.jpg
+portada: img/c0205.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: oh 1621 l-sb euro v om 924 allison
+datos:
+- campo: Motor
+  valor: OM 924 LA trasero, Euro V
+  estado: DATO
+  fuente: Mercedes-Benz Buses Argentina
+  url: https://www.mercedes-benz-bus.com/ar/es/models/oh1621-oh1721.html
+- campo: Potencia / torque
+  valor: 208 CV · 780 Nm
+  estado: DATO
+  fuente: Mercedes-Benz Buses Argentina
+  url: https://www.mercedes-benz-bus.com/ar/es/models/oh1621-oh1721.html
+- campo: Batalla, largo, PBT
+  valor: —
+  estado: SIN DATO
+  fuente: La ficha oficial no se puede leer

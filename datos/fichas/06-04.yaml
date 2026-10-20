@@ -1,0 +1,34 @@
+codigo: '06.04'
+serie: '06'
+tipo: Ficha
+titulo: Patrullero · Chevrolet Corsa Classic
+años: Desde 2002
+estado: en investigación
+imagen: img/c0604.jpg
+portada: img/c0604.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: patrullero policia chevrolet corsa classic azul blanco
+datos:
+- campo: Modelo
+  valor: Chevrolet Corsa Classic, vendido con ese nombre desde abril de 2002
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Chevrolet_Corsa
+- campo: Fabricación
+  valor: Planta de General Motors en Alvear, Santa Fe
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Chevrolet_Corsa
+- campo: Fin
+  valor: Octubre de 2016
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Chevrolet_Corsa
+- campo: Fuerza y años de uso
+  valor: —
+  estado: SIN DATO
+  fuente: 'Falta fuente: compras públicas o fotos fechadas'
+- campo: Librea
+  valor: —
+  estado: SIN DATO
+  fuente: Falta confirmar a qué fuerza corresponde el esquema azul y blanco

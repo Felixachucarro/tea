@@ -1,0 +1,38 @@
+codigo: '05.03'
+serie: '05'
+tipo: Ficha
+titulo: Ford Sierra
+años: 1984–1993
+estado: en investigación
+busqueda: ford sierra xr4 ghia rural pacheco
+datos:
+- campo: Producción
+  valor: 1984–1993, en Pacheco
+  estado: DATO
+  fuente: Autocosmos · Wikipedia
+  url: https://noticias.autocosmos.com.ar/2024/05/23/autos-clasicos-de-argentina-ford-sierra
+- campo: Dato
+  valor: Argentina fue el primer país en fabricarlo fuera de Europa
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/05/23/autos-clasicos-de-argentina-ford-sierra
+- campo: Inversión
+  valor: US$ 80 millones en la planta
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/05/23/autos-clasicos-de-argentina-ford-sierra
+- campo: Unidades
+  valor: '72.024'
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/05/23/autos-clasicos-de-argentina-ford-sierra
+- campo: Carrocerías
+  valor: 5 puertas, coupé de 3 puertas (XR4) y Rural
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/05/23/autos-clasicos-de-argentina-ford-sierra
+- campo: Motores
+  valor: '1.6 de 75 CV · 2.3 de 105 CV · 2.3 SP de 120 CV (XR4: 0 a 100 en 10,3 s)'
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/05/23/autos-clasicos-de-argentina-ford-sierra

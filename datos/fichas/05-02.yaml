@@ -1,0 +1,38 @@
+codigo: '05.02'
+serie: '05'
+tipo: Ficha
+titulo: Fiat 147
+años: 1982–1996
+estado: en investigación
+busqueda: fiat 147 spazio vivace brio tr sevel
+datos:
+- campo: Debut
+  valor: 1982 (enero, según Wikipedia)
+  estado: DATO
+  fuente: Wikipedia · Parabrisas
+  url: https://en.wikipedia.org/wiki/Fiat_147
+- campo: Fabricante
+  valor: 'Sevel · planta: Córdoba según una página de Wikipedia, El Palomar según otra'
+  estado: VERIFICAR
+  fuente: Wikipedia (Fiat 147 / Sevel)
+  url: https://en.wikipedia.org/wiki/Sevel_Argentina
+- campo: Fin
+  valor: '1996'
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Fiat_147
+- campo: Unidades
+  valor: 232.807, incluyendo Panorama y Fiorino
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Fiat_147
+- campo: Versiones
+  valor: TR 5 (1983), Brío (1987–1989), Spazio, Vivace (1993)
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Fiat_147
+- campo: Motores
+  valor: 903 cm³, 1.049 cm³, 1.116 cm³ (desde octubre de 1982), 1.3 y 1.372 cm³ (1991); diésel hasta 1990
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Fiat_147

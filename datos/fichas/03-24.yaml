@@ -1,0 +1,45 @@
+codigo: '03.24'
+serie: '03'
+tipo: Ficha
+titulo: GM GT22 · Tren Patagónico
+años: —
+estado: en investigación
+imagen: img/t24a.jpg
+portada: img/t24a.jpg
+pie: Frente · Reconstrucción IA
+galeria:
+- imagen: img/t24a.jpg
+  leyenda: 01 · 9073, librea actual
+- imagen: img/t24b.jpg
+  leyenda: 02 · 9086, librea anterior
+nota_galeria: Frentes · Reconstrucción IA.
+busqueda: gm gt22 tren patagonico 9073 9086 viedma bariloche
+datos:
+- campo: Fabricante
+  valor: General Motors
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Modelo
+  valor: GT22 (locomotora 9073)
+  estado: DATO1
+  fuente: Gobierno de Río Negro
+  url: https://rionegro.gov.ar/articulo/57553/tren-patagonico-avanza-en-la-puesta-a-punto-del-motor-de-la-locomotora-9073
+- campo: Operador
+  valor: Tren Patagónico S.A. (ex SEFEPA), de la Provincia de Río Negro, creada por el decreto 178 de 1993
+  estado: DATO1
+  fuente: Wikipedia · Tren Patagónico
+  url: https://es.wikipedia.org/wiki/Tren_Patag%C3%B3nico
+- campo: Servicio
+  valor: Viedma – San Carlos de Bariloche, semanal; volvió en mayo de 2014
+  estado: DATO1
+  fuente: Wikipedia · Tren Patagónico
+  url: https://es.wikipedia.org/wiki/Tren_Patag%C3%B3nico
+- campo: Locomotoras cedidas
+  valor: En 2014 el Estado nacional cedió dos locomotoras diésel-eléctricas
+  estado: DATO1
+  fuente: Wikipedia · Tren Patagónico
+  url: https://es.wikipedia.org/wiki/Tren_Patag%C3%B3nico
+- campo: Ejemplares documentados
+  valor: 9073, librea verde actual; 9086, librea amarilla anterior
+  estado: DATO
+  fuente: Lectura de la imagen

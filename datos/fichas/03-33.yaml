@@ -1,0 +1,59 @@
+codigo: '03.33'
+serie: '03'
+tipo: Ficha
+titulo: Premetro · Línea E2
+años: Desde 1988
+estado: en investigación
+imagen: img/t33.jpg
+portada: img/t33.jpg
+pie: Frente · Reconstrucción IA
+busqueda: premetro e2 materfer siemens tranvia villa lugano soldati mariano acosta
+datos:
+- campo: Fabricante
+  valor: Materfer, Córdoba, con aportes locales; según otra fuente, Materfer y Siemens
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: En servicio
+  valor: Desde 1988
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Flota
+  valor: 17 coches automotores, que reemplazaron una flota provisoria
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Capacidad
+  valor: 32 pasajeros sentados por coche
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Medidas
+  valor: 15,83 m de largo, 2,50 m de ancho y 3,64 m de alto
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Velocidad máxima
+  valor: 70 km/h
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Frenos
+  valor: Dinámico e hidráulico de servicio; de emergencia por patín magnético
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Taller
+  valor: Mariano Acosta, Villa Soldati
+  estado: DATO1
+  fuente: La Comuna 7 · El Premetro
+  url: https://lacomuna7.com.ar/el-premetro-modernidad-sobre-rieles/
+- campo: Servicio
+  valor: Línea E2, combinación con la Línea E del subte
+  estado: DATO
+  fuente: Lectura de la imagen
+- campo: Ejemplar documentado
+  valor: Coche 12, librea naranja
+  estado: DATO
+  fuente: Lectura de la imagen

@@ -1,0 +1,52 @@
+codigo: '02.14'
+serie: '02'
+tipo: Ficha
+titulo: El Detalle OA 101 · tercera generación
+años: —
+estado: en investigación
+imagen: img/0202-127a.jpg
+portada: img/c0215.jpg
+pie: Línea 127, frente · Reconstrucción IA a partir de planos de carrocería
+galeria:
+- imagen: img/0202-p1.jpg
+  leyenda: '01 · Plano: frente'
+- imagen: img/0202-p3.jpg
+  leyenda: '02 · Plano: lateral'
+  ancha: true
+- imagen: img/0202-p2.jpg
+  leyenda: '03 · Plano: cola'
+- imagen: img/0202-127a.jpg
+  leyenda: 04 · Línea 127, frente
+- imagen: img/0202-127c.jpg
+  leyenda: 05 · Línea 127, lateral derecho
+  ancha: true
+- imagen: img/0202-127b.jpg
+  leyenda: 06 · Línea 127, lateral izquierdo
+  ancha: true
+nota_galeria: Planos de carrocería y vistas de la línea 127 · Las vistas de la línea son reconstrucción IA a partir de los planos.
+busqueda: el detalle oa 101 tercera generacion 127 los constituyentes
+datos:
+- campo: Carrocera
+  valor: El Detalle
+  estado: DATO
+  fuente: Planos de carrocería · relevamiento archivo.tea
+- campo: Generación
+  valor: Tercera, en planos de frente, lateral y cola
+  estado: DATO
+  fuente: Planos de carrocería · relevamiento archivo.tea
+- campo: Puertas
+  valor: '2'
+  estado: DATO
+  fuente: Planos de carrocería · relevamiento archivo.tea
+- campo: Ejemplar documentado
+  valor: Línea 127, Los Constituyentes S.A., interno 241
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Años de producción
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente
+- campo: Primera generación
+  valor: Ver ficha 02.02
+  estado: DATO
+  fuente: archivo.tea

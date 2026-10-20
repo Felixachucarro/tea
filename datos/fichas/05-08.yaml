@@ -1,0 +1,35 @@
+codigo: '05.08'
+serie: '05'
+tipo: Ficha
+titulo: Volkswagen Golf
+años: Desde 1995
+estado: en investigación
+imagen: img/c0508.jpg
+portada: img/c0508.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: vw golf glx gti vr6 mk3 mexico
+datos:
+- campo: Llegada
+  valor: 1995, tercera generación (Mk III)
+  estado: DATO1
+  fuente: Autotest
+  url: https://autotest.com.ar/noticias/primer-volkswagen-golf-que-se-ofrecio-en-argentina/
+- campo: Origen
+  valor: Importado de México
+  estado: DATO1
+  fuente: Autotest
+  url: https://autotest.com.ar/noticias/primer-volkswagen-golf-que-se-ofrecio-en-argentina/
+- campo: Versiones iniciales
+  valor: GLX y GTI, 2.0 de 115 CV, caja manual de 5
+  estado: DATO1
+  fuente: Autotest
+  url: https://autotest.com.ar/noticias/primer-volkswagen-golf-que-se-ofrecio-en-argentina/
+- campo: Al año siguiente
+  valor: VR6 2.8 de 174 CV, descapotable y GL 1.8 de 90 CV
+  estado: DATO1
+  fuente: Autotest
+  url: https://autotest.com.ar/noticias/primer-volkswagen-golf-que-se-ofrecio-en-argentina/
+- campo: Generaciones siguientes
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

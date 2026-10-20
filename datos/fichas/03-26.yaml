@@ -1,0 +1,39 @@
+codigo: '03.26'
+serie: '03'
+tipo: Ficha
+titulo: GM G22CW 7911 «La Argentina» · Gran Capitán
+años: 1977–2004
+estado: en investigación
+imagen: img/t26.jpg
+portada: img/t26.jpg
+pie: Frente · Reconstrucción IA
+busqueda: gm g22cw 7911 la argentina gran capitan tea trenes especiales argentinos 2003
+datos:
+- campo: Modelo
+  valor: General Motors G22CW
+  estado: DATO1
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: Relación con el Gran Capitán
+  valor: Locomotora del servicio
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Viaje inaugural de TEA
+  valor: 'Encabezó la vuelta del Gran Capitán: salió de Federico Lacroze el 25 de septiembre de 2003'
+  estado: VERIFICAR
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: Nombre
+  valor: «La Argentina», en la etapa de TEA
+  estado: VERIFICAR
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: Fin
+  valor: En 2004 chocó contra un camión y quedó fuera de servicio; la reemplazó la 7927 «La Victoria»
+  estado: VERIFICAR
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: Serie
+  valor: G22CW del Urquiza, 7901 a 7940, ASTARSA, 1977–1978
+  estado: VERIFICAR
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: La estrella «TEA»
+  valor: Es el logo de Trenes Especiales Argentinos; sin relación con archivo.tea
+  estado: DATO
+  fuente: Relevamiento archivo.tea

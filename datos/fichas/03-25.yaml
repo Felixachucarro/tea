@@ -1,0 +1,35 @@
+codigo: '03.25'
+serie: '03'
+tipo: Ficha
+titulo: GM G22CW 7904 · Gran Capitán
+años: Desde 1977
+estado: en investigación
+imagen: img/t25.jpg
+portada: img/t25.jpg
+pie: Frente · Reconstrucción IA
+busqueda: gm g22cw 7904 gran capitan urquiza astarsa tren patagonico
+datos:
+- campo: Modelo
+  valor: General Motors G22CW
+  estado: DATO1
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: Relación con el Gran Capitán
+  valor: Locomotora del servicio
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Serie
+  valor: G22CW del Urquiza, 7901 a 7940, armadas por ASTARSA en 1977–1978
+  estado: VERIFICAR
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: Segunda vida
+  valor: Retrochada a 1.676 mm para el Tren Patagónico; primer servicio Bariloche–Viedma el 15 de abril de 2001
+  estado: VERIFICAR
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: Contradicción
+  valor: La recopilación no encuentra prueba de que haya sido titular del Gran Capitán de TEA; hay que confirmar en qué etapa lo remolcó
+  estado: VERIFICAR
+  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+- campo: Ejemplar documentado
+  valor: Locomotora 7904, amarilla y roja
+  estado: DATO
+  fuente: Lectura de la imagen
