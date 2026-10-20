@@ -1,0 +1,34 @@
+codigo: '04.07'
+serie: '04'
+tipo: Ficha
+titulo: Scania R470 Topline
+años: 2004–2016
+estado: en investigación
+imagen: img/c0407.jpg
+portada: img/c0407.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: scania r470 topline
+datos:
+- campo: Gama
+  valor: Serie R de la nueva gama Scania, lanzada el 31 de marzo de 2004
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Scania_PRT-range
+- campo: Topline
+  valor: Cabina de techo alto
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Scania_PRT-range
+- campo: Reemplazo
+  valor: Nueva generación desde agosto de 2016
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Scania_PRT-range
+- campo: Potencia
+  valor: 470 CV, según la denominación del modelo
+  estado: VERIFICAR
+  fuente: Falta la ficha técnica
+- campo: Llegada a Argentina
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

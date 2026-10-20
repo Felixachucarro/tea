@@ -1,0 +1,36 @@
+codigo: '03.03'
+serie: '03'
+tipo: Ficha
+titulo: Tren Sarmiento · TBA
+años: 1995–2012
+estado: en investigación
+imagen: img/c0303.jpg
+portada: img/c0303.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: tba sarmiento
+datos:
+- campo: Concesión
+  valor: Desde el 27 de mayo de 1995 (Decreto 730/95)
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Trenes_de_Buenos_Aires
+- campo: Líneas
+  valor: Sarmiento y Mitre
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Trenes_de_Buenos_Aires
+- campo: Material
+  valor: 'Unidades eléctricas Toshiba reconstruidas: 220 coches a febrero de 1999'
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Trenes_de_Buenos_Aires
+- campo: Librea
+  valor: Remodelación desde 1998 y esquema nuevo en 2000
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+- campo: Fin
+  valor: Concesión revocada el 24 de mayo de 2012
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Trenes_de_Buenos_Aires

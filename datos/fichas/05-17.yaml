@@ -1,0 +1,36 @@
+codigo: '05.17'
+serie: '05'
+tipo: Ficha
+titulo: Peugeot 206
+años: 1999–2012
+estado: en investigación
+imagen: img/c0517.jpg
+portada: img/c0517.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: peugeot 206 xr xs xt rc cc sw quiksilver generation el palomar
+datos:
+- campo: Producción
+  valor: Desde 1999 en El Palomar
+  estado: DATO
+  fuente: Autocosmos · Autoweb
+  url: https://noticias.autocosmos.com.ar/2024/02/15/autos-clasicos-de-argentina-peugeot-206
+- campo: Fin
+  valor: '2012'
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/02/15/autos-clasicos-de-argentina-peugeot-206
+- campo: Con el 207 Compact
+  valor: Unas 499.000 entre los dos (el 207 Compact, 2008–2016)
+  estado: DATO1
+  fuente: Autoweb
+  url: https://www.autoweb.com.ar/?p=12776
+- campo: Motores
+  valor: 1.6 de 90 CV (110 desde 2002), 1.9 diésel de 70 CV, 1.4 de 75 CV, 2.0 de 137 y 177 CV
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/02/15/autos-clasicos-de-argentina-peugeot-206
+- campo: Versiones
+  valor: XT, XR, XS, XRD, SW, CC, GTi, RC, Quiksilver, Génération (2008)
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/02/15/autos-clasicos-de-argentina-peugeot-206

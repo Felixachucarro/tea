@@ -1,0 +1,25 @@
+codigo: '03.19'
+serie: '03'
+tipo: Ficha
+titulo: Subte · coche 5122
+años: —
+estado: en investigación
+imagen: img/t19.jpg
+portada: img/t19.jpg
+pie: Frente · Reconstrucción IA
+busqueda: subte 5122 retiro acero caf 5000 madrid
+datos:
+- campo: Posible modelo
+  valor: 'CAF serie 5000: la numeración 5000 coincide'
+  estado: VERIFICAR
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Si es CAF 5000
+  valor: Consorcio CAF-GEE-AEG, España, 1974–1977; Línea B desde 2011; baja en febrero de 2018 por asbesto
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Ejemplar documentado
+  valor: Coche 5122, «Retiro»
+  estado: DATO
+  fuente: Lectura de la imagen

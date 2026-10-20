@@ -1,0 +1,27 @@
+codigo: '06.03'
+serie: '06'
+tipo: Informe
+titulo: Ambulancias
+años: Sin fecha
+estado: en investigación
+busqueda: ambulancias same 107 sprinter
+datos:
+- campo: SAME
+  valor: Teléfono 107 · 170 ambulancias en 2015
+  estado: DATO
+  fuente: GCBA (oficial)
+  url: https://buenosaires.gob.ar/gcaba_historico/noticias/el-same-al-servicio-de-la-comunidad
+- campo: Auxilios
+  valor: 283.510 en 2014
+  estado: DATO
+  fuente: GCBA (oficial)
+  url: https://buenosaires.gob.ar/gcaba_historico/noticias/el-same-al-servicio-de-la-comunidad
+- campo: Sprinter
+  valor: Mercedes-Benz entregó 140 Sprinter al SAME en abril de 2017
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2017/04/24/140-mercedes-benz-sprinter-fueron-entregadas-al-same
+- campo: Otras jurisdicciones y épocas
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

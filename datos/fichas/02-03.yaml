@@ -1,0 +1,21 @@
+codigo: '02.03'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz OH 1621 L
+años: 1996–2003
+estado: en investigación
+imagen: img/0203-01.jpg
+portada: img/c0203.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: oh 1621 l om 366 metalpar fenix ottaviano
+datos:
+- campo: Producción
+  valor: 1996–2003
+  estado: VERIFICAR
+  fuente: Wikipedia (sin fuente primaria)
+  url: https://es.wikipedia.org/wiki/Mercedes-Benz_OH_1621
+- campo: Motor
+  valor: OM 366 LA, trasero, 210 CV
+  estado: VERIFICAR
+  fuente: Wikipedia (sin fuente primaria)
+  url: https://es.wikipedia.org/wiki/Mercedes-Benz_OH_1621

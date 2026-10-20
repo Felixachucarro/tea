@@ -1,0 +1,23 @@
+codigo: '03.11'
+serie: '03'
+tipo: Ficha
+titulo: Materfer CMM 400-2 · Trenes Argentinos
+años: —
+estado: en investigación
+imagen: img/t11a.jpg
+portada: img/t11a.jpg
+pie: Frente · Reconstrucción IA
+busqueda: materfer cmm 400 alerce trenes argentinos coche motor
+datos:
+- campo: Fabricante
+  valor: Materfer, según el frente del coche
+  estado: DATO1
+  fuente: Lectura de la imagen
+- campo: Modelo
+  valor: CMM 400-2
+  estado: VERIFICAR
+  fuente: Falta fuente
+- campo: Librea documentada
+  valor: Blanca y celeste de Trenes Argentinos
+  estado: DATO
+  fuente: Relevamiento archivo.tea

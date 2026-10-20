@@ -1,0 +1,50 @@
+codigo: '02.07'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz O 500 U · Italbus Nuovobus
+años: Desde 2001
+estado: en investigación
+imagen: img/c0207.jpg
+portada: img/c0207.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: o500u o 500 u nuovobus italbus alfa bus
+datos:
+- campo: Chasis
+  valor: Serie O 500, fabricada en Brasil desde 2001
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://es.wikipedia.org/wiki/Mercedes-Benz_O_500
+- campo: Primera versión urbana
+  valor: 'O 500 U 1723: entrada baja, motor OM 906 LA, 231 CV'
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://es.wikipedia.org/wiki/Mercedes-Benz_O_500
+- campo: Motor actual
+  valor: OM 926 LA, 6 cilindros · 256 CV · 900 Nm
+  estado: DATO
+  fuente: Mercedes-Benz Buses Argentina
+  url: https://www.mercedes-benz-bus.com/ar/es/models/o500-u.html
+- campo: Caja y suspensión
+  valor: Automática con retarder · neumática, con sistema de descenso
+  estado: DATO
+  fuente: Mercedes-Benz Buses Argentina
+  url: https://www.mercedes-benz-bus.com/ar/es/models/o500-u.html
+- campo: Carrocera
+  valor: Nuovo Bus (Hepricar S.A.), Parque Industrial II de Moreno
+  estado: DATO
+  fuente: Ministerio de Transporte PBA, enero 2026
+  url: https://gba.gob.ar/transporte/noticias/potenciando_el_transporte_bonaerense_marinucci_visit%C3%B3_la_f%C3%A1brica_nuovo_bus
+- campo: Peso de Nuovo Bus
+  valor: Cerca del 70 % de las carrocerías urbanas sobre Mercedes-Benz del país
+  estado: DATO1
+  fuente: Ministerio de Transporte PBA (dicho por la empresa)
+  url: https://gba.gob.ar/transporte/noticias/potenciando_el_transporte_bonaerense_marinucci_visit%C3%B3_la_f%C3%A1brica_nuovo_bus
+- campo: Relación Italbus – Nuovobus
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente
+- campo: Largo, batalla, PBT
+  valor: —
+  estado: SIN DATO
+  fuente: Están en la ficha técnica oficial, todavía sin leer
+  url: https://www.mercedes-benz-bus.com/ar/es/models/o500-u.html

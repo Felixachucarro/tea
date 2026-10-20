@@ -1,0 +1,46 @@
+codigo: '03.04'
+serie: '03'
+tipo: Ficha
+titulo: Tren Sarmiento · CSR
+años: 2014–hoy
+estado: en investigación
+imagen: img/c0304.jpg
+portada: img/c0304.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: csr sarmiento china
+datos:
+- campo: Fabricante
+  valor: CSR Qingdao Sifang, China
+  estado: DATO1
+  fuente: International Railway Journal
+  url: https://www.railjournal.com/regions/central-south-america/argentina-orders-chinese-trains-for-buenos-aires/
+- campo: Compra
+  valor: 'Anunciada el 10 de enero de 2013: 409 coches para el Sarmiento y el Mitre'
+  estado: DATO1
+  fuente: International Railway Journal
+  url: https://www.railjournal.com/regions/central-south-america/argentina-orders-chinese-trains-for-buenos-aires/
+- campo: Sarmiento
+  valor: 225 coches en formaciones de 9
+  estado: DATO
+  fuente: IRJ · La Nación
+  url: https://www.lanacion.com.ar/buenos-aires/mejoras-en-el-tren-sarmiento-sumaron-siete-formaciones-0-km-nid1711890/
+- campo: Debut
+  valor: 21 de julio de 2014, con 7 formaciones
+  estado: DATO1
+  fuente: La Nación
+  url: https://www.lanacion.com.ar/buenos-aires/mejoras-en-el-tren-sarmiento-sumaron-siete-formaciones-0-km-nid1711890/
+- campo: Precio
+  valor: US$ 1,265 millones por coche, sin traslado ni repuestos
+  estado: DATO1
+  fuente: International Railway Journal
+  url: https://www.railjournal.com/regions/central-south-america/argentina-orders-chinese-trains-for-buenos-aires/
+- campo: Equipamiento
+  valor: Aire y calefacción, cámaras, frenos Knorr-Bremse, bloqueo de arranque con puertas abiertas
+  estado: DATO1
+  fuente: La Nación
+  url: https://www.lanacion.com.ar/buenos-aires/mejoras-en-el-tren-sarmiento-sumaron-siete-formaciones-0-km-nid1711890/
+- campo: Trocha
+  valor: 1.676 mm (ancha)
+  estado: DATO1
+  fuente: International Railway Journal
+  url: https://www.railjournal.com/regions/central-south-america/argentina-orders-chinese-trains-for-buenos-aires/

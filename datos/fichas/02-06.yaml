@@ -1,0 +1,51 @@
+codigo: '02.06'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz OH 1320
+años: 1992–1998
+estado: en investigación
+imagen: img/c0206.jpg
+portada: img/c0206.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: oh 1320 colcar
+datos:
+- campo: Origen del nombre
+  valor: En julio de 1992 el OH 1319 pasó a llamarse OH 1320
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-oh-1319.html
+- campo: Producción
+  valor: 1994–1997 (OH) · 1995–1998 (OHL)
+  estado: VERIFICAR
+  fuente: Camión Argentino · no cierra con el cambio de nombre de 1992
+  url: https://camionargentino.blogspot.com/2013/02/mercedes-benz-ohohl-1320.html
+- campo: Motor
+  valor: OM 366 A, trasero
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/02/mercedes-benz-ohohl-1320.html
+- campo: Potencia
+  valor: 184 CV a 2.600 rpm
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/02/mercedes-benz-ohohl-1320.html
+- campo: Distancia entre ejes
+  valor: 5.170 mm (la segunda medida, 6.050 mm, sin confirmar)
+  estado: VERIFICAR
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/02/mercedes-benz-ohohl-1320.html
+- campo: Largo
+  valor: 10.187 mm
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/02/mercedes-benz-ohohl-1320.html
+- campo: Uso
+  valor: Chasis urbano; muchos se adaptaron a media distancia y turismo
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/02/mercedes-benz-ohohl-1320.html
+- campo: Carroceros
+  valor: Bus, EiVar, Galicia, Ottaviano, San Miguel, Splendid y Ugarte
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/02/mercedes-benz-ohohl-1320.html

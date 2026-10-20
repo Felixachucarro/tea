@@ -1,0 +1,31 @@
+codigo: '02.04'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz OH 1618 L-SB
+años: Desde 2009
+estado: en investigación
+imagen: img/0204-01.jpg
+portada: img/c0204.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: oh 1618 l-sb piso bajo om 904 metalpar iguazu la favorita ugarte
+datos:
+- campo: Presentación
+  valor: Octubre de 2009
+  estado: DATO
+  fuente: 16 Válvulas · Tiempo Trucks
+  url: https://www.16valvulas.com.ar/mercedes-benz-presento-un-bus-de-piso-super-bajo/
+- campo: Potencia
+  valor: 177 CV
+  estado: DATO
+  fuente: Folleto Mercedes-Benz (2012)
+  url: https://galeria.bus-america.com/albums/userpics/37177/675/OH1618-L-SB_OH1718-L-SB.pdf
+- campo: Batalla / largo
+  valor: 5.500 mm / 10.515 mm
+  estado: DATO1
+  fuente: Folleto Mercedes-Benz (2012)
+  url: https://galeria.bus-america.com/albums/userpics/37177/675/OH1618-L-SB_OH1718-L-SB.pdf
+- campo: Piso bajo
+  valor: Casi el 60 % de la superficie de parados
+  estado: DATO
+  fuente: 16 Válvulas · Tiempo Trucks
+  url: https://tiempotrucks.com.ar/nuevo-chasis-para-colectivos-de-mercedes-benz/

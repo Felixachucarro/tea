@@ -1,0 +1,58 @@
+codigo: '03.07'
+serie: '03'
+tipo: Ficha
+titulo: Tren Gran Capitán · Fiat Materfer 7131
+años: 2003–2011
+estado: en investigación
+imagen: img/c0307.jpg
+portada: img/c0307.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: gran capitan fiat materfer 7131 3171 tea lacroze posadas
+datos:
+- campo: Coche motor
+  valor: 'Fiat Materfer 7131: en 2008 TEA puso una unidad restaurada en el Gran Capitán'
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+- campo: Fabricación
+  valor: Fiat Ferroviaria y Materfer (Ferreyra, Córdoba), 1960–1963
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+- campo: Potencia
+  valor: 660 HP por par de coches
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+- campo: Velocidad máxima
+  valor: 90 o 115 km/h
+  estado: VERIFICAR
+  fuente: Wikipedia se contradice
+  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+- campo: Servicio
+  valor: Federico Lacroze – Posadas, unas 26 horas, dos veces por semana
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Trenes_Especiales_Argentinos
+- campo: Operador
+  valor: Trenes Especiales Argentinos (TEA), concesión desde 2003
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Trenes_Especiales_Argentinos
+- campo: Fin
+  valor: 15 de diciembre de 2011 (Decreto 3010 de Corrientes)
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Trenes_Especiales_Argentinos
+- campo: Unidad de la imagen
+  valor: Coche motor 5968 (CMU 5968), parte del Gran Capitán
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Viaje de 2008
+  valor: El 21 de octubre de 2008 el CMU 5968 y el remolque CAU 958 hicieron Lacroze – Posadas como servicio de emergencia; TEA los había reconstruido en Paraná
+  estado: VERIFICAR
+  fuente: Recopilación externa (cita Crónica Ferroviaria, El Territorio, RailPictures) · falta abrir las fuentes
+- campo: Locomotoras del Gran Capitán de TEA
+  valor: G22CW 7911 «La Argentina» (2003) y 7927 «La Victoria» (desde 2006); también la 7903
+  estado: VERIFICAR
+  fuente: Recopilación externa · falta abrir las fuentes

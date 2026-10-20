@@ -1,0 +1,36 @@
+codigo: '05.16'
+serie: '05'
+tipo: Ficha
+titulo: Renault Kangoo
+años: 1998–hoy
+estado: en investigación
+imagen: img/c0516.jpg
+portada: img/c0516.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: renault kangoo santa isabel cordoba utilitario
+datos:
+- campo: Llegada
+  valor: Fines de 1998, importada de Francia
+  estado: DATO1
+  fuente: Autoweb
+  url: https://www.autoweb.com.ar/?p=40383
+- campo: Producción
+  valor: 1999, en Santa Isabel (Córdoba)
+  estado: DATO
+  fuente: Autoweb · Autocosmos
+  url: https://noticias.autocosmos.com.ar/2023/10/12/renault-kangoo-cumple-25-anos
+- campo: Rediseños
+  valor: 2008 y 2013; la 2.ª generación, sobre la Dacia Dokker
+  estado: DATO1
+  fuente: Autoweb
+  url: https://www.autoweb.com.ar/?p=40383
+- campo: Unidades
+  valor: Más de 450.000 en Santa Isabel
+  estado: DATO
+  fuente: Autoweb · Autocosmos
+  url: https://noticias.autocosmos.com.ar/2023/10/12/renault-kangoo-cumple-25-anos
+- campo: Exportación
+  valor: Llegó a Argelia
+  estado: DATO1
+  fuente: Autoweb
+  url: https://www.autoweb.com.ar/?p=40383

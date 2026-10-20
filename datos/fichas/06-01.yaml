@@ -1,0 +1,16 @@
+codigo: '06.01'
+serie: '06'
+tipo: Informe
+titulo: Vehículos estatales
+años: Sin fecha
+estado: en investigación
+busqueda: vehiculos estatales oficiales flota estado
+datos:
+- campo: Alcance
+  valor: 'Informe paraguas: patrulleros, ambulancias, correo, servicios'
+  estado: ESTIMACION
+  fuente: Criterio del archivo
+- campo: Fuentes
+  valor: —
+  estado: SIN DATO
+  fuente: Falta relevar compras públicas y fotos con licencia

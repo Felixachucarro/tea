@@ -1,0 +1,30 @@
+codigo: '05.18'
+serie: '05'
+tipo: Ficha
+titulo: Volkswagen Bora
+años: Desde 2000
+estado: en investigación
+imagen: img/c0518.jpg
+portada: img/c0518.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: vw bora mexico
+datos:
+- campo: Llegada
+  valor: Fines de 2000
+  estado: DATO1
+  fuente: Parabrisas (prueba de enero de 2001)
+  url: https://parabrisas.perfil.com/noticias/clasicos/volkswagen-bora-test-argentina-2001-prueba-manejo-retro-motor.phtml
+- campo: Origen
+  valor: México
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/clasicos/volkswagen-bora-test-argentina-2001-prueba-manejo-retro-motor.phtml
+- campo: Motores
+  valor: 2.0 nafta de 116 CV · 1.9 turbodiésel de 90 CV
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/clasicos/volkswagen-bora-test-argentina-2001-prueba-manejo-retro-motor.phtml
+- campo: Fin
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

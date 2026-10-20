@@ -1,0 +1,31 @@
+codigo: '03.32'
+serie: '03'
+tipo: Ficha
+titulo: Materfer · Tren del Valle, Río Negro
+años: —
+estado: en investigación
+imagen: img/t11b.jpg
+portada: img/t11b.jpg
+pie: Frente · Reconstrucción IA
+busqueda: materfer tren del valle rio negro neuquen cipolletti coche motor
+datos:
+- campo: Fabricante
+  valor: Materfer, según el frente del coche
+  estado: DATO1
+  fuente: Lectura de la imagen
+- campo: Modelo
+  valor: CMM 400-2
+  estado: VERIFICAR
+  fuente: Falta fuente
+- campo: Operador
+  valor: Gobierno de Río Negro, Tren del Valle
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Librea documentada
+  valor: Verde con el logo del Gobierno de Río Negro
+  estado: DATO
+  fuente: Lectura de la imagen
+- campo: Ficha relacionada
+  valor: Un coche Materfer con la librea de Trenes Argentinos (03.11)
+  estado: DATO
+  fuente: Relevamiento archivo.tea

@@ -1,0 +1,41 @@
+codigo: '04.06'
+serie: '04'
+tipo: Ficha
+titulo: Scania R460 Super
+años: 2024–hoy
+estado: en investigación
+imagen: img/c0406.jpg
+portada: img/c0406.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: scania r460 super
+datos:
+- campo: Motor
+  valor: Super, 13 litros, 6 cilindros en línea; reemplaza a la línea DC13
+  estado: DATO
+  fuente: Autoweb · 16 Válvulas
+  url: https://www.autoweb.com.ar/2024/08/28/scania-presento-super-su-nuevo-tren-motor-de-13-litros/
+- campo: Potencia
+  valor: 460 HP · 2.500 Nm
+  estado: DATO
+  fuente: Autoweb · 16 Válvulas
+  url: https://www.autoweb.com.ar/2024/08/28/scania-presento-super-su-nuevo-tren-motor-de-13-litros/
+- campo: Gama Super
+  valor: 420, 460, 500 y 550 HP
+  estado: DATO
+  fuente: Autoweb · 16 Válvulas
+  url: https://www.autoweb.com.ar/2024/08/28/scania-presento-super-su-nuevo-tren-motor-de-13-litros/
+- campo: Consumo
+  valor: 8 % menos que el motor anterior (según Scania)
+  estado: DATO
+  fuente: Autoweb · 16 Válvulas
+  url: https://www.16valvulas.com.ar/scania-super-ya-esta-en-argentina-el-nuevo-tren-motriz-que-logra-un-ahorro-de-combustible-del-8-y-es-el-mas-eficiente-de-su-historia/
+- campo: Llegada a Argentina
+  valor: Agosto de 2024; en Brasil se presentó un año antes
+  estado: DATO
+  fuente: Autoweb · 16 Válvulas
+  url: https://www.16valvulas.com.ar/scania-super-ya-esta-en-argentina-el-nuevo-tren-motriz-que-logra-un-ahorro-de-combustible-del-8-y-es-el-mas-eficiente-de-su-historia/
+- campo: Cabina
+  valor: Nueva generación Scania, lanzada en agosto de 2016
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Scania_PRT-range

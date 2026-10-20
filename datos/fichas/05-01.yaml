@@ -1,0 +1,84 @@
+codigo: '05.01'
+serie: '05'
+tipo: Ficha
+titulo: Ford F-100
+años: 1959–2011
+estado: en investigación
+imagen: img/c0501.jpg
+portada: img/c0501.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: f100 f-100 chata loba punta de diamante sapo pacheco la boca hercules
+datos:
+- campo: Producción local
+  valor: '1959–1996: 37 años, en La Boca y después en Pacheco'
+  estado: DATO
+  fuente: Autocosmos · El Cronista
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- campo: Unidades
+  valor: Más de 400.000 fabricadas; más de 410.000 vendidas
+  estado: DATO
+  fuente: Autocosmos · El Cronista
+  url: https://www.cronista.com/contratapa/adios-a-la-mitica-f-100-la-chata-que-salto-de-un-hercules-en-el-palomar/
+- campo: Récord
+  valor: 32.436 patentadas en 1980
+  estado: DATO1
+  fuente: El Cronista
+  url: https://www.cronista.com/contratapa/adios-a-la-mitica-f-100-la-chata-que-salto-de-un-hercules-en-el-palomar/
+- campo: Fin
+  valor: '2011: la última versión, importada de Brasil'
+  estado: DATO
+  fuente: El Cronista · Autocosmos
+  url: https://www.cronista.com/contratapa/adios-a-la-mitica-f-100-la-chata-que-salto-de-un-hercules-en-el-palomar/
+- campo: Publicidad
+  valor: La F-100 que saltó de un Hércules en El Palomar (hacia 1974)
+  estado: DATO
+  fuente: Autocosmos · El Cronista
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- campo: Fin de la producción local
+  valor: 1996, tras la disolución de Autolatina
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+linea_de_tiempo:
+- año: '1959'
+  hito: «Loba»
+  detalle: Primera F-100 nacional, en La Boca. V8 292 de 185 CV. Salió en noviembre.
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- año: '1961'
+  hito: 4.ª generación
+  detalle: Pasa a Pacheco (El Cronista dice 1964). Suspensión Twin-I-Beam en 1966.
+  estado: VERIFICAR
+  fuente: Autocosmos · El Cronista
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- año: 1967–1972
+  hito: «Punta de Diamante»
+  detalle: Suma el diésel Perkins de 4 cilindros y el seis cilindros 221.
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- año: 1973–1982
+  hito: 6.ª generación
+  detalle: En 1974, el salto del Hércules; en 1975 se suma la F-150.
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- año: '1981'
+  hito: 7.ª generación
+  detalle: Faros cuadrados y caja de cuatro marchas; frenos a disco en 1985.
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- año: 1987–1996
+  hito: 8.ª generación
+  detalle: 'La última nacional: motor MWM diésel, 4x4 y cabina Supercab (1992).'
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- año: 1996–2011
+  hito: Importadas de Brasil
+  detalle: Dos generaciones; la última, «Sapo», era la F-250 brasileña.
+  estado: DATO
+  fuente: Autocosmos · El Cronista
+  url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100

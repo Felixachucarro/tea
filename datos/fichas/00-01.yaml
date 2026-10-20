@@ -1,0 +1,21 @@
+codigo: '00.01'
+serie: '00'
+tipo: Presentación
+titulo: Presentación de archivo.tea
+años: '2026'
+estado: publicada
+imagen: img/00-01.jpg
+pie: Publicación de Instagram · placa 01
+galeria:
+- imagen: img/g0001-01.jpg
+  leyenda: 01 · Logo
+- imagen: img/g0001-02.jpg
+  leyenda: 02 · Qué es
+- imagen: img/g0001-03.jpg
+  leyenda: 03 · Memoria
+- imagen: img/g0001-04.jpg
+  leyenda: 04 · Cómo se lee
+- imagen: img/g0001-05.jpg
+  leyenda: 05 · Cierre
+busqueda: presentacion archivo
+datos: []

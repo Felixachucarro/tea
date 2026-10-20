@@ -1,0 +1,41 @@
+codigo: '04.01'
+serie: '04'
+tipo: Ficha
+titulo: Scania 112 H
+años: 1982–1993
+estado: en investigación
+imagen: img/c0401.jpg
+portada: img/c0401.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: scania 112h
+datos:
+- campo: Producción
+  valor: 'R 112 H: 1982–1993 · T 112 H (trompa): abril de 1982 – comienzos de 1987'
+  estado: DATO1
+  fuente: Camión Argentino · Planeta Camión
+  url: https://camionargentino.blogspot.com/2013/01/scania-r-112h.html
+- campo: Unidades
+  valor: 1.780 (R 112 H)
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/01/scania-r-112h.html
+- campo: Planta
+  valor: Colombres, Cruz Alta, Tucumán
+  estado: DATO
+  fuente: Camión Argentino · Planeta Camión
+  url: https://camionargentino.blogspot.com/2013/01/scania-r-112h.html
+- campo: Motor
+  valor: DS 11 (305 CV) o DSC 11 con intercooler (333 CV)
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/01/scania-r-112h.html
+- campo: Caja
+  valor: GR871, 10 marchas sincronizadas
+  estado: DATO
+  fuente: Camión Argentino · Planeta Camión
+  url: https://www.planetacamion.com.ar/scania-t-112-h-360-salto-en-alto-y-largo/
+- campo: Versión «S»
+  valor: Edición especial, la de la imagen
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2013/01/scania-r-112h.html

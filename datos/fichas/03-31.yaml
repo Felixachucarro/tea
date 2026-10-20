@@ -1,0 +1,32 @@
+codigo: '03.31'
+serie: '03'
+tipo: Ficha
+titulo: Fiat-Materfer 7131 · Tren Patagónico
+años: —
+estado: en investigación
+imagen: img/t10p.jpg
+portada: img/t10p.jpg
+pie: Frente · Reconstrucción IA
+busqueda: fiat materfer 7131 chancha tren patagonico rio negro coche motor
+datos:
+- campo: Modelo
+  valor: Fiat-Materfer 7131, la «Chancha»
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Operador
+  valor: Tren Patagónico S.A. (ex SEFEPA), de la Provincia de Río Negro
+  estado: DATO1
+  fuente: Wikipedia · Tren Patagónico
+  url: https://es.wikipedia.org/wiki/Tren_Patag%C3%B3nico
+- campo: Uso
+  valor: Coche motor de servicios regionales
+  estado: VERIFICAR
+  fuente: Falta fuente
+- campo: Librea documentada
+  valor: Verde con el logo del Tren Patagónico
+  estado: DATO
+  fuente: Lectura de la imagen
+- campo: Ficha relacionada
+  valor: El mismo modelo en el Sarmiento (03.10) y en el Gran Capitán (03.07)
+  estado: DATO
+  fuente: Relevamiento archivo.tea

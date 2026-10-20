@@ -1,0 +1,23 @@
+codigo: '03.28'
+serie: '03'
+tipo: Ficha
+titulo: Metropolitan-Vickers · Mitre
+años: —
+estado: en investigación
+imagen: img/t28.jpg
+portada: img/t28.jpg
+pie: Frente · Reconstrucción IA
+busqueda: metropolitan vickers mitre electrico ferrocarriles argentinos
+datos:
+- campo: Fabricante
+  valor: Metropolitan-Vickers, Reino Unido
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Línea
+  valor: Mitre
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Librea documentada
+  valor: Blanca y roja de Ferrocarriles Argentinos
+  estado: DATO1
+  fuente: Lectura de la imagen

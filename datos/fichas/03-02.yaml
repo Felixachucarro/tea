@@ -1,0 +1,57 @@
+codigo: '03.02'
+serie: '03'
+tipo: Ficha
+titulo: Subte · Línea B · CAF 6000
+años: 2013–hoy
+estado: en investigación
+imagen: img/c0302.jpg
+portada: img/c0302.jpg
+pie: Vista frontal, imagen de trabajo
+galeria:
+- imagen: img/c0302.jpg
+  leyenda: 01 · Línea B
+- imagen: img/t02m.jpg
+  leyenda: 02 · Con la librea del Metro de Madrid
+nota_galeria: Frentes · Reconstrucción IA.
+busqueda: subte linea b caf 6000
+datos:
+- campo: Origen
+  valor: Usados, comprados al Metro de Madrid
+  estado: DATO
+  fuente: GCBA · La Nación
+  url: https://buenosaires.gob.ar/gcaba_historico/noticias/nuevos-coches-para-la-linea-b
+- campo: Cantidad
+  valor: 86 coches
+  estado: DATO
+  fuente: GCBA · La Nación
+  url: https://buenosaires.gob.ar/gcaba_historico/noticias/nuevos-coches-para-la-linea-b
+- campo: Compra
+  valor: '2013'
+  estado: DATO1
+  fuente: La Nación
+  url: https://www.lanacion.com.ar/sociedad/la-polemica-por-la-posible-presencia-de-asbesto-en-la-linea-b-paralizo-el-subte-nid2116728
+- campo: Llegada
+  valor: 'Abril de 2014: los primeros 3 coches, al puerto de Zárate'
+  estado: DATO
+  fuente: GCBA (oficial)
+  url: https://buenosaires.gob.ar/gcaba_historico/noticias/nuevos-coches-para-la-linea-b
+- campo: Formación
+  valor: Motor – remolque – motor, con pasillo · 4 puertas Faiveley por lado
+  estado: DATO
+  fuente: GCBA (oficial)
+  url: https://buenosaires.gob.ar/gcaba_historico/noticias/nuevos-coches-para-la-linea-b
+- campo: Capacidad
+  valor: 193 personas por formación
+  estado: DATO
+  fuente: GCBA (oficial)
+  url: https://buenosaires.gob.ar/gcaba_historico/noticias/nuevos-coches-para-la-linea-b
+- campo: Asbesto
+  valor: En 2018 Madrid lo detectó en un CAF 6000; Sbase dijo que esa unidad no estaba en el lote porteño
+  estado: DATO1
+  fuente: La Nación
+  url: https://www.lanacion.com.ar/sociedad/la-polemica-por-la-posible-presencia-de-asbesto-en-la-linea-b-paralizo-el-subte-nid2116728
+- campo: Hoy
+  valor: Tienen más de 20 años; la Ciudad anuncia una licitación de 174 coches nuevos para reemplazarlos
+  estado: DATO
+  fuente: GCBA · Material rodante
+  url: https://buenosaires.gob.ar/subte/nuestros-avances/material-rodante

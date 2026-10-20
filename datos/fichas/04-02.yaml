@@ -1,0 +1,50 @@
+codigo: '04.02'
+serie: '04'
+tipo: Ficha
+titulo: Scania L 111 «Yacaré»
+años: 1976–1982
+estado: en investigación
+imagen: img/c0402.jpg
+portada: img/c0402.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: scania yacare l111 trompita naranja
+datos:
+- campo: Primer Scania argentino
+  valor: Salió de la línea el 1 de diciembre de 1976
+  estado: DATO
+  fuente: Transporte Mundial · 16 Válvulas
+  url: https://transportemundial.com.ar/novedades/scania-l111-hecho-en-argentina/
+- campo: Producción
+  valor: 1976–1982
+  estado: DATO
+  fuente: Planeta Camión · Transporte Mundial · 16 Válvulas
+  url: https://www.planetacamion.com.ar/scania-l-111-el-yacare-naranja/
+- campo: Planta
+  valor: Colombres, Cruz Alta, Tucumán
+  estado: DATO
+  fuente: Planeta Camión · Transporte Mundial
+  url: https://www.planetacamion.com.ar/scania-l-111-el-yacare-naranja/
+- campo: Unidades
+  valor: '2.306'
+  estado: DATO
+  fuente: Planeta Camión · Transporte Mundial
+  url: https://transportemundial.com.ar/novedades/scania-l111-hecho-en-argentina/
+- campo: Motor
+  valor: 'DN11 (202 HP) o DS11 turbo (296 HP; otras fuentes: 290 y 300)'
+  estado: VERIFICAR
+  fuente: Planeta Camión · Transporte Mundial · 16 Válvulas
+  url: https://www.planetacamion.com.ar/scania-l-111-el-yacare-naranja/
+- campo: Caja
+  valor: GR 860, 10 marchas
+  estado: DATO
+  fuente: Planeta Camión · 16 Válvulas
+  url: https://www.16valvulas.com.ar/?p=5883
+- campo: Apodos
+  valor: «Yacaré naranja» y «Trompita»
+  estado: DATO
+  fuente: Planeta Camión · Transporte Mundial
+  url: https://www.planetacamion.com.ar/scania-l-111-el-yacare-naranja/
+- campo: Por qué «Yacaré»
+  valor: —
+  estado: SIN DATO
+  fuente: Ninguna fuente lo explica

@@ -1,0 +1,36 @@
+codigo: '05.13'
+serie: '05'
+tipo: Ficha
+titulo: Ford Ka
+años: 1997–2021
+estado: en investigación
+imagen: img/c0513.jpg
+portada: img/c0513.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: ford ka xr zetec rocam brasil
+datos:
+- campo: Llegada
+  valor: 1997, desde Brasil, con motor 1.3 de 60 CV
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/historia/2016-03-09-ford-ka-cronologia-desde-1997-en-argentina.phtml
+- campo: Motores
+  valor: 1.0 de 65 CV (1999) · 1.6 Zetec Rocam de 95 CV (2001)
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/historia/2016-03-09-ford-ka-cronologia-desde-1997-en-argentina.phtml
+- campo: Generación regional
+  valor: '2008: 22 cm más largo; deja de venderse a fines de 2013 por no tener ABS'
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/historia/2016-03-09-ford-ka-cronologia-desde-1997-en-argentina.phtml
+- campo: Nuevo Ka
+  valor: En Argentina desde marzo de 2016
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/historia/2016-03-09-ford-ka-cronologia-desde-1997-en-argentina.phtml
+- campo: Fin
+  valor: '2021'
+  estado: DATO1
+  fuente: Wikipedia (lista)
+  url: https://en.wikipedia.org/wiki/Ford_Motor_Argentina

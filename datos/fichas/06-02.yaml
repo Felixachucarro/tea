@@ -1,0 +1,22 @@
+codigo: '06.02'
+serie: '06'
+tipo: Informe
+titulo: Patrulleros
+años: Sin fecha
+estado: en investigación
+busqueda: patrulleros policia federal falcon f-100 ciudad
+datos:
+- campo: Ford Falcon
+  valor: Usado como patrullero blanco y azul
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/Ford_Falcon_(Argentina)
+- campo: Ford F-100
+  valor: En los 70 y 80 era común verla como patrullero
+  estado: DATO1
+  fuente: Autotest
+  url: https://autotest.com.ar/noticias/ford-f-100-patrullero-abandonada/
+- campo: Modelos por época y fuerza
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

@@ -1,0 +1,79 @@
+codigo: '02.01'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz LO 1114
+años: 1970–1988
+estado: publicada
+imagen: img/0201-frente.jpg
+portada: img/c0201.jpg
+galeria:
+- imagen: img/0201-01.jpg
+  leyenda: 01 · Tapa
+- imagen: img/0201-02.jpg
+  leyenda: 02 · De costado
+- imagen: img/0201-05.jpg
+  leyenda: 05 · El comienzo
+- imagen: img/0201-06.jpg
+  leyenda: 06 · Nació de un camión
+busqueda: lo 1114 om 352 la favorita eivar san miguel virrey del pino la matanza esperando la carroza pizza birra faso los roldan bondi con trompa
+datos:
+- campo: Inicio de producción
+  valor: '1970'
+  estado: DATO
+  fuente: Autoweb · Parabrisas
+  url: https://www.autoweb.com.ar/?p=18652
+- campo: Fin de producción
+  valor: '1988'
+  estado: DATO
+  fuente: Autoweb · Parabrisas
+  url: https://www.autoweb.com.ar/?p=18652
+- campo: Unidades
+  valor: Más de 29.000
+  estado: DATO
+  fuente: Autoweb · Parabrisas
+  url: https://www.autoweb.com.ar/?p=18652
+- campo: Planta
+  valor: Virrey del Pino, La Matanza
+  estado: DATO
+  fuente: Autoweb
+  url: https://www.autoweb.com.ar/?p=18652
+- campo: Motor
+  valor: Mercedes-Benz OM 352, diésel, delantero
+  estado: DATO
+  fuente: Autoweb · Parabrisas
+  url: https://www.autoweb.com.ar/?p=18652
+- campo: Potencia
+  valor: '145 CV (otras fuentes: 130 y 140 CV)'
+  estado: VERIFICAR
+  fuente: Autoweb · Parabrisas 2025 / Parabrisas 2020 · Wikipedia
+  url: https://www.autoweb.com.ar/?p=18652
+- campo: Torque
+  valor: 37,7 kgm
+  estado: DATO1
+  fuente: Parabrisas
+  url: https://parabrisas.perfil.com/noticias/novedades/a31-siete-datos-curiosos-sobre-el-mercedes-benz-1114-en-argentina-autos-colectivo.phtml
+- campo: Origen
+  valor: Derivado del camión L 1114
+  estado: DATO
+  fuente: Autoweb · Parabrisas
+  url: https://www.autoweb.com.ar/?p=18652
+- campo: Distancia entre ejes
+  valor: 4,20 / 4,83 / 5,17 m
+  estado: DATO
+  fuente: Autoweb · Parabrisas
+  url: https://www.autoweb.com.ar/?p=18652
+- campo: Largo
+  valor: 8,60 / 8,89 m
+  estado: DATO
+  fuente: Parabrisas (2020) · Wikipedia
+  url: https://es.wikipedia.org/wiki/Mercedes-Benz_LO_1114
+- campo: Alto
+  valor: 2,85 m, según carrocería
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://es.wikipedia.org/wiki/Mercedes-Benz_LO_1114
+- campo: Exportado a
+  valor: Paraguay, Chile, Uruguay y Bolivia
+  estado: DATO
+  fuente: Autoweb · Parabrisas
+  url: https://www.autoweb.com.ar/?p=18652

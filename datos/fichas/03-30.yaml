@@ -1,0 +1,23 @@
+codigo: '03.30'
+serie: '03'
+tipo: Ficha
+titulo: CMEC DD6-A1 · Belgrano Cargas
+años: —
+estado: en investigación
+imagen: img/t30.jpg
+portada: img/t30.jpg
+pie: Frente · Reconstrucción IA
+busqueda: cmec dd6 dd6-a1 belgrano cargas 9784 china locomotora
+datos:
+- campo: Modelo
+  valor: CMEC DD6-A1
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Operador
+  valor: Belgrano Cargas (Trenes Argentinos Cargas)
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Ejemplar documentado
+  valor: Locomotora 9784
+  estado: DATO
+  fuente: Lectura de la imagen

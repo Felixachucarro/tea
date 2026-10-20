@@ -1,0 +1,46 @@
+codigo: '04.05'
+serie: '04'
+tipo: Ficha
+titulo: Scania 113 H 360 · el de Maradona
+años: '1997'
+estado: en investigación
+imagen: img/c0405.jpg
+portada: img/c0405.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: scania 113 360 maradona diego
+datos:
+- campo: Camión
+  valor: Scania 113 H 360 Topline, modelo 1996, azul
+  estado: DATO
+  fuente: Transporte Mundial · Infobae
+  url: https://transportemundial.com.ar/novedades/camion-maradona-boca-1997/
+- campo: El día
+  valor: 'Octubre de 1997: Maradona llegó manejándolo al entrenamiento de Boca (15 o 16 de octubre)'
+  estado: VERIFICAR
+  fuente: Infobae dice 15 · Transporte Mundial dice 16
+  url: https://www.infobae.com/deportes/2024/10/30/un-hincha-de-river-compro-el-camion-que-maradona-usaba-para-ir-a-entrenar-a-boca-como-se-recupero-y-donde-esta/
+- campo: Copiloto
+  valor: Guillermo Coppola
+  estado: DATO1
+  fuente: Transporte Mundial
+  url: https://transportemundial.com.ar/novedades/camion-maradona-boca-1997/
+- campo: El percance
+  valor: 'Se paró a unos 100 m del predio: cargaron combustible en el tanque equivocado'
+  estado: DATO1
+  fuente: Transporte Mundial
+  url: https://transportemundial.com.ar/novedades/camion-maradona-boca-1997/
+- campo: La idea
+  valor: Lo había comprado dos semanas antes para una campaña antidrogas por el país
+  estado: DATO1
+  fuente: Transporte Mundial
+  url: https://transportemundial.com.ar/novedades/camion-maradona-boca-1997/
+- campo: Después
+  valor: Pasó por una empresa de transporte; dos coleccionistas lo compraron en 2012
+  estado: DATO1
+  fuente: Infobae
+  url: https://www.infobae.com/deportes/2024/10/30/un-hincha-de-river-compro-el-camion-que-maradona-usaba-para-ir-a-entrenar-a-boca-como-se-recupero-y-donde-esta/
+- campo: Kilometraje
+  valor: Unos 20.000 km
+  estado: DATO1
+  fuente: Transporte Mundial
+  url: https://transportemundial.com.ar/novedades/camion-maradona-boca-1997/

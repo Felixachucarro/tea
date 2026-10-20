@@ -1,0 +1,58 @@
+codigo: '03.22'
+serie: '03'
+tipo: Ficha
+titulo: CAF GEE
+años: 1963–2020
+estado: en investigación
+imagen: img/t22a.jpg
+portada: img/t22a.jpg
+pie: Frente · Reconstrucción IA
+galeria:
+- imagen: img/t22a.jpg
+  leyenda: 01 · UM 12, librea amarilla
+- imagen: img/t22b.jpg
+  leyenda: 02 · UM 27, librea de Metrovías
+nota_galeria: Frentes · Reconstrucción IA.
+busqueda: caf gee metrovias moebius um virreyes
+datos:
+- campo: Modelo
+  valor: CAF GEE
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Fabricante
+  valor: CAF y General Eléctrica Española
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Fabricación
+  valor: '1963'
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Recorrido por líneas
+  valor: Llegaron en los 60 para la Línea D; en los 90 quedaron en la E
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Flota
+  valor: '31 duplas UM-UR y 18 coches bidireccionales: 80 coches'
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Baja
+  valor: 2020, por asbesto y mal estado
+  estado: DATO1
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Libreas documentadas
+  valor: Amarilla y gris (UM 12, «Virreyes»); bordó, blanca y amarilla de Metrovías (UM 27)
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: En el cine
+  valor: La librea de Metrovías es la que aparece en «Moebius» (1996), con otra numeración
+  estado: DATO1
+  fuente: Relevamiento archivo.tea
+- campo: Material fotográfico de época
+  valor: Escaso
+  estado: DATO1
+  fuente: Relevamiento archivo.tea

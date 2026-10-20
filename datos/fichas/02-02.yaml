@@ -1,0 +1,26 @@
+codigo: '02.02'
+serie: '02'
+tipo: Ficha
+titulo: El Detalle OA 101
+años: Desde 1987
+estado: en investigación
+imagen: img/0202-01.jpg
+portada: img/c0202.jpg
+pie: Vista frontal, imagen de trabajo · basada en la foto de Vmaster (CC BY-SA 4.0), línea 140
+busqueda: el detalle oa 101 deutz integral
+datos:
+- campo: Terminal automotriz
+  valor: Desde el 30 de enero de 1987
+  estado: DATO
+  fuente: Autohistoria · Leiva G.
+  url: https://autohistoria.com.ar/index.php/marcas-de-autos/el-detalle/
+- campo: Motor
+  valor: Deutz F6L 913, refrigerado por aire, trasero
+  estado: DATO1
+  fuente: Autohistoria
+  url: https://autohistoria.com.ar/index.php/marcas-de-autos/el-detalle/
+- campo: Configuraciones
+  valor: 28, 37 y 43 asientos
+  estado: DATO1
+  fuente: Autohistoria
+  url: https://autohistoria.com.ar/index.php/marcas-de-autos/el-detalle/

@@ -1,0 +1,30 @@
+codigo: '05.12'
+serie: '05'
+tipo: Ficha
+titulo: Fiat Siena
+años: 1997–2018
+estado: en investigación
+imagen: img/c0512.jpg
+portada: img/c0512.jpg
+pie: Vista frontal, imagen de trabajo
+busqueda: fiat siena grand siena sedan ferreyra cordoba
+datos:
+- campo: Producción
+  valor: Desde 1997 en Ferreyra, Córdoba, junto al Palio
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/05/16/autos-clasicos-de-argentina-fiat-palio-y-siena
+- campo: Grand Siena
+  valor: Presentado en octubre de 2012
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/05/16/autos-clasicos-de-argentina-fiat-palio-y-siena
+- campo: Fin
+  valor: Marzo de 2018; lo reemplaza el Cronos, hecho en Córdoba
+  estado: DATO1
+  fuente: Autocosmos
+  url: https://noticias.autocosmos.com.ar/2024/05/16/autos-clasicos-de-argentina-fiat-palio-y-siena
+- campo: Unidades
+  valor: —
+  estado: SIN DATO
+  fuente: Falta fuente

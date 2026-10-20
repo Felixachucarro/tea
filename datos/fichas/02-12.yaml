@@ -1,0 +1,99 @@
+codigo: '02.12'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz OF 1214
+años: 1983–1994
+estado: en investigación
+imagen: img/0212-01.jpg
+portada: img/c0212.jpg
+pie: Línea 68, frente · Reconstrucción IA
+galeria:
+- imagen: img/0212-01.jpg
+  leyenda: 01 · Línea 68, frente · Reconstrucción IA
+- imagen: img/0212-f3.jpg
+  leyenda: '02 · Folleto: el chasis'
+  ancha: true
+- imagen: img/0212-f4.jpg
+  leyenda: '03 · Folleto: motor y puesto de manejo'
+  ancha: true
+- imagen: img/0212-f2.jpg
+  leyenda: '04 · Folleto: datos técnicos'
+  ancha: true
+- imagen: img/0212-f1.jpg
+  leyenda: 05 · Ficha técnica (otra edición)
+nota_galeria: Folleto de época de Mercedes-Benz Argentina · escaneos publicados por Camión Argentino.
+busqueda: of 1214 mercedes motor delantero om 352 68 once saavedra
+datos:
+- campo: Fabricación
+  valor: 1983–1994
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Origen
+  valor: Argentina
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Uso
+  valor: 'Transporte urbano e interurbano de pasajeros: la puerta de ascenso va delante del eje'
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Motor
+  valor: Mercedes-Benz OM 352, 6 cilindros, diésel, delantero
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Potencia / torque
+  valor: 96 kW (130 CV) a 2.800 rpm · 363 Nm (37 kgm) a 2.000 rpm
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Cilindrada
+  valor: 5.675 cm³
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Caja
+  valor: 5 marchas sincronizadas
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Distancia entre ejes / largo
+  valor: 4.570 mm / 9.220 mm
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Peso / peso máximo
+  valor: 3.590 kg en orden de marcha / 12.000 kg
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Velocidad máxima
+  valor: 90 km/h
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Tanque
+  valor: 210 l
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Dirección y frenos
+  valor: Hidráulica ZF 8062 · a aire, circuito independiente por eje
+  estado: DATO
+  fuente: Folleto Mercedes-Benz Argentina, vía Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Carroceros
+  valor: De.Ca.Ro.Li, Eivar, San Antonio, El Detalle, El Diseño, Suyai, Alcar, Cametal, Colonnese, San Miguel, Platacar, Supercar, Corwin, CEAP, Peveri, Toniutti, Bus, Bi-Met y Crovara, entre otros
+  estado: DATO1
+  fuente: Camión Argentino
+  url: https://camionargentino.blogspot.com/2012/03/mercedes-benz-of-1214.html
+- campo: Ejemplar documentado
+  valor: Línea 68, Plaza Once – R. Saavedra
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+- campo: Carrocería del ejemplar
+  valor: —
+  estado: SIN DATO
+  fuente: No encontramos fuente
