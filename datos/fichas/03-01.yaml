@@ -1,51 +1,68 @@
-codigo: '03.01'
-serie: '03'
+codigo: "03.01"
+serie: "03"
 tipo: Ficha
-titulo: Subte · Línea H
+titulo: Subte · Línea H - Alstom Metropolis Serie 300
 periodo: 2007–hoy
 estado: en investigación
 imagen: img/c0301.jpg
 portada: img/c0301.jpg
 pie: Vista frontal, imagen de trabajo
+galeria:
+  - imagen: img/Alstom-300-1.jpg
+    leyenda: Alstom 300 en estación porteña. vista 3/4
+    ancha: false
+nota_galeria: "Wikipedia: Serie 300 (subte de Buenos Aires)"
 busqueda: subte linea h
 datos:
-- campo: Inauguración
-  valor: 18 de octubre de 2007, entre Once y Caseros
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
-- campo: Recorrido
-  valor: 8,8 km · 12 estaciones · Hospitales – Facultad de Derecho
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
-- campo: Dato
-  valor: Primera línea nueva desde la E (1944)
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
-- campo: Coches
-  valor: Alstom Metropolis, serie 300, fabricados en São Paulo
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_300_Series
-- campo: Cantidad
-  valor: 120 coches pedidos en 2012 · la Ciudad informa 90 en servicio
-  estado: VERIFICAR
-  fuente: Wikipedia / GCBA
-  url: https://buenosaires.gob.ar/subte/nuestros-avances/material-rodante
-- campo: En servicio
-  valor: Desde julio de 2016 (los primeros 36 coches)
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_300_Series
-- campo: Equipamiento
-  valor: Aire acondicionado, cámaras, caja negra, anuncio de estaciones, suspensión neumática, sistema anticolisión, freno regenerativo
-  estado: DATO
-  fuente: GCBA · Material rodante
-  url: https://buenosaires.gob.ar/subte/nuestros-avances/material-rodante
-- campo: Pasajeros
-  valor: 60.547 por día (2024)
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
+  - campo: Inauguración
+    valor: >-
+      18 de octubre de 2007, entre Once y Caseros.
+
+
+      La Serie 300 de los Alstom Metrópolis es un número de vehículos
+      subterráneos fabricados por Alstom en Brasil para su uso en el Subte de
+      Buenos Aires. Se utilizan en las Líneas D y H, siendo esta última la única
+      cuya flota está compuesta en su totalidad por esta unidad. En la red,
+      estos coches constituyen la gran mayoría de la flota, que reemplazaron a
+      los antiguos coches Siemens O&K  en la Línea H y los coches Fiat-Materfer
+      en la D. Esta última también opera con una generación anterior de la Serie
+      300 de Alstom Metrópolis, la Serie 100.
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
+  - campo: Recorrido
+    valor: 8,8 km · 12 estaciones · Hospitales – Facultad de Derecho
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
+  - campo: Dato
+    valor: Primera línea nueva desde la E (1944)
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
+  - campo: Coches
+    valor: Alstom Metropolis, serie 300, fabricados en São Paulo
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_300_Series
+  - campo: Cantidad
+    valor: 120 coches pedidos en 2012 · la Ciudad informa 90 en servicio
+    estado: VERIFICAR
+    fuente: Wikipedia / GCBA
+    url: https://buenosaires.gob.ar/subte/nuestros-avances/material-rodante
+  - campo: En servicio
+    valor: Desde julio de 2016 (los primeros 36 coches)
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_300_Series
+  - campo: Equipamiento
+    valor: Aire acondicionado, cámaras, caja negra, anuncio de estaciones,
+      suspensión neumática, sistema anticolisión, freno regenerativo
+    estado: DATO
+    fuente: GCBA · Material rodante
+    url: https://buenosaires.gob.ar/subte/nuestros-avances/material-rodante
+  - campo: Pasajeros
+    valor: 60.547 por día (2024)
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
