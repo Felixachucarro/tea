@@ -1,0 +1,214 @@
+# Panel de carga de archivo.tea (Pages CMS · app.pagescms.org)
+# Cada formulario escribe en los mismos archivos que lee scripts/build.py.
+# Si agregás un campo nuevo a las fichas, sumalo también acá: el panel guarda solo los campos que conoce.
+
+media:
+  input: img
+  output: img
+
+content:
+  # ---------------- Fichas ----------------
+  - name: fichas
+    label: Fichas
+    type: collection
+    path: datos/fichas
+    format: yaml
+    filename: "{codigo}.yaml"
+    view:
+      fields: [codigo, titulo, estado, periodo]
+      primary: titulo
+      sort: [codigo, titulo]
+    fields:
+      - name: codigo
+        label: Código
+        type: string
+        required: true
+        description: "Serie y número, con punto. Ej.: 03.34"
+        pattern:
+          regex: "^\\d\\d\\.\\d\\d$"
+          message: "Usá el formato 03.34"
+      - name: serie
+        label: Serie
+        type: select
+        required: true
+        options:
+          values:
+            - { value: "00", label: "00 · General" }
+            - { value: "01", label: "01 · Curiosidades" }
+            - { value: "02", label: "02 · Colectivos" }
+            - { value: "03", label: "03 · Trenes y subtes" }
+            - { value: "04", label: "04 · Camiones" }
+            - { value: "05", label: "05 · Particulares" }
+            - { value: "06", label: "06 · Estatales" }
+      - name: tipo
+        label: Tipo de pieza
+        type: select
+        default: Ficha
+        options:
+          values: [Ficha, Informe, Prólogo, Presentación]
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+        description: "Primero la carrocería o el modelo que la gente recuerda. Ej.: Nuovobus Citta · Mercedes-Benz"
+      - name: periodo
+        label: Años
+        type: string
+        description: "Como se lee en la tarjeta: 1983–1994, Desde 1988, 2013–hoy, Años 80"
+      - name: decadas
+        label: Décadas (solo si el filtro las calcula mal)
+        type: number
+        list: true
+        hidden: true
+      - name: estado
+        label: Estado de la ficha
+        type: select
+        default: en investigación
+        options:
+          values:
+            - { value: "en investigación", label: "En investigación (se ve como «Próximamente»)" }
+            - { value: "publicada", label: "Publicada" }
+      - name: imagen
+        label: Imagen principal
+        type: image
+        description: "La que se ve grande al abrir la ficha"
+      - name: portada
+        label: Portada de la grilla
+        type: image
+        description: "La tarjeta del archivo. Puede ser la misma que la principal"
+      - name: pie
+        label: Pie de la imagen principal
+        type: string
+        description: "Qué es y de dónde sale. Ej.: Línea 68, frente · Reconstrucción IA"
+      - name: galeria
+        label: Galería
+        type: object
+        list: true
+        description: "La leyenda decide el grupo: «Plano…» va a Planos; «Folleto…» o «Publicidad…» a Publicidad y folletos; «Fotograma…» o «Foto de…» a En uso; lo demás a Vistas"
+        fields:
+          - { name: imagen, label: Imagen, type: image, required: true }
+          - { name: leyenda, label: Leyenda, type: string, description: "Ej.: 02 · Plano: lateral" }
+          - { name: ancha, label: Ocupa todo el ancho (laterales y planos), type: boolean }
+      - name: nota_galeria
+        label: Nota de la galería
+        type: string
+        description: "Crédito general de las imágenes de la galería"
+      - name: busqueda
+        label: Palabras para el buscador
+        type: string
+        description: "Apodos, líneas, fabricantes: todo lo que alguien podría escribir para encontrarla"
+      - name: datos
+        label: Datos
+        type: object
+        list: true
+        description: "Un renglón por dato, cada uno con su estado y su fuente. Si no hay fuente, el estado es SIN DATO"
+        fields:
+          - { name: campo, label: Campo, type: string, required: true, description: "Ej.: Fabricante, Motor, Ejemplar documentado" }
+          - { name: valor, label: Valor, type: text, required: true }
+          - name: estado
+            label: Estado del dato
+            type: select
+            required: true
+            options:
+              values:
+                - { value: "DATO", label: "DATO · dos fuentes o una oficial" }
+                - { value: "DATO1", label: "DATO¹ · una sola fuente, nombrada" }
+                - { value: "VERIFICAR", label: "VERIFICAR · falta confirmar o no coinciden" }
+                - { value: "ESTIMACION", label: "ESTIMACIÓN · cálculo propio" }
+                - { value: "SIN DATO", label: "SIN DATO · no hay fuente" }
+          - { name: fuente, label: Fuente, type: string, description: "Nombre de la fuente. Ej.: CNRT · Plano TB-57/24" }
+          - { name: url, label: Link de la fuente, type: string }
+      - name: linea_de_tiempo
+        label: Línea de tiempo
+        type: object
+        list: true
+        fields:
+          - { name: fecha, label: Año, type: string, required: true }
+          - { name: hito, label: Hito, type: string, required: true }
+          - { name: detalle, label: Detalle, type: text }
+          - name: estado
+            label: Estado del dato
+            type: select
+            options:
+              values: [DATO, DATO1, VERIFICAR, ESTIMACION, SIN DATO]
+          - { name: fuente, label: Fuente, type: string }
+          - { name: url, label: Link de la fuente, type: string }
+
+  # ---------------- Notas ----------------
+  - name: notas
+    label: Notas y publicaciones
+    type: collection
+    path: notas
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{titulo}.md"
+    view:
+      fields: [titulo, fecha, estado]
+      primary: titulo
+      sort: [fecha]
+      default:
+        sort: fecha
+        order: desc
+    fields:
+      - { name: titulo, label: Título, type: string, required: true }
+      - { name: fecha, label: Fecha, type: date, required: true }
+      - name: serie
+        label: Serie
+        type: select
+        required: true
+        options:
+          values:
+            - { value: "00", label: "00 · General" }
+            - { value: "02", label: "02 · Colectivos" }
+            - { value: "03", label: "03 · Trenes y subtes" }
+            - { value: "04", label: "04 · Camiones" }
+            - { value: "05", label: "05 · Particulares" }
+            - { value: "06", label: "06 · Estatales" }
+      - name: estado
+        label: Estado
+        type: select
+        default: borrador
+        description: "Solo las publicadas salen en la web"
+        options:
+          values:
+            - { value: "borrador", label: "Borrador" }
+            - { value: "revisión", label: "En revisión" }
+            - { value: "publicada", label: "Publicada" }
+      - name: tipo
+        label: Tipo
+        type: select
+        default: nota
+        options:
+          values: [nota, instagram]
+      - { name: orden, label: Orden (si hay dos el mismo día), type: number, hidden: true }
+      - name: imagenes
+        label: Imágenes
+        type: image
+        options:
+          multiple: true
+      - name: enlace
+        label: Botón al final (opcional)
+        type: object
+        fields:
+          - { name: url, label: Link, type: string, description: "Ej.: #p-02-12 para abrir la ficha 02.12" }
+          - { name: texto, label: Texto del botón, type: string, description: "Ej.: Ver la ficha" }
+      - name: body
+        label: Texto
+        type: text
+        description: "Voz de archivo.tea: rioplatense, primera del plural, el dato primero, sin emojis"
+
+  # ---------------- Actividad ----------------
+  - name: actividad
+    label: Diario de actividad
+    type: file
+    path: datos/actividad.yaml
+    format: yaml
+    list: true
+    fields:
+      - { name: fecha, label: Fecha, type: string, required: true, description: "AAAA-MM-DD" }
+      - name: area
+        label: Área
+        type: select
+        options:
+          values: [Archivo, Tu bondi, Instagram, Web, Identidad]
+      - { name: titulo, label: Título, type: string, required: true }
+      - { name: detalle, label: Detalle, type: text }

@@ -39,7 +39,7 @@ codigo: '02.12'
 serie: '02'
 tipo: Ficha
 titulo: Mercedes-Benz OF 1214
-años: 1983–1994
+periodo: 1983–1994   # los años, como se leen en la tarjeta
 estado: en investigación      # o: publicada
 imagen: img/0212-01.jpg       # la imagen principal
 portada: img/c0212.jpg        # la de la tarjeta en la grilla
