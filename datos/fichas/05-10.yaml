@@ -2,7 +2,7 @@ codigo: '05.10'
 serie: '05'
 tipo: Ficha
 titulo: Mercedes-Benz Sprinter
-años: 1996–hoy
+periodo: 1996–hoy
 estado: en investigación
 imagen: img/c0510.jpg
 portada: img/c0510.jpg
@@ -35,57 +35,57 @@ datos:
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
 linea_de_tiempo:
-- año: '1996'
+- fecha: '1996'
   hito: Primera generación
   detalle: Arranca en Virrey del Pino.
   estado: DATO
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2002'
+- fecha: '2002'
   hito: Primer rediseño
   detalle: Nuevas carrocerías.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2003'
+- fecha: '2003'
   hito: Minibús 19+1
   detalle: Diseño argentino.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2012'
+- fecha: '2012'
   hito: Segunda generación
   detalle: Airbag, ABS y control de estabilidad.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2013'
+- fecha: '2013'
   hito: Street
   detalle: La más vendida, por su tamaño.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2014'
+- fecha: '2014'
   hito: 250.000 unidades
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2015'
+- fecha: '2015'
   hito: Combi 9+1
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2016'
+- fecha: '2016'
   hito: Rediseño de la segunda generación
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2019'
+- fecha: '2019'
   hito: Generación actual
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
-- año: '2024'
+- fecha: '2024'
   hito: 400.000 unidades
   estado: DATO1
   fuente: Autoweb

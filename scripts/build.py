@@ -35,7 +35,7 @@ def decadas(a):
 
 # ---------- fichas ----------
 def pieza(f):
-    p = {'c': f['codigo'], 's': f['serie'], 't': f['titulo'], 'a': f.get('años') or 'Sin fecha', 'tipo': f.get('tipo', 'Ficha'),
+    p = {'c': f['codigo'], 's': f['serie'], 't': f['titulo'], 'a': f.get('periodo') or 'Sin fecha', 'tipo': f.get('tipo', 'Ficha'),
          'est': EST.get(f.get('estado'), f.get('estado', 'Próximamente')), 'sil': 'logo'}
     if f.get('imagen'): p['img'] = f['imagen']
     if f.get('portada'): p['cover'] = f['portada']
@@ -46,7 +46,7 @@ def pieza(f):
     p['buscar'] = f.get('busqueda', '')
     p['d'] = [[r['campo'], str(r['valor']), r.get('estado', 'SIN DATO'), r.get('fuente', ''), r.get('url', '')] for r in f.get('datos') or []]
     if f.get('linea_de_tiempo'):
-        p['tl'] = [[str(r['año']), r['hito'], r.get('detalle', ''), r.get('estado', 'SIN DATO'), r.get('fuente', ''), r.get('url', '')] for r in f['linea_de_tiempo']]
+        p['tl'] = [[str(r['fecha']), r['hito'], r.get('detalle', ''), r.get('estado', 'SIN DATO'), r.get('fuente', ''), r.get('url', '')] for r in f['linea_de_tiempo']]
     p['dec'] = f['decadas'] if 'decadas' in f else decadas(p['a'])
     return p
 

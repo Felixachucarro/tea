@@ -2,7 +2,7 @@ codigo: '05.06'
 serie: '05'
 tipo: Ficha
 titulo: Volkswagen Gol
-años: 1991–2022
+periodo: 1991–2022
 estado: en investigación
 imagen: img/c0506.jpg
 portada: img/c0506.jpg
@@ -40,76 +40,76 @@ datos:
   fuente: Wikipedia
   url: https://es.wikipedia.org/wiki/Volkswagen_Gol
 linea_de_tiempo:
-- año: '1980'
+- fecha: '1980'
   hito: Lanzamiento en Brasil
   detalle: 15 de mayo, motor 1.3 enfriado por aire.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=32806
-- año: '1984'
+- fecha: '1984'
   hito: Trompa del Voyage
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=32806
-- año: '1987'
+- fecha: '1987'
   hito: Primer gran rediseño
   detalle: Capot, faros, parrilla y paragolpes nuevos.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=32806
-- año: '1989'
+- fecha: '1989'
   hito: GTi 2.0
   detalle: Primer Gol con inyección.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=32806
-- año: '1991'
+- fecha: '1991'
   hito: Llega a Argentina
   detalle: Con el rediseño redondeado.
   estado: DATO
   fuente: Autoweb (dos notas)
   url: https://www.autoweb.com.ar/?p=32806
-- año: '1995'
+- fecha: '1995'
   hito: 2.ª generación
   detalle: Distancia entre ejes más larga, diseño nuevo.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=32806
-- año: '1999'
+- fecha: '1999'
   hito: Primer restyling (G3)
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=32806
-- año: '2003'
+- fecha: '2003'
   hito: Fin de la producción argentina
   estado: DATO
   fuente: Autoweb (dos notas)
   url: https://www.autoweb.com.ar/?p=32806
-- año: '2005'
+- fecha: '2005'
   hito: G4, llamado Power en Argentina
   detalle: Llega junto con el Fox.
   estado: DATO1
   fuente: Autoweb · Wikipedia
   url: https://www.autoweb.com.ar/?p=32806
-- año: '2008'
+- fecha: '2008'
   hito: 3.ª generación, el Trend
   detalle: Motor transversal.
   estado: DATO1
   fuente: Autoweb · Wikipedia
   url: https://www.autoweb.com.ar/?p=32806
-- año: '2013'
+- fecha: '2013'
   hito: Rediseño
   detalle: Faros, parrilla, paragolpes y capot nuevos.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=32806
-- año: '2019'
+- fecha: '2019'
   hito: Última trompa
   detalle: La del Saveiro.
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=32806
-- año: '2022'
+- fecha: '2022'
   hito: Adiós
   detalle: Sale del mercado por la obligación del ESP.
   estado: DATO

@@ -2,7 +2,7 @@ codigo: '04.08'
 serie: '04'
 tipo: Informe
 titulo: Camiones Ford en Argentina
-años: 1959–2019
+periodo: 1959–2019
 estado: en investigación
 busqueda: ford f-600 f-700 f-350 f-400 f-500 cargo camiones pacheco
 datos:
@@ -26,19 +26,19 @@ datos:
   estado: SIN DATO
   fuente: Falta fuente
 linea_de_tiempo:
-- año: 1959–60
+- fecha: 1959–60
   hito: F-600
   detalle: Primeros camiones medianos Ford de producción local
   estado: DATO1
   fuente: Wikipedia
   url: https://en.wikipedia.org/wiki/Ford_Motor_Argentina
-- año: 1961–1992
+- fecha: 1961–1992
   hito: F-350 a F-700
   detalle: Gama de camiones medianos y livianos
   estado: DATO1
   fuente: Wikipedia
   url: https://en.wikipedia.org/wiki/Ford_Motor_Argentina
-- año: 1998–2019
+- fecha: 1998–2019
   hito: Cargo
   detalle: Importado de Brasil
   estado: VERIFICAR
