@@ -7,10 +7,6 @@ estado: en investigación
 imagen: img/c0301.jpg
 portada: img/c0301.jpg
 pie: Vista frontal, imagen de trabajo
-galeria:
-  - imagen: img/Alstom-300-1.jpg
-    leyenda: Alstom 300 en estación porteña. vista 3/4
-    ancha: false
 nota_galeria: "Wikipedia: Serie 300 (subte de Buenos Aires)"
 busqueda: subte linea h
 datos:

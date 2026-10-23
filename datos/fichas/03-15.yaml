@@ -3,43 +3,138 @@ serie: '03'
 tipo: Ficha
 titulo: Mitsubishi Eidan 500 · Línea B
 periodo: Desde 1995
+decadas:
+- 1990
+- 2000
+- 2010
+- 2020
 estado: en investigación
 imagen: img/t15.jpg
 portada: img/t15.jpg
 pie: Frente · Reconstrucción IA
-busqueda: mitsubishi eidan 500 linea b rojo marunouchi tokio
+galeria:
+- imagen: img/t15.jpg
+  leyenda: 01 · Frente, coche 740 «Leandro N. Alem»
+- imagen: img/t15-584.jpg
+  leyenda: 02 · Coche 584 con el aspecto de 1957
+- imagen: img/t15-676.jpg
+  leyenda: '03 · Plano: frente, coche 676 «J. M. de Rosas»'
+- imagen: img/t15-lateral.jpg
+  leyenda: '04 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas de la publicación «Andá a cantarle a Nagoya» · Reconstrucción IA.
+busqueda: mitsubishi eidan 500 営団500形 linea b rojo marunouchi tokio tokyo metro benson hedges nakano tokyo babylon
 datos:
-- campo: Fabricante
-  valor: Mitsubishi, Japón
+- campo: Fabricantes
+  valor: Kisha Seizo, Nippon Sharyo, Kinki Sharyo, Kawasaki Sharyo, Tokyu Sharyo, Hitachi y Teikoku Sharyo
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+  fuente: Wikipedia (ja) · 営団500形電車
+  url: https://ja.wikipedia.org/wiki/営団500形電車
 - campo: Fabricación
-  valor: 1954–1965
+  valor: 1957–1964, 234 coches
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Vida anterior
-  valor: Línea Marunouchi del metro de Tokio, 1954–1994
-  estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Llegada
-  valor: 1995–1996, para la Línea B
-  estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+  fuente: Wikipedia (ja) · 営団500形電車
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Líneas en Buenos Aires
+  valor: Línea B, desde 1995
+  estado: VERIFICAR
+  fuente: Wikipedia (ja) · 営団500形電車 + Tokyo Metro · comunicado de 2016
+  url: https://ja.wikipedia.org/wiki/営団500形電車
 - campo: Flota
+  valor: 131 coches, remodelados por Marubeni para la Línea B
+  estado: DATO
+  fuente: Wikipedia (ja) · 営団500形電車 + Marubeni · comunicado del 24/2/2014
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Modelo
+  valor: Eidan 500 (営団500形), línea Marunouchi de Tokio
+  estado: DATO
+  fuente: Wikipedia (ja) · 営団500形電車 + Tokyo Metro · comunicado de 2016
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Motores
+  valor: Mitsubishi MB-1447, 75 kW, transmisión WN
+  estado: DATO1
+  fuente: Wikipedia (ja) · 営団500形電車
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Alimentación
+  valor: Tercer riel, 600 V
+  estado: DATO1
+  fuente: Wikipedia (ja) · 営団500形電車
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Velocidad máxima
+  valor: 65 km/h
+  estado: DATO1
+  fuente: Wikipedia (ja) · 営団500形電車
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Medidas
+  valor: 18 m de largo, 2,80 m de ancho, 35 t
+  estado: DATO1
+  fuente: Wikipedia (ja) · 営団500形電車
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Color
+  valor: El rojo se eligió después de ver una lata de cigarrillos Benson & Hedges en un viaje de inspección al exterior
+  estado: DATO1
+  fuente: Wikipedia (ja) · 営団500形電車
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Vida anterior
+  valor: Línea Marunouchi, Tokio, desde 1957 hasta 1996
+  estado: DATO
+  fuente: Tokyo Metro · comunicado de 2016 + Wikipedia (ja) · 営団500形電車
+  url: https://www.tokyometro.jp/news/2016/156421.html
+- campo: Primer servicio en la Línea B
+  valor: 27 de marzo de 1995. Otras fuentes dicen 1996
+  estado: VERIFICAR
+  fuente: Wikipedia (ja) · 営団500形電車 + Tokyo Metro · comunicado de 2016
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Adaptaciones
+  valor: Piso 80 mm más alto, escalones laterales y toma de corriente adaptada al tercer riel porteño
+  estado: DATO1
+  fuente: Wikipedia (ja) · 営団500形電車
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Flota en la Línea B
   valor: 21 formaciones de la serie 500, junto a coches de las series 300 y 900
   estado: DATO1
   fuente: Wikipedia · Material rodante del subte de Buenos Aires
   url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Retiro
+  valor: Retiro progresivo con la llegada de los CAF 6000 desde 2016; las fuentes no coinciden en cuántos siguen en servicio
+  estado: VERIFICAR
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock + Ámbito · 28/11/2017
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
 - campo: Regreso a Japón
-  valor: Tres coches volvieron a Japón (2016–2017)
-  estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+  valor: 'SBASE donó cuatro coches a Tokyo Metro en 2016: 584, 734, 752 y 771. Se restauraron tres; el 752 quedó para repuestos'
+  estado: DATO
+  fuente: Wikipedia (ja) · 営団500形電車 + Ámbito · 28/11/2017
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- campo: Restauración
+  valor: 584 como en 1957, 734 como en 1996 y 771 con su aspecto porteño, con cartel «J. M. de Rosas»
+  estado: DATO
+  fuente: Wikipedia (ja) · 営団500形電車 + Ámbito · 28/11/2017
+  url: https://ja.wikipedia.org/wiki/営団500形電車
 - campo: Ejemplar documentado
   valor: Coche 740, rojo con onda blanca
   estado: DATO
   fuente: Lectura de la imagen
+linea_de_tiempo:
+- fecha: '1957'
+  hito: Debut en la línea Marunouchi
+  estado: DATO
+  fuente: Tokyo Metro · comunicado de 2016 + Wikipedia (ja) · 営団500形電車
+  url: https://www.tokyometro.jp/news/2016/156421.html
+- fecha: '1995'
+  hito: Primer servicio en la Línea B
+  detalle: 27 de marzo según una fuente; 1996 según otras
+  estado: VERIFICAR
+  fuente: Wikipedia (ja) · 営団500形電車 + Tokyo Metro · comunicado de 2016
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- fecha: '2016'
+  hito: Cuatro coches vuelven a Japón
+  detalle: Llegan al puerto de Yokohama el 11 de julio y pasan al depósito de Nakano
+  estado: DATO
+  fuente: Wikipedia (ja) · 営団500形電車 + Tokyo Metro · comunicado de 2016
+  url: https://ja.wikipedia.org/wiki/営団500形電車
+- fecha: '2017'
+  hito: Presentación de los tres coches restaurados
+  detalle: 27 de noviembre, a la prensa; exhibición en Nakano el 10 de diciembre
+  estado: DATO
+  fuente: Wikipedia (ja) · 営団500形電車 + Ámbito · 28/11/2017
+  url: https://ja.wikipedia.org/wiki/営団500形電車
