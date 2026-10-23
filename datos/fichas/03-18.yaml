@@ -1,18 +1,23 @@
 codigo: '03.18'
 serie: '03'
 tipo: Ficha
-titulo: Subte · coche 648
-periodo: —
+titulo: Mitsubishi Eidan 500 · coche 648
+periodo: Desde 1995
+decadas:
+- 1990
+- 2000
+- 2010
+- 2020
 estado: en investigación
 imagen: img/t18.jpg
 portada: img/t18.jpg
 pie: Frente · Reconstrucción IA
-busqueda: subte 648 alem amarillo
+busqueda: subte 648 alem amarillo eidan 500 mitsubishi linea b
 datos:
 - campo: Modelo
-  valor: —
-  estado: VERIFICAR
-  fuente: Falta fuente
+  valor: Eidan 500, Línea B. La ficha del modelo es la 03.15
+  estado: DATO
+  fuente: Relevamiento archivo.tea
 - campo: Ejemplar documentado
   valor: Coche 648, «L. N. Alem», amarillo con óxido
   estado: DATO

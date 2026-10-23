@@ -7,37 +7,60 @@ estado: en investigación
 imagen: img/t17.jpg
 portada: img/t17.jpg
 pie: Frente · Reconstrucción IA
-busqueda: nagoya 250 subte hitachi linea c linea d asbesto
+galeria:
+- imagen: img/t17.jpg
+  leyenda: 01 · Frente, coche 268
+- imagen: img/t17-lateral.jpg
+  leyenda: '02 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas de la publicación «Andá a cantarle a Nagoya» · Reconstrucción IA.
+busqueda: nagoya 250 名古屋 subte nippon sharyo 700 higashiyama linea c linea d asbesto
 datos:
+- campo: Fabricante (conversión)
+  valor: Nippon Sharyo, planta de Toyokawa, Japón
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局100形電車, sección 250形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局100形電車
+- campo: Fabricación
+  valor: 1983–1987, a partir de coches de la serie 700
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局100形電車, sección 250形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局100形電車
+- campo: Líneas en Buenos Aires
+  valor: 1999, Línea D; desde 2007, Línea C
+  estado: DATO1
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
+- campo: Coches trasladados
+  valor: Los 251, 252, 255, 256 y del 261 al 268 pasaron entre 1998 y 2002 a otros operadores, entre ellos el subte porteño, con su mismo número
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局100形電車, sección 250形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局100形電車
 - campo: Modelo
-  valor: Nagoya serie 250
+  valor: Nagoya serie 250 (名古屋市交通局250形)
   estado: DATO
   fuente: Relevamiento archivo.tea
-- campo: Fabricante
-  valor: Hitachi y Nippon Sharyo, Japón
+- campo: Origen
+  valor: Coches intermedios de la serie 700 convertidos en coches con cabina. Por eso su frente es distinto al de las otras series
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Fabricación
-  valor: 1957–1974 (series 250, 300 y 1200)
+  fuente: Wikipedia (ja) · 名古屋市交通局100形電車, sección 250形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局100形電車
+- campo: Unidades
+  valor: 18 coches, numerados del 251 al 268
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Llegada
-  valor: 1999, primero a la Línea D y después a la C
+  fuente: Wikipedia (ja) · 名古屋市交通局100形電車, sección 250形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局100形電車
+- campo: Remodelación
+  valor: Aire acondicionado, iluminación y tapizados nuevos en la Línea C, terminada en 2015–2016 (78 coches de las series 250, 300 y 1200)
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
 - campo: Baja
-  valor: Septiembre de 2019, por asbesto
-  estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  valor: Septiembre de 2019, por asbesto. Otra fuente da 2020
+  estado: VERIFICAR
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires + Wikipedia (en) · Buenos Aires Underground rolling stock
   url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
 - campo: Ejemplar documentado
   valor: Coche 268, «Constitución»
   estado: DATO
   fuente: Lectura de la imagen
-- campo: Letra de línea en la imagen
-  valor: La reconstrucción muestra una letra que no coincide con las líneas D y C de la fuente
-  estado: VERIFICAR
-  fuente: Falta fuente

@@ -1,0 +1,67 @@
+codigo: '03.34'
+serie: '03'
+tipo: Ficha
+titulo: Nagoya serie 1200
+periodo: 1999–2019
+estado: en investigación
+imagen: img/t34.jpg
+portada: img/t34.jpg
+pie: Frente, coche 1212 · Reconstrucción IA
+galeria:
+- imagen: img/t34.jpg
+  leyenda: 01 · Frente, coche 1212
+- imagen: img/t34-lateral.jpg
+  leyenda: '02 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas de la publicación «Andá a cantarle a Nagoya» · Reconstrucción IA.
+busqueda: nagoya 1200 名古屋 subte meijo 名城線 1212 constitucion linea c linea d hitachi nippon sharyo asbesto
+datos:
+- campo: Fabricantes
+  valor: Hitachi y Nippon Sharyo, Japón
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局1000形電車, sección 1200形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局1000形電車
+- campo: Fabricación
+  valor: 1974, para la línea Meijō de Nagoya. La fuente los ubica en la ampliación de ese año
+  estado: VERIFICAR
+  fuente: Wikipedia (ja) · 名古屋市交通局1000形電車, sección 1200形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局1000形電車
+- campo: Líneas en Buenos Aires
+  valor: 1999, Línea D; desde 2007, Línea C
+  estado: DATO1
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
+- campo: Coches trasladados
+  valor: 'Ocho coches con cabina: del 1205 al 1208 y del 1211 al 1214'
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局1000形電車, sección 1200形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局1000形電車
+- campo: Modelo
+  valor: Nagoya serie 1200 (名古屋市交通局1200形)
+  estado: DATO
+  fuente: Wikipedia (ja) · 名古屋市交通局1000形電車, sección 1200形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局1000形電車
+- campo: Librea original
+  valor: Amarillo con franja violeta clara
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局1000形電車, sección 1200形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局1000形電車
+- campo: Características
+  valor: Tres puertas por lado y dos compresores por coche
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局1000形電車, sección 1200形
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局1000形電車
+- campo: Remodelación
+  valor: Aire acondicionado, iluminación y tapizados nuevos en la Línea C, terminada en 2015–2016 (78 coches de las series 250, 300 y 1200)
+  estado: DATO1
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
+- campo: Baja
+  valor: Septiembre de 2019
+  estado: DATO
+  fuente: Wikipedia (ja) · 名古屋市交通局1000形電車, sección 1200形 + Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局1000形電車
+- campo: Ejemplar documentado
+  valor: Coche 1212, «Constitución», Línea C
+  estado: DATO
+  fuente: Lectura de la imagen

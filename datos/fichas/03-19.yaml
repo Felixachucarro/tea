@@ -1,24 +1,89 @@
 codigo: '03.19'
 serie: '03'
 tipo: Ficha
-titulo: Subte · coche 5122
-periodo: —
+titulo: Nagoya serie 5000 · Línea C
+periodo: Desde 2015
+decadas:
+- 2010
+- 2020
 estado: en investigación
 imagen: img/t19.jpg
 portada: img/t19.jpg
 pie: Frente · Reconstrucción IA
-busqueda: subte 5122 retiro acero caf 5000 madrid
+galeria:
+- imagen: img/t19.jpg
+  leyenda: 01 · Frente, coche 5122
+- imagen: img/t19-lateral.jpg
+  leyenda: '02 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas de la publicación «Andá a cantarle a Nagoya» · Reconstrucción IA.
+busqueda: nagoya 5000 名古屋 subte 5122 retiro aluminio linea c marubeni higashiyama
 datos:
-- campo: Posible modelo
-  valor: 'CAF serie 5000: la numeración 5000 coincide'
-  estado: VERIFICAR
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Si es CAF 5000
-  valor: Consorcio CAF-GEE-AEG, España, 1974–1977; Línea B desde 2011; baja en febrero de 2018 por asbesto
+- campo: Fabricantes
+  valor: Nippon Sharyo e Hitachi, Japón
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+  fuente: Wikipedia (ja) · 名古屋市交通局5000形電車
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局5000形電車
+- campo: Fabricación
+  valor: 1980–1990, para la línea Higashiyama de Nagoya
+  estado: DATO1
+  fuente: Wikipedia (en) · Nagoya Municipal Subway 5000 series
+  url: https://en.wikipedia.org/wiki/Nagoya_Municipal_Subway_5000_series
+- campo: Líneas en Buenos Aires
+  valor: Línea C, desde 2015
+  estado: DATO1
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
+- campo: Flota
+  valor: '30 coches, en cinco formaciones: 5103, 5112, 5115, 5121 y 5122'
+  estado: DATO
+  fuente: Marubeni · comunicado del 24/2/2014 + Wikipedia (ja) · 名古屋市交通局5000形電車
+  url: https://www.marubeni.com/jp/news/2014/release/00015.html
+- campo: Modelo
+  valor: Nagoya serie 5000 (名古屋市交通局5000形)
+  estado: DATO
+  fuente: Wikipedia (en) · Nagoya Municipal Subway 5000 series + Wikipedia (ja) · 名古屋市交通局5000形電車
+  url: https://en.wikipedia.org/wiki/Nagoya_Municipal_Subway_5000_series
+- campo: En Nagoya
+  valor: Del 1 de julio de 1980 al 30 de agosto de 2015
+  estado: DATO1
+  fuente: Wikipedia (en) · Nagoya Municipal Subway 5000 series
+  url: https://en.wikipedia.org/wiki/Nagoya_Municipal_Subway_5000_series
+- campo: Carrocería
+  valor: Aluminio
+  estado: DATO1
+  fuente: Wikipedia (en) · Nagoya Municipal Subway 5000 series
+  url: https://en.wikipedia.org/wiki/Nagoya_Municipal_Subway_5000_series
+- campo: Control
+  valor: Chopper a tiristores, con freno regenerativo
+  estado: DATO1
+  fuente: Wikipedia (en) · Nagoya Municipal Subway 5000 series
+  url: https://en.wikipedia.org/wiki/Nagoya_Municipal_Subway_5000_series
+- campo: Aire acondicionado
+  valor: Los primeros con aire acondicionado de la línea Higashiyama
+  estado: DATO1
+  fuente: Wikipedia (en) · Nagoya Municipal Subway 5000 series
+  url: https://en.wikipedia.org/wiki/Nagoya_Municipal_Subway_5000_series
+- campo: Medidas
+  valor: 2,546 m de ancho; 24,2 t por coche intermedio
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局5000形電車
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局5000形電車
+- campo: Capacidad
+  valor: 115 pasajeros por coche intermedio (44 sentados)
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局5000形電車
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局5000形電車
+- campo: Compra
+  valor: Contrato de SBASE con Marubeni anunciado en febrero de 2014
+  estado: DATO
+  fuente: Marubeni · comunicado del 24/2/2014 + Wikipedia (en) · Nagoya Municipal Subway 5000 series
+  url: https://www.marubeni.com/jp/news/2014/release/00015.html
+- campo: Adaptación
+  valor: Equipos eléctricos y neumáticos nuevos; toma de corriente por catenaria de 1500 V en lugar del tercer riel de 600 V
+  estado: DATO
+  fuente: Marubeni · comunicado del 24/2/2014 + Wikipedia (en) · Nagoya Municipal Subway 5000 series
+  url: https://www.marubeni.com/jp/news/2014/release/00015.html
 - campo: Ejemplar documentado
   valor: Coche 5122, «Retiro»
   estado: DATO

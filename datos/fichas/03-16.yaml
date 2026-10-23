@@ -7,37 +7,65 @@ estado: en investigación
 imagen: img/t16.jpg
 portada: img/t16.jpg
 pie: Frente · Reconstrucción IA
-busqueda: nagoya 300 subte hitachi linea c linea d asbesto
+galeria:
+- imagen: img/t16.jpg
+  leyenda: 01 · Frente, coche 334
+- imagen: img/t16-lateral.jpg
+  leyenda: '02 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas de la publicación «Andá a cantarle a Nagoya» · Reconstrucción IA.
+busqueda: nagoya 300 名古屋 subte hitachi nippon sharyo higashiyama linea c linea d naranja vvvf asbesto
 datos:
+- campo: Fabricantes
+  valor: Nippon Sharyo e Hitachi, Japón
+  estado: DATO
+  fuente: Wikipedia (ja) · 名古屋市交通局300形電車 + Wikipedia · Material rodante del subte de Buenos Aires
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局300形電車
+- campo: Fabricación
+  valor: Desde 1967, para la línea Higashiyama de Nagoya. Fue la primera de esa línea con puertas dobles en todos los coches
+  estado: DATO1
+  fuente: Wikipedia (ja) · 名古屋市交通局300形電車
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局300形電車
+- campo: Líneas en Buenos Aires
+  valor: 1999, Línea D; desde 2007, Línea C
+  estado: DATO1
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
+- campo: Flota
+  valor: 78 coches Nagoya de las series 250, 300 y 1200 en la Línea C
+  estado: DATO1
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
 - campo: Modelo
-  valor: Nagoya serie 300
+  valor: Nagoya serie 300 (名古屋市交通局300形)
   estado: DATO
   fuente: Relevamiento archivo.tea
-- campo: Fabricante
-  valor: Hitachi y Nippon Sharyo, Japón
+- campo: Motores
+  valor: 55 kW
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Fabricación
-  valor: 1957–1974 (series 250, 300 y 1200)
+  fuente: Wikipedia (ja) · 名古屋市交通局300形電車
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局300形電車
+- campo: Numeración
+  valor: Llegaron con su número japonés
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Llegada
-  valor: 1999, primero a la Línea D y después a la C
+  fuente: Wikipedia (ja) · 名古屋市交通局300形電車
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局300形電車
+- campo: Modernización
+  valor: Control electrónico VVVF (IGBT), instalado en Buenos Aires
   estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+  fuente: Wikipedia (ja) · 名古屋市交通局300形電車
+  url: https://ja.wikipedia.org/wiki/名古屋市交通局300形電車
+- campo: Remodelación
+  valor: Aire acondicionado, iluminación y tapizados nuevos en la Línea C, terminada en 2015–2016 (78 coches de las series 250, 300 y 1200)
+  estado: DATO1
+  fuente: Wikipedia (en) · Buenos Aires Underground rolling stock
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_rolling_stock
 - campo: Baja
-  valor: Septiembre de 2019, por asbesto
-  estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
+  valor: Septiembre de 2019, por asbesto. Otra fuente da 2020
+  estado: VERIFICAR
+  fuente: Wikipedia · Material rodante del subte de Buenos Aires + Wikipedia (en) · Buenos Aires Underground rolling stock
   url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
 - campo: Ejemplar documentado
   valor: Coche 334, librea naranja
   estado: DATO
   fuente: Lectura de la imagen
-- campo: Letra de línea en la imagen
-  valor: La reconstrucción muestra una letra que no coincide con las líneas D y C de la fuente
-  estado: VERIFICAR
-  fuente: Falta fuente
