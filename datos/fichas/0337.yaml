@@ -3,13 +3,19 @@ serie: "03"
 tipo: Ficha
 titulo: GM/EMD J26CW/AC – RENFE Serie 319.3
 periodo: "2007 - Actualidad "
-estado: en investigación
+estado: publicada
 imagen: img/1000363225.png
 portada: img/1000363225-1.png
 pie: "Frontal: Reconstrucción IA"
 galeria:
   - imagen: img/1000363225-1-1.png
     leyenda: "319.3 de Renfe - España "
+    ancha: false
+  - imagen: img/5fecc917-27e5-4078-969c-7c1d0ed76876.png
+    leyenda: "Plano: Frontal - Tren Patagónico "
+    ancha: false
+  - imagen: img/b3ca05c0-9ef6-4550-816d-59b8773f81db.png
+    leyenda: "Foto: Plano Frontal 319.3 Librea RENFE (España) "
     ancha: false
   - imagen: img/c2a989ca-2852-49a3-b968-9663bee24d84.png
     leyenda: "Plano: Lateral - Librea Bicentenario (9502 - LSM) Reconstrucción IA "
@@ -29,13 +35,10 @@ galeria:
   - imagen: img/DieselRenfe319Alzado.webp
     leyenda: "Plano: Lateral - fuente: https://asafal.es/"
     ancha: true
-  - imagen: img/b3ca05c0-9ef6-4550-816d-59b8773f81db.png
-    leyenda: "Foto: Plano Frontal 319.3 Librea RENFE (España) "
-    ancha: false
 nota_galeria: https://es.wikipedia.org/wiki/Serie_319_de_Renfe?wprov=sfla1
 busqueda: "Renfe 319, Mercedes, Moreno, tren sarmiento "
 datos:
-  - campo: Fabricante
+  - campo: Fabricación
     valor: Meinfesa/MACOSA (1965-72) España
     estado: DATO
     fuente: "Wikipedia "
@@ -63,4 +66,10 @@ datos:
       9502 - Línea San Martín (cargas)
     estado: DATO
     fuente: wikipedia
+    url: https://es.wikipedia.org/wiki/Serie_319_de_Renfe
+  - campo: Líneas
+    valor: Sarmiento - Mitre - Ferroexpreso Pampeano - Trén Patagónico - Línea San
+      Martín
+    estado: DATO
+    fuente: Wikipedia
     url: https://es.wikipedia.org/wiki/Serie_319_de_Renfe
