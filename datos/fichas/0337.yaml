@@ -11,6 +11,9 @@ galeria:
   - imagen: img/1000363225-1-1.png
     leyenda: "319.3 de Renfe - España "
     ancha: false
+  - imagen: img/c2a989ca-2852-49a3-b968-9663bee24d84.png
+    leyenda: "Plano: Lateral - Librea Bicentenario (9502 - LSM) Reconstrucción IA "
+    ancha: true
   - imagen: img/319.png
     leyenda: Foto de 319.3 de Renfe e(España) 1993 previo a la compra del Estado
       Argentino  https://trenesytiempos.blogspot.com/
@@ -26,9 +29,9 @@ galeria:
   - imagen: img/DieselRenfe319Alzado.webp
     leyenda: "Plano: Lateral - fuente: https://asafal.es/"
     ancha: true
-  - imagen: img/c2a989ca-2852-49a3-b968-9663bee24d84.png
-    leyenda: "Plano: Lateral - Librea Bicentenario (9502 - LSM) Reconstrucción IA "
-    ancha: true
+  - imagen: img/b3ca05c0-9ef6-4550-816d-59b8773f81db.png
+    leyenda: "Foto: Plano Frontal 319.3 Librea RENFE (España) "
+    ancha: false
 nota_galeria: https://es.wikipedia.org/wiki/Serie_319_de_Renfe?wprov=sfla1
 busqueda: "Renfe 319, Mercedes, Moreno, tren sarmiento "
 datos:
