@@ -26,5 +26,38 @@ galeria:
   - imagen: img/DieselRenfe319Alzado.webp
     leyenda: "Plano: Lateral - fuente: https://asafal.es/"
     ancha: true
+  - imagen: img/c2a989ca-2852-49a3-b968-9663bee24d84.png
+    leyenda: "Plano: Lateral - Librea Bicentenario (9502 - LSM) Reconstrucción IA "
+    ancha: true
 nota_galeria: https://es.wikipedia.org/wiki/Serie_319_de_Renfe?wprov=sfla1
 busqueda: "Renfe 319, Mercedes, Moreno, tren sarmiento "
+datos:
+  - campo: Fabricante
+    valor: Meinfesa/MACOSA (1965-72) España
+    estado: DATO
+    fuente: "Wikipedia "
+    url: https://es.wikipedia.org/wiki/Serie_319_de_Renfe
+  - campo: Motor
+    valor: (GM 16-645-C) 2.230 CV de potencia.
+    estado: DATO1
+    fuente: "Wikipedia "
+    url: https://es.wikipedia.org/wiki/Serie_319_de_Renfe
+  - campo: Flota
+    valor: |
+      319-307-5 - Línea Sarmiento
+      319-314-1 - Línea Sarmiento
+      319-315-8 - Línea Sarmiento
+      319-317-4 - Línea Sarmiento
+      319-325-7 - Línea Sarmiento
+      319-336-4 - Línea Sarmiento
+      319-237-4 - Línea Sarmiento
+      319-331-5 - Línea Mitre
+      319-206-5 - Línea Mitre
+      319-233-3 - Ferroexpreso Pampeano
+      319-239-0 - Ferroexpreso Pampeano
+      319-316-6 - Tren Patagónico
+      9501 - Línea San Martín (cargas)
+      9502 - Línea San Martín (cargas)
+    estado: DATO
+    fuente: wikipedia
+    url: https://es.wikipedia.org/wiki/Serie_319_de_Renfe
