@@ -1,0 +1,15 @@
+codigo: "03.37"
+serie: "03"
+tipo: Ficha
+titulo: GM/EMD J26CW/AC – RENFE Serie 319.3
+periodo: "2007 - Actualidad "
+estado: en investigación
+imagen: img/1000363225.png
+portada: img/1000363225-1.png
+pie: "Frontal: Reconstrucción IA"
+galeria:
+  - imagen: img/1000363226.jpg
+    leyenda: "319.3 de Renfe - España "
+    ancha: false
+nota_galeria: https://es.wikipedia.org/wiki/Serie_319_de_Renfe?wprov=sfla1
+busqueda: "Renfe 319, Mercedes, Moreno, tren sarmiento "
