@@ -1,5 +1,5 @@
-codigo: '03.09'
-serie: '03'
+codigo: "03.09"
+serie: "03"
 tipo: Ficha
 titulo: Belgrano Norte · GL22CU
 periodo: Desde 1972
@@ -7,40 +7,51 @@ estado: en investigación
 imagen: img/c0309.jpg
 portada: img/c0309.jpg
 pie: Vista frontal, imagen de trabajo
+galeria:
+  - imagen: img/1000363500.png
+    leyenda: "Plano: Trasero - Reconstrucción IA E716"
+    ancha: false
+  - imagen: img/1000363499.png
+    leyenda: "Plano: Lateral - Reconstrucción IA"
+    ancha: false
+  - imagen: img/1000363497.png
+    leyenda: "Plano: Técnico - Lateral "
+    ancha: false
 busqueda: belgrano norte gl22cu locomotora
 datos:
-- campo: Modelo
-  valor: EMD G22CU, diésel-eléctrica, ejes C-C
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/EMD_G22CU
-- campo: «GL22CU»
-  valor: Las fuentes consultadas dicen G22CU
-  estado: VERIFICAR
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/EMD_G22CU
-- campo: Compra
-  valor: 'Ferrocarriles Argentinos, 1972: 250 G22 y GT22, 96 para el Belgrano'
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/EMD_G22CU
-- campo: Belgrano Norte
-  valor: 20 unidades fabricadas en La Grange (EE. UU.); el resto del lote, ASTARSA en San Fernando
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/EMD_G22CU
-- campo: Motor
-  valor: EMD 12-645
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/EMD_G22CU
-- campo: Trocha
-  valor: 1.000 mm (métrica)
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/EMD_G22CU
-- campo: Operador
-  valor: Ferrovías
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/EMD_G22CU
+  - campo: Modelo
+    valor: EMD G22CU, diésel-eléctrica, ejes C-C
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/EMD_G22CU
+  - campo: «GL22CU»
+    valor: Las fuentes consultadas dicen G22CU
+    estado: VERIFICAR
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/EMD_G22CU
+  - campo: Compra
+    valor: "Ferrocarriles Argentinos, 1972: 250 G22 y GT22, 96 para el Belgrano"
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/EMD_G22CU
+  - campo: Belgrano Norte
+    valor: 20 unidades fabricadas en La Grange (EE. UU.); el resto del lote, ASTARSA
+      en San Fernando
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/EMD_G22CU
+  - campo: Motor
+    valor: EMD 12-645
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/EMD_G22CU
+  - campo: Trocha
+    valor: 1.000 mm (métrica)
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/EMD_G22CU
+  - campo: Operador
+    valor: Ferrovías
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/EMD_G22CU
