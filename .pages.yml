@@ -23,7 +23,7 @@ content:
         label: Código
         type: string
         required: true
-        description: "Serie y número, con punto. Ej.: 03.34"
+        description: "Serie y número, con punto. Ej.: 03.38. Tiene que ser único: si se repite, la web no se actualiza hasta corregirlo. La ficha queda en /archivo/03-38/"
         pattern:
           regex: "^\\d\\d\\.\\d\\d$"
           message: "Usá el formato 03.34"
@@ -54,7 +54,7 @@ content:
       - name: periodo
         label: Años
         type: string
-        description: "Como se lee en la tarjeta: 1983–1994, Desde 1988, 2013–hoy, Años 80"
+        description: "Como se lee en la tarjeta: 1983–1994, Desde 1988, 2013–hoy, Años 80. «Actualidad» también vale"
       - name: decadas
         label: Décadas (solo si el filtro las calcula mal)
         type: number

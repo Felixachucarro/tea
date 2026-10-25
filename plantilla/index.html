@@ -1,4 +1,4 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="color-scheme" content="only light"><meta name="theme-color" content="#ffffff"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Archivo visual e histórico del transporte argentino. Del conurbano bonaerense, de 1983 a hoy. Cada dato con su fuente."><meta property="og:title" content="archivo.tea"><meta property="og:description" content="Los vehículos que nos llevaron todos los días."><meta property="og:image" content="img/libreas-preview.jpg"><link rel="icon" href="img/favicon.svg" type="image/svg+xml"><title>archivo.tea</title>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="color-scheme" content="only light"><meta name="theme-color" content="#ffffff"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">__HEAD__
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,800;1,800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -289,6 +289,21 @@ table.datos tr.pend td{color:var(--gris)}
 .f2-todo summary span{font:400 12px var(--f-mono);color:var(--gris)}
 .f2-todo[open] summary span::after{content:" · cerrar"}
 @media (max-width:860px){.f2-esc .marco{height:42vh}.panel.centro{padding:0}.panel.centro .hoja{height:100%;border:0}.f2-grid{grid-template-columns:1fr}}
+/* Ruido analógico sobre los vehículos. Se ajusta con estas tres variables; --ruido-op:0 lo apaga. */
+:root{--ruido-op:.55;--ruido-tam:180px;--ruido:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n' color-interpolation-filters='sRGB'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.95' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncR type='linear' slope='1.9' intercept='-.45'/%3E%3CfeFuncG type='linear' slope='1.9' intercept='-.45'/%3E%3CfeFuncB type='linear' slope='1.9' intercept='-.45'/%3E%3CfeFuncA type='discrete' tableValues='0 1 1 1 1 1 1 1 1 0'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.ficha .img,.f2-esc .marco,.fe-fig{position:relative;isolation:isolate}
+.ficha .img.ruido::after,.f2-esc .marco::after,.fe-fig::after{content:"";position:absolute;inset:0;pointer-events:none;background:var(--ruido);background-size:var(--ruido-tam);mix-blend-mode:overlay;opacity:var(--ruido-op)}
+/* Página de ficha: contenido escrito, el mismo que muestra la ventana */
+.fe{padding:28px 0 40px;border-bottom:1px solid var(--linea);margin-bottom:24px;display:grid;gap:14px;max-width:900px}
+.fe h1{margin:0;font:800 clamp(30px,5vw,52px)/1 var(--f-display);letter-spacing:-.035em}
+.fe .fe-meta{font:12px var(--f-mono);color:var(--gris);margin:0}
+.fe-fig{margin:0;background:#fff;border:1px solid var(--linea);max-width:640px}.fe-fig img{display:block;width:100%;height:auto}
+.fe-fig figcaption{font-size:12px;color:var(--gris);padding:6px 8px}
+.fe dl{margin:0;display:grid;gap:0}.fe dl div{display:grid;grid-template-columns:minmax(120px,200px) minmax(0,1fr);gap:4px 16px;padding:10px 0;border-top:1px solid var(--linea)}
+.fe dt{font:500 11px/1.4 var(--f-text);letter-spacing:.08em;text-transform:uppercase;color:var(--gris)}.fe dd{margin:0}
+.fe dd small{display:block;font:11px var(--f-mono);color:var(--gris);margin-top:2px}
+.fe ol{margin:0;padding-left:18px;display:grid;gap:6px}.fe h2{margin:10px 0 0;font:500 11px var(--f-text);letter-spacing:.1em;text-transform:uppercase;color:var(--gris)}
+@media (max-width:640px){.fe dl div{grid-template-columns:1fr}}
 </style>
 
 <header class="top"><div class="wrap barra">
@@ -362,7 +377,7 @@ table.datos tr.pend td{color:var(--gris)}
   </section>
 </main>
 __BLOG__<main class="wrap vista" id="v-archivo" hidden>
-  <div class="migas"><span>archivo.tea</span><span>Archivo</span><span id="migas-n">— piezas</span></div>
+__FICHA__  <div class="migas"><span>archivo.tea</span><span>Archivo</span><span id="migas-n">— piezas</span></div>
   <section class="a-cab">
     <p class="ante">Archivo</p>
     <h1>Todas las fichas</h1>
@@ -385,9 +400,10 @@ __BLOG__<main class="wrap vista" id="v-archivo" hidden>
   <article class="hoja" role="dialog" aria-modal="true" aria-labelledby="p-tit" id="hoja"></article>
 </div>
 
+<script src="/piezas.js"></script>
 <script>
 const SERIES={'00':['General','var(--celeste)'],'01':['Curiosidades','var(--s01)'],'02':['Colectivos','var(--s02)'],'03':['Trenes y subtes','#c8322a','#e8b21a'],'04':['Camiones','#e2661c'],'05':['Particulares','var(--s05)'],'06':['Estatales','var(--s06)']};
-const PIEZAS=__PIEZAS__;
+const PIEZAS=window.__PIEZAS||[];
 const SIL={
  trompa:'<svg viewBox="0 0 240 110" fill="none" stroke="#1e1d1a" stroke-width="2"><path d="M8 82V58h30l6-16h2V20q0-6 6-6h170q6 0 6 6v62z" fill="#fff"/><path d="M60 24h22v20H60zM88 24h22v20H88zM116 24h22v20h-22zM144 24h22v20h-22zM172 24h22v20h-22zM200 24h20v20h-20z"/><path d="M46 24h8v54h-8z"/><circle cx="44" cy="84" r="13" fill="#fff"/><circle cx="180" cy="84" r="13" fill="#fff"/><path d="M4 97h232" stroke="#dcdcd6"/></svg>',
  plano:'<svg viewBox="0 0 240 110" fill="none" stroke="#1e1d1a" stroke-width="2"><path d="M10 82V22q0-8 8-8h208q6 0 6 8v60z" fill="#fff"/><path d="M14 20h18v34H14zM40 24h24v20H40zM70 24h24v20H70zM100 24h24v20h-24zM146 24h24v20h-24zM176 24h24v20h-24zM206 24h20v20h-20z"/><path d="M126 24h14v56h-14zM34 24h0"/><circle cx="52" cy="84" r="13" fill="#fff"/><circle cx="186" cy="84" r="13" fill="#fff"/><path d="M4 97h232" stroke="#dcdcd6"/></svg>',
@@ -398,8 +414,9 @@ const SIL={
 PIEZAS.sort((a,b)=>a.s.localeCompare(b.s)||a.c.localeCompare(b.c));
 let modo='grilla';
 const era=p=>p.a||'En investigación';
-const vis=p=>(p.cover||p.img)?`<img src="${p.tipo==='Ficha'?(p.cover||p.img).replace('img/','img/cv/'):(p.cover||p.img)}" alt="${p.t}" loading="lazy">`:`<span class="logo-ph">${SIL.logo}</span>`;
+const vis=p=>(p.cover||p.img)?`<img src="${p.cv||p.cover||p.img}" alt="${p.t}" loading="lazy">`:`<span class="logo-ph">${SIL.logo}</span>`;
 const $=s=>document.querySelector(s);
+const urlFicha=c=>'/archivo/'+c.replace('.','-')+'/';
 let filtro='todo', q='', dec='todas';
 const norm=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
 function filtros(){const cuenta=s=>PIEZAS.filter(p=>p.s===s).length;
@@ -410,15 +427,17 @@ function filtros(){const cuenta=s=>PIEZAS.filter(p=>p.s===s).length;
 function render(){const nq=norm(q.trim());
  const lista=PIEZAS.filter(p=>(filtro==='todo'||p.s===filtro)&&(dec==='todas'||p.dec.includes(+dec))&&(!nq||norm(p.c+' '+p.t+' '+p.a+' '+p.buscar+' '+p.d.map(x=>x.join(' ')).join(' ')).includes(nq)));
  $('#migas-n').textContent=`${lista.length} ${lista.length===1?'pieza':'piezas'}`;
- const carta=p=>{const c=SERIES[p.s][1];return `<button class="ficha${p.est==='Próximamente'?' prox':''}" data-c="${p.c}"><div class="img"><span class="cod">${p.c}</span><span class="era">${/\d{4}/.test(p.a)?p.a:''}</span>${vis(p)}</div><div class="fr" aria-hidden="true"><i style="background:${c}"></i><i style="background:${SERIES[p.s][2]||c}"></i></div><h3>${p.t}</h3><p>${SERIES[p.s][0]} · ${p.tipo} · ${p.a}</p></button>`};
+ const carta=p=>{const c=SERIES[p.s][1];return `<a href="${urlFicha(p.c)}" class="ficha${p.est==='Próximamente'?' prox':''}" data-c="${p.c}"><div class="img${p.tipo==='Ficha'?' ruido':''}"><span class="cod">${p.c}</span><span class="era">${/\d{4}/.test(p.a)?p.a:''}</span>${vis(p)}</div><div class="fr" aria-hidden="true"><i style="background:${c}"></i><i style="background:${SERIES[p.s][2]||c}"></i></div><h3>${p.t}</h3><p>${SERIES[p.s][0]} · ${p.tipo} · ${p.a}</p></a>`};
  $('#grilla').innerHTML=lista.length?[...new Set(lista.map(p=>p.s))].map(k=>{const ps=lista.filter(p=>p.s===k),a=SERIES[k][1],b=SERIES[k][2]||a;return `<section class="grupo" aria-label="${k} ${SERIES[k][0]}"><h2 class="g-h"><span class="g-fr" aria-hidden="true"><i style="background:${a}"></i><i style="background:${b}"></i></span>${k} · ${SERIES[k][0]}<span class="g-n">${ps.length}</span></h2><div class="g-grid">${ps.map(carta).join('')}</div></section>`}).join(''):`<p class="vacio">No hay piezas que coincidan con «${q}». Probá con un modelo (OH 1618), un carrocero (La Favorita) o un año (1987).</p>`;indice(lista);}
 function indice(lista){$('#grilla').hidden=modo!=='grilla';$('#indice').hidden=modo!=='indice';
  if(modo!=='indice')return;
  $('#indice').innerHTML=`<table><thead><tr><th>Código</th><th>Nombre</th><th>Serie</th><th>Época</th></tr></thead><tbody>${lista.map(p=>{const a=SERIES[p.s][1],b=SERIES[p.s][2]||a;return `<tr class="${p.est==='Próximamente'?'prox':''}" data-c="${p.c}" tabindex="0"><td class="c">${p.c}</td><td class="t">${p.t}</td><td class="m"><span class="sw" style="--a:${a};--b:${b}"></span>${SERIES[p.s][0]}</td><td class="m">${era(p)}</td></tr>`}).join('')}</tbody></table>`;}
 function series(){if(!$('#series-l'))return;$('#series-l').innerHTML=Object.entries(SERIES).filter(([k])=>k!=='00'&&PIEZAS.some(p=>p.s===k)).map(([k,[n,a,b]])=>{const ps=PIEZAS.filter(p=>p.s===k),pub=ps.filter(p=>p.est==='Publicado').length;const d={'02':'Los colectivos que definieron cada década, del bondi con trompa al piso bajo.','03':'Subtes, trenes metropolitanos y de larga distancia, locomotoras y coches.','04':'Los camiones que mueven el país, de los primeros Scania a los actuales.','05':'Los autos y utilitarios que llenaron la calle, de la F-100 al Gol.','06':'Patrulleros, ambulancias y otros vehículos del Estado.'}[k]||'';return `<button class="serie-b" data-serie="${k}"><span class="fr" aria-hidden="true"><i style="background:${a}"></i><i style="background:${b||a}"></i></span><span><h3>${k} · ${n}</h3><p>${d}</p></span><span class="n">${pub?pub+' publicada'+(pub>1?'s':'')+' · ':''}${ps.length} fichas</span></button>`}).join('');}
 function vista(v){$('#v-inicio').hidden=v!=='inicio';$('#v-archivo').hidden=v!=='archivo';$('#v-blog').hidden=v!=='blog';document.querySelectorAll('nav.menu a').forEach(a=>{const on=(v==='archivo'&&a.dataset.v==='archivo')||(v==='blog'&&a.dataset.v==='blog')||(v==='inicio'&&a.getAttribute('href')==='#inicio');on?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current')});}
-function ruta(){const h=location.hash||'#inicio';const m=h.match(/^#p-(\d\d)-(\d\d)$/);
- if(h==='#archivo'||m){vista('archivo');if(m)abrir(m[1]+'.'+m[2]);return;}
+function ruta(){const pm=location.pathname.match(/^\/archivo\/(\d\d)-(\d\d)\/?$/);if(pm){vista('archivo');abrir(pm[1]+'.'+pm[2]);return;}
+ $('#panel').hidden=true;const h=location.hash||'#inicio';const m=h.match(/^#p-(\d\d)-(\d\d)$/);
+ if(m){try{history.replaceState(null,'','/archivo/'+m[1]+'-'+m[2]+'/')}catch(e){}vista('archivo');abrir(m[1]+'.'+m[2]);return;}
+ if(h==='#archivo'){vista('archivo');return;}
  if(h==='#blog'){vista('blog');scrollTo(0,0);return;}
  vista('inicio');const el=document.getElementById(h.slice(1));if(el&&h!=='#inicio')el.scrollIntoView();else scrollTo(0,0);}
 
@@ -472,7 +491,7 @@ function abrirFicha(p){const c=SERIES[p.s][1],G=f2grupos(p),todas=Object.values(
  ${p.d.length?`<details class="f2-todo"><summary>Todos los datos y sus fuentes <span>${p.d.length} datos</span></summary>${tablaDatos(p)}</details>`:'<p class="nota">Ficha en investigación: todavía no hay datos verificados para mostrar.</p>'}
  ${p.tl?`<div class="tl-w"><h3 style="margin:8px 0 10px;font:500 10px var(--f-text);letter-spacing:.1em;text-transform:uppercase;color:var(--gris)">Línea del tiempo</h3><ol class="tl">${p.tl.map(([an,n,nt,e,f,u])=>`<li><span class="an">${an}</span><b>${n}</b><span class="estado e-${e.replace(' ','')}">${e==='DATO1'?'DATO¹':e}</span>${nt?`<span class="nt">${nt}</span>`:''}<span class="nt fuente">${u?`<a href="${u}" target="_blank" rel="noopener">${f}</a>`:f}</span></li>`).join('')}</ol></div>`:''}
  <p class="nota">DATO: dos fuentes o una oficial · DATO¹: una sola fuente · VERIFICAR: hay contradicción o falta respaldo · ESTIMACIÓN: cálculo propio con los supuestos a la vista.</p>`;
- $('#panel').hidden=false;$('#cerrar').focus();try{history.replaceState(null,'','#p-'+p.c.replace('.','-'))}catch(e){}}
+ $('#panel').hidden=false;$('#cerrar').focus();marcar(p);}
 document.addEventListener('click',e=>{const m=e.target.closest('[data-f2m]');if(m){$('#f2-marco').classList.toggle('entero',m.dataset.f2m==='ent');document.querySelectorAll('[data-f2m]').forEach(x=>x.setAttribute('aria-pressed',x===m));return}const b=e.target.closest('[data-f2]');if(!b)return;const [u,l]=F2[+b.dataset.f2];
  $('#f2-img').src=u;$('#f2-cap').textContent=l||'';document.querySelectorAll('[data-f2]').forEach(x=>x.setAttribute('aria-pressed',x===b))});
 function abrir(cod){const p=PIEZAS.find(x=>x.c===cod);if(!p)return;if(p.tipo==='Ficha')return abrirFicha(p);$('#panel').classList.remove('centro');const c=SERIES[p.s][1];
@@ -483,10 +502,12 @@ function abrir(cod){const p=PIEZAS.find(x=>x.c===cod);if(!p)return;if(p.tipo==='
  ${p.d.length?`${tablaDatos(p)}`:(p.tipo==='Ficha'||p.tipo==='Informe'?'<p class="nota">Ficha en investigación: todavía no hay datos verificados para mostrar.</p>':'<p>La presentación del proyecto: qué es el archivo, cómo se lee una ficha y cómo participar.</p>')}
  ${p.tl?`<div class="tl-w"><h3 style="margin:28px 0 10px;font:500 10px var(--f-text);letter-spacing:.1em;text-transform:uppercase;color:var(--gris)">Línea del tiempo</h3><ol class="tl">${p.tl.map(([an,n,nt,e,f,u])=>`<li><span class="an">${an}</span><b>${n}</b><span class="estado e-${e.replace(' ','')}">${e==='DATO1'?'DATO¹':e}</span>${nt?`<span class="nt">${nt}</span>`:''}<span class="nt fuente">${u?`<a href="${u}" target="_blank" rel="noopener">${f}</a>`:f}</span></li>`).join('')}</ol></div>`:''}
  <p class="nota">DATO: dos fuentes o una oficial · DATO¹: una sola fuente · VERIFICAR: hay contradicción o falta respaldo · ESTIMACIÓN: cálculo propio con los supuestos a la vista.</p>`;
- $('#panel').hidden=false;$('#cerrar').focus();try{history.replaceState(null,'','#p-'+cod.replace('.','-'))}catch(e){}}
-function cerrar(){$('#panel').hidden=true;try{history.replaceState(null,'','#archivo')}catch(e){}}
+ $('#panel').hidden=false;$('#cerrar').focus();marcar(p);}
+const TIT0=document.title;
+function marcar(p){document.title=p.t+' · archivo.tea';const u=urlFicha(p.c);if(location.pathname!==u){try{history.pushState(null,'',u)}catch(e){}}}
+function cerrar(){$('#panel').hidden=true;document.title=TIT0.includes(' · archivo.tea')?'archivo.tea · Archivo visual del transporte argentino':TIT0;const fe=document.getElementById('ficha-estatica');if(fe)fe.remove();if(location.pathname!=='/'){try{history.pushState(null,'','/#archivo')}catch(e){}}else{try{history.replaceState(null,'','#archivo')}catch(e){}}}
 document.addEventListener('click',e=>{const f=e.target.closest('.chip[data-f]');if(f){filtro=f.dataset.f;filtros();render();}
- const t=e.target.closest('.ficha,.indice tr[data-c]');if(t)abrir(t.dataset.c);
+ const t=e.target.closest('.ficha,.indice tr[data-c]');if(t){if(t.tagName==='A'&&(e.ctrlKey||e.metaKey||e.shiftKey))return;e.preventDefault();abrir(t.dataset.c);}
  const dd=e.target.closest('[data-d]');if(dd){dec=dd.dataset.d;filtros();render();}
  const md=e.target.closest('[data-modo]');if(md){modo=md.dataset.modo;filtros();render();}
  const sb=e.target.closest('[data-serie]');if(sb){filtro=sb.dataset.serie;filtros();render();location.hash='archivo';}
@@ -495,6 +516,6 @@ document.addEventListener('click',e=>{const f=e.target.closest('.chip[data-f]');
 document.addEventListener('keydown',e=>{const r=e.target.closest&&e.target.closest('.indice tr[data-c]');if(r&&e.key==='Enter')abrir(r.dataset.c);if(e.key==='Escape'&&!$('#panel').hidden)cerrar();if(e.key==='/'&&!$('#v-archivo').hidden&&document.activeElement!==$('#q')){e.preventDefault();$('#q').focus();}});
 $('#q').addEventListener('input',e=>{q=e.target.value;render();});
 filtros();render();
-series();addEventListener('hashchange',ruta);ruta();$('#b-piezas').textContent=PIEZAS.length;
+series();addEventListener('hashchange',ruta);addEventListener('popstate',ruta);ruta();$('#b-piezas').textContent=PIEZAS.length;
 </script>
 </html>

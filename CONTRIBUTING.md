@@ -59,6 +59,12 @@ datos:
 
 En la galería, la leyenda decide el grupo: si dice «Plano» va a **Planos**; si dice «Folleto» o «Publicidad», a **Publicidad y folletos**; si dice «Fotograma» o «Foto de», a **En uso**. Todo lo demás va a **Vistas**.
 
+## Imágenes y direcciones
+
+- **Las fotos se suben como estén.** Al armar la web, el script hace una copia liviana de cada imagen (WebP, hasta 1600 px). El original queda intacto en `img/`.
+- **Cada ficha tiene su página**: la 03.15 queda en `archivotea.ar/archivo/03-15/`. Esa es la dirección para compartir y la que encuentra Google. Por eso el código de cada ficha tiene que ser único: si se repite, el armado se frena y la web no se actualiza hasta corregirlo.
+- **El ruido analógico** sobre los vehículos se ajusta en `plantilla/index.html`, en la variable `--ruido-op` (intensidad; `0` lo apaga).
+
 ## Cómo se carga una nota
 
 Cada nota es un archivo en `notas/`, con la fecha adelante: `2026-10-18-dia-de-la-madre-ana-rossi.md`.

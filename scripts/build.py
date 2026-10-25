@@ -3,16 +3,24 @@
     python scripts/build.py
 
 Lee datos/, notas/ y plantilla/, y escribe la web completa en _sitio/ (no se edita a mano).
-Netlify corre este mismo script en cada cambio del repo."""
-import datetime as dt, json, os, re, shutil
+Netlify corre este mismo script en cada cambio del repo.
+
+Además de la portada arma:
+  - una página por ficha en /archivo/03-15/, con su título, descripción y datos escritos (para Google y para compartir);
+  - imágenes livianas (WebP, máximo 1600 px) a partir de las originales, que quedan intactas en img/;
+  - sitemap.xml y robots.txt."""
+import datetime as dt, hashlib, html, json, os, re, shutil, subprocess, sys
 import yaml
-from PIL import Image
+from PIL import Image, ImageOps
 import numpy as np
 
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(R, '_sitio')
+SITIO = 'https://archivotea.ar'
 MES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
 EST = {'publicada': 'Publicado', 'en investigación': 'Próximamente'}
+ESTADO_TXT = {'DATO': 'DATO', 'DATO1': 'DATO¹', 'VERIFICAR': 'VERIFICAR', 'ESTIMACION': 'ESTIMACIÓN', 'SIN DATO': 'SIN DATO'}
+esc = lambda x: html.escape(str(x or ''), quote=True)
 
 
 def leer(p):
@@ -25,43 +33,135 @@ def fecha(s):
 
 
 def decadas(a):
-    y = re.findall(r'\d{4}', a or '')
+    """Décadas que abarca el período. «Desde 1995», «2013–hoy» y «1957-Actualidad» llegan hasta hoy."""
+    a = a or ''
+    hasta_hoy = re.search(r'hoy|actualidad|presente|desde', a, re.I)
+    y = re.findall(r'\d{4}', a)
     if y:
-        x = int(y[0]); z = int(y[1]) if len(y) > 1 else (2026 if 'hoy' in a else x)
+        x = int(y[0]); z = int(y[1]) if len(y) > 1 else (dt.date.today().year if hasta_hoy else x)
         return list(range(x // 10 * 10, z // 10 * 10 + 1, 10))
-    m = re.search(r'[Aa]ños (\d)0', a or '')
+    m = re.search(r'[Aa]ños (\d)0', a)
     return [1900 + int(m.group(1)) * 10] if m else []
+
+
+# ---------- imágenes livianas ----------
+if os.path.exists(OUT): shutil.rmtree(OUT)
+os.makedirs(OUT)
+LIVIANAS = {}          # ruta original -> ruta WebP en _sitio
+USADAS = set()         # originales que ya tienen versión liviana (no se copian)
+
+
+def nombre(ruta):
+    base = os.path.splitext(os.path.basename(ruta))[0].lower()
+    base = re.sub(r'[^a-z0-9]+', '-', base.translate(str.maketrans('áéíóúñü', 'aeiounu'))).strip('-')[:50] or 'img'
+    return f'{base}-{hashlib.md5(ruta.encode()).hexdigest()[:6]}'
+
+
+def liviana(ruta, lado=1600):
+    """Devuelve la ruta de una copia WebP liviana. Si la imagen no existe o no se puede abrir, deja la original."""
+    if not ruta or not ruta.startswith('img/'): return ruta
+    if ruta in LIVIANAS: return LIVIANAS[ruta]
+    src = os.path.join(R, ruta)
+    if not os.path.exists(src): LIVIANAS[ruta] = ruta; return ruta
+    out = f'img/w/{nombre(ruta)}.webp'
+    try:
+        im = ImageOps.exif_transpose(Image.open(src))
+        alfa = im.mode in ('RGBA', 'LA') or (im.mode == 'P' and 'transparency' in im.info)
+        im = im.convert('RGBA' if alfa else 'RGB')
+        im.thumbnail((lado, lado), Image.LANCZOS)
+        os.makedirs(os.path.join(OUT, 'img', 'w'), exist_ok=True)
+        im.save(os.path.join(OUT, out), 'WEBP', quality=82, method=4)
+    except Exception as e:
+        print(f'  aviso: no se pudo optimizar {ruta} ({e}); queda la original')
+        LIVIANAS[ruta] = ruta; return ruta
+    LIVIANAS[ruta] = out; USADAS.add(ruta)
+    return out
+
+
+def recorte(src):
+    """El vehículo recortado a su contorno sobre blanco (para portadas parejas y vistas previas)."""
+    im = ImageOps.exif_transpose(Image.open(src))
+    if im.mode in ('RGBA', 'LA', 'P'):
+        im = im.convert('RGBA'); fondo = Image.new('RGBA', im.size, 'white'); fondo.alpha_composite(im); im = fondo
+    im = im.convert('RGB'); a = np.asarray(im)
+    ys, xs = np.where(a.min(2) < 236)
+    if len(xs) < 50: return im
+    x0, x1 = np.percentile(xs, [0.2, 99.8]).astype(int); y0, y1 = ys.min(), ys.max()
+    return im.crop((max(0, x0 - 2), max(0, y0 - 2), min(im.width, x1 + 3), min(im.height, y1 + 3)))
+
+
+def portada(ruta):
+    """Tarjeta del archivo: cada vehículo a la misma altura y sobre la misma línea de piso."""
+    W, H, ALTO, ANCHO, PISO = 800, 1000, 740, 720, 930
+    v = recorte(os.path.join(R, ruta))
+    k = min(ALTO / v.height, ANCHO / v.width)
+    v = v.resize((max(1, round(v.width * k)), max(1, round(v.height * k))), Image.LANCZOS)
+    out = Image.new('RGB', (W, H), 'white'); out.paste(v, ((W - v.width) // 2, PISO - v.height))
+    dst = f'img/cv/{nombre(ruta)}.webp'
+    os.makedirs(os.path.join(OUT, 'img', 'cv'), exist_ok=True)
+    out.save(os.path.join(OUT, dst), 'WEBP', quality=82, method=4)
+    return dst
+
+
+def vista_previa(ruta, codigo):
+    """Imagen 1200×630 para WhatsApp, Facebook y Google (JPG, que todos aceptan)."""
+    v = recorte(os.path.join(R, ruta))
+    k = min(520 / v.height, 1080 / v.width)
+    v = v.resize((max(1, round(v.width * k)), max(1, round(v.height * k))), Image.LANCZOS)
+    out = Image.new('RGB', (1200, 630), 'white'); out.paste(v, ((1200 - v.width) // 2, (630 - v.height) // 2))
+    dst = f'img/og/{codigo}.jpg'
+    os.makedirs(os.path.join(OUT, 'img', 'og'), exist_ok=True)
+    out.save(os.path.join(OUT, dst), quality=84)
+    return dst
 
 
 # ---------- fichas ----------
 def pieza(f):
-    p = {'c': f['codigo'], 's': f['serie'], 't': f['titulo'], 'a': f.get('periodo') or 'Sin fecha', 'tipo': f.get('tipo', 'Ficha'),
-         'est': EST.get(f.get('estado'), f.get('estado', 'Próximamente')), 'sil': 'logo'}
-    if f.get('imagen'): p['img'] = f['imagen']
-    if f.get('portada'): p['cover'] = f['portada']
+    p = {'c': str(f['codigo']), 's': str(f['serie']), 't': str(f['titulo']).strip(), 'a': str(f.get('periodo') or 'Sin fecha').strip(),
+         'tipo': f.get('tipo', 'Ficha'), 'est': EST.get(f.get('estado'), f.get('estado', 'Próximamente')), 'sil': 'logo'}
+    if f.get('imagen'): p['img'] = liviana(f['imagen'])
+    if f.get('portada'): p['cover'] = liviana(f['portada'])
     if f.get('pie'): p['ig'] = f['pie']
     if f.get('galeria'):
-        p['gal'] = [[g['imagen'], g.get('leyenda', '')] + ([1] if g.get('ancha') else []) for g in f['galeria']]
+        p['gal'] = [[liviana(g['imagen']), g.get('leyenda', '') or ''] + ([1] if g.get('ancha') else []) for g in f['galeria'] if g.get('imagen')]
     if f.get('nota_galeria'): p['galnota'] = f['nota_galeria']
-    p['buscar'] = f.get('busqueda', '')
-    p['d'] = [[r['campo'], str(r['valor']), r.get('estado', 'SIN DATO'), r.get('fuente', ''), r.get('url', '')] for r in f.get('datos') or []]
+    p['buscar'] = f.get('busqueda', '') or ''
+    p['d'] = [[r['campo'], str(r['valor']).strip(), r.get('estado', 'SIN DATO'), r.get('fuente', '') or '', r.get('url', '') or ''] for r in f.get('datos') or []]
     if f.get('linea_de_tiempo'):
-        p['tl'] = [[str(r['fecha']), r['hito'], r.get('detalle', ''), r.get('estado', 'SIN DATO'), r.get('fuente', ''), r.get('url', '')] for r in f['linea_de_tiempo']]
-    p['dec'] = f['decadas'] if 'decadas' in f else decadas(p['a'])
+        p['tl'] = [[str(r['fecha']), r['hito'], r.get('detalle', '') or '', r.get('estado', 'SIN DATO'), r.get('fuente', '') or '', r.get('url', '') or ''] for r in f['linea_de_tiempo']]
+    p['dec'] = f['decadas'] if f.get('decadas') else decadas(p['a'])
+    orig = f.get('portada') or f.get('imagen')
+    if p['tipo'] == 'Ficha' and orig and os.path.exists(os.path.join(R, orig)):
+        p['cv'] = portada(orig)
+        p['og'] = vista_previa(orig, p['c'].replace('.', '-'))
+    p['_archivo'] = f['_archivo']
     return p
 
 
 carpeta = os.path.join(R, 'datos', 'fichas')
-PIEZAS = [pieza(leer(os.path.join('datos', 'fichas', x))) for x in os.listdir(carpeta) if x.endswith('.yaml')]
+FICHAS = []
+for x in sorted(os.listdir(carpeta)):
+    if not x.endswith('.yaml'): continue
+    f = leer(os.path.join('datos', 'fichas', x)); f['_archivo'] = x; FICHAS.append(f)
+
+repetidos = {}
+for f in FICHAS: repetidos.setdefault(str(f['codigo']), []).append(f['_archivo'])
+repetidos = {k: v for k, v in repetidos.items() if len(v) > 1}
+if repetidos:
+    for k, v in repetidos.items(): print(f'ERROR: el código {k} está repetido en {", ".join(v)}. Cada ficha necesita un código propio.')
+    sys.exit(1)
+
+PIEZAS = [pieza(f) for f in FICHAS]
 PIEZAS.sort(key=lambda p: (p['s'], p['c']))
 
 # ---------- notas y actividad ----------
 NOTAS = []
 for x in sorted(os.listdir(os.path.join(R, 'notas'))):
     if not x.endswith('.md'): continue
-    txt = open(os.path.join(R, 'notas', x), encoding='utf-8').read()
+    txt = open(os.path.join(R, 'notas', x), encoding='utf-8').read().replace('\r\n', '\n')
     m = re.match(r'---\n(.*?)\n---\n(.*)', txt, re.S)
     fm = yaml.safe_load(m.group(1)); fm['texto'] = m.group(2).strip()
+    fm['imagenes'] = [liviana(u) for u in fm.get('imagenes') or []]
     if fm.get('estado', 'publicada') == 'publicada': NOTAS.append(fm)
 NOTAS.sort(key=lambda n: (str(n['fecha']), -n.get('orden', 0)), reverse=True)
 LOG = [(str(a['fecha']), a['area'], a['titulo'], a['detalle']) for a in leer('datos/actividad.yaml')]
@@ -93,7 +193,7 @@ def blog():
     posts = ''
     for p in NOTAS:
         s = SERIES[p['serie']]; col = {'02': '#e2a517', '00': '#68a6d5'}.get(p['serie'], s['color'])
-        imgs = ''.join(f'<img src="{u}" alt="{p["titulo"]} · placa {i+1}" loading="lazy">' for i, u in enumerate(p.get('imagenes') or []))
+        imgs = ''.join(f'<img src="{u}" alt="{esc(p["titulo"])} · placa {i+1}" loading="lazy">' for i, u in enumerate(p.get('imagenes') or []))
         link = f'<a class="btn sec" href="{p["enlace"]["url"]}" style="text-decoration:none">{p["enlace"]["texto"]}</a>' if p.get('enlace') else ''
         posts += f'''<article class="post-b"><div class="meta"><i style="border-color:{col}"></i><span>{p["serie"]} — {s["nombre"]}</span><span>{fecha(p["fecha"])}</span><span>{len(p.get("imagenes") or [])} placas</span></div>
 <h2>{p["titulo"]}</h2><p>{p["texto"]}</p><div class="tira">{imgs}</div>{link}</article>'''
@@ -117,7 +217,7 @@ def diario():
 
 def ultimo():
     u = NOTAS[0]
-    imgs = ''.join(f'<img src="{x}" alt="{u["titulo"]} · placa {i+1}" loading="lazy">' for i, x in enumerate((u.get('imagenes') or [])[:4]))
+    imgs = ''.join(f'<img src="{x}" alt="{esc(u["titulo"])} · placa {i+1}" loading="lazy">' for i, x in enumerate((u.get('imagenes') or [])[:4]))
     btn = (f'<a class="btn" href="{u["enlace"]["url"]}" style="text-decoration:none">{u["enlace"]["texto"]}</a>' if u.get('enlace')
            else '<a class="btn" href="#blog" style="text-decoration:none">Ver en el blog</a>')
     return f'''<div class="cuerpo">
@@ -127,33 +227,127 @@ def ultimo():
     </div>'''
 
 
-# ---------- portadas parejas: cada vehículo al contorno, misma altura, mismo piso ----------
-def portada(src, dst):
-    W, H, ALTO, ANCHO, PISO = 800, 1000, 740, 720, 930
-    im = Image.open(src).convert('RGB'); a = np.asarray(im)
-    ys, xs = np.where(a.min(2) < 236)
-    if len(xs) < 50: shutil.copy(src, dst); return
-    x0, x1 = np.percentile(xs, [0.2, 99.8]).astype(int); y0, y1 = ys.min(), ys.max()
-    v = im.crop((max(0, x0 - 2), max(0, y0 - 2), min(im.width, x1 + 3), min(im.height, y1 + 3)))
-    k = min(ALTO / v.height, ANCHO / v.width)
-    v = v.resize((max(1, round(v.width * k)), max(1, round(v.height * k))), Image.LANCZOS)
-    out = Image.new('RGB', (W, H), 'white'); out.paste(v, ((W - v.width) // 2, PISO - v.height))
-    out.save(dst, quality=86)
+# ---------- cabeceras, datos estructurados y páginas de ficha ----------
+def slug(p): return p['c'].replace('.', '-')
+def url_ficha(p): return f'{SITIO}/archivo/{slug(p)}/'
+def plano(x): return re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', str(x))).strip()
+
+
+def descripcion(p):
+    serie = SERIES[p['s']]['nombre']
+    datos = [f'{plano(r[0])}: {plano(r[1]).rstrip(".;")}' for r in p['d'] if r[2] != 'SIN DATO' and not re.search(r'ejemplar', r[0], re.I)][:3]
+    base = f'{p["t"]} ({p["a"]}). ' if p['a'] != 'Sin fecha' else f'{p["t"]}. '
+    txt = base + ('; '.join(datos) + '.' if datos else f'Ficha de {serie.lower()} en el archivo visual del transporte argentino.')
+    return txt if len(txt) <= 158 else txt[:155].rsplit(' ', 1)[0] + '…'
+
+
+def cabecera(titulo, desc, url, imagen, ld):
+    return (f'<base href="/"><meta name="description" content="{esc(desc)}">'
+            f'<link rel="canonical" href="{url}">'
+            f'<meta property="og:type" content="website"><meta property="og:site_name" content="archivo.tea"><meta property="og:locale" content="es_AR">'
+            f'<meta property="og:title" content="{esc(titulo)}"><meta property="og:description" content="{esc(desc)}">'
+            f'<meta property="og:url" content="{url}"><meta property="og:image" content="{SITIO}/{imagen}">'
+            f'<meta name="twitter:card" content="summary_large_image">'
+            f'<link rel="icon" href="/img/favicon.svg" type="image/svg+xml"><title>{esc(titulo)}</title>'
+            f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')
+
+
+WEB = {'@type': 'WebSite', '@id': f'{SITIO}/#sitio', 'url': f'{SITIO}/', 'name': 'archivo.tea',
+       'alternateName': 'Transporte Enciclopédico Argentino', 'inLanguage': 'es-AR',
+       'description': 'Archivo visual e histórico del transporte argentino. Cada dato con su fuente.'}
+
+
+def ld_ficha(p, desc):
+    img = p.get('og') or p.get('cv') or p.get('img')
+    obra = {'@type': 'CreativeWork', '@id': url_ficha(p) + '#ficha', 'url': url_ficha(p), 'name': p['t'], 'headline': p['t'],
+            'description': desc, 'inLanguage': 'es-AR', 'isPartOf': {'@id': f'{SITIO}/#sitio'},
+            'genre': SERIES[p['s']]['nombre'], 'about': {'@type': 'Thing', 'name': p['t']}}
+    if p['a'] != 'Sin fecha': obra['temporalCoverage'] = p['a']
+    if img:
+        obra['image'] = {'@type': 'ImageObject', 'contentUrl': f'{SITIO}/{img}', 'caption': p.get('ig') or p['t'],
+                         'creditText': p.get('ig') or 'archivo.tea'}
+    migas = {'@type': 'BreadcrumbList', 'itemListElement': [
+        {'@type': 'ListItem', 'position': 1, 'name': 'archivo.tea', 'item': f'{SITIO}/'},
+        {'@type': 'ListItem', 'position': 2, 'name': SERIES[p['s']]['nombre'], 'item': f'{SITIO}/#archivo'},
+        {'@type': 'ListItem', 'position': 3, 'name': p['t'], 'item': url_ficha(p)}]}
+    return {'@context': 'https://schema.org', '@graph': [WEB, obra, migas]}
+
+
+def fuente(f, u):
+    if not f and not u: return ''
+    enlace = '<a href="' + esc(u) + '" rel="noopener">fuente</a>' if u else ''
+    return '<small>' + esc(f) + (' · ' if f and u else '') + enlace + '</small>'
+
+
+def ficha_escrita(p):
+    """El contenido de la ficha escrito en la página: lo que lee Google y lo que ve quien no tiene JavaScript."""
+    serie = SERIES[p['s']]['nombre']
+    img = p.get('img') or p.get('cover')
+    pie = '<figcaption>' + esc(p['ig']) + '</figcaption>' if p.get('ig') else ''
+    fig = f'<figure class="fe-fig"><img src="/{img}" alt="{esc(p["t"])}" width="640">{pie}</figure>' if img else ''
+    datos = ''.join(f'<div><dt>{esc(r[0])}</dt><dd>{esc(r[1])}<small>{ESTADO_TXT.get(r[2], r[2])}</small>{fuente(r[3], r[4])}</dd></div>' for r in p['d'])
+    tl = ''.join(f'<li><b>{esc(r[0])}</b> · {esc(r[1])}{" — " + esc(r[2]) if r[2] else ""}</li>' for r in p.get('tl') or [])
+    gal = ''.join(f'<li>{esc(l)}</li>' for _, l, *_ in p.get('gal') or [] if l)
+    return (f'<article class="fe" id="ficha-estatica" aria-labelledby="fe-t">'
+            f'<p class="fe-meta">{p["c"]} · {esc(serie)} · {esc(p["tipo"])} · {esc(p["est"])}</p>'
+            f'<h1 id="fe-t">{esc(p["t"])}</h1><p class="fe-meta">{esc(p["a"])}</p>{fig}'
+            + (f'<h2>Datos</h2><dl>{datos}</dl>' if datos else '<p>Ficha en investigación: todavía no hay datos verificados para mostrar.</p>')
+            + (f'<h2>Línea del tiempo</h2><ol>{tl}</ol>' if tl else '')
+            + (f'<h2>Imágenes</h2><ul>{gal}</ul>' if gal else '')
+            + (f'<p class="fe-meta">{esc(p["galnota"])}</p>' if p.get('galnota') else '')
+            + '<p><a href="/#archivo">Ver todo el archivo</a></p></article>')
+
+
+def fecha_git(ruta):
+    try:
+        r = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', ruta], cwd=R, capture_output=True, text=True, timeout=10)
+        return r.stdout.strip() or None
+    except Exception:
+        return None
 
 
 # ---------- armado ----------
-if os.path.exists(OUT): shutil.rmtree(OUT)
-shutil.copytree(os.path.join(R, 'img'), os.path.join(OUT, 'img'))
-shutil.copytree(os.path.join(R, 'libreas'), os.path.join(OUT, 'libreas'))
-os.makedirs(os.path.join(OUT, 'img', 'cv'), exist_ok=True)
-for p in PIEZAS:
-    c = p.get('cover')
-    if p['tipo'] == 'Ficha' and c and os.path.exists(os.path.join(R, c)):
-        portada(os.path.join(R, c), os.path.join(OUT, 'img', 'cv', os.path.basename(c)))
+plantilla = open(os.path.join(R, 'plantilla', 'index.html'), encoding='utf-8').read()
+for k in ('__HEAD__', '__BLOG__', '__DIARIO__', '__ULTIMO__', '__FICHA__'):
+    assert k in plantilla, k
+base = plantilla.replace('__BLOG__', blog(), 1).replace('__DIARIO__', diario(), 1).replace('__ULTIMO__', ultimo(), 1)
 
-html = open(os.path.join(R, 'plantilla', 'index.html'), encoding='utf-8').read()
-for k, v in {'__PIEZAS__': json.dumps(PIEZAS, ensure_ascii=False), '__BLOG__': blog(), '__DIARIO__': diario(), '__ULTIMO__': ultimo()}.items():
-    assert k in html, k
-    html = html.replace(k, v, 1)
-open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(html)
-print(f'listo: {len(PIEZAS)} piezas, {len(NOTAS)} notas, {len(LOG)} entradas de actividad → _sitio/')
+publicas = [{k: v for k, v in p.items() if k != '_archivo'} for p in PIEZAS]
+with open(os.path.join(OUT, 'piezas.js'), 'w', encoding='utf-8') as f:
+    f.write('window.__PIEZAS=' + json.dumps(publicas, ensure_ascii=False, separators=(',', ':')) + ';\n')
+
+DESC0 = 'Archivo visual e histórico del transporte argentino: colectivos, trenes, subtes, camiones y autos. Cada vehículo con su ficha y cada dato con su fuente.'
+TIT0 = 'archivo.tea · Archivo visual del transporte argentino'
+inicio = base.replace('__HEAD__', cabecera(TIT0, DESC0, f'{SITIO}/', 'img/libreas-preview.jpg',
+                                          {'@context': 'https://schema.org', '@graph': [WEB]}), 1).replace('__FICHA__', '', 1)
+open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(inicio)
+
+mapa = [(f'{SITIO}/', None)]
+for p in PIEZAS:
+    desc = descripcion(p)
+    titulo = f'{p["t"]} · {SERIES[p["s"]]["nombre"]} | archivo.tea'
+    pag = base.replace('__HEAD__', cabecera(titulo, desc, url_ficha(p), p.get('og') or 'img/libreas-preview.jpg', ld_ficha(p, desc)), 1)
+    pag = pag.replace('__FICHA__', ficha_escrita(p), 1)
+    # en la página de una ficha, el archivo es lo visible desde el primer momento (también sin JavaScript)
+    pag = pag.replace('<main class="wrap vista" id="v-inicio">', '<main class="wrap vista" id="v-inicio" hidden>', 1)
+    pag = pag.replace('<main class="wrap vista" id="v-archivo" hidden>', '<main class="wrap vista" id="v-archivo">', 1)
+    d = os.path.join(OUT, 'archivo', slug(p)); os.makedirs(d, exist_ok=True)
+    open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(pag)
+    mapa.append((url_ficha(p), fecha_git(os.path.join('datos', 'fichas', p['_archivo']))))
+
+with open(os.path.join(OUT, 'sitemap.xml'), 'w', encoding='utf-8') as f:
+    f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
+    for u, lm in mapa: f.write(f'  <url><loc>{u}</loc>{f"<lastmod>{lm}</lastmod>" if lm else ""}</url>\n')
+    f.write('</urlset>\n')
+open(os.path.join(OUT, 'robots.txt'), 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
+
+# originales: se copian solo las que no tienen versión liviana (logos, imágenes fijas de la portada, etc.)
+fijas = set(re.findall(r'img/[^"\'\s)]+', plantilla))
+def ignorar(d, nombres):
+    rel = os.path.relpath(d, R).replace(os.sep, '/')
+    return [n for n in nombres if f'{rel}/{n}' in USADAS and f'{rel}/{n}' not in fijas]
+shutil.copytree(os.path.join(R, 'img'), os.path.join(OUT, 'img'), ignore=ignorar, dirs_exist_ok=True)
+shutil.copytree(os.path.join(R, 'libreas'), os.path.join(OUT, 'libreas'), dirs_exist_ok=True)
+
+print(f'listo: {len(PIEZAS)} piezas ({len(PIEZAS)} páginas de ficha), {len(NOTAS)} notas, {len(LOG)} entradas de actividad, '
+      f'{len(USADAS)} imágenes optimizadas → _sitio/')
