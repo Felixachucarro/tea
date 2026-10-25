@@ -9,13 +9,13 @@ portada: img/c0309.jpg
 pie: Vista frontal, imagen de trabajo
 galeria:
   - imagen: img/1000363500.png
-    leyenda: "Plano: Trasero - Reconstrucción IA E716"
+    leyenda: "Imagen: Trasero - Reconstrucción IA E716"
     ancha: false
   - imagen: img/1000363499.png
-    leyenda: "Plano: Lateral - Reconstrucción IA"
+    leyenda: "Imagen: Lateral - Reconstrucción IA"
     ancha: false
   - imagen: img/1000363497.png
-    leyenda: "Plano: Técnico - Lateral "
+    leyenda: "Imagen: Técnico - Lateral "
     ancha: false
 busqueda: belgrano norte gl22cu locomotora
 datos:
