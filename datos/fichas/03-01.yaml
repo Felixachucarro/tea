@@ -9,10 +9,10 @@ portada: img/c0301.jpg
 pie: Vista frontal, imagen de trabajo
 galeria:
   - imagen: img/1000363930.jpg
-    leyenda: "02: Plano: Lateral Alstom metropolis serie 300 - Reconstrucción IA"
+    leyenda: Foto de Lateral Alstom metropolis serie 300 - Reconstrucción IA
     ancha: true
   - imagen: img/1000363929.jpg
-    leyenda: 02 - Plano Técnico Alstom metropolis serie 300
+    leyenda: Imagen de Técnico Alstom metropolis serie 300
     ancha: false
 nota_galeria: "Wikipedia: Serie 300 (subte de Buenos Aires): "
 busqueda: subte linea h
