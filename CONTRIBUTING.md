@@ -59,6 +59,24 @@ datos:
 
 En la galería, la leyenda decide el grupo: si dice «Plano» va a **Planos**; si dice «Folleto» o «Publicidad», a **Publicidad y folletos**; si dice «Fotograma» o «Foto de», a **En uso**. Todo lo demás va a **Vistas**.
 
+## Guía rápida: qué va en cada casillero
+
+En «Datos», el **nombre del campo** decide en qué casillero de la ficha aparece. Tiene que **empezar** con uno de estos nombres («Fabricante» entra; «Empresa fabricante» no). Lo que no coincide igual se ve en «Todos los datos y sus fuentes».
+
+| Serie | Casilleros (nombre del campo) |
+|---|---|
+| Trenes y subtes | Fabricante · Fabricación · Línea · Flota · Operador · Ejemplar |
+| Colectivos | Carrocería · Chasis · Motor · Potencia · Largo · Ejemplar |
+| Camiones | Motor · Potencia · Producción · Origen |
+| Particulares | Producción · Motor · Unidades · Planta |
+| Estatales | Modelo · Uso · Años |
+
+- **Flota** es cuántas unidades hubo. **Ejemplar** es la unidad que se ve en la imagen («Coche 1212»).
+- Si dos renglones van al mismo casillero, gana el de más arriba.
+- **Imagen principal**: la grande de la ficha. **Portada**: la tarjeta de la grilla. **Pie**: el texto debajo de la principal.
+- **Galería**: la leyenda elige el grupo. Con «Plano» → Planos · con «Folleto» o «Publicidad» → Publicidad y folletos · con «Foto de», «Fotograma» o «En uso» → En uso · cualquier otra → Vistas.
+- **Años**: `1995–2012`, `Desde 1995`, `2013–hoy` o `2007–Actualidad`.
+
 ## Imágenes y direcciones
 
 - **Las fotos se suben como estén.** Al armar la web, el script hace una copia liviana de cada imagen (WebP, hasta 1600 px). El original queda intacto en `img/`.
