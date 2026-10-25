@@ -463,18 +463,19 @@ function f2claves(p){const usados=new Set();return (F2K[p.s]||F2K['02']).map(([t
  if(i<0||p.d[i][2]==='SIN DATO'||/^[—-]?$/.test(p.d[i][1].trim())){return `<div class="falta"><i class="s"></i><dt>${t}</dt><dd>Sin dato todavía</dd></div>`}
  usados.add(i);const r=p.d[i];return `<div><i class="${F2E[r[2]]||'s'}" title="${r[2]==='DATO1'?'DATO¹':r[2]}"></i><dt>${t}</dt><dd>${r[1]}</dd></div>`}).join('')}
 function f2vida(p){const y=(p.a||'').match(/\d{4}/g);let a,b,abierto=false;
- if(y){a=+y[0];if(y[1])b=+y[1];else if(/desde|hoy|–$/i.test(p.a)){b=2026;abierto=true}else b=a}
+ if(y){a=+y[0];if(y[1])b=+y[1];else if(/desde|hoy|actualidad|presente|[–-]\s*$/i.test(p.a)){b=new Date().getFullYear();abierto=true}else b=a}
  else{const m=(p.a||'').match(/a[ñn]os (\d0)/i);if(m){a=1900+(+m[1]);b=a+9}}
- if(/hoy/i.test(p.a))abierto=true;
+ if(/hoy|actualidad|presente/i.test(p.a))abierto=true;
  const L=1910,R=2026,X=v=>((v-L)/(R-L)*100).toFixed(2);const c=SERIES[p.s][1];
  const tk=[1920,1950,1980,2010].map(v=>`<span class="tk" style="left:${X(v)}%">${v}</span>`).join('');
  const tr=a?`<span class="tr${abierto?' abierto':''}" style="left:${X(Math.max(a,L))}%;width:${Math.max(.8,X(b)-X(Math.max(a,L)))}%;background:${c}"></span>`:'';
  return `<div class="f2-vida" role="img" aria-label="${a?`En servicio ${p.a}`:'Sin fechas todavía'}"><span class="eje"></span>${tr}${tk}</div>`}
 function f2grupos(p){const G={Vistas:[],Planos:[],'Publicidad y folletos':[],'En uso':[]};
- const gal=p.gal&&p.gal.length?p.gal:[[p.cover||p.img,p.ig||'Frente']];
+ // La imagen principal va siempre primera; la galería se suma después, sin reemplazarla.
+ const princ=p.img||p.cover;const gal=[...(princ?[[princ,p.ig||'Frente']]:[]),...((p.gal||[]).filter(([u])=>u!==princ))];
  gal.forEach(([u,l])=>{const n=norm(l||'');(/plano/.test(n)?G.Planos:/(folleto|publicidad|ficha tecnica)/.test(n)?G['Publicidad y folletos']:/(fotograma|foto de|en uso)/.test(n)?G['En uso']:G.Vistas).push([u,l])});
  return G}
-function abrirFicha(p){const c=SERIES[p.s][1],G=f2grupos(p),todas=Object.values(G).flat(),pri=todas[0]||[p.cover||p.img,''];
+function abrirFicha(p){const c=SERIES[p.s][1],G=f2grupos(p),todas=Object.values(G).flat(),princ=p.img||p.cover,pri=todas.find(([u])=>u===princ)||todas[0]||[princ,''];
  let k=0;const mini=Object.entries(G).map(([t,xs])=>`<div class="f2-grupo"><h4>${t}<span>${xs.length||''}</span></h4><div class="f2-tiras">${xs.length?xs.map(([u,l])=>`<button data-f2="${k++}" aria-pressed="${u===pri[0]}" aria-label="${l}"><img src="${u}" alt="" loading="lazy"></button>`).join(''):`<span class="f2-vacio">${t==='Planos'?'Planos en camino':t==='En uso'?'Buscamos fotos':'Todavía no'}</span>`}</div></div>`).join('');
  window.F2=todas;
  $('#panel').classList.add('centro');
