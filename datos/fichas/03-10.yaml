@@ -3,10 +3,24 @@ serie: "03"
 tipo: Ficha
 titulo: CMF 5064 - Fiat 7131 - Ferrocarril General Roca - La chancha
 periodo: 1962–1995
-estado: en investigación
+estado: publicada
 imagen: img/c0310.jpg
 portada: img/c0310.jpg
 pie: Vista frontal, imagen de trabajo
+galeria:
+  - imagen: img/Plano técnico de un vagón diéselેષ.png
+    leyenda: "Plano general del vehiculo - Reconstrucción IA basado en Imagenes
+      propias de Archivo tea "
+    ancha: false
+  - imagen: img/Ferrocarril vintage 5405 aislado.png
+    leyenda: Vista 3/4 Reconstrucción IA
+    ancha: true
+  - imagen: img/Automotor diésel vintage C.M.U.656.png
+    leyenda: "Reconstrucción IA - Parte trasera. "
+    ancha: false
+  - imagen: img/481996926_961278829455290_3308457893437145193_n.jpg
+    leyenda: "Foto de archivo - Autor: Ferrocarriles Argentinos de nuevo (Facebook)"
+    ancha: false
 busqueda: fiat materfer 7131 coche motor chanchita sarmiento 5064 diesel
 datos:
   - campo: Fabricación
@@ -43,3 +57,19 @@ datos:
     valor: —
     estado: SIN DATO
     fuente: Falta confirmar el número y el esquema crema, rojo y azul
+  - campo: Fabricante
+    valor: FIAT Ferroviaria / Materfer
+    estado: DATO
+    fuente: RailPictures.Net
+  - campo: "Flota "
+    valor: 5 unidades tipo 7131-ME
+    estado: DATO
+    fuente: RailPictures.Net
+  - campo: Operador
+    valor: Ferrocarril General Roca → posteriormente Ferrocarriles Argentinos
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: CMF 5064
+    estado: DATO
+    fuente: Wikipedia
