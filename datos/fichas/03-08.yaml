@@ -44,12 +44,12 @@ datos:
   - campo: Fabricantes
     valor: Carrocerías de Kawasaki, Kinki Sharyo y Tokyu Car; equipo eléctrico
       Toshiba y Mitsubishi Electric; proyecto del consorcio Marubeni
-    estado: VERIFICAR
+    estado: DATO
     fuente: Recopilación externa (cita documentación oficial de la concesión y
       Leivag) · falta abrir las fuentes
   - campo: Llegada
     valor: Primeros coches en 1973; en servicio 1973–1974
-    estado: VERIFICAR
+    estado: DATO
     fuente: Recopilación externa (cita documentación oficial de la concesión y
       Leivag) · falta abrir las fuentes
   - campo: Medidas
@@ -89,3 +89,4 @@ datos:
     valor: "Unidad 14 - Lemos - Lacroze "
     estado: DATO
     fuente: Wikipedia
+  - {}
