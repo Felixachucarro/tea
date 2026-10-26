@@ -1,7 +1,7 @@
-codigo: '03.10'
-serie: '03'
+codigo: "03.10"
+serie: "03"
 tipo: Ficha
-titulo: Coche motor Fiat Materfer 7131 · Sarmiento
+titulo: CMF 5064 - Fiat 7131 - Ferrocarril General Roca - La chancha
 periodo: 1962–1995
 estado: en investigación
 imagen: img/c0310.jpg
@@ -9,37 +9,37 @@ portada: img/c0310.jpg
 pie: Vista frontal, imagen de trabajo
 busqueda: fiat materfer 7131 coche motor chanchita sarmiento 5064 diesel
 datos:
-- campo: Fabricación
-  valor: Fiat Ferroviaria y Materfer (Ferreyra, Córdoba), 1960–1963
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
-- campo: Líneas
-  valor: Se incorporó en el Roca, el Mitre, el Sarmiento y el Urquiza
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
-- campo: En servicio
-  valor: 1962 – hacia 1995
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
-- campo: Potencia
-  valor: 660 HP por par de coches
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
-- campo: Apodo
-  valor: '«Chanchita», en el Roca: de lejos parecía bambolearse'
-  estado: DATO1
-  fuente: Estación Km 29 (testimonio)
-  url: http://estkm29.blogspot.com/2020/01/la-chanchita-coches-motores-fiat-7131.html
-- campo: Pariente
-  valor: El mismo modelo corrió en el Gran Capitán (ficha 03.07)
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
-- campo: Unidad 5064 y su librea
-  valor: —
-  estado: SIN DATO
-  fuente: Falta confirmar el número y el esquema crema, rojo y azul
+  - campo: Fabricación
+    valor: Fiat Ferroviaria y Materfer (Ferreyra, Córdoba), 1960–1963
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+  - campo: Líneas
+    valor: Se incorporó en el Roca, el Mitre, el Sarmiento y el Urquiza
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+  - campo: En servicio
+    valor: 1962 – hacia 1995
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+  - campo: Potencia
+    valor: 660 HP por par de coches
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+  - campo: Apodo
+    valor: "«Chanchita», en el Roca: de lejos parecía bambolearse"
+    estado: DATO1
+    fuente: Estación Km 29 (testimonio)
+    url: http://estkm29.blogspot.com/2020/01/la-chanchita-coches-motores-fiat-7131.html
+  - campo: Pariente
+    valor: El mismo modelo corrió en el Gran Capitán (ficha 03.07)
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Fiat_Materfer_7131
+  - campo: Unidad 5064 y su librea
+    valor: —
+    estado: SIN DATO
+    fuente: Falta confirmar el número y el esquema crema, rojo y azul
