@@ -68,3 +68,18 @@ datos:
     estado: DATO
     fuente: GCBA · Material rodante
     url: https://buenosaires.gob.ar/subte/nuestros-avances/material-rodante
+  - campo: "Fabricante "
+    valor: CAF - Construcciones t auxiliar de ferrocarriles (España)
+    estado: DATO
+  - campo: "Línea "
+    valor: |
+      Línea B de subtes.
+    estado: DATO
+  - campo: Operador
+    valor: EMOVA
+    estado: DATO
+    fuente: Wikipedia
+    url: https://es.wikipedia.org/wiki/L%C3%ADnea_B_%28subte_de_Buenos_Aires%29?wprov=sfla1
+  - campo: Ejemplar
+    valor: "6032"
+    estado: DATO
