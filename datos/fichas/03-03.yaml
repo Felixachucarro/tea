@@ -7,6 +7,14 @@ estado: en investigación
 imagen: img/c0303.jpg
 portada: img/c0303.jpg
 pie: Vista frontal, imagen de trabajo
+galeria:
+  - imagen: img/PUMA V1.png
+    leyenda: 02. VISTA LATERAL (Reconstrucción IA)
+    ancha: true
+  - imagen: img/Plano técnico detallado de vagón ferroviario.png
+    leyenda: "01. Plano Lateral, basado en plano de José Manuel Robles Francos "
+    ancha: true
+nota_galeria: "Recontrucción IA - José Manuel Robles Francos "
 busqueda: tba sarmiento
 datos:
   - campo: Concesión
