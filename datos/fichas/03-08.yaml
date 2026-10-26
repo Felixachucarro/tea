@@ -1,68 +1,88 @@
-codigo: '03.08'
-serie: '03'
+codigo: "03.08"
+serie: "03"
 tipo: Ficha
 titulo: Toshiba · Tren Urquiza
 periodo: 1974–hoy
-estado: en investigación
+estado: publicada
 imagen: img/c0308.jpg
 portada: img/c0308.jpg
 pie: Vista frontal, imagen de trabajo
+galeria:
+  - imagen: img/Urquiza.png
+    leyenda: Lateral tren
+    ancha: true
 busqueda: urquiza general lemos
 datos:
-- campo: Coches
-  valor: 128 coches Toshiba japoneses, desde 1974
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Urquiza_Line
-- campo: Alimentación
-  valor: Tercer riel, 600 V de corriente continua
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Urquiza_Line
-- campo: Trocha
-  valor: 1.435 mm, la misma del subte
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Urquiza_Line
-- campo: Operador
-  valor: Metrovías, desde 1994
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Urquiza_Line
-- campo: Recorrido
-  valor: Federico Lacroze – General Lemos · 25,5 km · 23 estaciones
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/Urquiza_Line
-- campo: Fabricantes
-  valor: Carrocerías de Kawasaki, Kinki Sharyo y Tokyu Car; equipo eléctrico Toshiba y Mitsubishi Electric; proyecto del consorcio Marubeni
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita documentación oficial de la concesión y Leivag) · falta abrir las fuentes
-- campo: Llegada
-  valor: Primeros coches en 1973; en servicio 1973–1974
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita documentación oficial de la concesión y Leivag) · falta abrir las fuentes
-- campo: Medidas
-  valor: Unos 18 m de largo, 3,10 m de ancho y 3,90 m de alto; coche motor de unas 41 t
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita documentación oficial de la concesión y Leivag) · falta abrir las fuentes
-- campo: Tracción
-  valor: Duplas fijas; dos motores de unos 180 HP por coche motor
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita documentación oficial de la concesión y Leivag) · falta abrir las fuentes
-- campo: Flota posterior
-  valor: 108 coches, con un promedio de 1.786.000 km por coche
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita documentación oficial de la concesión y Leivag) · falta abrir las fuentes
-- campo: Depósito
-  valor: Rubén Darío, Hurlingham
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita documentación oficial de la concesión y Leivag) · falta abrir las fuentes
-- campo: Proyecto con la Línea B
-  valor: Se pensaron para seguir desde Lacroze por el túnel de la B hasta Alem; nunca fue un servicio regular
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita documentación oficial de la concesión y Leivag) · falta abrir las fuentes
-- campo: Libreas
-  valor: La de Ferrocarriles Argentinos, luego FEMESA y Metrovías; una bordó y gris claro llegó a unas cinco duplas
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita documentación oficial de la concesión y Leivag) · falta abrir las fuentes
+  - campo: Coches
+    valor: 128 coches Toshiba japoneses, desde 1974
+    estado: DATO
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Urquiza_Line
+  - campo: Alimentación
+    valor: Tercer riel, 600 V de corriente continua
+    estado: DATO
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Urquiza_Line
+  - campo: Trocha
+    valor: 1.435 mm, la misma del subte
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Urquiza_Line
+  - campo: Operador
+    valor: Metrovías, desde 1994
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Urquiza_Line
+  - campo: Recorrido
+    valor: Federico Lacroze – General Lemos · 25,5 km · 23 estaciones
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/Urquiza_Line
+  - campo: Fabricantes
+    valor: Carrocerías de Kawasaki, Kinki Sharyo y Tokyu Car; equipo eléctrico
+      Toshiba y Mitsubishi Electric; proyecto del consorcio Marubeni
+    estado: VERIFICAR
+    fuente: Recopilación externa (cita documentación oficial de la concesión y
+      Leivag) · falta abrir las fuentes
+  - campo: Llegada
+    valor: Primeros coches en 1973; en servicio 1973–1974
+    estado: VERIFICAR
+    fuente: Recopilación externa (cita documentación oficial de la concesión y
+      Leivag) · falta abrir las fuentes
+  - campo: Medidas
+    valor: Unos 18 m de largo, 3,10 m de ancho y 3,90 m de alto; coche motor de unas
+      41 t
+    estado: VERIFICAR
+    fuente: Recopilación externa (cita documentación oficial de la concesión y
+      Leivag) · falta abrir las fuentes
+  - campo: Tracción
+    valor: Duplas fijas; dos motores de unos 180 HP por coche motor
+    estado: VERIFICAR
+    fuente: Recopilación externa (cita documentación oficial de la concesión y
+      Leivag) · falta abrir las fuentes
+  - campo: Flota posterior
+    valor: 108 coches, con un promedio de 1.786.000 km por coche
+    estado: VERIFICAR
+    fuente: Recopilación externa (cita documentación oficial de la concesión y
+      Leivag) · falta abrir las fuentes
+  - campo: Depósito
+    valor: Rubén Darío, Hurlingham
+    estado: VERIFICAR
+    fuente: Recopilación externa (cita documentación oficial de la concesión y
+      Leivag) · falta abrir las fuentes
+  - campo: Proyecto con la Línea B
+    valor: Se pensaron para seguir desde Lacroze por el túnel de la B hasta Alem;
+      nunca fue un servicio regular
+    estado: VERIFICAR
+    fuente: Recopilación externa (cita documentación oficial de la concesión y
+      Leivag) · falta abrir las fuentes
+  - campo: Libreas
+    valor: La de Ferrocarriles Argentinos, luego FEMESA y Metrovías; una bordó y
+      gris claro llegó a unas cinco duplas
+    estado: VERIFICAR
+    fuente: Recopilación externa (cita documentación oficial de la concesión y
+      Leivag) · falta abrir las fuentes
+  - campo: Ejemplar
+    valor: "Unidad 14 - Lemos - Lacroze "
+    estado: DATO
+    fuente: Wikipedia
