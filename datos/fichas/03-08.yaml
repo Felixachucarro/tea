@@ -14,7 +14,7 @@ galeria:
   - imagen: img/tren urquiza plano lateral y frontal.png
     leyenda: Plano Lateral y frontal - Reconstrucción por IA
     ancha: false
-busqueda: urquiza general lemos
+busqueda: urquiza, general lemos
 datos:
   - campo: Coches
     valor: 128 coches Toshiba japoneses, desde 1974
@@ -89,4 +89,3 @@ datos:
     valor: "Unidad 14 - Lemos - Lacroze "
     estado: DATO
     fuente: Wikipedia
-  - {}
