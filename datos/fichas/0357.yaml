@@ -1,0 +1,33 @@
+codigo: "03.57"
+serie: "03"
+tipo: Ficha
+titulo: Toshiba - Tren Roca - M 4024
+periodo: "1983"
+estado: publicada
+imagen: img/toshiba tren roca - libra retro.png
+portada: img/toshiba tren roca - libra retro-1.png
+pie: Imagen frontal - Reconstrucción IA de la formación 4024
+datos:
+  - campo: Fabricante
+    valor: Nippon Sharyo / industria japonesa
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Fabricación
+    valor: "1982"
+    estado: DATO
+    fuente: Wikipedia
+  - campo: FLOTA
+    valor: "102 coches en Japón. Fabricaciones Militares hizo 54 coches en su planta
+      de San Martín. "
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Línea
+    valor: Roca
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: M 4024
+    estado: DATO
+    fuente: "Trenes por siempre: Compacto de noticias Nº 375 -Toshiba “retro” de la
+      Línea Roca. Estuvimos en Remedios de Escalada."
+    url: https://www.youtube.com/watch?v=jji64QBA0V4
