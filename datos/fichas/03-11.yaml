@@ -22,9 +22,32 @@ datos:
     fuente: Lectura de la imagen
   - campo: Modelo
     valor: CMM 400-2
-    estado: VERIFICAR
-    fuente: Falta fuente
+    estado: DATO
+    fuente: Wikipedia
+    url: https://es.wikipedia.org/wiki/Emepa_Alerce?utm_source=chatgpt.com
   - campo: Librea documentada
     valor: Blanca y celeste de Trenes Argentinos
     estado: DATO
     fuente: Relevamiento archivo.tea
+  - campo: Fabricación
+    valor: Año 2015
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Línea
+    valor: Ferrocarril General Belgrano — Ramal A1 / Tren de las Sierras
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Flota
+    valor: 11 EMEPA Alerce
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Operador
+    valor: Trenes Argentinos Operaciones
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: 2610 (2610.A + 2610.B)
+    estado: DATO
+    fuente: " Luciano Gonzalez - Alerce 2610 del Tren de las Sierras llegando a
+      Dumesnil"
+    url: https://www.youtube.com/watch?v=4nmsqJXYINY
