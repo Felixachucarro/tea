@@ -26,3 +26,11 @@ datos:
     valor: Trenes Argentinos
     estado: DATO
     fuente: Wikipedia
+  - campo: Ejemplar
+    valor: M13
+    estado: DATO
+    fuente: "Wikipedia "
+  - campo: "Línea "
+    valor: "Mitre (Tigre - Retiro) "
+    estado: DATO
+    fuente: Trenes Argentinos
