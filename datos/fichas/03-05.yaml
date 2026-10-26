@@ -11,6 +11,14 @@ galeria:
   - imagen: img/c0305.jpg
     leyenda: 01 · Imagen de trabajo
     ancha: false
+  - imagen: img/Lámina técnica del tren TBA 2201.png
+    leyenda: Plano Ortogonal - Recreación IA - Con Indicaciones basadas en fotos del
+      material rodante.
+    ancha: false
+  - imagen: img/Plano técnico de vagón ferroviario.png
+    leyenda: Plano Ortogonal - Recreación IA - Con Indicaciones basadas en fotos del
+      material rodante.
+    ancha: false
 nota_galeria: Frentes · Reconstrucción IA.
 busqueda: mu2201 toshiba tba
 datos:
