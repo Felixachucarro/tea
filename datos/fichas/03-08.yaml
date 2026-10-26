@@ -11,6 +11,9 @@ galeria:
   - imagen: img/Urquiza.png
     leyenda: Lateral tren
     ancha: true
+  - imagen: img/tren urquiza plano lateral y frontal.png
+    leyenda: Plano Lateral y frontal - Reconstrucción por IA
+    ancha: false
 busqueda: urquiza general lemos
 datos:
   - campo: Coches
