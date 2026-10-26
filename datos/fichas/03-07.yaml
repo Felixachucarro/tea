@@ -14,9 +14,12 @@ galeria:
   - imagen: img/Automotor diésel azul con estrella dorada.png
     leyenda: Vista 3/4 Librea FCA - Unidad 5968
     ancha: true
-  - imagen: img/Automotor diésel azul con estrella dorada-1.png
+  - imagen: img/Vagón diésel azul y blanco detallado.png
     leyenda: "Reconstrucción IA Vista Lateral "
     ancha: true
+  - imagen: img/Ferrobús vintage azul y blanco开号网址.png
+    leyenda: "reconstrucción Imagen de estudio IA "
+    ancha: false
 busqueda: gran capitan fiat materfer 7131 3171 tea lacroze posadas
 datos:
   - campo: Coche motor
@@ -71,3 +74,19 @@ datos:
       también la 7903
     estado: VERIFICAR
     fuente: Recopilación externa · falta abrir las fuentes
+  - campo: Ejemplar
+    valor: "5968"
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Flota
+    valor: "210 duplas originalmente. "
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Estado
+    valor: preservado — Ferroclub Argentino, Lynch.
+    estado: DATO
+    fuente: Ferroclub Lynch
+  - campo: Ejemplar
+    valor: 5968 - preservado — Ferroclub Argentino, Lynch.
+    estado: DATO
+    fuente: " Ferroclub Argentino, Lynch."
