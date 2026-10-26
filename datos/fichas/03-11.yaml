@@ -14,6 +14,9 @@ galeria:
   - imagen: img/Tren moderno de Trenes Argentinos.png
     leyenda: Plano Lateral con Librea trenes Argentinos - reconstrucción IA
     ancha: true
+  - imagen: img/Plano técnico ortográfico de cabina ferroviaria.png
+    leyenda: Plano técnico frente - cabina
+    ancha: true
 busqueda: materfer cmm 400 alerce trenes argentinos coche motor
 datos:
   - campo: Fabricante
