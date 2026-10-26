@@ -1,23 +1,23 @@
 codigo: "03.11"
 serie: "03"
 tipo: Ficha
-titulo: Materfer CMM 400-2 · Trenes Argentinos
-periodo: —
-estado: en investigación
+titulo: Alerce 2610 - Tren Metropolitano Cordoba
+periodo: "2015"
+estado: publicada
 imagen: img/t11a.jpg
 portada: img/t11a.jpg
 pie: Frente · Reconstrucción IA
 galeria:
   - imagen: img/Diagrama técnico de tren DMU articulado.png
-    leyenda: Plano Lateral
-    ancha: false
+    leyenda: Plano técnico - Lateral - Reconstrucción IA
+    ancha: true
   - imagen: img/Tren moderno de Trenes Argentinos.png
-    leyenda: Plano Lateral - reconstrucción IA
-    ancha: false
+    leyenda: Plano Lateral con Librea trenes Argentinos - reconstrucción IA
+    ancha: true
 busqueda: materfer cmm 400 alerce trenes argentinos coche motor
 datos:
   - campo: Fabricante
-    valor: Materfer, según el frente del coche
+    valor: Grupo EMEPA – Chascomús, Buenos Aires, Argentina
     estado: DATO1
     fuente: Lectura de la imagen
   - campo: Modelo
