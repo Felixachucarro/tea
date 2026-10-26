@@ -11,21 +11,38 @@ galeria:
   - imagen: img/0bb66364-59b1-46c2-a010-02d3fe4b4595.png
     leyenda: "Planos Laterales, superiores "
     ancha: false
-busqueda: gm gt22cw belgrano cargas 7774 belgrano norte locomotora
+busqueda: G22CU belgrano cargas 7774 belgrano norte locomotora
 datos:
-  - campo: Modelo
-    valor: General Motors GT22CW
+  - campo: Fabricante
+    valor: General Motors – Electro-Motive Division (EMD)
     estado: DATO
     fuente: Relevamiento archivo.tea
   - campo: Operador
     valor: Trenes Argentinos Cargas y Logística (Belgrano Cargas)
     estado: DATO
     fuente: Relevamiento archivo.tea
-  - campo: Otro uso
-    valor: Belgrano Norte la usa a menudo en trenes de pasajeros
+  - campo: Línea
+    valor: Ferrocarriles Argentinos – Línea Belgrano -Belgrano Norte la usa a menudo
+      en trenes de pasajeros
     estado: DATO
     fuente: Relevamiento archivo.tea
   - campo: Ejemplar documentado
     valor: Locomotora 7774
     estado: DATO
     fuente: Lectura de la imagen
+  - campo: Flota
+    valor: Serie 7700 / G22CU del Ferrocarril General Belgrano
+    estado: DATO
+    fuente: Leiva vehicles
+    url: https://leivag1991vehicles.blogspot.com/2022/10/1232-locomotoras-emd-gm-g22-en.html?utm_source=chatgpt.com
+  - campo: Operador
+    valor: |-
+      -Trenes Argentinos Cargas
+      -Ferrocarriles Argentinos – Línea Belgrano
+    estado: DATO
+    fuente: Leiva-vehicles
+    url: https://leivag1991vehicles.blogspot.com/2022/10/1232-locomotoras-emd-gm-g22-en.html?utm_source=chatgpt.com
+  - campo: Líneas
+    valor: Belgrano cargas - Belgrano Norte
+    estado: DATO
+    fuente: Relevamiento Archivo.tea
