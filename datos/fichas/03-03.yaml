@@ -1,7 +1,7 @@
 codigo: "03.03"
 serie: "03"
 tipo: Ficha
-titulo: "TBA - UMAP - V1 - Tren Mitre "
+titulo: "TBA - UMAP - V1 - UMAP 4-99 - Línea Mitre "
 periodo: 1995–2012
 estado: en investigación
 imagen: img/c0303.jpg
@@ -19,7 +19,7 @@ datos:
     estado: DATO1
     fuente: Wikipedia
     url: https://en.wikipedia.org/wiki/Trenes_de_Buenos_Aires
-  - campo: Material
+  - campo: Flota
     valor: "Unidades eléctricas Toshiba reconstruidas: 220 coches a febrero de 1999"
     estado: DATO1
     fuente: Wikipedia
@@ -34,3 +34,19 @@ datos:
     estado: DATO1
     fuente: Wikipedia
     url: https://en.wikipedia.org/wiki/Trenes_de_Buenos_Aires
+  - campo: Fabricante
+    valor: |-
+      Toshiba, Kawasaki, Nippon Sharyo, Kinki y Tokyu Car .
+      - Remodelación en 1998 por EMFER
+    estado: DATO
+    fuente: wikipedia
+    url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+  - campo: Operador
+    valor: "TBA "
+    estado: DATO
+    fuente: Wikipedia
+    url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+  - campo: Ejemplar
+    valor: Chapa 5 - Línea Mitre - Retiro-Tigre
+    estado: DATO
+    fuente: Wikipedia
