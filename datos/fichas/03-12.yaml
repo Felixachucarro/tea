@@ -1,27 +1,31 @@
-codigo: '03.12'
-serie: '03'
+codigo: "03.12"
+serie: "03"
 tipo: Ficha
-titulo: GM GT22CW · Belgrano Cargas
+titulo: GM G22 - 7774 - Cargas y logisticas
 periodo: —
 estado: en investigación
-imagen: img/t12.jpg
-portada: img/t12.jpg
+imagen: img/b0a59d68-bb06-421c-819d-aa94f40e83a2.png
+portada: img/b0a59d68-bb06-421c-819d-aa94f40e83a2-1.png
 pie: Frente · Reconstrucción IA
+galeria:
+  - imagen: img/0bb66364-59b1-46c2-a010-02d3fe4b4595.png
+    leyenda: "Planos Laterales, superiores "
+    ancha: false
 busqueda: gm gt22cw belgrano cargas 7774 belgrano norte locomotora
 datos:
-- campo: Modelo
-  valor: General Motors GT22CW
-  estado: DATO
-  fuente: Relevamiento archivo.tea
-- campo: Operador
-  valor: Trenes Argentinos Cargas y Logística (Belgrano Cargas)
-  estado: DATO
-  fuente: Relevamiento archivo.tea
-- campo: Otro uso
-  valor: Belgrano Norte la usa a menudo en trenes de pasajeros
-  estado: DATO
-  fuente: Relevamiento archivo.tea
-- campo: Ejemplar documentado
-  valor: Locomotora 7774
-  estado: DATO
-  fuente: Lectura de la imagen
+  - campo: Modelo
+    valor: General Motors GT22CW
+    estado: DATO
+    fuente: Relevamiento archivo.tea
+  - campo: Operador
+    valor: Trenes Argentinos Cargas y Logística (Belgrano Cargas)
+    estado: DATO
+    fuente: Relevamiento archivo.tea
+  - campo: Otro uso
+    valor: Belgrano Norte la usa a menudo en trenes de pasajeros
+    estado: DATO
+    fuente: Relevamiento archivo.tea
+  - campo: Ejemplar documentado
+    valor: Locomotora 7774
+    estado: DATO
+    fuente: Lectura de la imagen
