@@ -25,3 +25,14 @@ datos:
     valor: M 4062
     estado: DATO
     fuente: Wikipedia
+  - campo: "Fabricación "
+    valor: "1982"
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Flota
+    valor: Los primeros 102 coches fueron fabricados en el país asiático, y luego,
+      en 1985, Fabricaciones Militares produjo 54 coches en su planta de San
+      Martín. Posteriormente, Materfer construyó 28 coches "remolque prima" para
+      ampliar la capacidad original de las formaciones.
+    estado: DATO
+    fuente: Wikipedia
