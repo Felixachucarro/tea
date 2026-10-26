@@ -49,3 +49,20 @@ datos:
       en fuentes
     estado: VERIFICAR
     fuente: Falta fuente
+  - campo: Fabricación
+    valor: 1956–1963
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Flota
+    valor: 417 coches — 247 Sarmiento + 170 Mitre.
+    estado: DATO1
+    fuente: Minuto Uno
+    url: https://www.minutouno.com/sociedad/como-es-el-tren-que-choco-n160547?utm_source=chatgpt.com
+  - campo: Operador
+    valor: Trenes de Buenos Aires (TBA)
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: "2201"
+    estado: DATO
+    fuente: Wikipedia
