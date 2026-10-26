@@ -50,3 +50,10 @@ datos:
     valor: Chapa 5 - Línea Mitre - Retiro-Tigre
     estado: DATO
     fuente: Wikipedia
+  - campo: Fabricación
+    valor: |-
+      Japón: 1956-1962-1963
+      EMFER: 1973 - 1976
+      Protitopos UMAP "PUMAS" : 1999
+    estado: DATO
+    fuente: Wikipedia
