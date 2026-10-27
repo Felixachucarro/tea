@@ -73,7 +73,13 @@ h1{font:800 clamp(44px,7vw,92px)/.95 var(--f-display);letter-spacing:-.045em;mar
 .hoja>*{flex:none;min-width:0}
 .hoja .cab{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .cerrar{all:unset;cursor:pointer;font:500 12px var(--f-text);letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--linea);padding:9px 12px}
-.cab-b{display:flex;gap:8px;flex:none}.compartir{background:var(--tinta);color:var(--papel);border-color:var(--tinta)}.compartir[aria-busy="true"]{opacity:.6}
+.hist{display:flex;justify-content:flex-end;margin-top:4px}
+.hist button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:9px;font:600 13px var(--f-text);letter-spacing:.06em;text-transform:uppercase;padding:11px 16px;background:var(--tinta);color:#fff}
+.hist button i{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;flex:none}.hist button i svg{width:13px;height:13px}
+.hist .compartir i{background:linear-gradient(45deg,#feda75,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5)}
+.hist .descargar{display:none}.hist .descargar i{background:#fff;color:var(--tinta)}
+.hist button[aria-busy="true"]{opacity:.6}.hist button:focus-visible{outline:2px solid var(--celeste-tinta);outline-offset:3px}
+@media (hover:hover) and (pointer:fine){.hist .compartir{display:none}.hist .descargar{display:inline-flex}}
 .hoja h2{font:800 clamp(34px,5vw,56px)/.98 var(--f-display);letter-spacing:-.04em;margin:0;text-wrap:balance}
 .hoja .vistas{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:12px}
 .hoja .vistas div{background:var(--img);aspect-ratio:4/3;max-width:100%;display:grid;place-items:center;font:11px var(--f-mono);color:var(--gris);text-align:center;padding:8px}
@@ -481,11 +487,12 @@ function abrirFicha(p){const c=SERIES[p.s][1],G=f2grupos(p),todas=Object.values(
  let k=0;const mini=Object.entries(G).map(([t,xs])=>`<div class="f2-grupo"><h4>${t}<span>${xs.length||''}</span></h4><div class="f2-tiras">${xs.length?xs.map(([u,l])=>`<button data-f2="${k++}" aria-pressed="${u===pri[0]}" aria-label="${l}"><img src="${u}" alt="" loading="lazy"></button>`).join(''):`<span class="f2-vacio">${t==='Planos'?'Planos en camino':t==='En uso'?'Buscamos fotos':'Todavía no'}</span>`}</div></div>`).join('');
  window.F2=todas;
  $('#panel').classList.add('centro');
- $('#hoja').innerHTML=`<div class="cab"><span class="mono" style="font-size:12px;color:var(--gris)">${p.c} · ${SERIES[p.s][0]} · ${p.tipo}${p.est==='Próximamente'?' · en investigación':''}</span><span class="cab-b">${p.hv?`<button class="cerrar compartir" data-hv="${p.hv}" data-c="${p.c}" aria-label="Compartir en historias de Instagram">Compartir</button>`:''}<button class="cerrar" id="cerrar">Cerrar</button></span></div>
+ $('#hoja').innerHTML=`<div class="cab"><span class="mono" style="font-size:12px;color:var(--gris)">${p.c} · ${SERIES[p.s][0]} · ${p.tipo}${p.est==='Próximamente'?' · en investigación':''}</span><button class="cerrar" id="cerrar">Cerrar</button></div>
  <div class="fr" style="height:9px;display:flex;flex-direction:column;justify-content:space-between"><i style="height:3px;display:block;background:${c}"></i><i style="height:3px;display:block;background:${SERIES[p.s][2]||c}"></i></div>
  <h2 id="p-tit">${p.t}</h2>
  <div class="f2-grid">
   <div><figure class="f2-esc"><div class="marco" id="f2-marco"><div class="f2-modo" role="group" aria-label="Encuadre"><button data-f2m="det" aria-pressed="true">Detalle</button><button data-f2m="ent" aria-pressed="false">Completo</button></div><img id="f2-img" src="${pri[0]}" alt="${p.t}"></div><figcaption id="f2-cap">${pri[1]||''}</figcaption></figure>
+   ${p.hv?`<div class="hist"><button class="compartir" data-hv="${p.hv}" data-c="${p.c}"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M22 3 9.5 13.5M22 3l-7 18-5.5-7.5L2 9.5z"/></svg></i>Compartir en historia</button><button class="descargar" data-hv="${p.hv}" data-c="${p.c}"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></i>Descargar</button></div>`:''}
    <div class="f2-mini">${mini}</div>${p.galnota?`<p class="nota" style="margin:10px 0 0">${p.galnota}</p>`:''}</div>
   <aside class="f2-lado"><div class="f2-era"><b>${p.a&&p.a!=='—'?p.a:'Sin fechas'}</b>${f2vida(p)}</div>
    <dl class="f2-claves">${f2claves(p)}</dl>
@@ -508,6 +515,9 @@ function abrir(cod){const p=PIEZAS.find(x=>x.c===cod);if(!p)return;if(p.tipo==='
  $('#panel').hidden=false;$('#cerrar').focus();marcar(p);}
 const TIT0=document.title;
 function marcar(p){document.title=p.t+' · archivo.tea';const u=urlFicha(p.c);if(location.pathname!==u){try{history.pushState(null,'',u)}catch(e){}}}
+async function descargarPlaca(b){const nombre='archivotea-'+b.dataset.c.replace('.','-')+'.jpg';b.setAttribute('aria-busy','true');
+ try{const blob=await (await fetch('/'+b.dataset.hv)).blob();const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=nombre;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
+ catch(e){window.open('/'+b.dataset.hv,'_blank')}finally{b.removeAttribute('aria-busy')}}
 async function compartirHistoria(b){
  const nombre='archivotea-'+b.dataset.c.replace('.','-')+'.jpg';b.setAttribute('aria-busy','true');
  try{const blob=await (await fetch('/'+b.dataset.hv)).blob();const archivo=new File([blob],nombre,{type:'image/jpeg'});
@@ -516,7 +526,7 @@ async function compartirHistoria(b){
  catch(e){window.open('/'+b.dataset.hv,'_blank')}
  finally{b.removeAttribute('aria-busy')}}
 function cerrar(){$('#panel').hidden=true;document.title=TIT0.includes(' · archivo.tea')?'archivo.tea · Archivo visual del transporte argentino':TIT0;const fe=document.getElementById('ficha-estatica');if(fe)fe.remove();if(location.pathname!=='/'){try{history.pushState(null,'','/#archivo')}catch(e){}}else{try{history.replaceState(null,'','#archivo')}catch(e){}}}
-document.addEventListener('click',e=>{const cmp=e.target.closest('.compartir');if(cmp){compartirHistoria(cmp);return;}const f=e.target.closest('.chip[data-f]');if(f){filtro=f.dataset.f;filtros();render();}
+document.addEventListener('click',e=>{const cmp=e.target.closest('.hist .compartir');if(cmp){compartirHistoria(cmp);return;}const dsc=e.target.closest('.hist .descargar');if(dsc){descargarPlaca(dsc);return;}const f=e.target.closest('.chip[data-f]');if(f){filtro=f.dataset.f;filtros();render();}
  const t=e.target.closest('.ficha,.indice tr[data-c]');if(t){if(t.tagName==='A'&&(e.ctrlKey||e.metaKey||e.shiftKey))return;e.preventDefault();abrir(t.dataset.c);}
  const dd=e.target.closest('[data-d]');if(dd){dec=dd.dataset.d;filtros();render();}
  const md=e.target.closest('[data-modo]');if(md){modo=md.dataset.modo;filtros();render();}
