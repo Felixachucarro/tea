@@ -230,6 +230,133 @@ def casilleros_llenos(s, filas):
     return llenos, len(claves)
 
 
+# ---------- infografía horizontal para descargar desde la compu ----------
+NOM_CLAVES = {'02': ['Carrocería', 'Chasis', 'Motor', 'Potencia', 'Medidas', 'Ejemplar'],
+              '03': ['Fabricante', 'Fabricación', 'Líneas', 'Flota', 'Operador', 'Ejemplar'],
+              '04': ['Motor', 'Potencia', 'Producción', 'Origen'], '05': ['Producción', 'Motor', 'Unidades', 'Planta'],
+              '06': ['Modelo', 'Uso', 'Años']}
+FUERTES = {'02': ['Potencia', 'Medidas', 'Ejemplar'], '03': ['Fabricación', 'Flota', 'Ejemplar'], '04': ['Potencia', 'Producción'],
+           '05': ['Producción', 'Unidades'], '06': ['Años']}
+COLOR_SERIE = {'00': '#68a6d5', '01': '#6a4c93', '02': '#e2a517', '03': '#b8322a', '04': '#2f6e4a', '05': '#1f5a96', '06': '#4a5560'}
+
+
+def _corto(v, f, ancho, n=2):
+    v = re.split(r'\s*[(;]|\.\s', v)[0].strip().rstrip('.,: ') or v
+    while len(partir_h(v, f, ancho)) > n and ',' in v: v = v.rsplit(',', 1)[0].strip()
+    ls = partir_h(v, f, ancho)
+    if len(ls) > n: ls = ls[:n]; ls[-1] = ls[-1].rstrip(',;-– ') + '…'
+    return ls
+
+
+def _encajar(im, w, h):
+    k = min(w / im.width, h / im.height); return im.resize((max(1, round(im.width * k)), max(1, round(im.height * k))), Image.LANCZOS)
+
+
+def _grano(im, semilla):
+    a = np.asarray(im.convert('RGB')).astype(np.float32) / 255
+    g = np.random.default_rng(semilla).random(a.shape[:2], dtype=np.float32)[..., None] - .5
+    m = 4 * a * (1 - a) * (a.max(2, keepdims=True) < .96)
+    return Image.fromarray(np.clip((a + g * m * 22 / 255 * 4) * 255, 0, 255).astype(np.uint8))
+
+
+SERIES_I = {str(k): v for k, v in yaml.safe_load(open(os.path.join(R, 'datos', 'series.yaml'), encoding='utf-8')).items()}
+
+
+def infografia(p):
+    """1920×1080: el frente con su plano a la izquierda; a la derecha el nombre, los datos fuertes en grande y el resto."""
+    W, H, M = 1920, 1080, 80
+    cod = p['c']; semilla = int(hashlib.md5(cod.encode()).hexdigest()[:8], 16)
+    im = Image.new('RGB', (W, H), 'white'); dr = ImageDraw.Draw(im)
+    mono = fuente_h('JetBrainsMono-Regular.ttf', 22)
+    logo = Image.open(os.path.join(FUENTES, 'logo-tea.png')).convert('RGBA').resize((52, 52), Image.LANCZOS)
+    im.paste(logo, (M, 46), logo)
+    dr.text((M + 68, 72), 'archivo.tea', font=fuente_h('InterDisplay-Bold.otf', 30), fill=H_TINTA, anchor='lm')
+    dr.text((W - M, 72), f'{cod} · {SERIES_I[p["s"]]["nombre"]}', font=mono, fill=H_GRIS, anchor='rm')
+    c1 = SERIES_I[p['s']].get('color', ''); c2 = SERIES_I[p['s']].get('color2')
+    colores = [c1 if str(c1).startswith('#') else COLOR_SERIE.get(p['s'], '#68a6d5')] + ([c2] if c2 else [])
+    for i, c in enumerate(colores): dr.rectangle((M, 120 + i * 10, W - M, 124 + i * 10), fill=c)
+    # izquierda: el frente y, abajo, un plano o la vista lateral
+    col_izq, y0, y1 = 1000, 170, H - 70
+    gal = p.get('gal') or []
+    planos = [g for g in gal if re.search('plano', _norm(g[1]))]
+    laterales = [g for g in gal if re.search('lateral', _norm(g[1])) and g not in planos]
+    abajo = (planos or laterales or [None])[0]
+    frente = _grano(recorte(os.path.join(OUT, p['img'])), semilla)
+    if abajo:
+        b = _encajar(recorte(os.path.join(OUT, abajo[0])), col_izq, 300)
+        f = _encajar(frente, col_izq, y1 - y0 - b.height - 70)
+        im.paste(f, (M + (col_izq - f.width) // 2, y0 + (y1 - y0 - b.height - 70 - f.height) // 2 + 10))
+        im.paste(b if planos else _grano(b, semilla), (M + (col_izq - b.width) // 2, y1 - b.height - 26))
+        dr.text((M, y1 - 10), re.sub(r'^\d+\s*·\s*', '', abajo[1]), font=fuente_h('Inter-Regular.otf', 18), fill=H_GRIS, anchor='ls')
+    else:
+        f = _encajar(frente, col_izq, y1 - y0 - 30)
+        im.paste(f, (M + (col_izq - f.width) // 2, y0 + (y1 - y0 - 30 - f.height) // 2))
+    # derecha
+    x = M + col_izq + 90; ancho = W - M - x
+    fn = fuente_h('InterDisplay-ExtraBold.otf', 62); ls = partir_h(p['t'], fn, ancho)
+    if len(ls) > 2: fn = fuente_h('InterDisplay-ExtraBold.otf', 50); ls = partir_h(p['t'], fn, ancho)[:3]
+    y = 196
+    for l in ls: dr.text((x, y), l, font=fn, fill=H_TINTA); y += int(fn.size * 1.08)
+    fab = next((r[1] for r in p['d'] if re.match(r'fabricaci', _norm(r[0]))), '')
+    if p['a'] and p['a'] not in ('—', 'Sin fecha') and not fab.startswith(p['a']):
+        dr.text((x, y + 14), p['a'], font=mono, fill=H_GRIS); y += 74
+    else: y += 34
+    fe = fuente_h('Inter-Medium.otf', 15)
+    usados, dat = set(), {}
+    for nombre, patron in zip(NOM_CLAVES.get(p['s'], NOM_CLAVES['02']), CASILLEROS.get(p['s'], CASILLEROS['02'])):
+        i = next((j for j, r in enumerate(p['d']) if j not in usados and re.search(patron, _norm(r[0]))), None)
+        if i is None or p['d'][i][2] == 'SIN DATO' or re.fullmatch(r'[—-]?', p['d'][i][1].strip()): continue
+        usados.add(i); dat[nombre] = re.sub(r'<[^>]+>', '', p['d'][i][1])
+    fuertes = [e for e in FUERTES.get(p['s'], []) if e in dat]
+    if fuertes:
+        dr.line((x, y, W - M, y), fill=H_TINTA, width=3); y += 26
+        col = ancho // len(fuertes); fs = fuente_h('InterDisplay-Bold.otf', 20)
+        crudos = []
+        for e in fuertes:
+            v = re.split(r'\s*[(;,:]|\.\s', dat[e])[0].strip().rstrip('.: ')
+            m = re.match(r'(\d[\d.]*)\s+(.+)', v) if e in ('Flota', 'Unidades') else None
+            if m: crudos.append((e, m.group(1), m.group(2)))
+            elif e in ('Flota', 'Unidades') and re.match(r'\d+:', dat[e]):
+                campo = next((r[0] for r in p['d'] if re.search(r'(flota|^coches|cantidad|unidades)', _norm(r[0]))), '')
+                crudos.append((e, dat[e].split(':')[0], campo.lower()))
+            else: crudos.append((e, v, ''))
+        # el tamaño más grande con el que todos entran en su columna
+        for t in (46, 42, 38, 34, 30):
+            ff = fuente_h('InterDisplay-ExtraBold.otf', t)
+            bloques = [(e, partir_h(v, ff, col - 28) if not sub else [v], _corto(sub, fs, col - 28, 1)[0] if sub else '') for e, v, sub in crudos]
+            if all(len(lv) <= 2 and max(ff.getlength(l) for l in lv) <= col - 28 for _, lv, _ in bloques): break
+        bloques = [(e, (lv if len(lv) <= 2 else lv[:1] + [lv[1].rstrip(',;-– ') + '…']), sub) for e, lv, sub in bloques]
+        paso = int(ff.size * 1.09); alto = 0
+        for e, lv, sub in bloques: alto = max(alto, len(lv) + (.6 if sub else 0))
+        alto = int(alto + .99)
+        for k, (e, lv, sub) in enumerate(bloques):
+            xx = x + k * col; yy = y
+            if k: dr.line((xx - 14, y, xx - 14, y + alto * paso + 28), fill=H_LINEA, width=2)
+            for l in lv: dr.text((xx, yy), l, font=ff, fill=H_TINTA); yy += paso
+            if sub: dr.text((xx, yy + 2), sub, font=fs, fill=H_TINTA)
+            dr.text((xx, y + alto * paso + 8), e.upper(), font=fe, fill=H_GRIS)
+        y += alto * paso + 56
+    fv = fuente_h('InterDisplay-Bold.otf', 27)
+    resto = [(e, dat[e]) for e in NOM_CLAVES.get(p['s'], []) if e in dat and e not in fuertes]
+    disp = y1 - 104 - y; filas = []
+    for n in (2, 1):
+        filas = [(e, _corto(v, fv, ancho, n)) for e, v in resto]
+        if sum(48 + 34 * len(l) for _, l in filas) <= disp: break
+    for e, lv in filas:
+        if y + 48 + 34 * len(lv) > y1 - 104: break
+        dr.line((x, y, W - M, y), fill=H_LINEA, width=2)
+        dr.text((x, y + 12), e.upper(), font=fe, fill=H_GRIS)
+        yy = y + 34
+        for l in lv: dr.text((x, yy), l, font=fv, fill=H_TINTA); yy += 34
+        y = yy + 14
+    dr.text((x, y1 - 76), 'La ficha completa, con fuentes, en', font=fuente_h('Inter-Regular.otf', 20), fill=H_GRIS)
+    dr.text((x, y1 - 6), f'archivotea.ar/archivo/{cod.replace(".", "-")}', font=fuente_h('InterDisplay-Bold.otf', 30), fill=H_TINTA, anchor='ls')
+    dst = f'img/infografias/{cod.replace(".", "-")}.jpg'
+    os.makedirs(os.path.join(OUT, 'img', 'infografias'), exist_ok=True)
+    im.save(os.path.join(OUT, dst), quality=88)
+    return dst
+
+
 # ---------- fichas ----------
 def pieza(f):
     p = {'c': str(f['codigo']), 's': str(f['serie']), 't': str(f['titulo']).strip(), 'a': str(f.get('periodo') or 'Sin fecha').strip(),
@@ -260,6 +387,7 @@ def pieza(f):
         p['og'] = vista_previa(orig, p['c'].replace('.', '-'))
         corto = str(f.get('nombre_corto') or '').strip() or (p['t'].split(' · ')[0] if ' · ' in p['t'] else p['t'])
         p['hv'] = placa_historia(p, corto)
+        p['iv'] = infografia(p)
     p['_archivo'] = f['_archivo']
     return p
 
@@ -485,6 +613,7 @@ def ficha_escrita(p):
             + (f'<h2>Imágenes</h2><ul>{gal}</ul>' if gal else '')
             + (f'<p class="fe-meta">{esc(p["galnota"])}</p>' if p.get('galnota') else '')
             + (f'<p><a href="/{p["hv"]}">Placa para compartir en historias</a></p>' if p.get('hv') else '')
+            + (f'<p><a href="/{p["iv"]}">Infografía para descargar</a></p>' if p.get('iv') else '')
             + '<p><a href="/#archivo">Ver todo el archivo</a></p></article>')
 
 
