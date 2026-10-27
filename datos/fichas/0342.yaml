@@ -1,0 +1,36 @@
+codigo: "03.42"
+serie: "03"
+tipo: Ficha
+titulo: CSR - Línea Mitre
+periodo: 2014-hoy
+estado: publicada
+imagen: img/1000364294.png
+portada: img/1000364294-1.png
+pie: Coche M13 csr de la línea mitre
+nota_galeria: Reconstrucción IA
+busqueda: CSR, CHINA, LÍNEA MITRE
+datos:
+  - campo: Fabricante
+    valor: CSR Qingdao Sifang Co., Ltd.
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Fabricación
+    valor: 2014-2015
+    estado: DATO
+    fuente: Wikipedia, Trenes Argentinos
+  - campo: Flota
+    valor: 30 formaciones x 6 coches
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Operador
+    valor: Trenes Argentinos
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: M13
+    estado: DATO
+    fuente: "Wikipedia "
+  - campo: "Línea "
+    valor: "Mitre (Tigre - Retiro) "
+    estado: DATO
+    fuente: Trenes Argentinos

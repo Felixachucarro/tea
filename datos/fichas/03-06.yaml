@@ -1,41 +1,62 @@
-codigo: '03.06'
-serie: '03'
+codigo: "03.06"
+serie: "03"
 tipo: Ficha
 titulo: Locomotora del San Martín
 periodo: 2013–hoy
-estado: en investigación
+estado: publicada
 imagen: img/c0306.jpg
 portada: img/c0306.jpg
 pie: Vista frontal, imagen de trabajo
+galeria:
+  - imagen: img/3c071773-04ee-4818-8da6-b67b3dd72f6d.png
+    leyenda: "Plano Lateral y superior - Reconstrucción IA "
+    ancha: true
+  - imagen: img/Diagrama técnico de locomotora LSM-1.png
+    leyenda: Plano Lateral - Librea LSM
+    ancha: true
+nota_galeria: "Reconstrucción IA - frontal - Plano lateral "
 busqueda: locomotora san martin lsm
 datos:
-- campo: Modelo
-  valor: CSR SDD7, diésel-eléctrica
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/CSR_SDD7
-- campo: Fabricante
-  valor: CSR Qishuyan, China
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/CSR_SDD7
-- campo: Unidades
-  valor: '24: toda la flota del San Martín'
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/CSR_SDD7
-- campo: Motor
-  valor: Caterpillar 3516B · 2.249 HP
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/CSR_SDD7
-- campo: Coches
-  valor: 160 coches CSR; renovación completa en abril de 2014
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/San_Mart%C3%ADn_Line
-- campo: Recorrido
-  valor: Retiro – Dr. Cabred · 72,5 km · 22 estaciones · única línea de trocha ancha porteña sin electrificar
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://en.wikipedia.org/wiki/San_Mart%C3%ADn_Line
+  - campo: Modelo
+    valor: CSR SDD7, diésel-eléctrica
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/CSR_SDD7
+  - campo: Fabricante
+    valor: CSR Qishuyan, China
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/CSR_SDD7
+  - campo: Unidades
+    valor: "24: toda la flota del San Martín"
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/CSR_SDD7
+  - campo: Motor
+    valor: Caterpillar 3516B · 2.249 HP
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/CSR_SDD7
+  - campo: Coches
+    valor: 160 coches CSR; renovación completa en abril de 2014
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/San_Mart%C3%ADn_Line
+  - campo: Recorrido
+    valor: Retiro – Dr. Cabred · 72,5 km · 22 estaciones · única línea de trocha
+      ancha porteña sin electrificar
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://en.wikipedia.org/wiki/San_Mart%C3%ADn_Line
+  - campo: Operador
+    valor: Trenes Argentinos - Línea San Martín
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Fabricación
+    valor: "2013"
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: Reconstrucción basada en la locomotora B 790 de la Línea San Martín
+    estado: DATO
+    fuente: Wikipedia

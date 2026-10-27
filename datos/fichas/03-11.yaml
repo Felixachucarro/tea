@@ -1,23 +1,56 @@
-codigo: '03.11'
-serie: '03'
+codigo: "03.11"
+serie: "03"
 tipo: Ficha
-titulo: Materfer CMM 400-2 · Trenes Argentinos
-periodo: —
-estado: en investigación
+titulo: Alerce 2610 - Tren Metropolitano Cordoba
+periodo: 2015-hoy
+estado: publicada
 imagen: img/t11a.jpg
 portada: img/t11a.jpg
 pie: Frente · Reconstrucción IA
+galeria:
+  - imagen: img/Diagrama técnico de tren DMU articulado.png
+    leyenda: Plano técnico - Lateral - Reconstrucción IA
+    ancha: true
+  - imagen: img/Tren moderno de Trenes Argentinos.png
+    leyenda: Plano Lateral con Librea trenes Argentinos - reconstrucción IA
+    ancha: true
+  - imagen: img/Plano técnico ortográfico de cabina ferroviaria.png
+    leyenda: Plano técnico frente - cabina
+    ancha: true
 busqueda: materfer cmm 400 alerce trenes argentinos coche motor
 datos:
-- campo: Fabricante
-  valor: Materfer, según el frente del coche
-  estado: DATO1
-  fuente: Lectura de la imagen
-- campo: Modelo
-  valor: CMM 400-2
-  estado: VERIFICAR
-  fuente: Falta fuente
-- campo: Librea documentada
-  valor: Blanca y celeste de Trenes Argentinos
-  estado: DATO
-  fuente: Relevamiento archivo.tea
+  - campo: Fabricante
+    valor: Grupo EMEPA – Chascomús, Buenos Aires, Argentina
+    estado: DATO1
+    fuente: Lectura de la imagen
+  - campo: Modelo
+    valor: CMM 400-2
+    estado: DATO
+    fuente: Wikipedia
+    url: https://es.wikipedia.org/wiki/Emepa_Alerce?utm_source=chatgpt.com
+  - campo: Librea documentada
+    valor: Blanca y celeste de Trenes Argentinos
+    estado: DATO
+    fuente: Relevamiento archivo.tea
+  - campo: Fabricación
+    valor: Año 2015
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Línea
+    valor: Ferrocarril General Belgrano — Ramal A1 / Tren de las Sierras
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Flota
+    valor: 11 EMEPA Alerce
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Operador
+    valor: Trenes Argentinos Operaciones
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: 2610 (2610.A + 2610.B)
+    estado: DATO
+    fuente: " Luciano Gonzalez - Alerce 2610 del Tren de las Sierras llegando a
+      Dumesnil"
+    url: https://www.youtube.com/watch?v=4nmsqJXYINY

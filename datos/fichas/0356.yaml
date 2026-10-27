@@ -1,0 +1,38 @@
+codigo: "03.56"
+serie: "03"
+tipo: Ficha
+titulo: "Toshiba - Tren Roca - M 4062 "
+periodo: 1982-hoy
+estado: publicada
+imagen: img/toshiba tren roca - librea actual.png
+portada: img/toshiba tren roca - librea actual-1.png
+pie: Frontal - M4063 - Reconstrucción IA
+nota_galeria: Reconstrucción IA
+datos:
+  - campo: Fabricante
+    valor: Nippon Sharyo / industria japonesa
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Línea
+    valor: Roca
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Operador
+    valor: Trenes Argentinos
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: M 4062
+    estado: DATO
+    fuente: Wikipedia
+  - campo: "Fabricación "
+    valor: "1982"
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Flota
+    valor: Los primeros 102 coches fueron fabricados en el país asiático, y luego,
+      en 1985, Fabricaciones Militares produjo 54 coches en su planta de San
+      Martín. Posteriormente, Materfer construyó 28 coches "remolque prima" para
+      ampliar la capacidad original de las formaciones.
+    estado: DATO
+    fuente: Wikipedia

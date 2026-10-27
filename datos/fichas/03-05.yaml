@@ -1,53 +1,76 @@
-codigo: '03.05'
-serie: '03'
+codigo: "03.05"
+serie: "03"
 tipo: Ficha
 titulo: Toshiba MU 2201
 periodo: 1956–2015
-estado: en investigación
+estado: publicada
 imagen: img/c0305.jpg
 portada: img/c0305.jpg
 pie: Vista frontal, imagen de trabajo
 galeria:
-- imagen: img/c0305.jpg
-  leyenda: 01 · Imagen de trabajo
-- imagen: img/t05m.jpg
-  leyenda: 02 · Línea Mitre, Ferrocarriles Argentinos
-- imagen: img/t05r.jpg
-  leyenda: 03 · Línea Roca, «Ezeiza», librea de Ferrocarriles Argentinos
+  - imagen: img/c0305.jpg
+    leyenda: 01 · Imagen de trabajo
+    ancha: false
+  - imagen: img/Lámina técnica del tren TBA 2201.png
+    leyenda: Plano Ortogonal - Recreación IA - Con Indicaciones basadas en fotos del
+      material rodante.
+    ancha: false
+  - imagen: img/Plano técnico de vagón ferroviario.png
+    leyenda: Plano Ortogonal - Recreación IA - Con Indicaciones basadas en fotos del
+      material rodante.
+    ancha: false
 nota_galeria: Frentes · Reconstrucción IA.
 busqueda: mu2201 toshiba tba
 datos:
-- campo: Fabricantes
-  valor: Toshiba, Kawasaki, Nippon Sharyo, Kinki y Tokyu Car (Japón)
-  estado: DATO
-  fuente: Wikipedia · Mis Días en la Vía
-  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
-- campo: Pedido
-  valor: '1950'
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
-- campo: Presentación
-  valor: 3 de junio de 1956, en el Sarmiento
-  estado: DATO1
-  fuente: Wikipedia
-  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
-- campo: Fabricación
-  valor: 1956–1973; Fabricaciones Militares sumó coches en 1973 y 1976
-  estado: DATO1
-  fuente: Mis Días en la Vía · Wikipedia
-  url: https://misdiasenlavia1.blogspot.com/2014/09/adios-los-toshiba-en-el-sarmiento.html
-- campo: Líneas
-  valor: Sarmiento y Mitre
-  estado: DATO
-  fuente: Wikipedia · Mis Días en la Vía
-  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
-- campo: Retiro
-  valor: 'Sarmiento: septiembre de 2014 · Mitre: marzo de 2015'
-  estado: DATO
-  fuente: Wikipedia · Mis Días en la Vía
-  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
-- campo: «MU 2201»
-  valor: Número visible en la unidad de la imagen; no encontramos la designación en fuentes
-  estado: VERIFICAR
-  fuente: Falta fuente
+  - campo: Fabricantes
+    valor: Toshiba, Kawasaki, Nippon Sharyo, Kinki y Tokyu Car (Japón)
+    estado: DATO
+    fuente: Wikipedia · Mis Días en la Vía
+    url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+  - campo: Pedido
+    valor: "1950"
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+  - campo: Presentación
+    valor: 3 de junio de 1956, en el Sarmiento
+    estado: DATO1
+    fuente: Wikipedia
+    url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+  - campo: Fabricación
+    valor: 1956–1973; Fabricaciones Militares sumó coches en 1973 y 1976
+    estado: DATO1
+    fuente: Mis Días en la Vía · Wikipedia
+    url: https://misdiasenlavia1.blogspot.com/2014/09/adios-los-toshiba-en-el-sarmiento.html
+  - campo: Líneas
+    valor: Sarmiento y Mitre
+    estado: DATO
+    fuente: Wikipedia · Mis Días en la Vía
+    url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+  - campo: Retiro
+    valor: "Sarmiento: septiembre de 2014 · Mitre: marzo de 2015"
+    estado: DATO
+    fuente: Wikipedia · Mis Días en la Vía
+    url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+  - campo: «MU 2201»
+    valor: Número visible en la unidad de la imagen; no encontramos la designación
+      en fuentes
+    estado: VERIFICAR
+    fuente: Falta fuente
+  - campo: Fabricación
+    valor: 1956–1963
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Flota
+    valor: 417 coches — 247 Sarmiento + 170 Mitre.
+    estado: DATO1
+    fuente: Minuto Uno
+    url: https://www.minutouno.com/sociedad/como-es-el-tren-que-choco-n160547?utm_source=chatgpt.com
+  - campo: Operador
+    valor: Trenes de Buenos Aires (TBA)
+    estado: DATO
+    fuente: Wikipedia
+  - campo: Ejemplar
+    valor: "2201"
+    estado: DATO
+    fuente: Wikipedia

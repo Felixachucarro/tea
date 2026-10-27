@@ -1,0 +1,11 @@
+codigo: "03.51"
+serie: "03"
+tipo: Ficha
+titulo: ALCO - RSD16 - 8515 - Ferrocarril Mitre
+periodo: "1990"
+estado: en investigación
+imagen: img/1000364345.png
+portada: img/1000364345-1.png
+galeria:
+  - imagen: img/RSD16 plano - Alco.png
+    ancha: false

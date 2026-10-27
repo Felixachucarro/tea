@@ -3,7 +3,7 @@ serie: "03"
 tipo: Ficha
 titulo: Subte · Línea H - Alstom Metropolis Serie 300
 periodo: 2007–hoy
-estado: en investigación
+estado: publicada
 imagen: img/c0301.jpg
 portada: img/c0301.jpg
 pie: Vista frontal, imagen de trabajo
@@ -43,7 +43,7 @@ datos:
     estado: DATO1
     fuente: Wikipedia
     url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
-  - campo: Coches
+  - campo: Fabricación
     valor: Alstom Metropolis, serie 300, fabricados en São Paulo
     estado: DATO1
     fuente: Wikipedia
@@ -69,3 +69,13 @@ datos:
     estado: DATO1
     fuente: Wikipedia
     url: https://en.wikipedia.org/wiki/Line_H_(Buenos_Aires_Underground)
+  - campo: Fabricante
+    valor: Alstom (Brasil)
+    estado: DATO
+    fuente: Wikipedia, web de Alstom
+    url: https://es.wikipedia.org/wiki/Serie_300_%28subte_de_Buenos_Aires%29?wprov=sfla1
+  - campo: Operador
+    valor: Emova, Subte
+    estado: DATO
+    fuente: Wikipedia, Emova
+    url: https://es.wikipedia.org/wiki/Serie_300_%28subte_de_Buenos_Aires%29?wprov=sfla1
