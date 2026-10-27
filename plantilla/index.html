@@ -73,13 +73,19 @@ h1{font:800 clamp(44px,7vw,92px)/.95 var(--f-display);letter-spacing:-.045em;mar
 .hoja>*{flex:none;min-width:0}
 .hoja .cab{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .cerrar{all:unset;cursor:pointer;font:500 12px var(--f-text);letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--linea);padding:9px 12px}
-.hist{display:flex;justify-content:flex-end;margin-top:4px}
-.hist button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:9px;font:600 13px var(--f-text);letter-spacing:.06em;text-transform:uppercase;padding:11px 16px;background:var(--tinta);color:#fff}
-.hist button i{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;flex:none}.hist button i svg{width:13px;height:13px}
-.hist .compartir i{background:linear-gradient(45deg,#feda75,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5)}
-.hist .descargar{display:none}.hist .descargar i{background:#fff;color:var(--tinta)}
+.hist{display:contents}
+/* celular: botón flotante con el avión de Instagram, abajo a la derecha */
+.hist .compartir{all:unset;cursor:pointer;position:fixed;z-index:30;right:max(18px,env(safe-area-inset-right,0px));bottom:calc(22px + env(safe-area-inset-bottom,0px));width:58px;height:58px;border-radius:50%;display:grid;place-items:center;color:#fff;background:linear-gradient(45deg,#feda75,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5);box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.hist .compartir svg{width:24px;height:24px}
+.panel.centro .hoja{padding-bottom:96px}
+.hist .descargar{display:none}
 .hist button[aria-busy="true"]{opacity:.6}.hist button:focus-visible{outline:2px solid var(--celeste-tinta);outline-offset:3px}
-@media (hover:hover) and (pointer:fine){.hist .compartir{display:none}.hist .descargar{display:inline-flex}}
+/* computadora (con mouse): «Descargar» fijo abajo al centro de la ventana */
+@media (hover:hover) and (pointer:fine){
+ .hist{display:flex;justify-content:center;position:sticky;bottom:0;margin-top:auto;pointer-events:none;padding-block:4px 0}
+ .hist .compartir{display:none}
+ .hist .descargar{all:unset;pointer-events:auto;cursor:pointer;display:inline-block;font:600 13px var(--f-text);letter-spacing:.08em;text-transform:uppercase;padding:13px 28px;background:var(--tinta);color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+ .panel.centro .hoja{padding-bottom:20px}}
 .hoja h2{font:800 clamp(34px,5vw,56px)/.98 var(--f-display);letter-spacing:-.04em;margin:0;text-wrap:balance}
 .hoja .vistas{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:12px}
 .hoja .vistas div{background:var(--img);aspect-ratio:4/3;max-width:100%;display:grid;place-items:center;font:11px var(--f-mono);color:var(--gris);text-align:center;padding:8px}
@@ -492,7 +498,6 @@ function abrirFicha(p){const c=SERIES[p.s][1],G=f2grupos(p),todas=Object.values(
  <h2 id="p-tit">${p.t}</h2>
  <div class="f2-grid">
   <div><figure class="f2-esc"><div class="marco" id="f2-marco"><div class="f2-modo" role="group" aria-label="Encuadre"><button data-f2m="det" aria-pressed="true">Detalle</button><button data-f2m="ent" aria-pressed="false">Completo</button></div><img id="f2-img" src="${pri[0]}" alt="${p.t}"></div><figcaption id="f2-cap">${pri[1]||''}</figcaption></figure>
-   ${p.hv?`<div class="hist"><button class="compartir" data-hv="${p.hv}" data-c="${p.c}"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M22 3 9.5 13.5M22 3l-7 18-5.5-7.5L2 9.5z"/></svg></i>Compartir en historia</button><button class="descargar" data-hv="${p.hv}" data-c="${p.c}"><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></i>Descargar</button></div>`:''}
    <div class="f2-mini">${mini}</div>${p.galnota?`<p class="nota" style="margin:10px 0 0">${p.galnota}</p>`:''}</div>
   <aside class="f2-lado"><div class="f2-era"><b>${p.a&&p.a!=='—'?p.a:'Sin fechas'}</b>${f2vida(p)}</div>
    <dl class="f2-claves">${f2claves(p)}</dl>
@@ -500,7 +505,7 @@ function abrirFicha(p){const c=SERIES[p.s][1],G=f2grupos(p),todas=Object.values(
  </div>
  ${p.d.length?`<details class="f2-todo"><summary>Todos los datos y sus fuentes <span>${p.d.length} datos</span></summary>${tablaDatos(p)}</details>`:'<p class="nota">Ficha en investigación: todavía no hay datos verificados para mostrar.</p>'}
  ${p.tl?`<div class="tl-w"><h3 style="margin:8px 0 10px;font:500 10px var(--f-text);letter-spacing:.1em;text-transform:uppercase;color:var(--gris)">Línea del tiempo</h3><ol class="tl">${p.tl.map(([an,n,nt,e,f,u])=>`<li><span class="an">${an}</span><b>${n}</b><span class="estado e-${e.replace(' ','')}">${e==='DATO1'?'DATO¹':e}</span>${nt?`<span class="nt">${nt}</span>`:''}<span class="nt fuente">${u?`<a href="${u}" target="_blank" rel="noopener">${f}</a>`:f}</span></li>`).join('')}</ol></div>`:''}
- <p class="nota">DATO: dos fuentes o una oficial · DATO¹: una sola fuente · VERIFICAR: hay contradicción o falta respaldo · ESTIMACIÓN: cálculo propio con los supuestos a la vista.</p>`;
+ <p class="nota">DATO: dos fuentes o una oficial · DATO¹: una sola fuente · VERIFICAR: hay contradicción o falta respaldo · ESTIMACIÓN: cálculo propio con los supuestos a la vista.</p>${p.hv?`<div class="hist"><button class="compartir" data-hv="${p.hv}" data-c="${p.c}" aria-label="Compartir en historia de Instagram" title="Compartir en historia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M22 3 9.5 13.5M22 3l-7 18-5.5-7.5L2 9.5z"/></svg></button><button class="descargar" data-hv="${p.hv}" data-c="${p.c}">Descargar</button></div>`:''}`;
  $('#panel').hidden=false;$('#cerrar').focus();marcar(p);}
 document.addEventListener('click',e=>{const m=e.target.closest('[data-f2m]');if(m){$('#f2-marco').classList.toggle('entero',m.dataset.f2m==='ent');document.querySelectorAll('[data-f2m]').forEach(x=>x.setAttribute('aria-pressed',x===m));return}const b=e.target.closest('[data-f2]');if(!b)return;const [u,l]=F2[+b.dataset.f2];
  $('#f2-img').src=u;$('#f2-cap').textContent=l||'';document.querySelectorAll('[data-f2]').forEach(x=>x.setAttribute('aria-pressed',x===b))});
