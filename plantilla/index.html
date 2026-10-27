@@ -1,7 +1,7 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="color-scheme" content="only light"><meta name="theme-color" content="#ffffff"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">__HEAD__
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="color-scheme" content="only light"><meta name="theme-color" content="#ffffff"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><script data-goatcounter="https://archivotea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>__HEAD__
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,800;1,800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,800;1,800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Barlow+Condensed:wght@400;600;700&display=swap">
 <style>
 /* Layout: archivo blanco y sobrio — barra fija, buscador como protagonista, grilla de fichas con franja de serie, ficha en panel. Un solo tema claro, por regla de marca (fondo blanco). */
 :root{
@@ -221,6 +221,24 @@ table.datos tr.pend td{color:var(--gris)}
 :root{color-scheme:only light}html,body{background:#fff}
 /* blog */
 .b-top{padding-block:clamp(36px,6vw,72px) 8px;display:grid;gap:18px}
+/* boleto: el contador de visitas del blog */
+.boleto-w{display:grid;justify-items:start;gap:12px;padding-bottom:clamp(20px,3vw,32px)}
+.bol{--papel:#efe5cc;--tinta:#2b2721;container-type:inline-size;position:relative;width:min(480px,100%);box-sizing:border-box;padding:3.4cqw 3.8cqw 3.4cqw 3.4cqw;background:var(--papel);color:var(--tinta);
+ display:grid;grid-template-columns:1fr auto;gap:2cqw;font-family:'Barlow Condensed','Arial Narrow',sans-serif;
+ background-image:radial-gradient(rgba(120,95,50,.10) 1px,transparent 1.3px);background-size:5px 5px;filter:drop-shadow(0 6px 14px rgba(60,45,20,.12));
+ -webkit-mask:radial-gradient(circle 5px at 0 50%,#0000 98%,#000) 0 0/100% 14px repeat-y,radial-gradient(circle 5px at 100% 50%,#0000 98%,#000) 0 0/100% 14px repeat-y;-webkit-mask-composite:source-in;
+ mask:radial-gradient(circle 5px at 0 50%,#0000 98%,#000) 0 0/100% 14px repeat-y,radial-gradient(circle 5px at 100% 50%,#0000 98%,#000) 0 0/100% 14px repeat-y;mask-composite:intersect}
+.bol .cu{border:2px solid var(--tinta);display:grid;grid-template-columns:3.4cqw 22cqw 1fr;grid-template-rows:auto auto 1fr}
+.bol .ba{grid-row:1/4;border-right:2px solid var(--tinta);background:repeating-linear-gradient(135deg,var(--tinta) 0 3px,transparent 3px 9px)}
+.bol .t1{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:700;letter-spacing:.06em;font-size:5.6cqw;line-height:1.15;padding:1.2cqw 1cqw}
+.bol .t2{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:400;font-size:3.1cqw;letter-spacing:.1em;padding:1.3cqw 1cqw;text-transform:uppercase;white-space:nowrap;overflow:hidden}
+.bol .pr{border-right:2px solid var(--tinta);display:grid;justify-items:center;align-content:center;gap:.6cqw;padding:2cqw 1cqw;text-align:center}
+.bol .pr small{font-size:2.6cqw;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}.bol .pr b{font-size:11cqw;line-height:1;font-weight:400}
+.bol .vi{display:grid;place-items:center;font-size:5cqw;font-weight:600;line-height:1.08;letter-spacing:.05em;text-align:center;padding:3cqw 2cqw;text-transform:uppercase}
+.bol .nu{writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;justify-content:space-between;gap:2cqw}
+.bol .nu small{font:400 2.8cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.1em}.bol .nu b{font:700 7cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.02em}
+.bol .se{position:absolute;top:-2cqw;left:-1cqw;width:23cqw;mix-blend-mode:multiply;opacity:.92;pointer-events:none}
+.boleto-w .pie{margin:0;font:12px var(--f-mono);color:var(--gris)}
 .b-top h1{font-size:clamp(44px,7vw,88px)}
 .act{border:1px solid var(--linea);padding:clamp(16px,2.4vw,28px);display:grid;gap:18px}
 .act-h{display:flex;flex-wrap:wrap;gap:10px 28px;align-items:baseline}
@@ -446,8 +464,8 @@ function render(){const nq=norm(q.trim());
 function indice(lista){$('#grilla').hidden=modo!=='grilla';$('#indice').hidden=modo!=='indice';
  if(modo!=='indice')return;
  $('#indice').innerHTML=`<table><thead><tr><th>Código</th><th>Nombre</th><th>Serie</th><th>Época</th></tr></thead><tbody>${lista.map(p=>{const a=SERIES[p.s][1],b=SERIES[p.s][2]||a;return `<tr class="${p.est==='Próximamente'?'prox':''}" data-c="${p.c}" tabindex="0"><td class="c">${p.c}</td><td class="t">${p.t}</td><td class="m"><span class="sw" style="--a:${a};--b:${b}"></span>${SERIES[p.s][0]}</td><td class="m">${era(p)}</td></tr>`}).join('')}</tbody></table>`;}
-function series(){if(!$('#series-l'))return;$('#series-l').innerHTML=Object.entries(SERIES).filter(([k])=>k!=='00'&&PIEZAS.some(p=>p.s===k)).map(([k,[n,a,b]])=>{const ps=PIEZAS.filter(p=>p.s===k),pub=ps.filter(p=>p.est==='Publicado').length;const d={'02':'Los colectivos que definieron cada década, del bondi con trompa al piso bajo.','03':'Subtes, trenes metropolitanos y de larga distancia, locomotoras y coches.','04':'Los camiones que mueven el país, de los primeros Scania a los actuales.','05':'Los autos y utilitarios que llenaron la calle, de la F-100 al Gol.','06':'Patrulleros, ambulancias y otros vehículos del Estado.'}[k]||'';return `<button class="serie-b" data-serie="${k}"><span class="fr" aria-hidden="true"><i style="background:${a}"></i><i style="background:${b||a}"></i></span><span><h3>${k} · ${n}</h3><p>${d}</p></span><span class="n">${pub?pub+' publicada'+(pub>1?'s':'')+' · ':''}${ps.length} fichas</span></button>`}).join('');}
-function vista(v){$('#v-inicio').hidden=v!=='inicio';$('#v-archivo').hidden=v!=='archivo';$('#v-blog').hidden=v!=='blog';document.querySelectorAll('nav.menu a').forEach(a=>{const on=(v==='archivo'&&a.dataset.v==='archivo')||(v==='blog'&&a.dataset.v==='blog')||(v==='inicio'&&a.getAttribute('href')==='#inicio');on?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current')});}
+function series(){if(!$('#series-l'))return;$('#series-l').innerHTML=Object.entries(SERIES).filter(([k])=>k!=='00'&&PIEZAS.some(p=>p.s===k)).map(([k,[n,a,b]])=>{const ps=PIEZAS.filter(p=>p.s===k),pub=ps.filter(p=>p.est==='Publicado').length;const d={'02':'Los colectivos que definieron cada década, del bondi con trompa al piso bajo.','03':'Subtes, trenes metropolitanos y de larga distancia, locomotoras y coches.','04':'Los camiones que mueven el país, de los primeros Scania a los actuales.','05':'Los autos y utilitarios que llenaron la calle, de la F-100 al Gol.','06':'Patrulleros, ambulancias y otros vehículos del Estado.'}[k]||'';return `<button class="serie-b" data-serie="${k}"><span class="fr" aria-hidden="true"><i style="background:${a}"></i><i style="background:${b||a}"></i></span><span><h3>${k} · ${n}</h3><p>${d}</p></span><span class="n">${pub?pub+' completa'+(pub>1?'s':'')+' · ':''}${ps.length} fichas</span></button>`}).join('');}
+function vista(v){$('#v-inicio').hidden=v!=='inicio';$('#v-archivo').hidden=v!=='archivo';$('#v-blog').hidden=v!=='blog';if(v==='blog')pasajero();document.querySelectorAll('nav.menu a').forEach(a=>{const on=(v==='archivo'&&a.dataset.v==='archivo')||(v==='blog'&&a.dataset.v==='blog')||(v==='inicio'&&a.getAttribute('href')==='#inicio');on?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current')});}
 function ruta(){const pm=location.pathname.match(/^\/archivo\/(\d\d)-(\d\d)\/?$/);if(pm){vista('archivo');abrir(pm[1]+'.'+pm[2]);return;}
  $('#panel').hidden=true;const h=location.hash||'#inicio';const m=h.match(/^#p-(\d\d)-(\d\d)$/);
  if(m){try{history.replaceState(null,'','/archivo/'+m[1]+'-'+m[2]+'/')}catch(e){}vista('archivo');abrir(m[1]+'.'+m[2]);return;}
@@ -487,13 +505,13 @@ function f2vida(p){const y=(p.a||'').match(/\d{4}/g);let a,b,abierto=false;
 function f2grupos(p){const G={Vistas:[],Planos:[],'Publicidad y folletos':[],'En uso':[]};
  // La imagen principal va siempre primera; la galería se suma después, sin reemplazarla.
  const princ=p.img||p.cover;const gal=[...(princ?[[princ,p.ig||'Frente']]:[]),...((p.gal||[]).filter(([u])=>u!==princ))];
- gal.forEach(([u,l])=>{const n=norm(l||'');(/plano/.test(n)?G.Planos:/(folleto|publicidad|ficha tecnica)/.test(n)?G['Publicidad y folletos']:/(fotograma|foto de|en uso)/.test(n)?G['En uso']:G.Vistas).push([u,l])});
+ gal.forEach(([u,l])=>{const n=norm(l||'');(/plano/.test(n)?G.Planos:/(folleto|publicidad|publicacion|revista|ficha tecnica)/.test(n)?G['Publicidad y folletos']:/(fotograma|foto de|en uso)/.test(n)?G['En uso']:G.Vistas).push([u,l])});
  return G}
 function abrirFicha(p){const c=SERIES[p.s][1],G=f2grupos(p),todas=Object.values(G).flat(),princ=p.img||p.cover,pri=todas.find(([u])=>u===princ)||todas[0]||[princ,''];
  let k=0;const mini=Object.entries(G).map(([t,xs])=>`<div class="f2-grupo"><h4>${t}<span>${xs.length||''}</span></h4><div class="f2-tiras">${xs.length?xs.map(([u,l])=>`<button data-f2="${k++}" aria-pressed="${u===pri[0]}" aria-label="${l}"><img src="${u}" alt="" loading="lazy"></button>`).join(''):`<span class="f2-vacio">${t==='Planos'?'Planos en camino':t==='En uso'?'Buscamos fotos':'Todavía no'}</span>`}</div></div>`).join('');
  window.F2=todas;
  $('#panel').classList.add('centro');
- $('#hoja').innerHTML=`<div class="cab"><span class="mono" style="font-size:12px;color:var(--gris)">${p.c} · ${SERIES[p.s][0]} · ${p.tipo}${p.est==='Próximamente'?' · en investigación':''}</span><button class="cerrar" id="cerrar">Cerrar</button></div>
+ $('#hoja').innerHTML=`<div class="cab"><span class="mono" style="font-size:12px;color:var(--gris)">${p.c} · ${SERIES[p.s][0]} · ${p.tipo}${p.est==='Próximamente'?' · en investigación'+(p.ck?` · ${p.ck[0]} de ${p.ck[1]} datos clave`:''):' · completa'}</span><button class="cerrar" id="cerrar">Cerrar</button></div>
  <div class="fr" style="height:9px;display:flex;flex-direction:column;justify-content:space-between"><i style="height:3px;display:block;background:${c}"></i><i style="height:3px;display:block;background:${SERIES[p.s][2]||c}"></i></div>
  <h2 id="p-tit">${p.t}</h2>
  <div class="f2-grid">
@@ -519,7 +537,9 @@ function abrir(cod){const p=PIEZAS.find(x=>x.c===cod);if(!p)return;if(p.tipo==='
  <p class="nota">DATO: dos fuentes o una oficial · DATO¹: una sola fuente · VERIFICAR: hay contradicción o falta respaldo · ESTIMACIÓN: cálculo propio con los supuestos a la vista.</p>`;
  $('#panel').hidden=false;$('#cerrar').focus();marcar(p);}
 const TIT0=document.title;
-function marcar(p){document.title=p.t+' · archivo.tea';const u=urlFicha(p.c);if(location.pathname!==u){try{history.pushState(null,'',u)}catch(e){}}}
+function marcar(p){document.title=p.t+' · archivo.tea';const u=urlFicha(p.c);if(location.pathname!==u){try{history.pushState(null,'',u)}catch(e){}try{window.goatcounter&&goatcounter.count&&goatcounter.count({path:u,title:document.title})}catch(e){}}}
+// boleto del blog: el total de visitas de GoatCounter (necesita «Allow adding visitor counts» en su configuración)
+function pasajero(){const el=document.getElementById('pasajero');if(!el||el.dataset.ok)return;el.dataset.ok=1;fetch('https://archivotea.goatcounter.com/counter/TOTAL.json').then(r=>r.ok?r.json():Promise.reject()).then(j=>{const n=parseInt(String(j.count).replace(/\D/g,''),10);if(n>0)el.textContent=String(n).padStart(6,'0')}).catch(()=>{})}
 async function descargarPlaca(b){const nombre='archivotea-'+b.dataset.c.replace('.','-')+'.jpg';b.setAttribute('aria-busy','true');
  try{const blob=await (await fetch('/'+b.dataset.hv)).blob();const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=nombre;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
  catch(e){window.open('/'+b.dataset.hv,'_blank')}finally{b.removeAttribute('aria-busy')}}

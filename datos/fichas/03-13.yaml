@@ -1,23 +1,89 @@
 codigo: '03.13'
 serie: '03'
 tipo: Ficha
-titulo: CSR eléctrico · Línea Roca
-periodo: —
+titulo: CSR Qingdao Sifang SFM24 · formación 152 · Línea Roca
+nombre_corto: CSR Roca
+periodo: Desde 2015
 estado: en investigación
 imagen: img/t13.jpg
 portada: img/t13.jpg
 pie: Frente · Reconstrucción IA
-busqueda: csr roca electrico pantografo
+busqueda: csr qingdao sifang crrc sfm24 sfm25 emu roca formacion 152 electrico pantografo 25 kv china
 datos:
 - campo: Fabricante
-  valor: CSR, China
-  estado: VERIFICAR
-  fuente: Falta fuente
-- campo: Línea
-  valor: Roca, eléctrico con pantógrafo
-  estado: DATO1
-  fuente: Lectura de la imagen
-- campo: Ejemplar documentado
-  valor: Coche 152 A
+  valor: CSR Qingdao Sifang, China; hoy CRRC Qingdao Sifang
   estado: DATO
-  fuente: Lectura de la imagen
+  fuente: Resolución 333/2013 + Crónica Ferroviaria + CRRC
+  url: https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-333-2013-221650/texto
+- campo: Fabricación
+  valor: 2014–2016
+  estado: DATO
+  fuente: Mexpedia + documentación técnica CSR
+  url: https://mexpedia.org/index.php/Unidad_el%C3%A9ctrica_m%C3%BAltiple_CSR_(Roca)
+- campo: Línea
+  valor: General Roca, ramales eléctricos de la zona sur
+  estado: DATO
+  fuente: Resolución 333/2013 + CRRC
+  url: https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-333-2013-221650/texto
+- campo: Flota
+  valor: 300 coches del primer contrato (44 formaciones de 3 y 42 de 4); después, 200 más para llegar a formaciones de 8
+  estado: DATO
+  fuente: Resolución 333/2013 + Senado de la Nación + CRRC
+  url: https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-333-2013-221650/texto
+- campo: Operador
+  valor: Trenes Argentinos Operaciones
+  estado: DATO1
+  fuente: SOFSE · informe de gestión
+  url: https://studylib.es/doc/6163074/informe-de-gesti%C3%B3n---trenes-argentinos-operadora-ferroviaria
+- campo: Ejemplar
+  valor: 'Formación 152: M2 5074 – R′ 5837 – R 5637 – M1 5073 + M2 5142 – R 5671 – M1 5141'
+  estado: DATO1
+  fuente: RailGallery
+  url: https://railgallery.ru/railcar/327191/
+- campo: Modelo
+  valor: SFM24, unidad eléctrica múltiple
+  estado: DATO
+  fuente: RailGallery + Mexpedia
+  url: https://mexpedia.org/index.php/Unidad_el%C3%A9ctrica_m%C3%BAltiple_CSR_(Roca)
+- campo: Composición
+  valor: 'Siete coches: una cuádrupla SFM24 (MC1+R1+R2+MC2) y una tripla SFM25 (MC1+R1+MC2)'
+  estado: DATO
+  fuente: RailGallery + Manual de la EMU CSR
+  url: https://es.scribd.com/document/1075288438/Manual-Emu-Rodante
+- campo: Alimentación
+  valor: 25 kV de corriente alterna, por catenaria y pantógrafo
+  estado: DATO
+  fuente: Documentación técnica CSR + UNLP
+  url: https://es.scribd.com/document/676272018/Copia-de-Material-Rodante
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO1
+  fuente: Mexpedia
+  url: https://mexpedia.org/index.php/Unidad_el%C3%A9ctrica_m%C3%BAltiple_CSR_(Roca)
+- campo: Velocidad máxima
+  valor: 120 km/h
+  estado: DATO
+  fuente: Mexpedia + documentación técnica CSR
+  url: https://mexpedia.org/index.php/Unidad_el%C3%A9ctrica_m%C3%BAltiple_CSR_(Roca)
+- campo: Medidas
+  valor: 24,5 m de largo y 3,136 m de ancho; las dos fuentes están relacionadas
+  estado: DATO1
+  fuente: Mexpedia + Wikipedia
+  url: https://mexpedia.org/index.php/Unidad_el%C3%A9ctrica_m%C3%BAltiple_CSR_(Roca)
+- campo: Equipamiento
+  valor: Aire acondicionado, calefacción, frenos ABS, puertas automáticas, lugares para movilidad reducida e información al pasajero
+  estado: DATO
+  fuente: SOFSE · informe de gestión + Trenes Argentinos
+  url: https://studylib.es/doc/6163074/informe-de-gesti%C3%B3n---trenes-argentinos-operadora-ferroviaria
+linea_de_tiempo:
+- fecha: '2013'
+  hito: Contrato por 300 coches eléctricos para el Roca
+  estado: DATO
+  fuente: Resolución 333/2013 + Senado de la Nación
+  url: https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-333-2013-221650/texto
+- fecha: '2015'
+  hito: Llegan los primeros y empiezan a correr
+  detalle: 'Marzo: llegada; 8 de junio: primer servicio'
+  estado: DATO
+  fuente: Crónica Ferroviaria + enelSubte
+  url: https://enelsubte.com/noticias/los-nuevos-trenes-del-roca-arrancan-el-8-de-junio/

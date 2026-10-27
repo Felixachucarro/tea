@@ -1,10 +1,131 @@
-codigo: "03.36"
-serie: "03"
+codigo: '03.36'
+serie: '03'
 tipo: Ficha
-titulo: General Motors EMD G12 / G12W
-periodo: 1957-Actualidad
+titulo: GM G12W A623 · Trenes Argentinos, Línea Mitre
+nombre_corto: GM G12W A623
+periodo: '1957'
 estado: en investigación
 imagen: img/1000363152.png
 portada: img/1000363152-1.png
-pie: "Frente: Reconstrucción IA"
-busqueda: General motors, GM
+pie: 'Frente: Reconstrucción IA'
+busqueda: general motors gm emd g12 g12w a623 6574 4524 sarmiento roca mitre ugofe trenes argentinos victoria la grange
+datos:
+- campo: Fabricante
+  valor: General Motors (EMD), La Grange, Illinois, Estados Unidos
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Boletín del Ateneo Ing. Pedro C. Saccaggio
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g12w.html
+- campo: Fabricación
+  valor: Abril de 1957; número de serie 21684
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Boletín del Ateneo
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g12w.html
+- campo: Líneas
+  valor: Sarmiento; después Roca (UGOFE) y, desde 2014, Mitre
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones + Crónica Ferroviaria
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Flota
+  valor: 25 G12W para la Argentina, numeradas 6551–6575
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Operadores
+  valor: Ferrocarriles Argentinos, UGOFE y Trenes Argentinos
+  estado: DATO
+  fuente: Mis Días en la Vía + Trainz Argentina + MSTSyOR Argentino
+  url: https://mstsyor-argentino.blogspot.com/2022/09/gm-g12w-a623-trenes-argentinos-linea.html
+- campo: Ejemplar
+  valor: A623, ex 6574, ex 4524
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Mis Días en la Vía
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g12w.html
+- campo: Modelo
+  valor: EMD G12W
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Tipo
+  valor: 'Locomotora diésel-eléctrica, A1A-A1A: el eje central de cada bogie no tracciona'
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Motor
+  valor: GM 12-567-C, 12 cilindros en V, dos tiempos, con soplador Roots
+  estado: DATO
+  fuente: Boletín del Ateneo + TrainzLand
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Potencia
+  valor: 1.425 HP brutos; 1.310 HP al gancho
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones + Ferroviarias
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Generador
+  valor: EMD D-12-F, 965 kW
+  estado: DATO1
+  fuente: Boletín del Ateneo
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Motores de tracción
+  valor: 4 × EMD D-37-B, de 400 HP
+  estado: DATO1
+  fuente: Boletín del Ateneo
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Velocidad máxima
+  valor: 114 km/h
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Peso
+  valor: 85 t
+  estado: DATO
+  fuente: Boletín del Ateneo + Trainz-MP
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Medidas
+  valor: 13,106 m de largo, unos 2,79 m de ancho y 3,71 m de alto
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Frenos
+  valor: Westinghouse 6-SLAV
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Uso
+  valor: Pasajeros y cargas, locales y de larga distancia
+  estado: DATO
+  fuente: Boletín del Ateneo + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/355914016/Boletin-Ateneo-01-1-pdf
+- campo: Situación
+  valor: Operativa, en Trenes Argentinos Mitre, Victoria
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + MSTSyOR Argentino
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g12w.html
+linea_de_tiempo:
+- fecha: '1957'
+  hito: GM la construye en La Grange para el Sarmiento
+  detalle: Abril
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Boletín del Ateneo
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g12w.html
+- fecha: '2012'
+  hito: Vuelve al servicio en el Roca tras una reparación general en Remedios de Escalada
+  detalle: Julio
+  estado: DATO
+  fuente: Mis Días en la Vía + Trainz Argentina
+  url: https://misdiasenlavia1.blogspot.com/2012/07/las-capturas-de-diego-german-telesa_18.html
+- fecha: '2014'
+  hito: Pasa del Roca al Mitre
+  estado: DATO
+  fuente: Crónica Ferroviaria + MSTSyOR Argentino
+  url: https://mstsyor-argentino.blogspot.com/2022/09/gm-g12w-a623-trenes-argentinos-linea.html
+- fecha: '2015'
+  hito: Sale de los Talleres Victoria con el esquema de Trenes Argentinos
+  detalle: 14 de enero
+  estado: DATO
+  fuente: Crónica Ferroviaria + MSTSyOR Argentino
+  url: https://wwwcronicaferroviaria.blogspot.com/2015/01/linea-mitre-trabajos-de-pintura-y.html

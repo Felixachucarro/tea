@@ -1,7 +1,106 @@
-codigo: "03.55"
-serie: "03"
+codigo: '03.55'
+serie: '03'
 tipo: Ficha
-titulo: Tren de la costa - Serie 3700 de FGV
+titulo: CAF 3700 · Tren de la Costa
+nombre_corto: CAF 3700
+periodo: Desde 1995
 estado: en investigación
 imagen: img/1000364378.png
 portada: img/1000364378-1.png
+busqueda: caf 3700 fgv tren de la costa dupla maipu delta trenes argentinos valencia
+datos:
+- campo: Fabricante
+  valor: CAF, España; derivado de la serie FGV 3700, segunda subserie
+  estado: DATO
+  fuente: SOFSE · licitación duplas CAF 3700 + Wikimedia Commons
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/SW4ydnMwZTVWU3dWTmtVZ0pmWUVKdz09
+- campo: Fabricación
+  valor: 'Familia FGV 3700: 1987–1990; las duplas argentinas se hicieron para el Tren de la Costa'
+  estado: DATO
+  fuente: Serie 3700 de FGV + Wikipedia · Tren de la Costa
+  url: https://infosekolah.net/es/Serie_3700_de_FGV
+- campo: Línea
+  valor: 'Tren de la Costa, Avenida Maipú–Delta: 15,5 km y 11 estaciones'
+  estado: DATO
+  fuente: CNRT + Academia Nacional de Ingeniería
+  url: https://www.argentina.gob.ar/transporte/cnrt/normativa/transporte-ferroviario/linea-tren-de-la-costa
+- campo: Flota
+  valor: 9 duplas
+  estado: DATO
+  fuente: Academia Nacional de Ingeniería + CNRT · Informe Estadístico 2018
+  url: https://cdi.mecon.gov.ar/bases/docelec/ac1047.pdf
+- campo: Operador
+  valor: Trenes Argentinos Operaciones
+  estado: DATO
+  fuente: CNRT + CNRT · Informe Estadístico 2018
+  url: https://www.argentina.gob.ar/transporte/cnrt/normativa/transporte-ferroviario/linea-tren-de-la-costa
+- campo: Ejemplar
+  valor: No identificado en la foto
+  estado: SIN DATO
+- campo: Tipo
+  valor: Unidad eléctrica articulada de dos coches
+  estado: DATO
+  fuente: Academia Nacional de Ingeniería + Crónica Ferroviaria
+  url: https://cdi.mecon.gov.ar/bases/docelec/ac1047.pdf
+- campo: Trocha
+  valor: 1.435 mm
+  estado: DATO
+  fuente: Academia Nacional de Ingeniería + SOFSE
+  url: https://cdi.mecon.gov.ar/bases/docelec/ac1047.pdf
+- campo: Alimentación
+  valor: 1.500 V de corriente continua, por catenaria
+  estado: DATO
+  fuente: Academia Nacional de Ingeniería + Serie 3700 de FGV
+  url: https://cdi.mecon.gov.ar/bases/docelec/ac1047.pdf
+- campo: Tracción
+  valor: Eléctrica, con equipos trifásicos en las unidades argentinas
+  estado: DATO
+  fuente: SOFSE + Mexpedia
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/SW4ydnMwZTVWU3dWTmtVZ0pmWUVKdz09
+- campo: Potencia y motores
+  valor: 376 kW y 2 motores BBC 4ELO-2052B en la serie FGV de referencia; no confirmados para las duplas argentinas
+  estado: VERIFICAR
+  fuente: Serie 3700 de FGV + Spanish Railway
+  url: https://infosekolah.net/es/Serie_3700_de_FGV
+- campo: Disposición de ejes
+  valor: Bo'(2)'Bo'
+  estado: DATO
+  fuente: Serie 3700 de FGV + Ferropedia
+  url: https://infosekolah.net/es/Serie_3700_de_FGV
+- campo: Medidas
+  valor: 29,8 m de largo, 2,55 m de ancho y 3,58 m de alto (serie de referencia)
+  estado: DATO
+  fuente: Serie 3700 de FGV + Ferropedia
+  url: https://ferrocarriles.fandom.com/wiki/FGV_Serie_3700
+- campo: Peso
+  valor: 46,8 t (serie de referencia)
+  estado: DATO
+  fuente: Serie 3700 de FGV + Ferropedia
+  url: https://ferrocarriles.fandom.com/wiki/FGV_Serie_3700
+- campo: Velocidad máxima
+  valor: 80 km/h
+  estado: DATO
+  fuente: Wikipedia · Tren de la Costa + Spanish Railway
+  url: https://es.wikipedia.org/wiki/Tren_de_la_Costa
+- campo: Frenos
+  valor: Eléctrico, neumático y patín electromagnético de emergencia
+  estado: DATO
+  fuente: Serie 3700 de FGV + SOFSE
+  url: https://infosekolah.net/es/Serie_3700_de_FGV
+- campo: Enganche
+  valor: Automático Scharfenberg
+  estado: DATO
+  fuente: SOFSE + Spanish Railway
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_contrataciones/cXB5cmtqczJqcnkvYmJRdW1UZERXZz09
+- campo: Librea
+  valor: Blanca y azul de Trenes Argentinos
+  estado: DATO
+  fuente: Lectura de la imagen + Wikimedia Commons
+  url: https://commons.wikimedia.org/wiki/Category:CAF_(Tren_de_la_Costa)
+linea_de_tiempo:
+- fecha: '1995'
+  hito: Se inaugura el Tren de la Costa
+  detalle: 25 de abril
+  estado: DATO
+  fuente: Wikipedia · Tren de la Costa + Mexpedia
+  url: https://es.wikipedia.org/wiki/Tren_de_la_Costa

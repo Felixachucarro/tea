@@ -30,6 +30,18 @@ Todo lo que está acá se puede leer. No subimos:
 
 Eso vive en el Drive de dirección.
 
+## Ficha completa
+
+Una ficha está **completa** cuando todos los casilleros clave que se ven arriba en la ficha tienen dato (cualquier estado menos `SIN DATO`). Si falta alguno, la web la muestra **en investigación** y dice cuántos tiene: «4 de 6 datos clave». No hace falta tocar nada en el panel: se calcula sola en cada publicación.
+
+| Serie | Casilleros clave |
+|---|---|
+| 02 Colectivos | Carrocería · Chasis · Motor · Potencia · Medidas · Ejemplar |
+| 03 Trenes | Fabricante · Fabricación · Líneas · Flota · Operador · Ejemplar |
+| 04 Camiones | Motor · Potencia · Producción · Origen |
+| 05 Particulares | Producción · Motor · Unidades · Planta |
+| 06 Estatales | Modelo · Uso · Años |
+
 ## Cómo se carga una ficha
 
 Cada ficha es un archivo en `datos/fichas/`, con el código como nombre (`02-12.yaml` es la 02.12):
@@ -40,7 +52,7 @@ serie: '02'
 tipo: Ficha
 titulo: Mercedes-Benz OF 1214
 periodo: 1983–1994   # los años, como se leen en la tarjeta
-estado: en investigación      # o: publicada
+estado: en investigación      # en las fichas de vehículos lo decide la web: ver «Ficha completa»
 imagen: img/0212-01.jpg       # la imagen principal
 portada: img/c0212.jpg        # la de la tarjeta en la grilla
 pie: Línea 68, frente · Reconstrucción IA

@@ -1,26 +1,93 @@
 codigo: '03.32'
 serie: '03'
 tipo: Ficha
-titulo: Materfer · Tren del Valle, Río Negro
-periodo: —
+titulo: Materfer CMM 650-2E · Río Negro
+nombre_corto: Materfer CMM 650-2E
+periodo: Desde 2018
 estado: en investigación
 imagen: img/t11b.jpg
 portada: img/t11b.jpg
 pie: Frente · Reconstrucción IA
-busqueda: materfer tren del valle rio negro neuquen cipolletti coche motor
+busqueda: materfer cmm 650-2e cmm 650-de coche motor dupla tren patagonico rio negro viedma bariloche tren del valle scania 1001
 datos:
 - campo: Fabricante
-  valor: Materfer, según el frente del coche
-  estado: DATO1
-  fuente: Lectura de la imagen
-- campo: Modelo
-  valor: CMM 400-2
-  estado: VERIFICAR
-  fuente: Falta fuente
-- campo: Operador
-  valor: Gobierno de Río Negro, Tren del Valle
+  valor: Materfer, Córdoba
   estado: DATO
-  fuente: Relevamiento archivo.tea
+  fuente: Gobierno de Río Negro + Diario Río Negro
+  url: https://rionegro.gov.ar/articulo/26180/el-nuevo-coche-motor-del-tren-patagonico-llego-a-bariloche
+- campo: Fabricación
+  valor: 'Llegó en 2018: a Viedma el 5 de septiembre y a Bariloche el 17'
+  estado: DATO
+  fuente: Diario Río Negro + Gobierno de Río Negro
+  url: https://www.rionegro.com.ar/viedma/llego-el-nuevo-coche-motor-del-tren-patagonico-a-viedma-MY5661709/
+- campo: Servicio
+  valor: Viedma–San Carlos de Bariloche; previsto también Bariloche–San Antonio Oeste en verano
+  estado: DATO
+  fuente: Gobierno de Río Negro + Diario Río Negro
+  url: https://rionegro.gov.ar/articulo/26180/el-nuevo-coche-motor-del-tren-patagonico-llego-a-bariloche
+- campo: Coches
+  valor: 'Dupla: un coche motor (CM01) y un remolque (CR01), con cabina en las dos puntas'
+  estado: DATO
+  fuente: JST + Diario Río Negro
+  url: https://jst.gob.ar/files/informes/MM/2022/072722-78689953/ISO-78689953-22.pdf
+- campo: Operador
+  valor: Tren Patagónico S.A.
+  estado: DATO
+  fuente: JST + Tren Patagónico
+  url: https://jst.gob.ar/files/informes/MM/2022/072722-78689953/ISO-78689953-22.pdf
+- campo: Ejemplar
+  valor: Serie 1001 según la JST. La foto del aporte tenía la librea azul y amarilla de Tren Patagónico; esta, la verde de Río Negro
+  estado: VERIFICAR
+  fuente: JST · tabla 5
+  url: https://jst.gob.ar/files/informes/MM/2022/072722-78689953/ISO-78689953-22.pdf
+- campo: Modelo
+  valor: Materfer CMM 650-2E
+  estado: DATO
+  fuente: JST + Wikipedia · Materfer
+  url: https://jst.gob.ar/files/informes/MM/2022/072722-78689953/ISO-78689953-22.pdf
+- campo: Tipo
+  valor: Coche motor diésel-eléctrico de conducción bidireccional; no es una locomotora
+  estado: DATO
+  fuente: JST + Diario Río Negro
+  url: https://jst.gob.ar/files/informes/MM/2022/072722-78689953/ISO-78689953-22.pdf
+- campo: Motor
+  valor: Scania de 6 cilindros, 650 HP
+  estado: DATO
+  fuente: El Cordillerano + Diario Río Negro
+  url: https://www.elcordillerano.com.ar/noticias/2018/09/19/71405-el-maquinista-del-tren-patagonico-cuenta-detalles-del-nuevo-coche-motor
+- campo: Tracción
+  valor: Grupo motogenerador y 4 motores eléctricos de unos 100 HP
+  estado: DATO
+  fuente: El Cordillerano + JST
+  url: https://www.elcordillerano.com.ar/noticias/2018/09/19/71405-el-maquinista-del-tren-patagonico-cuenta-detalles-del-nuevo-coche-motor
+- campo: Velocidad máxima
+  valor: 120 km/h de diseño
+  estado: DATO
+  fuente: Diario Río Negro + El Cordillerano
+  url: https://www.rionegro.com.ar/mira-las-principales-caracteristicas-del-nuevo-tren-patagonico-LB5663519/
+- campo: Largo
+  valor: Unos 22 m la dupla
+  estado: DATO
+  fuente: Diario Río Negro + Crónica Ferroviaria
+  url: https://www.rionegro.com.ar/viedma/asi-trabajan-sobre-los-detalles-del-coche-motor-del-tren-patagonico-BD3566829/
+- campo: Capacidad
+  valor: 106 asientos semicama reclinables; en 2017 se hablaba de 105 y en 2018 otra nota dice 120 pasajeros
+  estado: DATO
+  fuente: El Cordillerano + Legislatura de Río Negro
+  url: https://www.elcordillerano.com.ar/noticias/2018/09/19/71405-el-maquinista-del-tren-patagonico-cuenta-detalles-del-nuevo-coche-motor
+- campo: Equipamiento
+  valor: Aire acondicionado, calefacción, cocina, heladera y baños; frenos a disco
+  estado: DATO
+  fuente: El Cordillerano + Legislatura de Río Negro + Diario Río Negro
+  url: https://www.elcordillerano.com.ar/noticias/2018/09/19/71405-el-maquinista-del-tren-patagonico-cuenta-detalles-del-nuevo-coche-motor
+- campo: Combustible
+  valor: Unos 1.000 l de gasoil; autonomía de unas 33 horas
+  estado: DATO1
+  fuente: Diario Río Negro
+  url: https://www.rionegro.com.ar/mira-las-principales-caracteristicas-del-nuevo-tren-patagonico-LB5663519/
+- campo: Trocha
+  valor: No encontramos una fuente para esta unidad
+  estado: SIN DATO
 - campo: Librea documentada
   valor: Verde con el logo del Gobierno de Río Negro
   estado: DATO
@@ -29,3 +96,10 @@ datos:
   valor: Un coche Materfer con la librea de Trenes Argentinos (03.11)
   estado: DATO
   fuente: Relevamiento archivo.tea
+linea_de_tiempo:
+- fecha: '2018'
+  hito: Llega a Viedma y después a Bariloche
+  detalle: 5 y 17 de septiembre
+  estado: DATO
+  fuente: Diario Río Negro + Gobierno de Río Negro
+  url: https://www.rionegro.com.ar/viedma/llego-el-nuevo-coche-motor-del-tren-patagonico-a-viedma-MY5661709/

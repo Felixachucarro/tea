@@ -1,10 +1,102 @@
 codigo: '03.71'
 serie: '03'
 tipo: Ficha
-titulo: GM 9082
-periodo: ''
+titulo: GM GT22CW-2 9082 «Ciudad de Cañuelas» · Ferrobaires
+nombre_corto: GT22CW-2 9082
+periodo: 1988–1997
 estado: en investigación
 imagen: img/0371-frente.jpg
 portada: img/0371-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: gm 9082
+busqueda: general motors gm emd gt22cw-2 gt22 9082 9067 astarsa ferrobaires ciudad de cañuelas bragado fepsa
+datos:
+- campo: Fabricante
+  valor: ASTARSA, Argentina, bajo licencia de General Motors / EMD
+  estado: DATO
+  fuente: UtahRails · ASTARSA + Gabriel Leiva
+  url: https://utahrails.net/ajkristopans/ASTILLEROS.html
+- campo: Fabricación
+  valor: 1988–1997, el modelo GT22CW-2
+  estado: DATO
+  fuente: Gabriel Leiva + Wikipedia · EMD GT22 Series
+  url: https://leivag1991vehicles.blogspot.com/2021/08/984-locomotoras-general-motors-gt22-en.html
+- campo: Servicio
+  valor: Pasajeros de Ferrobaires, entre ellos Once–Bragado
+  estado: DATO
+  fuente: Mis Días en la Vía + RailPictures
+  url: https://misdiasenlavia1.blogspot.com/2012/12/las-capturas-de-gaston-labonia.html
+- campo: Flota
+  valor: 25 GT22CW-2 de ASTARSA, numeradas 9065–9089
+  estado: DATO
+  fuente: UtahRails + Wikipedia · EMD GT22 Series
+  url: https://utahrails.net/ajkristopans/ASTILLEROS.html
+- campo: Operador
+  valor: Ferrobaires; después, alquilada a FEPSA
+  estado: DATO
+  fuente: RailPictures + Trainz Argentina + Entre Máquinas y Vagones
+  url: https://www.railpictures.net/viewphoto.php?id=204267&nseq=4156
+- campo: Ejemplar
+  valor: 9082, ex 9067
+  estado: DATO
+  fuente: Trainz Argentina + Entre Máquinas y Vagones
+  url: https://trainz-argentina.blogspot.com/2021/05/emd-gt22cw-2-9082-ferrobaires.html
+- campo: Modelo
+  valor: EMD GT22CW-2
+  estado: DATO
+  fuente: Trainz Argentina + RailPictures
+  url: https://trainz-argentina.blogspot.com/2021/05/emd-gt22cw-2-9082-ferrobaires.html
+- campo: Nombre
+  valor: «Ciudad de Cañuelas»
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Número de fábrica
+  valor: 'Las fuentes no coinciden: 14100522 o 14100537'
+  estado: VERIFICAR
+  fuente: Entre Máquinas y Vagones + UtahRails
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co-Co
+  estado: DATO
+  fuente: Material Rodante I + FEPSA
+  url: https://es.scribd.com/document/618913096/12-PRINCIPALES-LOCOMOTORAS-DIESEL-ELECTRICAS-2022-sin-marca-de-agua
+- campo: Motor
+  valor: EMD 12-645E3, 12 cilindros en V, dos tiempos, turboalimentado
+  estado: DATO
+  fuente: Material Rodante I + Gabriel Leiva
+  url: https://es.scribd.com/document/618913096/12-PRINCIPALES-LOCOMOTORAS-DIESEL-ELECTRICAS-2022-sin-marca-de-agua
+- campo: Potencia
+  valor: 2.475 HP brutos; 2.250 HP de tracción
+  estado: DATO
+  fuente: La Nación + Material Rodante I + Gabriel Leiva
+  url: https://www.lanacion.com.ar/economia/metropolitano-se-renueva-nid88163/
+- campo: Generadores
+  valor: Alternador principal AR10; auxiliar D14
+  estado: DATO
+  fuente: Material Rodante I + Gabriel Leiva + FEPSA
+  url: https://es.scribd.com/document/618913096/12-PRINCIPALES-LOCOMOTORAS-DIESEL-ELECTRICAS-2022-sin-marca-de-agua
+- campo: Motores de tracción
+  valor: 6 × EMD D75
+  estado: DATO
+  fuente: Material Rodante I + FEPSA + Flickr
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: La Nación + Gabriel Leiva
+  url: https://www.lanacion.com.ar/economia/metropolitano-se-renueva-nid88163/
+- campo: Medidas
+  valor: 17,374 m de largo, 3,14 m de ancho y 4,03 m de alto
+  estado: DATO
+  fuente: FEPSA + JST
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Peso
+  valor: Unas 107,75 t
+  estado: DATO
+  fuente: FEPSA + JST
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Velocidad máxima
+  valor: 140 km/h
+  estado: DATO
+  fuente: FEPSA + La Nación
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante

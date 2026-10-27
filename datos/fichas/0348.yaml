@@ -1,7 +1,138 @@
-codigo: "03.48"
-serie: "03"
+codigo: '03.48'
+serie: '03'
 tipo: Ficha
-titulo: ALCO - FPD - 2107 - ALL (América Latina logística)
+titulo: ALCo FPD-9 2107 · ALL
+nombre_corto: FPD-9 2107
+periodo: '1966'
 estado: en investigación
 imagen: img/1000364335-2.png
 portada: img/1000364335-1.png
+busqueda: alco fpd9 fpd-9 dl-500-s 2107 2141 321-041-6 renfe secn la naval bap all rufino laboulaye soldini mendoza
+datos:
+- campo: Fabricante
+  valor: La Naval (SECN), España, con diseño ALCo
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Docutren · FFE
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- campo: Fabricación
+  valor: '1966'
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Docutren · FFE
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- campo: Servicio
+  valor: 'Cargas: en 2011, tolvas mineras de Rufino a Laboulaye; fotografiada también en Soldini'
+  estado: DATO
+  fuente: Por las vías del país + Ferroviarias
+  url: https://porlasviasdelpais.blogspot.com/2011/
+- campo: Flota en la Argentina
+  valor: '22 FPD-9: 20 para BAP y 2 para SEFEPA'
+  estado: DATO
+  fuente: Ferroviarias + IAF · Ministerio de Economía
+  url: https://ferroviarias.blogspot.com/2008/10/alco-dl500-t-y-s-fpd9.html
+- campo: Operadores
+  valor: BAP; ALL desde su incorporación el 7/6/1996
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Ferroviarias
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Ejemplar
+  valor: 2107 argentina, ex RENFE 2141 (321.041-6). No es la RENFE 2107, que fue la 321.007-7
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Docutren · FFE
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- campo: Librea
+  valor: ALL, roja
+  estado: DATO
+  fuente: Lectura de la imagen
+- campo: Último estado registrado
+  valor: Parada en Mendoza, a cargo de BCyL, con esquema BAP (listado del 23/2/2022)
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- campo: Modelo
+  valor: ALCo FPD-9, especificación DL-500-S; RENFE serie 2100, después 321
+  estado: DATO
+  fuente: Rails sense fronteres + Wikipedia · Serie 321 de Renfe
+  url: https://railssensefronteres.blogspot.com/2018/12/locomotores-diesel-electriques-serie.html
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica de dos cabinas, Co'Co'
+  estado: DATO
+  fuente: Rails sense fronteres + Trenes y tiempos
+  url: https://railssensefronteres.blogspot.com/2018/12/locomotores-diesel-electriques-serie.html
+- campo: Motor
+  valor: ALCo 251-C, 12 cilindros en V, cuatro tiempos, turboalimentado; 229 × 267 mm
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Rails sense fronteres
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Potencia
+  valor: 2.180 CV a 1.025 rpm (1.626 kW); 1.950 HP netos según el IAF
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + IAF + Rails sense fronteres
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Generador
+  valor: General Electric 5-GT-581-C1, 1.352 kW
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Rails sense fronteres
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Motores de tracción
+  valor: 6 × General Electric 5-GE-761-A1, de 320 HP
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Rails sense fronteres
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Trocha
+  valor: 1.668 mm en España; adaptadas a 1.676 mm antes de venir
+  estado: DATO
+  fuente: Rails sense fronteres + Catálogo de Locomotoras Diesel en Argentina
+  url: https://railssensefronteres.blogspot.com/2018/12/locomotores-diesel-electriques-serie.html
+- campo: Medidas
+  valor: Unos 18,57 m entre topes, 3,05 m de ancho y 4,12 m de alto
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Rails sense fronteres
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Peso
+  valor: 111 t; 18,5 t por eje
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + IAF
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Velocidad máxima
+  valor: 120 km/h en RENFE; 122 km/h en la ficha argentina
+  estado: VERIFICAR
+  fuente: Rails sense fronteres + Catálogo de Locomotoras Diesel en Argentina
+  url: https://railssensefronteres.blogspot.com/2018/12/locomotores-diesel-electriques-serie.html
+- campo: Esfuerzo tractivo
+  valor: 23.500 kgf inicial; 19.325 kgf continuo
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Frenos
+  valor: 'Westinghouse: aire para la locomotora, vacío para el tren, y freno reostático'
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Trenes y tiempos
+  url: https://trenesytiempos.blogspot.com/2017/01/2017.html
+- campo: Combustible
+  valor: Unos 3.400 l
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Serie en España
+  valor: 80 locomotoras, 2101–2180, construidas entre 1965 y 1971 por ALCo, CAF, La Naval (SECN) y Euskalduna
+  estado: DATO
+  fuente: Rails sense fronteres + Wikipedia · Serie 321 de Renfe
+  url: https://es.wikipedia.org/wiki/Serie_321_de_Renfe
+linea_de_tiempo:
+- fecha: '1966'
+  hito: La Naval la construye para RENFE como 2141
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Docutren · FFE
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- fecha: '1996'
+  hito: Se incorpora a ALL como 2107
+  detalle: 7 de junio
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- fecha: '2011'
+  hito: Lleva tolvas mineras de Rufino a Laboulaye
+  detalle: 7 de noviembre
+  estado: DATO1
+  fuente: Por las vías del país
+  url: https://porlasviasdelpais.blogspot.com/2011/

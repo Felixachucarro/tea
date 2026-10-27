@@ -1,9 +1,127 @@
-codigo: "03.60"
-serie: "03"
+codigo: '03.60'
+serie: '03'
 tipo: Ficha
-titulo: ALCO FPD7 · ALL
+titulo: ALCo-MLW FPD7 8410 · ALL
+nombre_corto: FPD7 8410
+periodo: 1957–2008
 estado: en investigación
 imagen: img/0360-frente.jpg
 portada: img/0360-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: alco dsl9  all
+galeria:
+- imagen: img/0360-34.jpg
+  leyenda: 02 · Vista 3/4, librea ALL
+- imagen: img/0360-lateral-bap.jpg
+  leyenda: 03 · Lateral, librea BAP
+  ancha: true
+- imagen: img/0360-plano.jpg
+  leyenda: '04 · Plano: lateral y frente, librea BAP'
+  ancha: true
+busqueda: alco mlw fpd7 fpd-7 dl500c 8410 all america latina logistica bap san martin mitre sierras grandes mendoza
+datos:
+- campo: Fabricante
+  valor: Montreal Locomotive Works (MLW), Canadá, con especificación ALCo DL500C
+  estado: DATO
+  fuente: RailPictures · Julio Pastine + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.railpictures.net/photoexif/328510/
+- campo: Fabricación
+  valor: '1957'
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Líneas
+  valor: Mitre; desde los años 60, San Martín
+  estado: DATO
+  fuente: Gabriel Leiva + Trenes que cuentan su historia
+  url: https://leivag1991vehicles.blogspot.com/2022/08/1202-locomotoras-alco-dl535-en.html
+- campo: Flota
+  valor: 25 locomotoras en la Argentina
+  estado: DATO
+  fuente: Gabriel Leiva + RailPictures
+  url: https://leivag1991vehicles.blogspot.com/2022/08/1202-locomotoras-alco-dl535-en.html
+- campo: Operadores
+  valor: Ferrocarriles Argentinos, BAP y ALL
+  estado: DATO
+  fuente: RailPictures + Ferroviarias
+  url: https://www.railpictures.net/photo/397198/
+- campo: Ejemplar
+  valor: '8410'
+  estado: DATO
+  fuente: RailPictures · Jorge Nicolo + RailPictures · Alejandro Goldemberg
+  url: https://www.railpictures.net/photo/397198/
+- campo: Modelo
+  valor: FPD7
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Numeración
+  valor: 5551–5575, luego 8201–8225 y en el San Martín 8401–8425
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Motor
+  valor: ALCo 251-B, 12 cilindros en V, cuatro tiempos, turboalimentado
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Potencia
+  valor: 1.950 HP nominales a 1.000 rpm; 1.800 HP al gancho
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Transmisión
+  valor: Diésel-eléctrica, Co-Co
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Velocidad máxima
+  valor: 122 km/h
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Peso
+  valor: Unas 105 t; 17,5 t por eje
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Largo
+  valor: 17,958 m entre topes
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Servicio documentado
+  valor: 17/1/1992, en Retiro, al frente del tren 1571 «Sierras Grandes» a Villa Dolores
+  estado: DATO1
+  fuente: RailPictures · Julio Pastine
+  url: https://www.railpictures.net/photo/352000/
+- campo: Situación
+  valor: Apartada en los talleres de Mendoza en 2008, después de un incendio en el gabinete eléctrico
+  estado: DATO
+  fuente: RailPictures · Jorge Nicolo + RailPictures · Alejandro Goldemberg
+  url: https://www.railpictures.net/photo/397198/
+linea_de_tiempo:
+- fecha: '1957'
+  hito: Llegan las 25 FPD7 para el Mitre
+  estado: DATO
+  fuente: Gabriel Leiva + Trenes que cuentan su historia
+  url: https://leivag1991vehicles.blogspot.com/2022/08/1202-locomotoras-alco-dl535-en.html
+- fecha: 'Años 60'
+  hito: Pasan al San Martín como 8401–8425
+  estado: DATO
+  fuente: Gabriel Leiva + Trenes que cuentan su historia
+  url: https://leivag1991vehicles.blogspot.com/2022/08/1202-locomotoras-alco-dl535-en.html
+- fecha: '1992'
+  hito: La 8410 encabeza el «Sierras Grandes» a Villa Dolores
+  estado: DATO1
+  fuente: RailPictures · Julio Pastine
+  url: https://www.railpictures.net/photo/352000/
+- fecha: '2008'
+  hito: Fuera de servicio en Mendoza tras un incendio eléctrico
+  estado: DATO
+  fuente: RailPictures
+  url: https://www.railpictures.net/photo/397198/

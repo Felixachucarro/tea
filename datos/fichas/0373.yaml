@@ -1,10 +1,98 @@
 codigo: '03.73'
 serie: '03'
 tipo: Ficha
-titulo: Materfer CMM
-periodo: ''
+titulo: CAF 593 «Camello» M502 · TBA
+nombre_corto: CAF 593 M502
+periodo: Desde 2007
 estado: en investigación
 imagen: img/0373-frente.jpg
 portada: img/0373-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: materfer cmm
+galeria:
+- imagen: img/0373-lateral.jpg
+  leyenda: 02 · Lateral, librea TBA
+  ancha: true
+- imagen: img/0361-plano-lateral.jpg
+  leyenda: '03 · Plano: lateral'
+  ancha: true
+nota_galeria: Vista y plano de archivo.tea · Reconstrucción IA.
+busqueda: caf 593 camello renfe m502 m501 r001 7-593-012 tba sarmiento rosario fiat
+datos:
+- campo: Fabricante
+  valor: CAF, España, con remolques de Babcock & Wilcox y motores Fiat
+  estado: DATO
+  fuente: Vía Libre + Archivo Histórico Provincial de Zaragoza
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Fabricación
+  valor: 1982–1984, la serie; no encontramos el año del M502
+  estado: DATO
+  fuente: Vía Libre + Memoria RENFE 1984-1987
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Líneas
+  valor: Servicios diferenciales de TBA, Sarmiento y trenes a Rosario
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Formación
+  valor: M501 + R001 + M502; en RENFE, 7-593-012
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Operador
+  valor: TBA, desde su llegada
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Ejemplar
+  valor: M502; en RENFE, coche 078
+  estado: VERIFICAR
+  fuente: Lectura de la imagen + Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Llegada a la Argentina
+  valor: '2007'
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Cantidad construida
+  valor: 62 formaciones para RENFE
+  estado: DATO
+  fuente: Memoria RENFE 1984-1987 + Vía Libre
+  url: https://docutren.com/pdf/memoriasRENFE/1984-87.pdf
+- campo: Modelo
+  valor: RENFE serie 593, «Camello»
+  estado: DATO
+  fuente: Vía Libre + Archivo Histórico Provincial de Zaragoza
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Motores
+  valor: 4 Fiat 8217.92.10 de 6 cilindros, 280 CV cada uno; 880 CV (648 kW) de uso
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Transmisión
+  valor: Mecánica Fiat, 5 velocidades
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Velocidad máxima
+  valor: 120 km/h
+  estado: DATO
+  fuente: Vía Libre + Mexpedia
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Trocha
+  valor: 1.676 mm en la Argentina
+  estado: DATO
+  fuente: Mexpedia + Wikipedia · Serie 593 de Renfe
+  url: https://mexpedia.org/index.php/Serie_593
+- campo: Medidas
+  valor: 71,42 m la formación, 2,91 m de ancho y 4,058 m de alto
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Peso
+  valor: 136 t la formación vacía
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Capacidad
+  valor: 228 sentados y 48 parados, 276 en total
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Equipamiento
+  valor: Freno neumático Knorr, enganche Scharfenberg, grupo electrógeno en el remolque
+  estado: VERIFICAR
+  fuente: Relevamiento de archivo.tea, todavía sin fuente citada
+- campo: Foto de referencia
+  valor: 10/8/2007, publicada por Jorge Nicolo
+  estado: DATO1
+  fuente: Jorge Nicolo

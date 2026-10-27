@@ -1,10 +1,118 @@
 codigo: '03.67'
 serie: '03'
 tipo: Ficha
-titulo: TBA «Pitufo» · Materfer
-periodo: ''
+titulo: Materfer CML «Pitufo» 055 · TBA
+nombre_corto: Materfer CML 055
+periodo: '1987'
 estado: en investigación
 imagen: img/0367-frente.jpg
 portada: img/0367-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: tba pitufo  materfer
+busqueda: materfer cml coche motor liviano pitufo 055 059 308 302 056 tba victoria
+datos:
+- campo: Fabricante
+  valor: Materfer, Córdoba
+  estado: DATO
+  fuente: AFAMAC + CAFMA
+  url: https://afamac.com.ar/catalogo/asociados-afamac/materfer/
+- campo: Fabricación
+  valor: 1987, la serie
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- campo: Servicios
+  valor: Ramales de poca demanda, entre ellos Victoria–Capilla del Señor y Merlo–Lobos
+  estado: DATO
+  fuente: Rieles Virtuales + Gabriel Leiva
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Cantidad original
+  valor: '8 unidades dobles para Ferrocarriles Argentinos: CMLU 3201/3208 + CALU 201/208'
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- campo: Operador
+  valor: TBA
+  estado: DATO
+  fuente: Rieles Virtuales + Cámara de Diputados de la Nación
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Ejemplar
+  valor: CML 055, número visible en el frente
+  estado: DATO
+  fuente: Cámara de Diputados de la Nación + Mis Días en la Vía
+  url: https://www.hcdn.gob.ar/folio-cgi-bin/om_isapi.dll/Microsoft-IIS/%3AKe?advquery=4852-D-06&hitsperheading=on&infobase=tp.nfo&record=%7B282D%7D&recordswithhits=on&softpage=ref_Doc
+- campo: Formaciones
+  valor: 302 + 056 + 055 y, en otra etapa, 055 + 059 + 308
+  estado: DATO
+  fuente: Mis Días en la Vía · dos entradas + Rieles Virtuales
+  url: https://misdiasenlavia1.blogspot.com/2010/08/victoria-v-ballester-j-l-suarez-plaza.html
+- campo: Registro oficial
+  valor: La CNRT inspeccionó los CML 055, 059 y 307 en 2002, bajo TBA
+  estado: DATO1
+  fuente: Cámara de Diputados de la Nación
+  url: https://www.hcdn.gob.ar/folio-cgi-bin/om_isapi.dll/Microsoft-IIS/%3AKe?advquery=4852-D-06&hitsperheading=on&infobase=tp.nfo&record=%7B282D%7D&recordswithhits=on&softpage=ref_Doc
+- campo: Librea
+  valor: TBA, azul y blanca
+  estado: DATO
+  fuente: Lectura de la imagen + Mis Días en la Vía
+  url: https://misdiasenlavia1.blogspot.com/2010/08/victoria-v-ballester-j-l-suarez-plaza.html
+- campo: Tipo
+  valor: Coche motor liviano (CML) diésel, para ramales de poca demanda
+  estado: DATO
+  fuente: Rieles Virtuales + Desarrollo y Defensa
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Apodo
+  valor: «Pitufo»
+  estado: DATO
+  fuente: Rieles Virtuales + Gabriel Leiva
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Motor original
+  valor: Fiat 619, 190 HP por coche motor, en el CML1 original. La familia tuvo cambios de motor después
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Medidas
+  valor: Unos 15,83 m de largo y 2,70 m de ancho por coche
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva + Wikipedia
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Peso
+  valor: Unas 20 t por coche, en la versión original
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Bogies
+  valor: Dos de dos ejes por coche, tipo Eurofima
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Capacidad
+  valor: 56 sentados y unos 54 parados, alrededor de 110 pasajeros
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Velocidad máxima
+  valor: 100 km/h
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- campo: Autonomía
+  valor: Unos 1.200 km
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Wikipedia · Materfer + Gabriel Leiva
+  url: https://es.wikipedia.org/wiki/Materfer
+linea_de_tiempo:
+- fecha: '1987'
+  hito: Materfer produce la serie CML
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- fecha: '2002'
+  hito: La CNRT inspecciona el CML 055
+  estado: DATO1
+  fuente: Cámara de Diputados de la Nación
+  url: https://www.hcdn.gob.ar/folio-cgi-bin/om_isapi.dll/Microsoft-IIS/%3AKe?advquery=4852-D-06&hitsperheading=on&infobase=tp.nfo&record=%7B282D%7D&recordswithhits=on&softpage=ref_Doc

@@ -1,10 +1,68 @@
 codigo: '03.72'
 serie: '03'
 tipo: Ficha
-titulo: CRRC · Camión de vía VyO-102
-periodo: ''
+titulo: CRRC Taiyuan · Camión de vía VyO-102 · Sarmiento
+nombre_corto: Camión de vía VyO-102
+periodo: Desde 2018
 estado: en investigación
 imagen: img/0372-frente.jpg
 portada: img/0372-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: crrc  camión de vía vyo-102
+galeria:
+- imagen: img/0372-lateral.jpg
+  leyenda: 02 · Lateral
+  ancha: true
+- imagen: img/0372-plano-lateral.jpg
+  leyenda: '03 · Plano: lateral'
+  ancha: true
+nota_galeria: Vista y plano de archivo.tea · Reconstrucción IA.
+busqueda: crrc taiyuan camion de via vyo-102 vyo 102 via y obras sofse trenes argentinos sarmiento haedo maquinaria china
+datos:
+- campo: Fabricante
+  valor: CRRC, planta de Taiyuan, China
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + SOFSE + Mis Días en la Vía
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/maquinaria-crrc-taiyuan.html
+- campo: Fabricación
+  valor: Compra en 2017; llegada al país a comienzos de 2018
+  estado: DATO
+  fuente: Crónica Ferroviaria + Mis Días en la Vía + SOFSE
+  url: https://wwwcronicaferroviaria.blogspot.com/2017/12/se-espera-pronta-llegada-al-pais-de.html
+- campo: Línea
+  valor: Sarmiento, con base en Haedo
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + SOFSE
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/maquinaria-crrc-taiyuan.html
+- campo: Flota
+  valor: VyO-101 a 104 de trocha ancha y VyO-105N de trocha métrica, para el Belgrano Sur
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Crónica Ferroviaria
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/maquinaria-crrc-taiyuan.html
+- campo: Operador
+  valor: Trenes Argentinos Operaciones (SOFSE)
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + SOFSE
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_compulsas/S0FOQVdKbitLUjhaWGpOMmxham1JUT09
+- campo: Ejemplar
+  valor: VyO-102
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + SOFSE
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/maquinaria-crrc-taiyuan.html
+- campo: Tipo
+  valor: 'Camión de vía: lleva personal, herramientas y materiales para el mantenimiento'
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + SOFSE
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/maquinaria-crrc-taiyuan.html
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Crónica Ferroviaria + Mis Días en la Vía + SOFSE
+  url: https://wwwcronicaferroviaria.blogspot.com/2017/12/se-espera-pronta-llegada-al-pais-de.html
+- campo: Estado
+  valor: Operativo
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/maquinaria-crrc-taiyuan.html
+- campo: Motor, potencia y medidas
+  valor: No encontramos dos fuentes que los confirmen
+  estado: SIN DATO

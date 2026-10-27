@@ -1,10 +1,134 @@
 codigo: '03.61'
 serie: '03'
 tipo: Ficha
-titulo: Camello · CAF 593
-periodo: ''
+titulo: CAF 593 «Camello» · Trenes Argentinos, Pinamar
+nombre_corto: CAF 593 Camello
+periodo: 2021–2025
 estado: en investigación
 imagen: img/0361-frente.jpg
 portada: img/0361-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: camello  caf 593
+galeria:
+- imagen: img/0361-lateral.jpg
+  leyenda: 02 · Lateral, Trenes Argentinos
+  ancha: true
+- imagen: img/0361-plano-lateral.jpg
+  leyenda: '03 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas y plano de archivo.tea a partir de fotos · Reconstrucción IA.
+busqueda: caf 593 camello renfe trenes argentinos pinamar general guido madariaga maipu roca mechita tren patagonico
+datos:
+- campo: Fabricante
+  valor: CAF, España, con remolques de Babcock & Wilcox y motores Fiat
+  estado: DATO
+  fuente: Vía Libre + Archivo Histórico Provincial de Zaragoza
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Fabricación
+  valor: 1982–1984
+  estado: DATO
+  fuente: Vía Libre + Memoria RENFE 1984-1987
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Servicio
+  valor: General Guido–General Madariaga–Divisadero de Pinamar; desde diciembre de 2022, desde Maipú
+  estado: DATO
+  fuente: enelSubte · dos notas
+  url: https://enelsubte.com/noticias/extienden-el-servicio-divisadero-de-pinamar-gral-guido-hasta-maipu/
+- campo: Flota en el servicio
+  valor: 6 coches, en 2 formaciones de 3
+  estado: DATO
+  fuente: Entrelíneas + Faro Noticias
+  url: https://www.entrelineas.info/articulo/1066/44823/los-vagones-del-tren-guido-pinamar-seran-enviados-al-tren-patagonico-tras-la-suspension-del-servicio
+- campo: Operador
+  valor: Trenes Argentinos Operaciones
+  estado: DATO
+  fuente: enelSubte · dos notas
+  url: https://enelsubte.com/noticias/el-tren-a-pinamar-hara-su-marcha-blanca-el-18-de-enero/
+- campo: Ejemplar
+  valor: 'No identificado: la foto no deja leer el número del coche'
+  estado: SIN DATO
+  fuente: Lectura de la imagen
+- campo: Línea
+  valor: Ferrocarril General Roca
+  estado: DATO
+  fuente: enelSubte + Faro Noticias
+  url: https://enelsubte.com/noticias/la-falta-de-material-rodante-complica-el-flamante-servicio-a-pinamar/
+- campo: Reacondicionamiento
+  valor: Talleres Mechita, sobre el Sarmiento
+  estado: DATO
+  fuente: enelSubte · dos notas
+  url: https://enelsubte.com/noticias/el-tren-a-pinamar-hara-su-marcha-blanca-el-18-de-enero/
+- campo: Situación
+  valor: En marzo de 2026 las dos formaciones pasaron a Haedo y después a Liniers, para ir al Tren Patagónico
+  estado: DATO
+  fuente: Entrelíneas + Faro Noticias
+  url: https://www.entrelineas.info/articulo/1066/44823/los-vagones-del-tren-guido-pinamar-seran-enviados-al-tren-patagonico-tras-la-suspension-del-servicio
+- campo: Modelo
+  valor: RENFE serie 593, «Camello»
+  estado: DATO
+  fuente: Vía Libre · Fundación de los Ferrocarriles Españoles + Archivo Histórico Provincial de Zaragoza
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Tipo
+  valor: 'Automotor diésel de media distancia, tres coches: motor + remolque + motor'
+  estado: DATO
+  fuente: Vía Libre + Memoria RENFE 1984-1987
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Motores
+  valor: 4 Fiat 8217 de unos 162 kW; alrededor de 648 kW en total
+  estado: DATO
+  fuente: Vía Libre + Mexpedia
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Transmisión
+  valor: Mecánica
+  estado: DATO
+  fuente: Memoria RENFE 1984-1987 + Vía Libre
+  url: https://docutren.com/pdf/memoriasRENFE/1984-87.pdf
+- campo: Velocidad máxima
+  valor: 120 km/h
+  estado: DATO
+  fuente: Vía Libre + Mexpedia
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Trocha
+  valor: 1.676 mm en la Argentina
+  estado: DATO
+  fuente: Mexpedia + Wikipedia · Serie 593 de Renfe
+  url: https://mexpedia.org/index.php/Serie_593
+- campo: Medidas
+  valor: Formación de unos 71,4 m de largo y 2,91 m de ancho
+  estado: DATO
+  fuente: Mexpedia + Vía Libre
+  url: https://mexpedia.org/index.php/Serie_593
+- campo: Capacidad original
+  valor: 228 pasajeros sentados
+  estado: DATO
+  fuente: Vía Libre + Memoria RENFE 1984-1987
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Cantidad construida
+  valor: 62 formaciones para RENFE
+  estado: DATO
+  fuente: Memoria RENFE 1984-1987 + Vía Libre
+  url: https://docutren.com/pdf/memoriasRENFE/1984-87.pdf
+linea_de_tiempo:
+- fecha: '2021'
+  hito: Vuelve el tren a Pinamar con los CAF 593
+  detalle: 25 de enero, después de más de cinco años sin servicio
+  estado: DATO
+  fuente: enelSubte · dos notas
+  url: https://enelsubte.com/noticias/habilitaron-la-venta-de-pasajes-del-tren-a-pinamar/
+- fecha: '2022'
+  hito: El servicio empieza a salir desde Maipú
+  detalle: Diciembre
+  estado: DATO
+  fuente: enelSubte + MAC Trenes Argentinos
+  url: https://enelsubte.com/noticias/extienden-el-servicio-divisadero-de-pinamar-gral-guido-hasta-maipu/
+- fecha: '2025'
+  hito: Se suspende el tren a Pinamar
+  detalle: Abril
+  estado: DATO
+  fuente: Entrelíneas + Faro Noticias
+  url: https://www.entrelineas.info/articulo/1066/44823/los-vagones-del-tren-guido-pinamar-seran-enviados-al-tren-patagonico-tras-la-suspension-del-servicio
+- fecha: '2026'
+  hito: Las dos formaciones van a reparación para el Tren Patagónico
+  detalle: 'Marzo: de Remedios de Escalada a Haedo y después a Liniers'
+  estado: DATO
+  fuente: Entrelíneas + Faro Noticias
+  url: https://www.entrelineas.info/articulo/1066/44823/los-vagones-del-tren-guido-pinamar-seran-enviados-al-tren-patagonico-tras-la-suspension-del-servicio

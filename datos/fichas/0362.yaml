@@ -1,10 +1,107 @@
 codigo: '03.62'
 serie: '03'
 tipo: Ficha
-titulo: CNR CMU · Belgrano Sur
-periodo: ''
+titulo: CNR Tangshan DMU · Tripla 1013 · Belgrano Sur
+nombre_corto: CNR Tangshan
+periodo: Desde 2015
 estado: en investigación
 imagen: img/0362-frente.jpg
 portada: img/0362-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: cnr cmu  belgrano sur
+galeria:
+- imagen: img/0362-lateral.jpg
+  leyenda: 02 · Lateral
+  ancha: true
+- imagen: img/0362-plano-lateral.jpg
+  leyenda: '03 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas y plano de archivo.tea · Reconstrucción IA.
+busqueda: cnr tangshan crrc dmu cmu tripla 1013 cmf belgrano sur trenes argentinos china deutz man
+datos:
+- campo: Fabricante
+  valor: CNR Tangshan Railway Vehicle, China, hoy parte de CRRC
+  estado: DATO
+  fuente: SOFSE · pliego de especificaciones técnicas + Crónica Ferroviaria
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/UE1jTkZ0Q0o2UitIcVYzZjY2TEh2Zz09
+- campo: Fabricación
+  valor: '2015'
+  estado: DATO
+  fuente: SOFSE + Clarín
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/UE1jTkZ0Q0o2UitIcVYzZjY2TEh2Zz09
+- campo: Línea
+  valor: Belgrano Sur
+  estado: DATO
+  fuente: SOFSE + Observatorio Ferroviario Virtual
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/UE1jTkZ0Q0o2UitIcVYzZjY2TEh2Zz09
+- campo: Flota
+  valor: 27 triplas, 81 coches, numeradas 1001 a 1027
+  estado: DATO
+  fuente: SOFSE + Diario Popular
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/UE1jTkZ0Q0o2UitIcVYzZjY2TEh2Zz09
+- campo: Operador
+  valor: Trenes Argentinos Operaciones
+  estado: DATO
+  fuente: SOFSE + Wikimedia Commons
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/UE1jTkZ0Q0o2UitIcVYzZjY2TEh2Zz09
+- campo: Ejemplar
+  valor: CMF 1013, coche motor con cabina y furgón de la tripla 1013
+  estado: DATO
+  fuente: Lectura de la imagen + SOFSE · listado de unidades
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/bjBGMHY4ZnY2MVRqUUZwTEt2SDQ1UT09
+- campo: Tipo
+  valor: Unidad múltiple diésel (DMU) suburbana
+  estado: DATO
+  fuente: SOFSE + Crónica Ferroviaria
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/UE1jTkZ0Q0o2UitIcVYzZjY2TEh2Zz09
+- campo: Composición
+  valor: 'Tripla: coche motor (CM) + remolque (CR) + coche motor con furgón (CMF)'
+  estado: DATO
+  fuente: Observatorio Ferroviario Virtual + Gabriel Leiva
+  url: https://www.observatorioferroviariovirtual.com/trenes-diesel
+- campo: Trocha
+  valor: 1.000 mm
+  estado: DATO
+  fuente: SOFSE + Observatorio Ferroviario Virtual
+  url: https://www.observatorioferroviariovirtual.com/trenes-diesel
+- campo: Motores
+  valor: Deutz F6L 914; SOFSE también documenta motores MAN D2876-LUE604
+  estado: DATO
+  fuente: SOFSE · dos pliegos
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/UE1jTkZ0Q0o2UitIcVYzZjY2TEh2Zz09
+- campo: Velocidad máxima
+  valor: 100 km/h
+  estado: DATO
+  fuente: Observatorio Ferroviario Virtual + Gabriel Leiva
+  url: https://www.observatorioferroviariovirtual.com/trenes-diesel
+- campo: Asientos
+  valor: CM 36, CR 54 y CMF 24, con espacio para bicicletas
+  estado: DATO1
+  fuente: Gabriel Leiva
+  url: https://leivag1991vehicles.blogspot.com/2018/10/coche-motor-cnr-del-belgrano-sur.html
+- campo: Medidas
+  valor: Unos 21 m de largo y 3 m de ancho por coche; coche motor de 3.997 mm de alto
+  estado: VERIFICAR
+  fuente: Observatorio Ferroviario Virtual
+  url: https://www.observatorioferroviariovirtual.com/trenes-diesel
+- campo: Peso
+  valor: 144,6 t la tripla
+  estado: VERIFICAR
+  fuente: Observatorio Ferroviario Virtual
+  url: https://www.observatorioferroviariovirtual.com/trenes-diesel
+- campo: Combustible
+  valor: CM 1.100 l; CR 800 l
+  estado: VERIFICAR
+  fuente: Observatorio Ferroviario Virtual
+  url: https://www.observatorioferroviariovirtual.com/trenes-diesel
+- campo: Equipamiento
+  valor: Aire acondicionado, puertas corredizas y enganche automático Scharfenberg
+  estado: DATO
+  fuente: Gabriel Leiva + Wikimedia Commons
+  url: https://leivag1991vehicles.blogspot.com/2021/12/1042-trenes-dmu-cnr-de-los.html
+linea_de_tiempo:
+- fecha: '2015'
+  hito: Empiezan a correr en el Belgrano Sur
+  detalle: Fines de agosto
+  estado: DATO
+  fuente: Noticias Argentinas + Diario Popular
+  url: https://www.diariopopular.com.ar/provincia/compraran-repuestos-los-trenes-la-linea-belgrano-sur-n821202/amp

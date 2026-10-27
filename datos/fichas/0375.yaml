@@ -1,10 +1,116 @@
 codigo: '03.75'
 serie: '03'
 tipo: Ficha
-titulo: Renfe 319 · 319-220-0 · LSM
-periodo: ''
+titulo: GM-MACOSA RENFE 319-220-0 «Retales» · Línea San Martín
+nombre_corto: RENFE 319-220-0
+periodo: Desde 2007
 estado: en investigación
 imagen: img/0375-frente.jpg
 portada: img/0375-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: renfe 319 319-220-0 lsm linea san martin gm emd
+busqueda: renfe 319 319-220-0 3192 retales macosa general motors j16cw/ac lsm ugofe san martin españa
+datos:
+- campo: Fabricante
+  valor: MACOSA, España, con tecnología General Motors
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Fabricación
+  valor: 1984; número de fábrica 1759
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Línea
+  valor: San Martín, pasajeros
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://argentrenes.blogspot.com/2007/05/locomotoras-espaolas-en-argentina.html
+- campo: Flota de la serie
+  valor: 'RENFE 319.2, subserie 319.201–319.220: las primeras 20, con tres parabrisas'
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Operador
+  valor: UGOFE, Línea San Martín
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://argentrenes.blogspot.com/2007/05/locomotoras-espaolas-en-argentina.html
+- campo: Ejemplar
+  valor: 319-220-0
+  estado: DATO
+  fuente: Lectura de la imagen
+- campo: Modelo
+  valor: GM J16CW/AC
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Apodo
+  valor: «Retales»
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Motor
+  valor: General Motors 16-567C
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Potencia
+  valor: 1.190 kW, unos 1.997 CV
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Generador
+  valor: GM AR10/D14
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Motores de tracción
+  valor: 6 × GM D77B; Co'Co'
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Esfuerzo tractivo
+  valor: 231 kN
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Trocha
+  valor: 1.668 mm en España
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Largo
+  valor: 19,7 m entre topes
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Peso
+  valor: 110 t
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Velocidad máxima
+  valor: 120 km/h
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Combustible
+  valor: 4.500 l
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Servicio en España
+  valor: Sobre todo cargas
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://archivo.docutren.com/index.php/locomotoras-diesel-de-la-serie-319-ex-1900-de-renfe-176
+- campo: Llegada a la Argentina
+  valor: '2007'
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://argentrenes.blogspot.com/2007/05/locomotoras-espaolas-en-argentina.html
+- campo: Librea
+  valor: Azul y plata de la Línea San Martín
+  estado: VERIFICAR
+  fuente: Docutren · FFE + Argentrenes + Entre Máquinas y Vagones + Rails sense fronteres + Vapor 3D + UtahRails · MACOSA (citadas en bloque)
+  url: https://argentrenes.blogspot.com/2007/05/locomotoras-espaolas-en-argentina.html

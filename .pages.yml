@@ -68,6 +68,7 @@ content:
         label: Estado de la ficha
         type: select
         default: en investigación
+        description: "Ya no decide nada en las fichas de vehículos: la web marca «completa» sola cuando todos los casilleros de arriba (Fabricante, Fabricación, Línea, Flota, Operador, Ejemplar en trenes) tienen dato"
         options:
           values:
             - { value: "en investigación", label: "En investigación (se ve como «Próximamente»)" }

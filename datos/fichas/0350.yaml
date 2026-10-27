@@ -1,7 +1,148 @@
-codigo: "03.50"
-serie: "03"
+codigo: '03.50'
+serie: '03'
 tipo: Ficha
-titulo: ALCO - RSD16 - 8820 - Línea San Martín
+titulo: ALCo RSD-16 B820 · Línea San Martín
+nombre_corto: RSD-16 B820
+periodo: 1957–1959
 estado: en investigación
 imagen: img/1000364344-2.png
 portada: img/1000364344-1.png
+galeria:
+- imagen: img/rsd16-plano.jpg
+  leyenda: 'Plano: lateral y planta, ALCo RSD-16'
+  ancha: true
+busqueda: alco rsd-16 rsd16 dl-540 b820 b-820 8467 ugofe lsm linea san martin transporte publico ferrobaires junin alberdi
+datos:
+- campo: Fabricante
+  valor: American Locomotive Company (ALCo), Schenectady, Nueva York
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Fabricación
+  valor: 1957–1959, la serie
+  estado: DATO
+  fuente: Museo del Tren + Desarrollo y Defensa
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Línea
+  valor: 'San Martín: Buenos Aires–Pilar; en 2016, trenes a Junín y Alberdi'
+  estado: DATO
+  fuente: Trainz Argentina + Crónica Ferroviaria
+  url: https://trainz-argentina.blogspot.com/2019/10/alco-rsd-16-b820-transporte-publico.html
+- campo: Flota
+  valor: 130 RSD-16 para la Argentina
+  estado: DATO
+  fuente: Museo del Tren + Desarrollo y Defensa + Ferrocarriles del Sud
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Operadores
+  valor: UGOFE · Línea San Martín; en 2016, Ferrobaires
+  estado: DATO
+  fuente: Trainz Argentina + RailPictures + Crónica Ferroviaria
+  url: https://trainz-argentina.blogspot.com/2019/10/alco-rsd-16-b820-transporte-publico.html
+- campo: Ejemplar
+  valor: B820; ex 8467 según el Museo del Tren, que advierte inconsistencias en las placas
+  estado: VERIFICAR
+  fuente: Trainz Argentina + Flickr · Pablo F. Cepero + RailPictures · dos fotos + Museo del Tren
+  url: https://trainz-argentina.blogspot.com/2019/10/alco-rsd-16-b820-transporte-publico.html
+- campo: Numeración
+  valor: Las unidades transferidas a FEMESA pasaron a B-801 a B-829
+  estado: DATO1
+  fuente: Museo del Tren
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Reparación
+  valor: En 2013 volvió reparada al Departamento de Locomotoras Retiro, con colores de Transporte Público
+  estado: DATO1
+  fuente: Crónica Ferroviaria · 9/1/2013
+  url: https://wwwcronicaferroviaria.blogspot.com/2013/01/locomotora-para-la-linea-san-martin.html
+- campo: Modelo
+  valor: RSD-16, especificación DL-540
+  estado: DATO
+  fuente: Museo del Tren · C. A. Pérez Darnaud + Revista Diesel · ALCO Products
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co-Co
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Motor
+  valor: ALCo 251-B, 12 cilindros en V a 45°, cuatro tiempos, turboalimentado; 229 × 267 mm
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel + Desarrollo y Defensa
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Potencia
+  valor: 1.950 HP nominales; 1.800 HP al gancho
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Generador principal
+  valor: General Electric 5-GT-581-C1, unos 1.325–1.352 kW
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Motores de tracción
+  valor: 6 × General Electric 5-GE-761-A1, de unos 180 kW
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Medidas
+  valor: 17,088 m entre topes, 3,089 m de ancho y 4,445 m de alto
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel + Desarrollo y Defensa
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Peso
+  valor: Unas 108 t; unas 18 t por eje
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Velocidad máxima
+  valor: 122 km/h en la ficha histórica; FEPSA publica 120 km/h
+  estado: VERIFICAR
+  fuente: Museo del Tren + FEPSA
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Esfuerzo tractivo
+  valor: 28.500 kgf inicial; 18.235 kgf continuo
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Frenos
+  valor: Westinghouse 6-SLAV, aire comprimido y vacío
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Bogies
+  valor: Commonwealth de acero fundido, de General Steel Castings
+  estado: DATO
+  fuente: Museo del Tren + Revista Diesel
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Capacidades
+  valor: Unos 5.678 l de combustible, 985 l de agua, 757 l de aceite y 0,40 m³ de arena
+  estado: DATO
+  fuente: Revista Diesel + Características de la ALCo RSD-16
+  url: https://es.scribd.com/document/306460550/Locomotora-Alco-Rsd-16
+- campo: Órdenes de compra
+  valor: 'S-3290: 30 para el Sarmiento (4601–4630); S-3291: 55 para el Mitre (5601–5655); S-3292: 45 para el San Martín (4301–4345)'
+  estado: DATO
+  fuente: Museo del Tren + Desarrollo y Defensa + Ferrocarriles del Sud
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+linea_de_tiempo:
+- fecha: '2009'
+  hito: Fotografiada en la Línea San Martín
+  detalle: 4 de abril
+  estado: DATO1
+  fuente: Flickr · Pablo F. Cepero
+  url: https://www.flickr.com/photos/pablocepero/3413982718
+- fecha: '2013'
+  hito: Vuelve reparada, con colores de Transporte Público
+  estado: DATO1
+  fuente: Crónica Ferroviaria
+  url: https://wwwcronicaferroviaria.blogspot.com/2013/01/locomotora-para-la-linea-san-martin.html
+- fecha: '2016'
+  hito: Ferrobaires la saca de circulación
+  detalle: Abril; corría los trenes 513/514 a Junín y 515/516 a Alberdi
+  estado: DATO1
+  fuente: Crónica Ferroviaria
+  url: https://wwwcronicaferroviaria.blogspot.com/2016/04/ferrobaires-sacan-de-circulacion-de-la.html

@@ -1,40 +1,126 @@
 codigo: '03.27'
 serie: '03'
 tipo: Ficha
-titulo: Tren Solidario
-periodo: Desde 2001
+titulo: GM GT22CW-2 A910 · 4.º Tren Solidario
+nombre_corto: GT22CW-2 A910
+periodo: '1997'
 estado: en investigación
 imagen: img/t27.jpg
 portada: img/t27.jpg
 pie: Frente · Reconstrucción IA
-busqueda: tren solidario rieles multimedio donaciones pueblos fundacion andreani a910
+busqueda: general motors gm emd gt22cw-2 a910 tren solidario saladillo roque perez metropolitano roca canada london 2003
 datos:
-- campo: Qué es
+- campo: Fabricante
+  valor: General Motors (EMD), London, Canadá
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Fabricación
+  valor: Mayo de 1997; número de serie 958641-3
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Catálogo de Locomotoras Diesel en Argentina
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Línea
+  valor: General Roca
+  estado: DATO
+  fuente: RailGallery + Entre Máquinas y Vagones
+  url: https://railgallery.ru/railcar/131622/
+- campo: Flota
+  valor: 5 GT22CW-2 canadienses, A908–A912, en leasing para Metropolitano
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Boletín Oficial · 2/5/2003
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Operador
+  valor: Transportes Metropolitanos General Roca, en 2003; hoy, Trenes Argentinos
+  estado: DATO
+  fuente: Wikipedia · Estación Saladillo + La Nación
+  url: https://es.wikipedia.org/wiki/Estaci%C3%B3n_Saladillo
+- campo: Ejemplar
+  valor: A910
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + RailGallery
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Tren Solidario
+  valor: 'Encabezó el 4.º Tren Solidario, el 28/6/2003: de Plaza Constitución a Saladillo por Cañuelas, Empalme Lobos, Roque Pérez, Del Carril y Cazón'
+  estado: DATO
+  fuente: Tren Solidario + La Nación + Wikipedia · Estación Saladillo
+  url: https://trensolidario.org/4o-tren-solidario-saladillo/
+- campo: El viaje
+  valor: Unas 200 personas llevaron alimentos a tres comedores infantiles de Saladillo; el pueblo llevaba diez años sin trenes de pasajeros
+  estado: DATO
+  fuente: La Nación + Tren Solidario + CCB Railroad
+  url: https://www.lanacion.com.ar/opinion/carta-de-lectores/cartas-de-lectores-nid509169/
+- campo: Después
+  valor: Más de 7.000 firmas pidieron el regreso del tren; el viaje fue un antecedente del Operativo Retorno
+  estado: DATO
+  fuente: La Nación + Rieles Multimedio + Página/12
+  url: https://www.rieles.com/front/volveria-el-servicio-a-roque-perez-saladillo-y-gral-alvear/
+- campo: Modelo
+  valor: EMD GT22CW-2
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + RailGallery
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co'Co', bogies HTC
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Wikipedia · EMD GT22 Series
+  url: https://es.wikipedia.org/wiki/EMD_GT22_Series
+- campo: Motor
+  valor: EMD 12-645 E3, 12 cilindros en V, dos tiempos, turboalimentado
+  estado: DATO
+  fuente: FEPSA + Wikipedia · EMD GT22 Series + Gabriel Leiva
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Potencia
+  valor: 2.475 HP brutos; 2.250 HP de tracción
+  estado: DATO
+  fuente: FEPSA + Gabriel Leiva
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Wikipedia · EMD GT22 Series
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Peso
+  valor: Unas 107,75 t
+  estado: DATO
+  fuente: FEPSA + Wikipedia · EMD GT22 Series
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Medidas
+  valor: 17,374 m de largo, 3,14 m de ancho y 4,03 m de alto
+  estado: DATO1
+  fuente: FEPSA
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Velocidad máxima
+  valor: 140 km/h
+  estado: DATO1
+  fuente: FEPSA
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: 'Tren Solidario: qué es'
   valor: Viajes solidarios en tren que llevan donaciones a instituciones de todo el país y reclaman la vuelta del tren a los pueblos
   estado: DATO1
   fuente: Tren Solidario
   url: https://trensolidario.org/
-- campo: Organiza
+- campo: 'Tren Solidario: organiza'
   valor: Rieles multimedio
   estado: DATO1
   fuente: Tren Solidario
   url: https://trensolidario.org/
-- campo: Primer viaje
+- campo: 'Tren Solidario: primer viaje'
   valor: 8 de abril de 2001, a San Antonio de Areco, con 140 kg de donaciones y 32 colaboradores
   estado: DATO1
   fuente: Tren Solidario
   url: https://trensolidario.org/
-- campo: Frecuencia
+- campo: 'Tren Solidario: frecuencia'
   valor: Dos o tres viajes por año
   estado: DATO1
   fuente: Tren Solidario
   url: https://trensolidario.org/
-- campo: Cómo se sostiene
+- campo: 'Tren Solidario: cómo se sostiene'
   valor: Donaciones y apoyo de empresas, organismos públicos, sindicatos, trabajadores y voluntarios
   estado: DATO1
   fuente: Tren Solidario
   url: https://trensolidario.org/
-- campo: Aniversario
+- campo: 'Tren Solidario: aniversario'
   valor: 25 años en 2026
   estado: DATO1
   fuente: Tren Solidario
@@ -43,3 +129,16 @@ datos:
   valor: Bandera con el logo de la Fundación Andreani, sobre la locomotora GM G22 A910
   estado: DATO1
   fuente: Lectura de la imagen
+linea_de_tiempo:
+- fecha: '1997'
+  hito: GM la construye en London, Canadá
+  detalle: Mayo
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Catálogo de Locomotoras Diesel en Argentina
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- fecha: '2003'
+  hito: Encabeza el 4.º Tren Solidario a Saladillo
+  detalle: 28 de junio, desde Plaza Constitución
+  estado: DATO
+  fuente: Tren Solidario + La Nación
+  url: https://trensolidario.org/4o-tren-solidario-saladillo/

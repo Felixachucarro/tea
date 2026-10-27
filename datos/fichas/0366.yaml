@@ -1,10 +1,149 @@
 codigo: '03.66'
 serie: '03'
 tipo: Ficha
-titulo: ALCO · SAP · ALL 8511
-periodo: ''
+titulo: ALCo RSD-16 8511 · BAP / ALL
+nombre_corto: RSD-16 8511
+periodo: 1957–1959
 estado: en investigación
 imagen: img/0366-frente.jpg
 portada: img/0366-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: alco  sap  all 8511
+galeria:
+- imagen: img/rsd16-plano.jpg
+  leyenda: 'Plano: lateral y planta, ALCo RSD-16'
+  ancha: true
+nota_galeria: Plano de archivo.tea.
+busqueda: alco rsd-16 rsd16 dl-540 8511 82693 bap buenos aires al pacifico all america latina logistica soldini san martin sap
+datos:
+- campo: Fabricante
+  valor: American Locomotive Company (ALCo), Estados Unidos
+  estado: DATO
+  fuente: MDT-Trenes + Wikipedia · Locomotora ALCO RSD-16
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Fabricación
+  valor: De noviembre de 1957 a febrero de 1959, la serie
+  estado: DATO
+  fuente: MDT-Trenes + IAF · Ministerio de Economía
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Líneas
+  valor: Mitre, San Martín y Sarmiento; el grupo 8441–8515 quedó en el San Martín
+  estado: DATO
+  fuente: MDT-Trenes + Locomotora Alco RSD-16 · documento histórico
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Flota
+  valor: 130 locomotoras para la Argentina
+  estado: DATO
+  fuente: IAF · Ministerio de Economía + Wikipedia
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Operador
+  valor: BAP · Buenos Aires al Pacífico en 1997; después ALL
+  estado: DATO
+  fuente: MDT-Trenes + Trainz Argentina
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Ejemplar
+  valor: 8511, número de fábrica 82693
+  estado: DATO
+  fuente: MDT-Trenes + Trainz Argentina
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Estado en 1997
+  valor: Accidentada, según el registro del parque de BAP
+  estado: DATO1
+  fuente: MDT-Trenes
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Presencia posterior
+  valor: Fotografiada en el ámbito de ALL; en 2010, en Soldini junto a otras ALCo
+  estado: DATO
+  fuente: Mis Días en la Vía + Trainz Argentina
+  url: https://misdiasenlavia1.blogspot.com/2010/03/viaje-retro.html
+- campo: Servicio
+  valor: Cargas
+  estado: DATO1
+  fuente: MDT-Trenes
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Modelo
+  valor: RSD-16, especificación DL-540 para la Argentina
+  estado: DATO
+  fuente: MDT-Trenes + IAF · Ministerio de Economía
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co-Co
+  estado: DATO
+  fuente: IAF · Ministerio de Economía + FEPSA
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Motor
+  valor: ALCo 251-B, 12 cilindros en V, cuatro tiempos, turboalimentado
+  estado: DATO
+  fuente: MDT-Trenes + Wikipedia · Locomotora ALCO RSD-16
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Potencia
+  valor: 1.950 HP nominales a 1.000 rpm; 1.800 HP al gancho
+  estado: DATO
+  fuente: MDT-Trenes + IAF · Ministerio de Economía + FEPSA
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: IAF · Ministerio de Economía + MDT-Trenes
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Peso
+  valor: Unas 108 t; unas 18 t por eje
+  estado: DATO
+  fuente: IAF · Ministerio de Economía + FEPSA
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Medidas
+  valor: '17,088 m entre topes (FEPSA: 17,09 m), 3,09 m de ancho y 4,44 m de alto'
+  estado: DATO
+  fuente: MDT-Trenes + FEPSA + Wikipedia
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Velocidad máxima
+  valor: 122 km/h en la ficha histórica; FEPSA publica 120 km/h
+  estado: VERIFICAR
+  fuente: MDT-Trenes + FEPSA
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Motores de tracción
+  valor: 6 × General Electric 5-GE-761-A1, de 180 kW
+  estado: DATO
+  fuente: MDT-Trenes + Material Rodante I
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Generador principal
+  valor: General Electric 5-GT-581-C1, 1.325 kW
+  estado: DATO
+  fuente: MDT-Trenes + Material Rodante I
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Frenos
+  valor: Westinghouse 6-SLAV
+  estado: DATO
+  fuente: MDT-Trenes + documentación técnica RSD-16
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Esfuerzo tractivo
+  valor: 28.500 kg inicial; 18.235 kg continuo
+  estado: DATO
+  fuente: MDT-Trenes + documentación técnica RSD-16
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- campo: Bogies
+  valor: Commonwealth de tres ejes, de General Steel Castings; ruedas de 1.016 mm
+  estado: DATO
+  fuente: Documentación técnica RSD-16 + FEPSA
+  url: https://es.scribd.com/document/371445079/Alco-RSD
+- campo: Equipamiento eléctrico
+  valor: General Electric. Por eso a veces se la etiqueta como GE, pero la locomotora es ALCo
+  estado: DATO
+  fuente: MDT-Trenes
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+linea_de_tiempo:
+- fecha: '1957'
+  hito: Empiezan a llegar las RSD-16
+  detalle: Noviembre de 1957 a febrero de 1959
+  estado: DATO
+  fuente: MDT-Trenes + IAF · Ministerio de Economía
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- fecha: '1997'
+  hito: La 8511 figura accidentada en el parque de BAP
+  estado: DATO1
+  fuente: MDT-Trenes
+  url: https://mdttrenes.tripod.com/sitebuildercontent/sitebuilderfiles/8226clr.pdf
+- fecha: '2010'
+  hito: Registrada en Soldini con otras ALCo de ALL
+  estado: DATO1
+  fuente: Mis Días en la Vía
+  url: https://misdiasenlavia1.blogspot.com/2010/03/viaje-retro.html

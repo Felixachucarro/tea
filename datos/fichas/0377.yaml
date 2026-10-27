@@ -1,0 +1,153 @@
+codigo: '03.77'
+serie: '03'
+tipo: Ficha
+titulo: ALCo RSD-35 ME-61 «La Peperina» · Belgrano Norte
+nombre_corto: RSD-35 ME-61
+periodo: '1963'
+estado: en investigación
+imagen: img/0377-frente.jpg
+portada: img/0377-frente.jpg
+pie: Frente · Reconstrucción IA
+galeria:
+- imagen: img/0377-lateral.jpg
+  leyenda: 02 · Lateral, Ferrovías
+  ancha: true
+- imagen: img/0377-plano.jpg
+  leyenda: '03 · Plano: lateral y frentes'
+  ancha: true
+nota_galeria: Vistas y plano de archivo.tea · Reconstrucción IA.
+busqueda: alco rsd-35 rsd35 dl-535m me-61 me61 6761 la peperina belgrano ferrovias belgrano norte expreso los polvorines tren de las sierras cordoba central
+datos:
+- campo: Fabricante
+  valor: American Locomotive Company (ALCo), Schenectady, Estados Unidos
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + The Alco Locomotive Site
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-rsd-35.html
+- campo: Fabricación
+  valor: 1963; número de serie 84243
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + IAF · Ministerio de Economía
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-rsd-35.html
+- campo: Líneas
+  valor: Belgrano; Córdoba–Cruz del Eje con el Ferrocarril Córdoba Central; desde 2006, Belgrano Norte
+  estado: DATO
+  fuente: Universidad de Belgrano + Mis Días en la Vía
+  url: https://repositorio.ub.edu.ar/bitstream/handle/123456789/10724/Tesina%20Bruno%20Montenegro.pdf?isAllowed=y&sequence=1
+- campo: Flota
+  valor: 40 RSD-35 métricas, 6756–6795. La ME-61 es una de ellas, no una más
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + The Alco Locomotive Site
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Operadores
+  valor: Ferrocarril General Belgrano; Belgrano Cargas (1997); Ferrocarril Córdoba Central (1998–2000); Ferrovías (desde 2006)
+  estado: DATO1
+  fuente: Universidad de Belgrano
+  url: https://repositorio.ub.edu.ar/bitstream/handle/123456789/10724/Tesina%20Bruno%20Montenegro.pdf?isAllowed=y&sequence=1
+- campo: Ejemplar
+  valor: ME-61, ex 6761
+  estado: DATO
+  fuente: Ministerio de Transporte + Entre Máquinas y Vagones + Universidad de Belgrano
+  url: https://www.transporte.gob.ar/USERFILES/BOLETIN/ANEXOS-RESOLUCION-RS-359-2019-MTR/IF-RS-359-2019-MTR-IXB.pdf
+- campo: Modelo
+  valor: ALCo RSD-35, especificación DL-535M
+  estado: DATO
+  fuente: IAF · Ministerio de Economía + The Alco Locomotive Site
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Apodo
+  valor: «La Peperina», por la hierba cordobesa, después de la reconstrucción
+  estado: DATO
+  fuente: Universidad de Belgrano + Mis Días en la Vía
+  url: https://repositorio.ub.edu.ar/bitstream/handle/123456789/10724/Tesina%20Bruno%20Montenegro.pdf?isAllowed=y&sequence=1
+- campo: Reconstrucción
+  valor: Hacia 1997, en Talleres Córdoba, con cambios de diseño; ahí pasó a ser ME-61
+  estado: DATO
+  fuente: Universidad de Belgrano + Entre Máquinas y Vagones
+  url: https://repositorio.ub.edu.ar/bitstream/handle/123456789/10724/Tesina%20Bruno%20Montenegro.pdf?isAllowed=y&sequence=1
+- campo: Servicio en el Belgrano Norte
+  valor: «El Expreso», Retiro–Los Polvorines con parada en Boulogne, con coches reformados por EMEPA
+  estado: DATO
+  fuente: Urbipedia + Mis Días en la Vía + Amigos del Belgrano Norte
+  url: https://www.urbipedia.org/hoja/Estaci%C3%B3n_Retiro_Belgrano
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co-Co
+  estado: DATO
+  fuente: IAF · Ministerio de Economía + Catálogo de Locomotoras Diesel en Argentina
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Motor
+  valor: ALCo 251-D, 6 cilindros en línea, cuatro tiempos, turboalimentado
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + ficha general RSD-35
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Potencia
+  valor: 1.350 HP a 1.100 rpm; 1.200 HP al gancho
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + IAF
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Generador y motores de tracción
+  valor: GE 5GT740 PB1; 6 × GE 5GE761 A1, de 180 kW
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Trocha
+  valor: 1.000 mm
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + The Alco Locomotive Site
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Peso
+  valor: Unas 79,8 t (el IAF registra 78.930 kg); 13,3 t por eje
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + IAF
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Largo
+  valor: Unos 13,30 m entre topes
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Velocidad máxima
+  valor: Unos 104 km/h (el IAF da 105)
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + IAF
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Esfuerzo tractivo
+  valor: Unos 23.000 kg inicial; 19.340 kg continuo
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Frenos
+  valor: Westinghouse 26-LA
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + ficha general RSD-35
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Situación
+  valor: En 2016 se la daba fuera de servicio; en 2017, parada en los talleres de Boulogne. El Ministerio registró una intervención en diciembre de 2017
+  estado: VERIFICAR
+  fuente: Entre Máquinas y Vagones + Ministerio de Transporte
+  url: https://entre-maquinas-y-vagones.blogspot.com/2016/07/alta-cordoba-y-la-calera.html
+- campo: Plano
+  valor: Plano de una locomotora de CP del mismo diseño; sirve para la ME-61 hasta que tengamos uno propio
+  estado: DATO
+  fuente: Relevamiento archivo.tea
+linea_de_tiempo:
+- fecha: '1963'
+  hito: ALCo la construye para el Belgrano como 6761
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + The Alco Locomotive Site
+  url: https://www.trainweb.us/alco/84000.html
+- fecha: '1997'
+  hito: Reconstruida como ME-61 «La Peperina»; alquilada a Belgrano Cargas
+  detalle: Trenes de cereal Pergamino–Sorrento
+  estado: DATO1
+  fuente: Universidad de Belgrano
+  url: https://repositorio.ub.edu.ar/bitstream/handle/123456789/10724/Tesina%20Bruno%20Montenegro.pdf?isAllowed=y&sequence=1
+- fecha: '1998'
+  hito: Pasa al Ferrocarril Córdoba Central
+  detalle: Verde con bajos plateados, Córdoba–Cruz del Eje
+  estado: DATO
+  fuente: Universidad de Belgrano + Mis Días en la Vía
+  url: https://repositorio.ub.edu.ar/bitstream/handle/123456789/10724/Tesina%20Bruno%20Montenegro.pdf?isAllowed=y&sequence=1
+- fecha: '2006'
+  hito: Entra en Ferrovías para el servicio expreso
+  detalle: Agosto
+  estado: DATO1
+  fuente: Universidad de Belgrano
+  url: https://repositorio.ub.edu.ar/bitstream/handle/123456789/10724/Tesina%20Bruno%20Montenegro.pdf?isAllowed=y&sequence=1

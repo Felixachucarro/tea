@@ -1,10 +1,99 @@
 codigo: '03.65'
 serie: '03'
 tipo: Ficha
-titulo: CAF 793 · Línea Sarmiento
-periodo: ''
+titulo: CAF 593 «Camello» M504 · Línea Sarmiento
+nombre_corto: CAF 593 M504
+periodo: 1982–1984
 estado: en investigación
 imagen: img/0365-frente.jpg
 portada: img/0365-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: caf 793  línea sarmiento
+galeria:
+- imagen: img/0365-lateral.jpg
+  leyenda: 02 · Lateral, Línea Sarmiento
+  ancha: true
+- imagen: img/0361-plano-lateral.jpg
+  leyenda: '03 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas y plano de archivo.tea a partir de fotos · Reconstrucción IA.
+busqueda: caf 593 camello renfe m504 r001 m506 sarmiento tba once haedo tripla 793
+datos:
+- campo: Fabricante
+  valor: CAF, España, con remolques de Babcock & Wilcox y motores Fiat
+  estado: DATO
+  fuente: Vía Libre + Archivo Histórico Provincial de Zaragoza
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Fabricación
+  valor: 1982–1984
+  estado: DATO
+  fuente: Vía Libre + Memoria RENFE 1984-1987
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Línea
+  valor: Sarmiento, con servicios desde Once y movimientos en Haedo
+  estado: DATO
+  fuente: Mis Días en la Vía · dos entradas
+  url: https://misdiasenlavia1.blogspot.com/2008/12/una-maana-en-el-sarmiento.html
+- campo: Formación
+  valor: M504 + R001 + M506
+  estado: DATO
+  fuente: Trenes Argentinos Operaciones · pliego técnico serie 593 + Crónica Ferroviaria
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/aFNaZ0Y1QTFWSGtRWTBJTC9ITFZIdz09
+- campo: Operador
+  valor: TBA, en la etapa de la foto
+  estado: DATO
+  fuente: Mis Días en la Vía · dos entradas
+  url: https://misdiasenlavia1.blogspot.com/2012/06/las-capturas-de-diego-german-telesa_05.html
+- campo: Ejemplar
+  valor: M504, coche motor
+  estado: DATO
+  fuente: Trenes Argentinos Operaciones · pliego técnico + Mis Días en la Vía
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/aFNaZ0Y1QTFWSGtRWTBJTC9ITFZIdz09
+- campo: Librea
+  valor: 'Azul y gris, con «Línea Sarmiento»: es la del ejemplar en esa etapa, no la original del modelo'
+  estado: DATO
+  fuente: Lectura de la imagen
+- campo: Modelo
+  valor: RENFE serie 593, «Camello»
+  estado: DATO
+  fuente: Vía Libre · Fundación de los Ferrocarriles Españoles + Archivo Histórico Provincial de Zaragoza
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Tipo
+  valor: 'Automotor diésel de media distancia, tres coches: motor + remolque + motor'
+  estado: DATO
+  fuente: Vía Libre + Memoria RENFE 1984-1987
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Motores
+  valor: 4 Fiat 8217 de unos 162 kW; alrededor de 648 kW en total
+  estado: DATO
+  fuente: Vía Libre + Mexpedia
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Transmisión
+  valor: Mecánica
+  estado: DATO
+  fuente: Memoria RENFE 1984-1987 + Vía Libre
+  url: https://docutren.com/pdf/memoriasRENFE/1984-87.pdf
+- campo: Velocidad máxima
+  valor: 120 km/h
+  estado: DATO
+  fuente: Vía Libre + Mexpedia
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Trocha
+  valor: 1.676 mm en la Argentina
+  estado: DATO
+  fuente: Mexpedia + Wikipedia · Serie 593 de Renfe
+  url: https://mexpedia.org/index.php/Serie_593
+- campo: Medidas
+  valor: Formación de unos 71,4 m de largo y 2,91 m de ancho
+  estado: DATO
+  fuente: Mexpedia + Vía Libre
+  url: https://mexpedia.org/index.php/Serie_593
+- campo: Capacidad original
+  valor: 228 pasajeros sentados
+  estado: DATO
+  fuente: Vía Libre + Memoria RENFE 1984-1987
+  url: https://www.vialibre-ffe.com/ficha_mate.asp?cat=ms01&cod=223
+- campo: Cantidad construida
+  valor: 62 formaciones para RENFE
+  estado: DATO
+  fuente: Memoria RENFE 1984-1987 + Vía Libre
+  url: https://docutren.com/pdf/memoriasRENFE/1984-87.pdf

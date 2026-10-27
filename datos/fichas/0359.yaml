@@ -1,10 +1,116 @@
 codigo: '03.59'
 serie: '03'
 tipo: Ficha
-titulo: GECO UB11 · Ferrovías
-periodo: ''
+titulo: GECO U11B 1515 «Tajuña» · Ferrovías
+nombre_corto: GECO U11B 1515
+periodo: Desde 2008
 estado: en investigación
 imagen: img/0359-frente.jpg
 portada: img/0359-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: geco ub11  ferrovías
+galeria:
+- imagen: img/0359-34.jpg
+  leyenda: 02 · Vista 3/4
+busqueda: geco ge general electric u11b u11-b 1515 tajuña feve ferrovías belgrano norte babcock wilcox ub11
+datos:
+- campo: Fabricante
+  valor: Babcock & Wilcox, España, bajo licencia de General Electric
+  estado: DATO
+  fuente: JST · informe sobre la 1515 + Mexpedia
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Fabricación
+  valor: '1974'
+  estado: DATO
+  fuente: Rails sense fronteres + Mexpedia
+  url: https://railssensefronteres.blogspot.com/2016/07/
+- campo: Línea
+  valor: Belgrano Norte, ramal Retiro–Villa Rosa y servicios a Grand Bourg
+  estado: DATO
+  fuente: JST + Rieles Multimedio
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Cantidad en la Argentina
+  valor: 'Dos U11B en Ferrovías: 1514 y 1515'
+  estado: DATO1
+  fuente: Rieles Multimedio
+  url: https://www.rieles.com/front/mas-servicios-en-la-linea-belgrano-norte-2/
+- campo: Operador
+  valor: Ferrovías S.A.C.
+  estado: DATO
+  fuente: JST + Rieles Multimedio
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Ejemplar
+  valor: '1515'
+  estado: DATO
+  fuente: JST + Ministerio de Transporte · ficha de mantenimiento
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Modelo
+  valor: General Electric U11B
+  estado: DATO
+  fuente: JST + Ministerio de Transporte
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica
+  estado: DATO
+  fuente: JST + Mexpedia
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Disposición de ejes
+  valor: Bo'Bo'
+  estado: DATO
+  fuente: JST + Mexpedia
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Trocha
+  valor: 1.000 mm
+  estado: DATO
+  fuente: JST + Mexpedia
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Motor
+  valor: Caterpillar 3512, instalado en la etapa de FEVE
+  estado: DATO
+  fuente: Mexpedia + Rails sense fronteres
+  url: https://mexpedia.org/index.php/Serie_1500_de_Renfe
+- campo: Potencia
+  valor: 1.065 HP según la JST; Mexpedia da 1.300 CV para la serie
+  estado: VERIFICAR
+  fuente: JST + Mexpedia
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Peso
+  valor: 58 t con suministros completos
+  estado: DATO
+  fuente: JST + Mexpedia
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Medidas
+  valor: 11,33 m de largo, 2,62 m de ancho y 3,84 m de alto
+  estado: DATO
+  fuente: JST + Mexpedia
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Numeración anterior
+  valor: 1405 en el Ferrocarril del Tajuña, 1515 en FEVE
+  estado: DATO
+  fuente: Engerth + Trenes y tiempos
+  url: https://afviaestrecha.blogspot.com/2013/12/adios-tajunas.html
+- campo: Llegada
+  valor: '2008'
+  estado: DATO
+  fuente: Poder Judicial de la Nación + JST
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf
+- campo: Apodo
+  valor: «Tajuña»
+  estado: DATO
+  fuente: JST + RailPictures
+  url: https://www.railpictures.net/viewphoto.php?id=545280
+linea_de_tiempo:
+- fecha: '1974'
+  hito: Construcción para el Ferrocarril del Tajuña, como 1405
+  estado: DATO
+  fuente: Rails sense fronteres + Engerth
+  url: https://railssensefronteres.blogspot.com/2016/07/
+- fecha: '2000'
+  hito: FEVE compra las cinco U11B del Tajuña y las numera 1511–1515
+  estado: DATO
+  fuente: Trenes y tiempos + Rails sense fronteres
+  url: https://trenesytiempos.blogspot.com/2017/07/cronicas-de-la-via-estrecha-xxvi-las.html
+- fecha: '2008'
+  hito: Llega a la Argentina para Ferrovías
+  estado: DATO
+  fuente: Poder Judicial de la Nación + JST
+  url: https://jst.gob.ar/files/informes/FE/2022/011322-04257535/IPROV-04257535-22.pdf

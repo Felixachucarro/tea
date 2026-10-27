@@ -1,0 +1,108 @@
+codigo: '03.79'
+serie: '03'
+tipo: Ficha
+titulo: CNR CKD8G 0002 · Trenes Argentinos
+nombre_corto: CNR CKD8G 0002
+periodo: '2013'
+estado: en investigación
+imagen: img/0379-frente.jpg
+portada: img/0379-frente.jpg
+pie: Frente · Reconstrucción IA
+galeria:
+- imagen: img/0379-lateral.jpg
+  leyenda: 02 · Lateral
+  ancha: true
+- imagen: img/0379-plano-lateral.jpg
+  leyenda: '03 · Plano: lateral'
+  ancha: true
+- imagen: img/0379-plano-frente.jpg
+  leyenda: '04 · Plano: frente'
+nota_galeria: Vistas y planos de archivo.tea · Reconstrucción IA. Ficha pedida por un seguidor.
+busqueda: cnr crrc dalian ckd8g ckd8 ckd8h 0002 trenes argentinos larga distancia china mtu bragado mechita
+datos:
+- campo: Fabricante
+  valor: CNR Dalian Locomotive & Rolling Stock, China; hoy parte de CRRC
+  estado: DATO
+  fuente: CRRC + Mexpedia
+  url: https://www.crrcgc.cc/es/2017-03/15/article_38D6AD46F20A43C48655B70DEEC171C6.html
+- campo: Fabricación
+  valor: '2013: ese año empezaron a llegar las CKD8'
+  estado: DATO
+  fuente: International Railway Journal + CRRC
+  url: https://www.railjournal.com/locomotives/chinese-locomotives-enter-service-in-argentina/
+- campo: Servicio
+  valor: Larga distancia de Trenes Argentinos en las líneas Mitre, Roca, Sarmiento y San Martín
+  estado: DATO1
+  fuente: SOFSE · mantenimiento de locomotoras CNR
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/d3F3ZFJhaWVxTFNDc1FTTndSaVMzUT09
+- campo: Flota
+  valor: No encontramos cuántas CKD8G llegaron
+  estado: SIN DATO
+- campo: Operador
+  valor: SOFSE · Trenes Argentinos Operaciones
+  estado: DATO
+  fuente: RailPictures + SOFSE
+  url: https://www.railpictures.net/photo/448243/
+- campo: Ejemplar
+  valor: 0002, CKD8G. RailPictures cataloga fotos de la 0002 como CKD8H; las fuentes argentinas dicen CKD8G
+  estado: VERIFICAR
+  fuente: Mis Días en la Vía + Flickr · Carlos Daniel Dobelli + Crónica Ferroviaria + RailPictures
+  url: https://misdiasenlavia1.blogspot.com/2013/09/las-capturas-de-diego-german-telesa_24.html
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co'Co'
+  estado: DATO
+  fuente: Mexpedia + CRRC
+  url: https://mexpedia.org/index.php/Locomotora_CNR_CKD8
+- campo: Motor
+  valor: MTU 16V 4000 R43, 16 cilindros en V, alemán
+  estado: DATO
+  fuente: SOFSE · motores MTU + Manual de operación CKD8G/H
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/YmlSd1Nja2laSkVqd201RjZFY2xyZz09
+- campo: Potencia
+  valor: 2.200 kW, unos 2.950 HP, a 1.800 rpm
+  estado: DATO
+  fuente: SOFSE + International Railway Journal
+  url: https://contrataciones-publico.sofse.gob.ar/descarga_licitaciones/YmlSd1Nja2laSkVqd201RjZFY2xyZz09
+- campo: Transmisión
+  valor: Eléctrica de alterna a continua
+  estado: DATO
+  fuente: CRRC + Manual de operación CKD8G/H
+  url: https://www.crrcgc.cc/es/2017-03/15/article_38D6AD46F20A43C48655B70DEEC171C6.html
+- campo: Motores de tracción
+  valor: ZD106AX1
+  estado: DATO1
+  fuente: Mexpedia
+  url: https://mexpedia.org/index.php/Locomotora_CNR_CKD8
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: CRRC + Manual de operación CKD8G/H
+  url: https://www.crrcgc.cc/es/2017-03/15/article_38D6AD46F20A43C48655B70DEEC171C6.html
+- campo: Velocidad máxima
+  valor: 120 km/h la CKD8G; 160 km/h la CKD8H
+  estado: DATO
+  fuente: CRRC + International Railway Journal
+  url: https://www.crrcgc.cc/es/2017-03/15/article_38D6AD46F20A43C48655B70DEEC171C6.html
+- campo: Medidas
+  valor: 'Unos 19,86 m de largo (CRRC: 20,632 m entre enganches), 3,10 m de ancho y 4,21 m de alto'
+  estado: VERIFICAR
+  fuente: Mexpedia + CRRC
+  url: https://mexpedia.org/index.php/Locomotora_CNR_CKD8
+- campo: Peso
+  valor: Unas 120 t; 20 t por eje
+  estado: DATO
+  fuente: Mexpedia + CRRC
+  url: https://mexpedia.org/index.php/Locomotora_CNR_CKD8
+linea_de_tiempo:
+- fecha: '2013'
+  hito: Viaje de prueba de Bragado a Once
+  detalle: 24 de septiembre
+  estado: DATO
+  fuente: Mis Días en la Vía + Flickr
+  url: https://misdiasenlavia1.blogspot.com/2013/09/las-capturas-de-diego-german-telesa_24.html
+- fecha: '2021'
+  hito: Remolca coches Fiat 593 desde Mechita hacia Haedo y Llavallol
+  detalle: Octubre
+  estado: DATO1
+  fuente: Crónica Ferroviaria
+  url: https://wwwcronicaferroviaria.blogspot.com/search?max-results=30&reverse-paginate=true&updated-max=2021-10-27T15%3A45%3A00-03%3A00

@@ -1,23 +1,98 @@
 codigo: '03.28'
 serie: '03'
 tipo: Ficha
-titulo: Metropolitan-Vickers · Mitre
-periodo: —
+titulo: Metropolitan-Vickers Tipo C · M 1219 · Línea Mitre
+nombre_corto: Metropolitan-Vickers M 1219
+periodo: 1931–años 90
 estado: en investigación
 imagen: img/t28.jpg
 portada: img/t28.jpg
 pie: Frente · Reconstrucción IA
-busqueda: metropolitan vickers mitre electrico ferrocarriles argentinos
+busqueda: metropolitan vickers metrovick tipo c m 1219 mu 107 mp 107 central argentino mitre villa ballester tigre electrico
 datos:
-- campo: Fabricante
-  valor: Metropolitan-Vickers, Reino Unido
+- campo: Fabricantes
+  valor: 'Británicos: Metropolitan Carriage & Wagon, Birmingham Railway Carriage & Wagon y otras firmas; equipo eléctrico de Metropolitan-Vickers y British Thompson Houston. Las fuentes no coinciden en la lista de carroceros'
+  estado: VERIFICAR
+  fuente: Tren Rodante N.º 214 + Historias del Riel
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/214.pdf
+- campo: Fabricación
+  valor: '1931'
   estado: DATO
-  fuente: Relevamiento archivo.tea
-- campo: Línea
-  valor: Mitre
+  fuente: Historias del Riel + Flickr · Agrupación Boletos Tipo Edmondson
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
+- campo: Líneas
+  valor: 'Central Argentino: Retiro–Villa Ballester y Retiro–Tigre «R»; después, Línea Mitre'
   estado: DATO
-  fuente: Relevamiento archivo.tea
+  fuente: Historias del Riel + Archivo General de la Nación · Redes
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
+- campo: Flota
+  valor: 180 coches metálicos Tipo C
+  estado: DATO
+  fuente: Historias del Riel + Wikimedia Commons
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
+- campo: Operadores
+  valor: Ferrocarril Central Argentino; después, Ferrocarriles Argentinos
+  estado: DATO
+  fuente: Historias del Riel + Wikimedia Commons
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
+- campo: Ejemplar
+  valor: 'M 1219, ex MU 107, ex MP 107: coche motor'
+  estado: DATO
+  fuente: Tren Rodante N.º 214 + Tren Rodante N.º 213
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/214.pdf
+- campo: Tipo
+  valor: Coche motor eléctrico; los Tipo C se dividían en motrices y acoplados
+  estado: DATO
+  fuente: Tren Rodante N.º 214 + Historias del Riel
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/214.pdf
+- campo: Carrocería
+  valor: Toda de acero, con tres salones, dos vestíbulos y una sola cabina, del lado izquierdo
+  estado: DATO
+  fuente: Wikimedia Commons + Historias del Riel
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
+- campo: Alimentación
+  valor: Tercer riel, corriente continua; no encontramos la tensión exacta de este coche
+  estado: DATO
+  fuente: FCBAP + Mis Días en la Vía
+  url: https://misdiasenlavia1.blogspot.com/2016/08/100-anos-de-trenes-electrificados-en.html
+- campo: Asientos
+  valor: 'Primera: tapizados y rebatibles. Segunda: fijos, de varillas de madera lustrada'
+  estado: DATO
+  fuente: Historias del Riel + Archivo General de la Nación · Redes
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
+- campo: Colores
+  valor: Marrón con techo ocre o plateado; a fines de los 70, algunos en rojo, amarillo y azul
+  estado: DATO
+  fuente: Historias del Riel + Mis Días en la Vía
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
+- campo: Esquemas del M 1219
+  valor: En 1988, gris claro con bandas anaranjadas y logo de FA; después, el de los coches remodelados por EMEPA; al final, de nuevo marrón
+  estado: DATO
+  fuente: Tren Rodante N.º 213 + Ferrocarril General Bartolomé Mitre
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/213.pdf
+- campo: Retiro
+  valor: Los últimos Metropolitan-Vickers dejaron el servicio en los años 90
+  estado: DATO
+  fuente: Historias del Riel + Ferrocarril General Bartolomé Mitre
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
 - campo: Librea documentada
   valor: Blanca y roja de Ferrocarriles Argentinos
   estado: DATO1
   fuente: Lectura de la imagen
+linea_de_tiempo:
+- fecha: '1931'
+  hito: Empiezan a correr los Tipo C
+  detalle: 1 de diciembre, en Retiro–Villa Ballester
+  estado: DATO
+  fuente: Historias del Riel + Archivo General de la Nación · Redes
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/
+- fecha: '1988'
+  hito: El MU 107 pasa a ser M 1219, con un esquema experimental
+  estado: DATO
+  fuente: Tren Rodante N.º 213 + Tren Rodante N.º 214
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/213.pdf
+- fecha: Años 90
+  hito: Se retiran los últimos Metropolitan-Vickers
+  estado: DATO
+  fuente: Historias del Riel + Ferrocarril General Bartolomé Mitre
+  url: https://www.historiasdelriel.com.ar/electricos-ingleses-central-argentino-segunda-parte/

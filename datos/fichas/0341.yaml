@@ -1,11 +1,105 @@
-codigo: "03.41"
-serie: "03"
+codigo: '03.41'
+serie: '03'
 tipo: Ficha
-titulo: Toshiba Chapa 9 — Línea Sarmiento UGOMS
-periodo: 1960-2014
+titulo: Toshiba · Chapa 9 · Línea Sarmiento, UGOMS
+nombre_corto: Toshiba Chapa 9
+periodo: '1962'
 estado: en investigación
 imagen: img/1000364245.png
 portada: img/1000364245-1.png
 pie: Toshiba, Tren Sarmiento
 nota_galeria: Reconstrucción IA
-busqueda: Toshiba, Tren Sarmiento
+busqueda: toshiba chapa 9 sarmiento ugoms transporte publico once moreno 2169 2004 coches electricos japoneses
+datos:
+- campo: Fabricantes
+  valor: Carrocerías japonesas de Kawasaki, Kinki Sharyo, Nippon Sharyo y Tokyu Car; algunas unidades, de Fabricaciones Militares
+  estado: DATO
+  fuente: MSTS Argentina + Chequeado
+  url: https://mstsargentina.blogspot.com/2011/03/coche-motores-electricos-toshiba-tba.html
+- campo: Fabricación
+  valor: 1962; el coche 2169, también de 1962
+  estado: DATO
+  fuente: Chequeado + Cámara de Diputados + RailGallery + TrainFoto
+  url: https://chequeado.com/ultimas-noticias/cfk-desde-hace-50-o-60-anos-que-no-habia-nuevas-formaciones-en-la-republica-argentina/
+- campo: Línea
+  valor: Sarmiento, Once–Moreno
+  estado: DATO
+  fuente: Crónica Ferroviaria + Fundación TEM
+  url: https://wwwcronicaferroviaria.blogspot.com/2013/02/novedades-ferroviarias-de-fin-de-semana.html
+- campo: Coches de la formación
+  valor: '8: 2169, 1079, 1793, 2126, 1022, 2502, 2133 y 2004, de cabina Moreno a cabina Once'
+  estado: DATO
+  fuente: Crónica Ferroviaria + Mis Días en la Vía
+  url: https://wwwcronicaferroviaria.blogspot.com/2013/02/novedades-ferroviarias-de-fin-de-semana.html
+- campo: Operador
+  valor: UGOMS (Unidad de Gestión Operativa Mitre y Sarmiento)
+  estado: DATO
+  fuente: Crónica Ferroviaria + RailPictures
+  url: https://wwwcronicaferroviaria.blogspot.com/2013/02/novedades-ferroviarias-de-fin-de-semana.html
+- campo: Ejemplar
+  valor: Chapa 9; cabina Moreno 2169, cabina Once 2004 (ex 7004E)
+  estado: DATO
+  fuente: Crónica Ferroviaria + RailPictures
+  url: https://www.railpictures.net/photo/426949/
+- campo: Potencia de la formación
+  valor: 2.400 HP en 8 coches
+  estado: DATO
+  fuente: Auditoría General de la Nación + MSTS Argentina
+  url: https://www.agn.gob.ar/sites/default/files/informes/informe_033_2019_0.pdf
+- campo: Renovación
+  valor: Una de las once formaciones eléctricas con reparación integral terminada después de TBA
+  estado: DATO
+  fuente: Ministerio del Interior + Auditoría General de la Nación
+  url: https://mininterior.gob.ar/obras_sarmiento.pdf
+- campo: Librea
+  valor: Transporte Público
+  estado: DATO
+  fuente: Crónica Ferroviaria + Mis Días en la Vía
+  url: https://wwwcronicaferroviaria.blogspot.com/2013/02/novedades-ferroviarias-de-fin-de-semana.html
+- campo: Equipo eléctrico
+  valor: Toshiba (Tokyo Shibaura Electric)
+  estado: DATO
+  fuente: MSTS Argentina + Bus América
+  url: https://mstsargentina.blogspot.com/2011/03/coche-motores-electricos-toshiba-tba.html
+- campo: Motores
+  valor: 2 × 150 HP por coche motor, 300 HP por coche
+  estado: DATO
+  fuente: Auditoría General de la Nación + MSTS Argentina + Trensim
+  url: https://www.agn.gob.ar/sites/default/files/informes/informe_033_2019_0.pdf
+- campo: Alimentación
+  valor: Tercer riel, 800 V de corriente continua; algunas fuentes dicen 600/800 V
+  estado: DATO
+  fuente: MSTS Argentina + Trenes por la Web + Trensim
+  url: https://mstsargentina.blogspot.com/2011/03/coche-motores-electricos-toshiba-tba.html
+- campo: Velocidad máxima
+  valor: 135 km/h
+  estado: DATO
+  fuente: MSTS Argentina + Ferrocarriles del Sud
+  url: https://mstsargentina.blogspot.com/2011/03/coche-motores-electricos-toshiba-tba.html
+- campo: Medidas
+  valor: 22,3 m de largo, unos 3,13 m de ancho y 4,44 m de alto por coche
+  estado: DATO
+  fuente: Minuto Uno + MSTS Argentina + Trensim
+  url: https://www.minutouno.com/sociedad/como-es-el-tren-que-choco-n160547
+- campo: Frenos
+  valor: WABCO Universal U-20 con freno electrodinámico
+  estado: DATO
+  fuente: MSTS Argentina + Ferrocarriles del Sud
+  url: https://mstsargentina.blogspot.com/2011/03/coche-motores-electricos-toshiba-tba.html
+- campo: Coches en el Sarmiento
+  valor: 197 comprados en 1962; la AGN contó 163 en enero de 2013
+  estado: DATO
+  fuente: Chequeado + Cámara de Diputados + Auditoría General de la Nación
+  url: https://chequeado.com/ultimas-noticias/cfk-desde-hace-50-o-60-anos-que-no-habia-nuevas-formaciones-en-la-republica-argentina/
+linea_de_tiempo:
+- fecha: '1962'
+  hito: Llegan los coches Toshiba para el Sarmiento
+  estado: DATO
+  fuente: Chequeado + Cámara de Diputados
+  url: https://chequeado.com/ultimas-noticias/cfk-desde-hace-50-o-60-anos-que-no-habia-nuevas-formaciones-en-la-republica-argentina/
+- fecha: '2013'
+  hito: La Chapa 9 vuelve renovada, con colores de Transporte Público
+  detalle: Febrero
+  estado: DATO
+  fuente: Crónica Ferroviaria + Mis Días en la Vía
+  url: https://wwwcronicaferroviaria.blogspot.com/2013/02/novedades-ferroviarias-de-fin-de-semana.html

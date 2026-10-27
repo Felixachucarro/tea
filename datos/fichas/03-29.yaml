@@ -1,23 +1,129 @@
 codigo: '03.29'
 serie: '03'
 tipo: Ficha
-titulo: GM G22 · Estrella del Norte
-periodo: —
+titulo: GM GT22CW 9019 · Ferrosur Roca
+nombre_corto: GT22CW 9019
+periodo: '1972'
 estado: en investigación
 imagen: img/t29.jpg
 portada: img/t29.jpg
 pie: Frente · Reconstrucción IA
-busqueda: gm g22 estrella del norte ferrocarriles argentinos
+busqueda: general motors gm emd gt22cw gt22 9019 37794 la grange ferrocarriles argentinos roca ferrosur estrella del norte tucuman
 datos:
-- campo: Modelo
-  valor: General Motors G22
+- campo: Fabricante
+  valor: General Motors (EMD), La Grange, Illinois
   estado: DATO
-  fuente: Relevamiento archivo.tea
-- campo: Nombre
-  valor: Estrella del Norte
+  fuente: Entre Máquinas y Vagones + RailGallery
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Fabricación
+  valor: Agosto de 1972; número de serie 37794
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Línea
+  valor: Ferrocarril General Roca
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Flickr
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Flota
+  valor: '79 GT22CW para Ferrocarriles Argentinos: 9001–9064 y 9201–9215'
+  estado: DATO
+  fuente: Wikipedia · EMD GT22 Series + Entre Máquinas y Vagones
+  url: https://es.wikipedia.org/wiki/EMD_GT22_Series
+- campo: Operadores
+  valor: Ferrocarriles Argentinos; después, Ferrosur Roca
+  estado: DATO
+  fuente: RailPictures + Entre Máquinas y Vagones
+  url: https://www.railpictures.net/photo/398410/
+- campo: Ejemplar
+  valor: '9019'
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + RailGallery + RailPictures
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Estrella del Norte
+  valor: Las GT22CW llevaban el Estrella del Norte, Retiro–Tucumán; la foto de 2007 muestra la 9102. No está probado que la 9019 lo haya encabezado
   estado: VERIFICAR
-  fuente: Falta fuente
+  fuente: Wikimedia Commons + Flickr
+  url: https://commons.wikimedia.org/wiki/File:Ferrocarriles_Argentinos_-_Estrella_del_Norte.jpg
+- campo: Modelo
+  valor: EMD GT22CW
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + RailGallery
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co'Co', bogies HTC
+  estado: DATO
+  fuente: JST + Wikipedia · EMD GT22 Series
+  url: https://jst.gob.ar/files/informes/MM/2020/072720-87189049/IP-87189049-20.pdf
+- campo: Motor
+  valor: EMD 12-645 E3, 12 cilindros en V, dos tiempos, turboalimentado
+  estado: DATO
+  fuente: FEPSA + JST
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Potencia
+  valor: 2.475 HP brutos; 2.250 HP de tracción
+  estado: DATO
+  fuente: FEPSA + JST
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Generadores
+  valor: Principal AR10F1-D14; auxiliar D14
+  estado: DATO
+  fuente: FEPSA + Curso de Material Rodante
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Motores de tracción
+  valor: 6 × D75
+  estado: DATO1
+  fuente: FEPSA
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: JST + Wikipedia · EMD GT22 Series
+  url: https://jst.gob.ar/files/informes/MM/2020/072720-87189049/IP-87189049-20.pdf
+- campo: Peso
+  valor: Unas 107,75 t; 17,95 t por eje
+  estado: DATO
+  fuente: FEPSA + JST
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Medidas
+  valor: 17,374 m de largo, 3,14 m de ancho y 4,03 m de alto
+  estado: DATO
+  fuente: FEPSA + Curso de Material Rodante
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Velocidad
+  valor: 140 km/h máxima; 26,4 km/h mínima continua
+  estado: DATO
+  fuente: FEPSA + Curso de Material Rodante
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Ruedas
+  valor: 1.016 mm (40 pulgadas)
+  estado: DATO
+  fuente: FEPSA + Curso de Material Rodante
+  url: https://www.fepsa.com.ar/como-lo-hacemos/material-rodante
+- campo: Situación
+  valor: Operativa en Ferrosur Roca; en 2024 se le agregó un climatizador
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
 - campo: Librea documentada
   valor: Blanca, roja y azul con el logo de Ferrocarriles Argentinos
   estado: DATO1
   fuente: Lectura de la imagen
+linea_de_tiempo:
+- fecha: '1972'
+  hito: EMD la construye en La Grange
+  detalle: Agosto
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gt22cwcw-2cw-3.html
+- fecha: '2011'
+  hito: Encabeza un tren vacío de Ferrosur Roca
+  estado: DATO1
+  fuente: Mis Días en la Vía
+  url: https://misdiasenlavia1.blogspot.com/2011/08/por-el-roca.html
+- fecha: '2021'
+  hito: Titular de un tren de carga de Ferrosur Roca en Río Negro
+  detalle: Junio
+  estado: DATO1
+  fuente: Crónica Ferroviaria
+  url: https://wwwcronicaferroviaria.blogspot.com/2021/06/rio-negro-siguen-descarrilando-las.html

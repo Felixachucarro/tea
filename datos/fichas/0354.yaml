@@ -1,8 +1,119 @@
-codigo: "03.54"
-serie: "03"
+codigo: '03.54'
+serie: '03'
 tipo: Ficha
-titulo: Electric General - Series 1400 - librea CP (Comboios do Portugal) taller
-  de Liniers
+titulo: English Electric 1400 · CP 1409, librea portuguesa
+nombre_corto: English Electric CP 1409
+periodo: '1966'
 estado: en investigación
 imagen: img/1000364372.png
 portada: img/1000364372-1.png
+galeria:
+- imagen: img/ee1400-ficha-tecnica-cp.jpg
+  leyenda: Ficha técnica de CP, serie 1400 · escaneo de plataforma14.com.ar
+  ancha: true
+busqueda: english electric 1400 ld 844 c vulcan foundry cp comboios portugal 1409 naranja liniers
+datos:
+- campo: Fabricante
+  valor: English Electric, en Vulcan Foundry, Inglaterra
+  estado: DATO
+  fuente: Future Memory Transportation + Caminhos de Ferro
+  url: https://futurememory-transportation.blogspot.com/2023/01/diesel-electric-locomotive-cp-1404-english-electric-vulcan-foundry-ld-844-c-12115003.html
+- campo: Fabricación
+  valor: 1966; número de fábrica EE 3766 / D1135
+  estado: DATO
+  fuente: Future Memory Transportation + Portugal Ferroviário
+  url: https://futurememory-transportation.blogspot.com/2023/01/diesel-electric-locomotive-cp-1404-english-electric-vulcan-foundry-ld-844-c-12115003.html
+- campo: Servicio
+  valor: Caminhos de Ferro Portugueses; después, TBA en la Argentina
+  estado: DATO
+  fuente: Future Memory Transportation + Caminhos de Ferro
+  url: https://futurememory-transportation.blogspot.com/2023/01/diesel-electric-locomotive-cp-1404-english-electric-vulcan-foundry-ld-844-c-12115003.html
+- campo: Cantidad construida
+  valor: 67 locomotoras, CP 1401–1467
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Caminhos de Ferro
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Operador original
+  valor: CP · Caminhos de Ferro Portugueses
+  estado: DATO
+  fuente: Future Memory Transportation + Portugal Ferroviário
+  url: https://futurememory-transportation.blogspot.com/2023/01/diesel-electric-locomotive-cp-1404-english-electric-vulcan-foundry-ld-844-c-12115003.html
+- campo: Ejemplar
+  valor: CP 1409, número visible en la foto
+  estado: DATO
+  fuente: Lectura de la imagen + Future Memory Transportation
+  url: https://futurememory-transportation.blogspot.com/2023/01/diesel-electric-locomotive-cp-1404-english-electric-vulcan-foundry-ld-844-c-12115003.html
+- campo: Librea
+  valor: Naranja y marrón con franjas diagonales blancas, de CP
+  estado: DATO
+  fuente: Lectura de la imagen
+- campo: La de Liniers
+  valor: La foto muestra la CP 1409, pero no prueba que la locomotora hoy en Liniers sea la misma
+  estado: VERIFICAR
+  fuente: Haciendo Vía
+  url: https://haciendovia.blogspot.com/2009/03/
+- campo: Modelo
+  valor: English Electric LD 844 C
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Future Memory Transportation
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Bo'Bo'
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Motor
+  valor: English Electric 8CSVT, 8 cilindros en V
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Potencia
+  valor: 970 CV según la documentación argentina; otras fichas dan 1.330–1.370 CV
+  estado: VERIFICAR
+  fuente: Rieles Latinoamericanos N.º 99 + Future Memory Transportation
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Generador
+  valor: English Electric 819/9H
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Motores de tracción
+  valor: 4 × English Electric 548/3A
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Trocha
+  valor: 1.668 mm en Portugal; 1.676 mm en la Argentina
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Caminhos de Ferro
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Velocidad máxima
+  valor: 105 km/h
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Peso
+  valor: Unas 64,4 t
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Frenos
+  valor: Westinghouse, sistema doble aire/vacío
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Esfuerzo tractivo
+  valor: Unos 16.100 kgf al arranque
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Mando múltiple
+  valor: Hasta 3 locomotoras
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: En la Argentina
+  valor: '11 unidades: 1405 y 1421 Ferrobaires; 1409 y 1467 TBA; 1410, 1423, 1425 y 1448 Ferrocentral; 1417, 1418 y 1440 San Martín'
+  estado: DATO
+  fuente: Future Memory Transportation + Caminhos de Ferro
+  url: https://futurememory-transportation.blogspot.com/2023/01/diesel-electric-locomotive-cp-1404-english-electric-vulcan-foundry-ld-844-c-12115003.html

@@ -1,10 +1,92 @@
 codigo: '03.74'
 serie: '03'
 tipo: Ficha
-titulo: GM · Tren Patagónico
-periodo: ''
+titulo: GM GT22CW-2 9073 · Tren Patagónico
+nombre_corto: GT22CW-2 9073
+periodo: '1988'
 estado: en investigación
 imagen: img/0374-frente.jpg
 portada: img/0374-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: gm  tren patagónico
+busqueda: general motors gm emd gt22cw-2 gt22 9073 astarsa tren patagonico rio negro viedma bariloche linea sur comallo
+datos:
+- campo: Fabricante
+  valor: ASTARSA, Argentina, bajo licencia de EMD / General Motors
+  estado: DATO
+  fuente: Ferrocarriles en el Cono Sur + Wikipedia · EMD GT22 Series + Diario Río Negro
+  url: https://www.ferrocarrilesenelconosur.co.uk/04Sdsanantlocos.html
+- campo: Fabricación
+  valor: '1988'
+  estado: DATO
+  fuente: Diario Río Negro + Wikipedia · EMD GT22 Series
+  url: https://www.rionegro.com.ar/voy-turismo/cazador-de-rieles-un-encuentro-con-el-tren-patagonico-que-une-el-mar-a-cordillera-3927304/
+- campo: Servicio
+  valor: Pasajeros de larga distancia Viedma–San Carlos de Bariloche, por la Línea Sur rionegrina
+  estado: DATO
+  fuente: Gobierno de Río Negro · dos notas + Diario Río Negro
+  url: https://rionegro.gov.ar/articulo/57553/tren-patagonico-avanza-en-la-puesta-a-punto-del-motor-de-la-locomotora-9073
+- campo: Flota
+  valor: 25 GT22CW-2 de ASTARSA, numeradas 9065–9089
+  estado: DATO
+  fuente: Wikipedia · EMD GT22 Series + UtahRails
+  url: https://es.wikipedia.org/wiki/EMD_GT22_Series
+- campo: Operador
+  valor: Tren Patagónico S.A., Provincia de Río Negro
+  estado: DATO
+  fuente: Gobierno de Río Negro + RailPictures + Ferrocarriles en el Cono Sur
+  url: https://rionegro.gov.ar/articulo/57553/tren-patagonico-avanza-en-la-puesta-a-punto-del-motor-de-la-locomotora-9073
+- campo: Ejemplar
+  valor: '9073'
+  estado: DATO
+  fuente: Gobierno de Río Negro + RailPictures
+  url: https://rionegro.gov.ar/articulo/57553/tren-patagonico-avanza-en-la-puesta-a-punto-del-motor-de-la-locomotora-9073
+- campo: Modelo
+  valor: EMD GT22CW-2
+  estado: DATO
+  fuente: RailPictures + Ferrocarriles en el Cono Sur + Trainz Argentina
+  url: https://www.railpictures.net/album/2177/
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co-Co
+  estado: DATO
+  fuente: Wikipedia · EMD GT22 Series + Ferrocarriles del Sud
+  url: https://es.wikipedia.org/wiki/EMD_GT22_Series
+- campo: Motor
+  valor: EMD 12-645E3
+  estado: DATO
+  fuente: Wikipedia · EMD GT22 Series + Curso de Material Rodante
+  url: https://es.wikipedia.org/wiki/EMD_GT22_Series
+- campo: Potencia
+  valor: 2.475 HP brutos; 2.250 HP de tracción
+  estado: DATO
+  fuente: Curso de Material Rodante + Electro-Motive Division Locomotives
+  url: https://es.scribd.com/document/758042523/CLASE-1-CURSO-MATERIAL-RODANTE-CLASIFICACION
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Wikipedia · EMD GT22 Series + Diario Río Negro
+  url: https://es.wikipedia.org/wiki/EMD_GT22_Series
+- campo: Librea
+  valor: Azul, blanco y amarillo, con frente de seguridad rojo y blanco
+  estado: DATO
+  fuente: Lectura de la imagen
+- campo: Situación en 2026
+  valor: 'En recuperación: se reparó su motor para reinstalarlo y volver al servicio'
+  estado: DATO
+  fuente: Gobierno de Río Negro · 21/1 y 19/2/2026 + Crónica Ferroviaria
+  url: https://rionegro.gov.ar/articulo/57926/tren-patagonico-recupero-un-motor-clave-que-se-reincorpora-al-servicio
+- campo: Peso, medidas y velocidad
+  valor: No encontramos dos fuentes para esta unidad
+  estado: SIN DATO
+linea_de_tiempo:
+- fecha: '1988'
+  hito: ASTARSA empieza a fabricar las GT22CW-2
+  detalle: Producción desde marzo
+  estado: DATO
+  fuente: Diario Río Negro + Wikipedia · EMD GT22 Series
+  url: https://es.wikipedia.org/wiki/EMD_GT22_Series
+- fecha: '2026'
+  hito: Tren Patagónico repara el motor para reincorporarla
+  detalle: '21 de enero: puesta a punto; 19 de febrero: motor recalificado'
+  estado: DATO
+  fuente: Gobierno de Río Negro · dos notas
+  url: https://rionegro.gov.ar/articulo/57926/tren-patagonico-recupero-un-motor-clave-que-se-reincorpora-al-servicio

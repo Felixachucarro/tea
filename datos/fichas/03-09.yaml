@@ -1,57 +1,120 @@
-codigo: "03.09"
-serie: "03"
+codigo: '03.09'
+serie: '03'
 tipo: Ficha
-titulo: Belgrano Norte · GL22CU
-periodo: Desde 1972
+titulo: GM G22CU E716 · Belgrano Norte
+nombre_corto: G22CU E716
+periodo: '1980'
 estado: en investigación
 imagen: img/c0309.jpg
 portada: img/c0309.jpg
 pie: Vista frontal, imagen de trabajo
 galeria:
-  - imagen: img/1000363500.png
-    leyenda: "Imagen: Trasero - Reconstrucción IA E716"
-    ancha: false
-  - imagen: img/1000363499.png
-    leyenda: "Imagen: Lateral - Reconstrucción IA"
-    ancha: false
-  - imagen: img/1000363497.png
-    leyenda: "Imagen: Técnico - Lateral "
-    ancha: false
-busqueda: belgrano norte gl22cu locomotora
+- imagen: img/1000363500.png
+  leyenda: 'Imagen: Trasero - Reconstrucción IA E716'
+  ancha: false
+- imagen: img/1000363499.png
+  leyenda: 'Imagen: Lateral - Reconstrucción IA'
+  ancha: false
+- imagen: img/1000363497.png
+  leyenda: 'Imagen: Técnico - Lateral '
+  ancha: false
+busqueda: general motors gm emd g22cu gl22cu e716 7792 astarsa ferrovias belgrano norte retiro villa rosa boulogne
 datos:
-  - campo: Modelo
-    valor: EMD G22CU, diésel-eléctrica, ejes C-C
-    estado: DATO1
-    fuente: Wikipedia
-    url: https://en.wikipedia.org/wiki/EMD_G22CU
-  - campo: «GL22CU»
-    valor: Las fuentes consultadas dicen G22CU
-    estado: VERIFICAR
-    fuente: Wikipedia
-    url: https://en.wikipedia.org/wiki/EMD_G22CU
-  - campo: Compra
-    valor: "Ferrocarriles Argentinos, 1972: 250 G22 y GT22, 96 para el Belgrano"
-    estado: DATO1
-    fuente: Wikipedia
-    url: https://en.wikipedia.org/wiki/EMD_G22CU
-  - campo: Belgrano Norte
-    valor: 20 unidades fabricadas en La Grange (EE. UU.); el resto del lote, ASTARSA
-      en San Fernando
-    estado: DATO1
-    fuente: Wikipedia
-    url: https://en.wikipedia.org/wiki/EMD_G22CU
-  - campo: Motor
-    valor: EMD 12-645
-    estado: DATO1
-    fuente: Wikipedia
-    url: https://en.wikipedia.org/wiki/EMD_G22CU
-  - campo: Trocha
-    valor: 1.000 mm (métrica)
-    estado: DATO1
-    fuente: Wikipedia
-    url: https://en.wikipedia.org/wiki/EMD_G22CU
-  - campo: Operador
-    valor: Ferrovías
-    estado: DATO1
-    fuente: Wikipedia
-    url: https://en.wikipedia.org/wiki/EMD_G22CU
+- campo: Fabricante
+  valor: ASTARSA, bajo licencia de EMD (General Motors)
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Wikipedia · EMD G22CU + Ingeniería Ferroviaria
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g22cu.html
+- campo: Fabricación
+  valor: Julio de 1980; número de serie 1219172
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g22cu.html
+- campo: Línea
+  valor: Belgrano Norte, Retiro–Villa Rosa
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Wikimedia Commons + Mis Días en la Vía + Cuarto Intermedio
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g22cu.html
+- campo: Operador
+  valor: Ferrovías
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + RailPictures
+  url: https://www.railpictures.net/viewphoto.php?id=699206&nseq=26113
+- campo: Ejemplar
+  valor: E716, ex 7792
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Mis Días en la Vía + RailPictures
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g22cu.html
+- campo: Modelo
+  valor: EMD G22CU. «GL22CU» no figura en las fuentes
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + RailPictures
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g22cu.html
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co'Co'
+  estado: DATO
+  fuente: Wikipedia · EMD G22CU + Mexpedia + Ingeniería Ferroviaria
+  url: https://es.wikipedia.org/wiki/EMD_G22CU
+- campo: Motor
+  valor: EMD 12-645 (las fuentes dan 12-645C para el modelo y 12-645E en mantenimiento reciente)
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Ingeniería Ferroviaria
+  url: https://ingenieriaferroviaria.com.ar/locomotoras-diesel-ferrocarriles-argentinos/
+- campo: Potencia
+  valor: 1.650 HP; 1.500 HP para tracción
+  estado: DATO
+  fuente: Wikipedia · EMD G22CU + JST + Ingeniería Ferroviaria
+  url: https://repositorio.jst.gob.ar/bitstream/123456789/878/4/DNEYMA-IPRO-00009.pdf
+- campo: Trocha
+  valor: 1.000 mm
+  estado: DATO
+  fuente: Argentina.gob.ar · Trenes Argentinos Cargas + Wikipedia · EMD G22CU
+  url: https://es.wikipedia.org/wiki/EMD_G22CU
+- campo: Velocidad máxima
+  valor: 120 km/h, la del modelo
+  estado: DATO
+  fuente: Wikipedia · EMD G22CU + Mexpedia
+  url: https://es.wikipedia.org/wiki/EMD_G22CU
+- campo: Medidas
+  valor: 15,51 m de largo y 2,80 m de ancho; alto 3,772 m según el modelo, 3.840 mm según la JST
+  estado: VERIFICAR
+  fuente: Wikipedia · EMD G22CU + Mexpedia + JST
+  url: https://es.wikipedia.org/wiki/EMD_G22CU
+- campo: Peso
+  valor: Unas 92 t según el modelo; la JST registra 87.730 kg en otra G22CU
+  estado: VERIFICAR
+  fuente: Wikipedia · EMD G22CU + Mexpedia + JST
+  url: https://es.wikipedia.org/wiki/EMD_G22CU
+- campo: Registro reciente
+  valor: En abril de 2024 seguía trabajando en Retiro y en el Taller Boulogne
+  estado: DATO
+  fuente: Luciano González · YouTube + Entre Máquinas y Vagones (12/2024)
+  url: https://www.youtube.com/watch?v=rISx7eBNAcc
+- campo: Cantidad comprada
+  valor: 'Ferrocarriles Argentinos, 1972: 250 G22 y GT22, 96 para el Belgrano'
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/EMD_G22CU
+- campo: Belgrano Norte
+  valor: 20 unidades fabricadas en La Grange (EE. UU.); el resto del lote, ASTARSA en San Fernando
+  estado: DATO1
+  fuente: Wikipedia
+  url: https://en.wikipedia.org/wiki/EMD_G22CU
+linea_de_tiempo:
+- fecha: '1980'
+  hito: ASTARSA la construye como 7792
+  detalle: Julio
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/gm-g22cu.html
+- fecha: '2012'
+  hito: Corre un servicio Retiro–Villa Rosa
+  detalle: Junio
+  estado: DATO1
+  fuente: Cuarto Intermedio
+  url: https://cuartointermedio.com.ar/2013/07/reactivan-causa-por-accidente-en-la-linea-belgrano-norte/
+- fecha: '2024'
+  hito: Sigue operativa en Ferrovías
+  estado: DATO
+  fuente: Luciano González · YouTube + Entre Máquinas y Vagones
+  url: https://www.youtube.com/watch?v=rISx7eBNAcc

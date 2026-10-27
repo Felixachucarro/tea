@@ -1,25 +1,88 @@
 codigo: '03.21'
 serie: '03'
 tipo: Ficha
-titulo: Subte · coche 11A
-periodo: —
+titulo: CNR-CITIC serie 200 · RCA 212 · Línea A
+nombre_corto: CNR serie 200
+periodo: '2015'
 estado: en investigación
 imagen: img/t21.jpg
 portada: img/t21.jpg
 pie: Frente · Reconstrucción IA
-busqueda: subte 11a cnr citic 200 linea a china
+busqueda: cnr citic serie 200 rca 212 formacion 12 subte linea a china crrc alstom
 datos:
-- campo: Posible modelo
-  valor: CNR-Citic serie 200, de las líneas A y C
-  estado: VERIFICAR
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Si es CNR 200
-  valor: 'China; llegada 2013–2019; 30 formaciones de 5 coches: 21 en la A y 9 en la C'
-  estado: DATO1
-  fuente: Wikipedia · Material rodante del subte de Buenos Aires
-  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
-- campo: Ejemplar documentado
-  valor: Coche 11A
+- campo: Fabricante
+  valor: CNR (China Northern), con CITIC; hoy CRRC. SBASE lo registra como CNR/Alstom
+  estado: DATO
+  fuente: SBASE · inventario de material rodante + enelSubte
+  url: https://buenosaires.gob.ar/sites/default/files/media/document/2018/07/31/dbac6a2c0edc612686287d4c262b8851cf20d43a.pdf
+- campo: Fabricación
+  valor: 2015; alta en septiembre de 2015
+  estado: DATO
+  fuente: SBASE + Entre Máquinas y Vagones
+  url: https://buenosaires.gob.ar/sites/default/files/media/document/2018/07/31/dbac6a2c0edc612686287d4c262b8851cf20d43a.pdf
+- campo: Línea
+  valor: A. Los coches 201 a 211 pasaron a la C; el 212 quedó en la A
+  estado: DATO
+  fuente: SBASE + Entre Máquinas y Vagones
+  url: https://buenosaires.gob.ar/sites/default/files/media/document/2018/07/31/dbac6a2c0edc612686287d4c262b8851cf20d43a.pdf
+- campo: Flota
+  valor: 150 coches de la serie 200, en formaciones de cinco
+  estado: DATO
+  fuente: Wikipedia · Serie 200 + Gabriel Leiva
+  url: https://es.wikipedia.org/wiki/Serie_200_(subte_de_Buenos_Aires)
+- campo: Operador
+  valor: EMOVA, que opera la red del subte
+  estado: DATO
+  fuente: Alstom · comunicado 2022 + EMOVA
+  url: https://www.alstom.com/es/press-releases-news/2022/1/alstom-firma-tres-contratos-de-servicios-de-mantenimiento-en-argentina
+- campo: Ejemplar
+  valor: 'RCA 212: remolque con cabina, extremo A de la formación 12'
+  estado: DATO
+  fuente: SBASE + Entre Máquinas y Vagones + Gabriel Leiva
+  url: https://buenosaires.gob.ar/sites/default/files/media/document/2018/07/31/dbac6a2c0edc612686287d4c262b8851cf20d43a.pdf
+- campo: Composición
+  valor: RCA–MPA–MPB–M–RCB
+  estado: DATO
+  fuente: Gabriel Leiva + Subte de Buenos Aires Wiki
+  url: https://leivag1991vehicles.blogspot.com/2024/08/1511-subtes-chinos-cnr-citic-en.html
+- campo: Trocha
+  valor: 1.435 mm
+  estado: DATO
+  fuente: Wikipedia · Serie 200 + Subte de Buenos Aires Wiki
+  url: https://es.wikipedia.org/wiki/Serie_200_(subte_de_Buenos_Aires)
+- campo: Alimentación
+  valor: Catenaria aérea
+  estado: DATO
+  fuente: Wikipedia · Serie 200 + Kiwix · Subte de Buenos Aires
+  url: https://es.wikipedia.org/wiki/Serie_200_(subte_de_Buenos_Aires)
+- campo: Velocidad máxima
+  valor: 80 km/h en servicio; 120 km/h de diseño
+  estado: DATO
+  fuente: Wikipedia · Serie 200 + Gabriel Leiva
+  url: https://es.wikipedia.org/wiki/Serie_200_(subte_de_Buenos_Aires)
+- campo: Largo
+  valor: Unos 17,6 m entre acoples el coche RCA (otra fuente dice 17,50 m)
+  estado: DATO
+  fuente: Gabriel Leiva + Universidad Torcuato Di Tella
+  url: https://leivag1991vehicles.blogspot.com/2024/08/1511-subtes-chinos-cnr-citic-en.html
+- campo: Capacidad
+  valor: 360 sentados por formación
+  estado: DATO
+  fuente: Wikipedia · Serie 200 + Subte de Buenos Aires Wiki
+  url: https://es.wikipedia.org/wiki/Serie_200_(subte_de_Buenos_Aires)
+- campo: Equipamiento
+  valor: Aire acondicionado, cámaras, información sonora y visual, accesibilidad, cuatro puertas por lado y sistema antiempotramiento
+  estado: DATO
+  fuente: Buenos Aires Ciudad · dos páginas
+  url: https://buenosaires.gob.ar/gcaba_historico/infraestructura/subte/material-rodante
+- campo: Cartel del frente
+  valor: '«A0» y «11A»: es lo que muestra el indicador, no el número del coche'
   estado: DATO
   fuente: Lectura de la imagen
+linea_de_tiempo:
+- fecha: '2015'
+  hito: El RCA 212 entra en servicio en la Línea A
+  detalle: Septiembre, según SBASE
+  estado: DATO
+  fuente: SBASE + Entre Máquinas y Vagones
+  url: https://buenosaires.gob.ar/sites/default/files/media/document/2018/07/31/dbac6a2c0edc612686287d4c262b8851cf20d43a.pdf

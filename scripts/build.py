@@ -9,7 +9,7 @@ Además de la portada arma:
   - una página por ficha en /archivo/03-15/, con su título, descripción y datos escritos (para Google y para compartir);
   - imágenes livianas (WebP, máximo 1600 px) a partir de las originales, que quedan intactas en img/;
   - sitemap.xml y robots.txt."""
-import datetime as dt, hashlib, html, json, os, re, shutil, subprocess, sys
+import datetime as dt, hashlib, html, json, os, re, shutil, subprocess, sys, unicodedata
 import yaml
 from PIL import Image, ImageOps, ImageDraw, ImageFont
 import numpy as np
@@ -203,6 +203,33 @@ def placa_historia(p, nombre_corto):
     return dst
 
 
+# ---------- ficha completa: la decide la cantidad de datos, no un casillero del panel ----------
+# Los mismos casilleros clave que la ficha muestra arriba (F2K en la plantilla). Una ficha está completa
+# cuando todos tienen dato; si falta alguno, sigue «en investigación».
+CASILLEROS = {
+    '02': [r'^carrocer(ia|a)( |$)', r'^(chasis|modelo)', r'^motor', r'potencia', r'(largo|distancia|batalla)', r'ejemplar'],
+    '03': [r'^(fabricante|fabricantes|modelo|posible modelo|coche motor)', r'^(fabricaci|llegada|primer)', r'(l[ií]nea|recorrido|servicio)',
+           r'(flota|^coches|cantidad)', r'^(operador|organiza)', r'ejemplar'],
+    '04': [r'^motor', r'potencia', r'(producci|fabricaci)', r'(planta|origen)'],
+    '05': [r'(producci|fabricaci|lanzamiento)', r'^motor', r'(unidades|ventas)', r'(planta|origen)'],
+    '06': [r'(modelo|veh[ií]culo)', r'(uso|servicio)', r'(a[ñn]os|producci)'],
+}
+
+
+def _norm(t):
+    return ''.join(c for c in unicodedata.normalize('NFD', str(t)) if unicodedata.category(c) != 'Mn').lower()
+
+
+def casilleros_llenos(s, filas):
+    """Cuenta los casilleros clave con dato, con la misma regla que la ficha en pantalla."""
+    claves = CASILLEROS.get(s, CASILLEROS['02']); usados, llenos = set(), 0
+    for patron in claves:
+        i = next((j for j, r in enumerate(filas) if j not in usados and re.search(patron, _norm(r[0]))), None)
+        if i is None or filas[i][2] == 'SIN DATO' or re.fullmatch(r'[—-]?', filas[i][1].strip()): continue
+        usados.add(i); llenos += 1
+    return llenos, len(claves)
+
+
 # ---------- fichas ----------
 def pieza(f):
     p = {'c': str(f['codigo']), 's': str(f['serie']), 't': str(f['titulo']).strip(), 'a': str(f.get('periodo') or 'Sin fecha').strip(),
@@ -223,6 +250,10 @@ def pieza(f):
     if hitos:
         p['tl'] = [[str(r['fecha']), r['hito'], r.get('detalle', '') or '', r.get('estado') or 'SIN DATO', r.get('fuente', '') or '', r.get('url', '') or ''] for r in hitos]
     p['dec'] = f['decadas'] if f.get('decadas') else decadas(p['a'])
+    if p['tipo'] == 'Ficha' and p['s'] in CASILLEROS:
+        llenos, total = casilleros_llenos(p['s'], p['d'])
+        p['est'] = 'Publicado' if llenos == total else 'Próximamente'
+        p['ck'] = [llenos, total]
     orig = f.get('portada') or f.get('imagen')
     if p['tipo'] == 'Ficha' and orig and os.path.exists(os.path.join(R, orig)):
         p['cv'] = portada(orig)
@@ -351,6 +382,13 @@ def blog():
     return f'''<main class="wrap vista" id="v-blog" hidden>
   <section class="b-top"><p class="ante">Blog</p><h1>Lo que vamos publicando</h1>
     <p class="bajada">Las publicaciones de Instagram, completas, y todo lo que se suma al archivo día por día.</p></section>
+  <section class="boleto-w" aria-label="Boleto: cantidad de visitas al archivo">
+    <div class="bol"><div class="cu"><div class="ba"></div><div class="t1">ARCHIVO.TEA</div><div class="t2">Archivo visual del transporte argentino</div>
+      <div class="pr"><small>Tarifa única</small><b>$0</b><small>Acceso libre</small></div><div class="vi">El archivo<br>lo hacemos<br>entre todos</div></div>
+      <div class="nu"><small>PASAJERO N.º</small><b id="pasajero">——————</b></div>
+      <img class="se" src="img/sello-tea.png" alt="" width="120" height="120"></div>
+    <p class="pie">Conservá este boleto hasta el final del recorrido</p>
+  </section>
   <section class="act" aria-labelledby="t-act">
     <div class="act-h"><b id="t-act">{sum(cuenta.values())} aportes</b><span>en {len(cuenta)} días de trabajo · desde el 13 de octubre de 2026</span><span><span id="b-piezas">—</span> piezas en el archivo</span></div>
     <div class="cal"><table aria-label="Actividad por día">{meses}{filas}</table></div>

@@ -1,10 +1,106 @@
-codigo: "03.39"
-serie: "03"
+codigo: '03.39'
+serie: '03'
 tipo: Ficha
-titulo: TBA - UMAP - V2
-periodo: 1999-2014
+titulo: TBA · UMAP / PUMA V2 · Línea Sarmiento
+nombre_corto: PUMA V2
+periodo: 2006–2015
 estado: en investigación
 imagen: img/1000364238.png
 portada: img/1000364238-1.png
 pie: Coche Puma V2 - Tren Sarmiento- Reconstrucción IA
-busqueda: Puma, UMAP, TOSHIBA, SARMIENTO, MITRE, TBA, TRENES DE BUENOS AIRES, chapa
+busqueda: tba umap puma v2 toshiba sarmiento once moreno emfer morrison knudsen miguelete
+datos:
+- campo: Fabricante
+  valor: 'Reconstrucción en la Argentina: Morrison Knudsen of Argentina y después EMFER, en Miguelete'
+  estado: DATO
+  fuente: Memorias y Balances de TBA + Mis Días en la Vía
+  url: https://misdiasenlavia1.blogspot.com/2014/11/adios-los-coches-electricos-toshiba.html
+- campo: Fabricación
+  valor: Desde 2006, la versión 2
+  estado: DATO
+  fuente: Resolución 186/2006 + Wikipedia · Unidad eléctrica Toshiba
+  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+- campo: Línea
+  valor: Sarmiento, Once–Moreno
+  estado: DATO
+  fuente: Memorias y Balances de TBA + Wikipedia · Unidad eléctrica Toshiba
+  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+- campo: Flota
+  valor: Seis formaciones para el Sarmiento y dos para el Mitre
+  estado: DATO
+  fuente: Wikipedia · Unidad eléctrica Toshiba + Ferrocarriles · presentación
+  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+- campo: Operador
+  valor: TBA
+  estado: DATO
+  fuente: Memorias y Balances de TBA + Mis Días en la Vía
+  url: https://mepriv.mecon.gob.ar/Ferrocarriles_Argentinos/memybces/tba-estadoscontables/inversiones.htm
+- campo: Ejemplar
+  valor: No identificado en la foto
+  estado: SIN DATO
+- campo: Frente
+  valor: Una ventana central más grande en lugar del frente original
+  estado: DATO
+  fuente: Mis Días en la Vía + Trensim
+  url: https://misdiasenlavia1.blogspot.com/2014/11/adios-los-coches-electricos-toshiba.html
+- campo: Base
+  valor: 'Coches eléctricos Toshiba: conservan el chasis y la tracción originales; cambian carrocería, interior y sistemas auxiliares'
+  estado: DATO
+  fuente: Trensim + MSTSyOR Argentino
+  url: https://mstsyor-argentino.blogspot.com/2023/12/coches-electricos-puma-ts-trenes-de.html
+- campo: Origen del programa
+  valor: UMAP (Unidad Múltiple Argentina de Pasajeros), proyecto de TBA de 1997 con Morrison Knudsen; tres coches de prueba en 1997–1998
+  estado: DATO
+  fuente: Memorias y Balances de TBA + Mis Días en la Vía
+  url: https://mepriv.mecon.gob.ar/Ferrocarriles_Argentinos/memybces/tba-estadoscontables/inversiones.htm
+- campo: Control
+  valor: Controladores lógicos programables (PLC)
+  estado: DATO
+  fuente: Memorias y Balances de TBA + Agencia de Noticias Rieles
+  url: https://mepriv.mecon.gob.ar/Ferrocarriles_Argentinos/memybces/tba-estadoscontables/inversiones.htm
+- campo: Aire acondicionado
+  valor: Sí
+  estado: DATO
+  fuente: Resolución 186/2006 + Memorias y Balances de TBA
+  url: https://www.argentina.gob.ar/normativa/nacional/norma-115147/texto
+- campo: Motores
+  valor: 2 × 150 HP por coche motor, 300 HP por coche
+  estado: DATO
+  fuente: Auditoría General de la Nación + MSTS Argentina + Trensim
+  url: https://www.agn.gob.ar/sites/default/files/informes/informe_033_2019_0.pdf
+- campo: Alimentación
+  valor: Tercer riel, 800 V de corriente continua; algunas fuentes dicen 600/800 V
+  estado: DATO
+  fuente: MSTS Argentina + Trenes por la Web + Trensim
+  url: https://mstsargentina.blogspot.com/2011/03/coche-motores-electricos-toshiba-tba.html
+- campo: Velocidad máxima
+  valor: 135 km/h
+  estado: DATO
+  fuente: MSTS Argentina + Ferrocarriles del Sud
+  url: https://mstsargentina.blogspot.com/2011/03/coche-motores-electricos-toshiba-tba.html
+- campo: Medidas
+  valor: 22,3 m de largo, unos 3,13 m de ancho y 4,44 m de alto por coche
+  estado: DATO
+  fuente: Minuto Uno + MSTS Argentina + Trensim
+  url: https://www.minutouno.com/sociedad/como-es-el-tren-que-choco-n160547
+- campo: Retiro
+  valor: Reemplazados por las formaciones CSR en 2014–2015
+  estado: DATO
+  fuente: Wikipedia · Unidad eléctrica Toshiba + MSTSyOR Argentino
+  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+linea_de_tiempo:
+- fecha: '1997'
+  hito: TBA proyecta el prototipo UMAP
+  estado: DATO
+  fuente: Memorias y Balances de TBA + Mis Días en la Vía
+  url: https://mepriv.mecon.gob.ar/Ferrocarriles_Argentinos/memybces/tba-estadoscontables/inversiones.htm
+- fecha: '2006'
+  hito: Empieza la versión 2 del PUMA
+  estado: DATO
+  fuente: Resolución 186/2006 + Wikipedia · Unidad eléctrica Toshiba
+  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)
+- fecha: '2014'
+  hito: Empiezan a ser reemplazados por los CSR
+  estado: DATO
+  fuente: Wikipedia · Unidad eléctrica Toshiba + MSTSyOR Argentino
+  url: https://es.wikipedia.org/wiki/Unidad_el%C3%A9ctrica_Toshiba_(Mitre_y_Sarmiento)

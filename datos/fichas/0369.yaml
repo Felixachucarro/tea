@@ -1,10 +1,124 @@
 codigo: '03.69'
 serie: '03'
 tipo: Ficha
-titulo: GAIA 5272
-periodo: ''
+titulo: GAIA Chica 5272 · TBA
+nombre_corto: GAIA 5272
+periodo: 1963–1970
 estado: en investigación
 imagen: img/0369-frente.jpg
 portada: img/0369-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: gaia 5272
+galeria:
+- imagen: img/0369-libro.jpg
+  leyenda: '02 · Publicación: «Los Colores de las Diesel», MDT Trenes · Archivo ferroviario digital'
+- imagen: img/0369-todotrenes.jpg
+  leyenda: '03 · Publicación: tapa de Todo Trenes N.º 15 · LANA-VEGA'
+busqueda: gaia chica 5272 gruppo aziende italiane argentine cometarsa fiat alco 251 tba all san martin colegiales rezago
+datos:
+- campo: Fabricante
+  valor: GAIA (Gruppo Aziende Italiane e Argentine); armada en la Argentina, sobre todo en Cometarsa
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Ferrocarriles del Sud + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Fabricación
+  valor: 1963–1970, la serie GAIA Chica; no encontramos el año de la 5272
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Servicios
+  valor: Con TBA, trenes a Rosario por el Mitre y Moreno–Mercedes por el Sarmiento; después, traslado de formaciones eléctricas entre depósitos
+  estado: DATO
+  fuente: Historias del Riel + Tren Rodante N.º 238 + Haciendo Vía
+  url: https://www.historiasdelriel.com.ar/gaia-historia-detras-nombre-tercera-parte/
+- campo: Flota del San Martín
+  valor: 5267–5290, entregada al San Martín
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Portal de Trenes
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Operadores
+  valor: San Martín; TBA; en 2008, alquilada a ALL Central
+  estado: DATO
+  fuente: Tren Rodante N.º 238 + Haciendo Vía + Historias del Riel
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/238.pdf
+- campo: Ejemplar
+  valor: '5272'
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Tren Rodante N.º 238
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co'Co'
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Motor original
+  valor: Fiat 288 ES II
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Motor posterior
+  valor: ALCo 251-B, recuperado de una RSD-16, colocado en los Talleres Junín
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Tren Rodante N.º 238 + MDT Trenes
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/238.pdf
+- campo: Potencia
+  valor: Unos 1.036 HP, la serie original; no encontramos la potencia con el ALCo
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Velocidad máxima
+  valor: 110 km/h, el modelo
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Peso
+  valor: Unas 93 t
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Medidas
+  valor: Unos 15,8 m de largo, 2 m de ancho y 3,5 m de alto
+  estado: VERIFICAR
+  fuente: Wikipedia · Locomotora GAIA + plano de Portal de Trenes
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- campo: Adaptación
+  valor: TBA le cambió los enganches por cabezas compatibles con los coches eléctricos Toshiba
+  estado: DATO
+  fuente: Tren Rodante N.º 238 + Historias del Riel
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/238.pdf
+- campo: Libreas
+  valor: Rojo y amarillo de Ferrocarriles Argentinos (todavía en 2012) y TBA
+  estado: DATO
+  fuente: RailPictures + Haciendo Vía
+  url: https://www.railpictures.net/viewphoto.php?id=430675
+- campo: Situación
+  valor: Desafectada y declarada rezago; en la Playa de Colegiales, incluida en una subasta de 2026
+  estado: DATO
+  fuente: enelSubte + El Diario Sur
+  url: https://enelsubte.com/noticias/desafectan-y-declaran-como-rezago-casi-100-vehiculos-ferroviarios-en-desuso/
+linea_de_tiempo:
+- fecha: '1963'
+  hito: Empieza la fabricación de las GAIA Chicas
+  detalle: Hasta 1970
+  estado: DATO
+  fuente: Wikipedia · Locomotora GAIA + Mexpedia
+  url: https://es.wikipedia.org/wiki/Locomotora_GAIA
+- fecha: '2008'
+  hito: Alquilada a ALL Central, remolca material al depósito Suárez
+  estado: DATO1
+  fuente: Haciendo Vía
+  url: https://haciendovia.blogspot.com/2008/05/tba-linea-mitre.html
+- fecha: '2012'
+  hito: Todavía con colores de Ferrocarriles Argentinos, remolca la 004 de Ferrocentral a Haedo
+  estado: DATO1
+  fuente: Portal de Trenes
+  url: https://aprenderly.com/doc/3481562/descarga---portal-de-trenes
+- fecha: '2026'
+  hito: Declarada rezago e incluida en una subasta
+  estado: DATO
+  fuente: enelSubte + El Diario Sur
+  url: https://enelsubte.com/noticias/desafectan-y-declaran-como-rezago-casi-100-vehiculos-ferroviarios-en-desuso/

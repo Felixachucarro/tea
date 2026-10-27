@@ -1,0 +1,113 @@
+codigo: '03.78'
+serie: '03'
+tipo: Ficha
+titulo: Fiat-Materfer 23B · Línea D, «General Manuel Savio»
+nombre_corto: Fiat-Materfer 23B
+periodo: '1988'
+estado: en investigación
+imagen: img/0378-frente.jpg
+portada: img/0378-frente.jpg
+pie: Frente · Reconstrucción IA
+busqueda: fiat materfer fm 23b formacion x subte linea d linea e lanzadera palermo carranza general manuel savio siemens aeg
+datos:
+- campo: Fabricante
+  valor: Materfer (Fiat-Materfer), Ferreyra, Córdoba; equipo eléctrico Siemens-AEG
+  estado: DATO
+  fuente: AFAMAC + enelSubte + Gabriel Leiva
+  url: https://enelsubte.com/noticias/preparan-la-jubilacion-de-los-trenes-fiat-materfer-y-nagoya-5000/
+- campo: Fabricación
+  valor: '1988: las duplas 21 a 26 son de ese año'
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + enelSubte
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/fiat-materfer.html
+- campo: Líneas
+  valor: D, en la lanzadera Palermo–Carranza; hoy, E
+  estado: DATO
+  fuente: enelSubte + Punta de Rieles + Entre Máquinas y Vagones
+  url: https://enelsubte.com/noticias/15-de-abril-de-1953-el-atentado-que-enluto-al-subte/
+- campo: Flota
+  valor: 105 coches Fiat-Materfer
+  estado: DATO
+  fuente: enelSubte + Wikipedia · Fiat-Materfer
+  url: https://enelsubte.com/noticias/preparan-la-jubilacion-de-los-trenes-fiat-materfer-y-nagoya-5000/
+- campo: Operador
+  valor: EMOVA, que opera la red del subte
+  estado: DATO
+  fuente: Alstom · comunicado 2022 + EMOVA
+  url: https://www.alstom.com/es/press-releases-news/2022/1/alstom-firma-tres-contratos-de-servicios-de-mantenimiento-en-argentina
+- campo: Ejemplar
+  valor: '23B, coche motor clase B; formación X: 22A – 22B – 23A – 9C – 23B'
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Subte de Buenos Aires Wiki
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/fiat-materfer.html
+- campo: Destino del cartel
+  valor: '«General Manuel Savio»: el nombre proyectado de la estación que en 1987 pasó a llamarse Ministro Carranza'
+  estado: DATO
+  fuente: enelSubte + Punta de Rieles + Mis Días en la Vía
+  url: https://enelsubte.com/noticias/15-de-abril-de-1953-el-atentado-que-enluto-al-subte/
+- campo: Formación
+  valor: 'Cinco coches: una tripla y una dupla'
+  estado: DATO
+  fuente: Documentación técnica de Metrovías + Punta de Rieles
+  url: https://es.scribd.com/document/395956409/metro
+- campo: Trocha
+  valor: 1.435 mm
+  estado: DATO
+  fuente: Gabriel Leiva + Wikipedia · Fiat-Materfer
+  url: https://leivag1991vehicles.blogspot.com/2017/04/subtes-fiat-materfer-subterraneos-de.html
+- campo: Alimentación
+  valor: Corriente continua de 1.500 o 1.100 V (bitensional), por pantógrafo y catenaria
+  estado: DATO
+  fuente: Gabriel Leiva + enelSubte
+  url: https://leivag1991vehicles.blogspot.com/2017/04/subtes-fiat-materfer-subterraneos-de.html
+- campo: Motores
+  valor: 2 por coche motor, de 185 kW
+  estado: DATO
+  fuente: Gabriel Leiva + documentación técnica de Metrovías
+  url: https://leivag1991vehicles.blogspot.com/2017/04/subtes-fiat-materfer-subterraneos-de.html
+- campo: Velocidad máxima
+  valor: 80 km/h
+  estado: DATO
+  fuente: Gabriel Leiva + Wikipedia · Fiat-Materfer
+  url: https://leivag1991vehicles.blogspot.com/2017/04/subtes-fiat-materfer-subterraneos-de.html
+- campo: Medidas
+  valor: 17,77 m entre enganches (caja de 16,99 m), 2,60 m de ancho y 3,33 m de alto
+  estado: DATO
+  fuente: SBASE + Gabriel Leiva + documentación técnica de Metrovías
+  url: https://buenosaires.gob.ar/sites/default/files/2024-10/IF-2024-31323065-GCABA-SBASE%20-%20Subasta%20Coches%20Fiat%20-%20Anexo%20I%20-%20Detalle%20Lote%201..pdf
+- campo: Peso
+  valor: 31.690 kg vacío en marcha; caja de 17.340 kg
+  estado: DATO
+  fuente: Gabriel Leiva + documentación técnica de Metrovías
+  url: https://leivag1991vehicles.blogspot.com/2017/04/subtes-fiat-materfer-subterraneos-de.html
+- campo: Capacidad
+  valor: 41 sentados y 129 parados, 170 en total
+  estado: DATO
+  fuente: Gabriel Leiva + documentación técnica de Metrovías
+  url: https://leivag1991vehicles.blogspot.com/2017/04/subtes-fiat-materfer-subterraneos-de.html
+- campo: Bogies
+  valor: 11 m entre centros; 2,25 m entre ejes
+  estado: DATO
+  fuente: Gabriel Leiva + documentación técnica de Metrovías
+  url: https://leivag1991vehicles.blogspot.com/2017/04/subtes-fiat-materfer-subterraneos-de.html
+- campo: Protección
+  valor: ATP
+  estado: DATO
+  fuente: Wikipedia · Fiat-Materfer + documentación técnica de Metrovías
+  url: https://es.wikipedia.org/wiki/Fiat-Materfer
+linea_de_tiempo:
+- fecha: '1980'
+  hito: Salen de Córdoba los primeros Fiat-Materfer
+  estado: DATO
+  fuente: enelSubte + Gabriel Leiva
+  url: https://enelsubte.com/noticias/preparan-la-jubilacion-de-los-trenes-fiat-materfer-y-nagoya-5000/
+- fecha: '1987'
+  hito: La estación proyectada como «General Savio» se llama Ministro Carranza
+  estado: DATO
+  fuente: enelSubte + Mis Días en la Vía
+  url: https://enelsubte.com/noticias/15-de-abril-de-1953-el-atentado-que-enluto-al-subte/
+- fecha: '1988'
+  hito: Se fabrica la dupla 23
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + enelSubte
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/fiat-materfer.html

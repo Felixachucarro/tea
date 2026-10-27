@@ -1,10 +1,127 @@
-codigo: "03.38"
-serie: "03"
+codigo: '03.38'
+serie: '03'
 tipo: Ficha
-titulo: Alstom Metropolis serie 100
-periodo: 2007-hoy
+titulo: Alstom Metropolis serie 100 · Subte, líneas D y E
+nombre_corto: Alstom serie 100
+periodo: Desde 2001
 estado: en investigación
 imagen: img/1000363534.png
 portada: img/1000363534-1.png
-pie: "Alstom metropolis serie 100 línea E "
-busqueda: Alstom, metropolis, serie 100
+pie: 'Alstom metropolis serie 100 línea E '
+busqueda: alstom metropolis serie 100 subte linea d linea e metrovias emova brasil onix cbtc
+datos:
+- campo: Fabricante
+  valor: Alstom, en Brasil y la Argentina
+  estado: DATO
+  fuente: Alstom + enelSubte
+  url: https://www.alstom.com/es/press-releases-news/2022/1/alstom-firma-tres-contratos-de-servicios-de-mantenimiento-en-argentina
+- campo: Fabricación
+  valor: 2001–2008; en servicio desde 2001
+  estado: DATO
+  fuente: Tren Rodante N.º 210 + enelSubte · dos notas
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/210.pdf
+- campo: Líneas
+  valor: D desde 2001; ocho formaciones pasaron a la E desde 2019. Se pensaron para la A
+  estado: DATO
+  fuente: enelSubte + Tren Rodante N.º 210 + EMOVA
+  url: https://enelsubte.com/noticias/alstom-metropolis-25-anos-en-el-subte/
+- campo: Flota
+  valor: 96 coches, en formaciones de seis (cinco en la Línea E)
+  estado: DATO
+  fuente: Alstom + Tren Rodante N.º 210 + enelSubte
+  url: https://cdi.mecon.gob.ar/bases/doc/trenrodante/210.pdf
+- campo: Operador
+  valor: Metrovías; hoy EMOVA
+  estado: DATO
+  fuente: enelSubte + Alstom + EMOVA
+  url: https://emova.com.ar/wp-content/uploads/2024/08/Reporte-de-Sustentabilidad-Emova-2021-2023.pdf
+- campo: Ejemplar
+  valor: No identificado en la foto
+  estado: SIN DATO
+- campo: Composición
+  valor: 'Seis coches: RCA–MM–MPA–MPB–MM–RCB; cinco: RCA–MPA–MPB–MM–RCB'
+  estado: DATO
+  fuente: Subte de Buenos Aires Wiki + Wikipedia · Material rodante del subte
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Trocha
+  valor: 1.435 mm
+  estado: DATO
+  fuente: Wikipedia (es) + Wikipedia (en)
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Alimentación
+  valor: '1.500 V de corriente continua, por pantógrafo. La Línea A usaba 1.100 V: por eso no fueron a la A'
+  estado: DATO
+  fuente: Wikipedia · Material rodante del subte + Wikipedia · Serie 100
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Velocidad máxima
+  valor: 80 km/h en servicio; 100 km/h de diseño
+  estado: DATO
+  fuente: Wikipedia · Serie 100 + Subte de Buenos Aires Wiki
+  url: https://es.wikipedia.org/wiki/Serie_100_(subte_de_Buenos_Aires)
+- campo: Medidas
+  valor: 17,63 m de largo, 2,60 m de ancho y 3,48 m de alto por coche
+  estado: DATO
+  fuente: Wikipedia · Material rodante del subte + Wikipedia · Serie 100
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Peso
+  valor: Unas 206 t la formación de seis
+  estado: DATO
+  fuente: Wikipedia · Material rodante del subte + Wikipedia · Serie 100
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Capacidad
+  valor: 'Seis coches: 252 sentados y 621 parados según una fuente; otra da 202 sentados'
+  estado: VERIFICAR
+  fuente: Wikipedia · Serie 100 + Wikipedia · Material rodante del subte
+  url: https://es.wikipedia.org/wiki/Serie_100_(subte_de_Buenos_Aires)
+- campo: Puertas
+  valor: 4 por lado en cada coche
+  estado: DATO
+  fuente: Wikipedia (es) + Wikipedia (en)
+  url: https://es.wikipedia.org/wiki/Material_rodante_del_subte_de_Buenos_Aires
+- campo: Tracción
+  valor: Alstom ONIX 1500, IGBT-VVVF
+  estado: DATO
+  fuente: Wikipedia (en) + Wikipedia · Serie 100
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_100_Series
+- campo: Carrocería
+  valor: Acero inoxidable
+  estado: DATO
+  fuente: Wikipedia (en) + Wikipedia · Serie 100
+  url: https://en.wikipedia.org/wiki/Buenos_Aires_Underground_100_Series
+- campo: Aceleración y frenado
+  valor: 1,0 m/s² y 1,1 m/s²
+  estado: DATO
+  fuente: Wikipedia · Serie 100 + Subte de Buenos Aires Wiki
+  url: https://es.wikipedia.org/wiki/Serie_100_(subte_de_Buenos_Aires)
+- campo: Señalamiento
+  valor: CBTC en la Línea D; ATP en la E
+  estado: DATO
+  fuente: enelSubte + Wikipedia · Serie 100
+  url: https://enelsubte.com/noticias/linea-d-vuelven-a-funcionar-los-alstom-serie-100/
+- campo: Reforma de media vida
+  valor: 'Desde 2015: aire acondicionado en 48 de los 96 coches; en 2022, reparación general de 15 coches con luces LED'
+  estado: DATO
+  fuente: enelSubte + Alstom + Ámbito
+  url: https://enelsubte.com/noticias/instalaran-aire-acondicionado-solo-en-la-mitad-de-los-alstom-de-la-linea-d/
+linea_de_tiempo:
+- fecha: '2001'
+  hito: Primera formación en servicio, en la Línea D
+  detalle: Octubre
+  estado: DATO
+  fuente: enelSubte + Tren Rodante N.º 210
+  url: https://enelsubte.com/noticias/alstom-metropolis-25-anos-en-el-subte/
+- fecha: '2015'
+  hito: Empieza la reforma de media vida
+  estado: DATO
+  fuente: enelSubte + Alstom
+  url: https://enelsubte.com/noticias/instalaran-aire-acondicionado-solo-en-la-mitad-de-los-alstom-de-la-linea-d/
+- fecha: '2019'
+  hito: Primeras formaciones en la Línea E
+  estado: DATO
+  fuente: enelSubte + EMOVA
+  url: https://enelsubte.com/noticias/ya-funciona-el-primer-tren-alstom-en-la-linea-e/
+- fecha: '2026'
+  hito: 25 años en el subte; siguen en las líneas D y E
+  estado: DATO
+  fuente: enelSubte + EMOVA
+  url: https://enelsubte.com/noticias/alstom-metropolis-25-anos-en-el-subte/

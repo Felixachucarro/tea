@@ -1,7 +1,142 @@
-codigo: "03.49"
-serie: "03"
+codigo: '03.49'
+serie: '03'
 tipo: Ficha
-titulo: ALCO - FPD9 2123 - ALL (América latina logística)
+titulo: ALCo FPD-9 2123 · ALL
+nombre_corto: FPD-9 2123
+periodo: '1966'
 estado: en investigación
 imagen: img/1000364338.png
 portada: img/1000364338-1.png
+busqueda: alco fpd9 fpd-9 dl-500-s 2123 321-023-4 renfe 2100 caf bap all america latina logistica rufino caseros
+datos:
+- campo: Fabricante
+  valor: CAF, España, con diseño ALCo
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Catálogo de Locomotoras Diesel en Argentina
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- campo: Fabricación
+  valor: '1966'
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Catálogo de Locomotoras Diesel en Argentina
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- campo: Servicio
+  valor: 'Cargas: trenes de tolvas mineras en Rufino, Santa Fe'
+  estado: DATO
+  fuente: José Pereda · Flickr + Mis Días en la Vía + Por las vías del país
+  url: https://www.flickr.com/photos/thepassengertrain/5424078786
+- campo: Flota en la Argentina
+  valor: '22 FPD-9: 20 para BAP y 2 para SEFEPA'
+  estado: DATO
+  fuente: Ferroviarias + IAF · Ministerio de Economía
+  url: https://ferroviarias.blogspot.com/2008/10/alco-dl500-t-y-s-fpd9.html
+- campo: Operadores
+  valor: BAP desde 1995; ALL desde 1999
+  estado: DATO
+  fuente: Trenes y tiempos + Rails sense fronteres + Catálogo de Locomotoras Diesel en Argentina
+  url: https://trenesytiempos.blogspot.com/2015_02_01_archive.html
+- campo: Ejemplar
+  valor: 2123; en RENFE, 2123 y después 321.023-4
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Catálogo de Locomotoras Diesel en Argentina
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- campo: Librea
+  valor: ALL, roja
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Lectura de la imagen
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- campo: Modelo
+  valor: ALCo FPD-9, especificación DL-500-S; RENFE serie 2100, después 321
+  estado: DATO
+  fuente: Rails sense fronteres + Wikipedia · Serie 321 de Renfe
+  url: https://railssensefronteres.blogspot.com/2018/12/locomotores-diesel-electriques-serie.html
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica de dos cabinas, Co'Co'
+  estado: DATO
+  fuente: Rails sense fronteres + Trenes y tiempos
+  url: https://railssensefronteres.blogspot.com/2018/12/locomotores-diesel-electriques-serie.html
+- campo: Motor
+  valor: ALCo 251-C, 12 cilindros en V, cuatro tiempos, turboalimentado; 229 × 267 mm
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Rails sense fronteres
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Potencia
+  valor: 2.180 CV a 1.025 rpm (1.626 kW); 1.950 HP netos según el IAF
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + IAF + Rails sense fronteres
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Generador
+  valor: General Electric 5-GT-581-C1, 1.352 kW
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Rails sense fronteres
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Motores de tracción
+  valor: 6 × General Electric 5-GE-761-A1, de 320 HP
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Rails sense fronteres
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Trocha
+  valor: 1.668 mm en España; adaptadas a 1.676 mm antes de venir
+  estado: DATO
+  fuente: Rails sense fronteres + Catálogo de Locomotoras Diesel en Argentina
+  url: https://railssensefronteres.blogspot.com/2018/12/locomotores-diesel-electriques-serie.html
+- campo: Medidas
+  valor: Unos 18,57 m entre topes, 3,05 m de ancho y 4,12 m de alto
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Rails sense fronteres
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Peso
+  valor: 111 t; 18,5 t por eje
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + IAF
+  url: https://cdi.mecon.gob.ar/bases/doc/iaf/redes/2011-2.pdf
+- campo: Velocidad máxima
+  valor: 120 km/h en RENFE; 122 km/h en la ficha argentina
+  estado: VERIFICAR
+  fuente: Rails sense fronteres + Catálogo de Locomotoras Diesel en Argentina
+  url: https://railssensefronteres.blogspot.com/2018/12/locomotores-diesel-electriques-serie.html
+- campo: Esfuerzo tractivo
+  valor: 23.500 kgf inicial; 19.325 kgf continuo
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Frenos
+  valor: 'Westinghouse: aire para la locomotora, vacío para el tren, y freno reostático'
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Trenes y tiempos
+  url: https://trenesytiempos.blogspot.com/2017/01/2017.html
+- campo: Combustible
+  valor: Unos 3.400 l
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Serie en España
+  valor: 80 locomotoras, 2101–2180, construidas entre 1965 y 1971 por ALCo, CAF, La Naval (SECN) y Euskalduna
+  estado: DATO
+  fuente: Rails sense fronteres + Wikipedia · Serie 321 de Renfe
+  url: https://es.wikipedia.org/wiki/Serie_321_de_Renfe
+linea_de_tiempo:
+- fecha: '1966'
+  hito: CAF la construye para RENFE como 2123
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Catálogo de Locomotoras Diesel en Argentina
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alco-fpd9.html
+- fecha: '1995'
+  hito: Viaja a la Argentina para el BAP
+  detalle: En julio de 1995 RENFE vende 20 locomotoras de la serie al BAP
+  estado: DATO
+  fuente: Trenes y tiempos + Rails sense fronteres
+  url: https://trenesytiempos.blogspot.com/2015_02_01_archive.html
+- fecha: '1999'
+  hito: ALL compra el BAP y pasa a operarla
+  estado: DATO1
+  fuente: Trenes y tiempos
+  url: https://trenesytiempos.blogspot.com/2015_02_01_archive.html
+- fecha: '2008'
+  hito: Fotografiada con librea roja de ALL en Caseros
+  estado: VERIFICAR
+  fuente: Historial del documento de aportes, sin fuente precisa
+- fecha: '2011'
+  hito: Trabaja en Rufino con tolvas mineras
+  estado: DATO
+  fuente: José Pereda · Flickr + Mis Días en la Vía
+  url: https://www.flickr.com/photos/thepassengertrain/5424078786

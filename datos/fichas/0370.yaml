@@ -1,10 +1,83 @@
 codigo: '03.70'
 serie: '03'
 tipo: Ficha
-titulo: Esmeriladora de rieles
-periodo: ''
+titulo: Esmeriladora de rieles GMC 16W · Trenes Argentinos
+nombre_corto: Esmeriladora de rieles
+periodo: Desde 2023
 estado: en investigación
 imagen: img/0370-frente.jpg
 portada: img/0370-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: esmeriladora de rieles
+busqueda: esmeriladora amoladora de rieles rail grinder gmc 16w vo-601 trenes argentinos china remedios de escalada via y obras
+datos:
+- campo: Fabricante
+  valor: No confirmado; llegó de China
+  estado: SIN DATO
+  fuente: Crónica Ferroviaria + Pablo Marti Krenz · YouTube
+  url: https://wwwcronicaferroviaria.blogspot.com/2023/01/llego-desde-china-una-esmeriladora-de.html
+- campo: Llegada
+  valor: 15 de enero de 2023, desde China
+  estado: DATO
+  fuente: Javier Córdoba · LinkedIn + Crónica Ferroviaria
+  url: https://es.linkedin.com/pulse/llego-la-esmeriladora-de-rieles-javier-cordoba
+- campo: Líneas
+  valor: Roca, Sarmiento, Mitre y San Martín
+  estado: DATO1
+  fuente: Pablo Marti Krenz · YouTube
+  url: https://www.youtube.com/watch?v=pHK-dh4OEgM
+- campo: Cantidad
+  valor: Un equipo de dos unidades autopropulsadas, que trabajan juntas o por separado
+  estado: DATO
+  fuente: Javier Córdoba · LinkedIn + Crónica Ferroviaria
+  url: https://es.linkedin.com/pulse/llego-la-esmeriladora-de-rieles-javier-cordoba
+- campo: Operador
+  valor: Trenes Argentinos, Gerencia de Vía y Obras
+  estado: DATO
+  fuente: Javier Córdoba · LinkedIn + Pablo Marti Krenz · YouTube
+  url: https://es.linkedin.com/pulse/llego-la-esmeriladora-de-rieles-javier-cordoba
+- campo: Ejemplar
+  valor: VO-601, número visible en la foto; no encontramos un documento que lo confirme como número de flota
+  estado: VERIFICAR
+  fuente: Lectura de la imagen
+- campo: Modelo
+  valor: GMC 16W
+  estado: DATO1
+  fuente: Pablo Marti Krenz · YouTube
+  url: https://www.youtube.com/watch?v=pHK-dh4OEgM
+- campo: Función
+  valor: Amolar el perfil del riel para corregir el desgaste, alargar su vida y mejorar el contacto entre rueda y riel
+  estado: DATO
+  fuente: Crónica Ferroviaria + Rieles Multimedio
+  url: https://wwwcronicaferroviaria.blogspot.com/2023/01/llego-desde-china-una-esmeriladora-de.html
+- campo: Piedras de amolado
+  valor: 8 por unidad, 16 en total
+  estado: DATO
+  fuente: Javier Córdoba · LinkedIn + Crónica Ferroviaria
+  url: https://es.linkedin.com/pulse/llego-la-esmeriladora-de-rieles-javier-cordoba
+- campo: Medición
+  valor: Sistema láser del perfil del riel
+  estado: DATO
+  fuente: Javier Córdoba · LinkedIn + Crónica Ferroviaria
+  url: https://es.linkedin.com/pulse/llego-la-esmeriladora-de-rieles-javier-cordoba
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Decreto 162 · InfoLEG + Pablo Marti Krenz · YouTube
+  url: https://servicios.infoleg.gob.ar/infolegInternet/anexos/345000-349999/347811/dto162.pdf
+- campo: Base
+  valor: Talleres de Remedios de Escalada, Línea Roca
+  estado: DATO
+  fuente: Javier Córdoba · LinkedIn + Crónica Ferroviaria
+  url: https://wwwcronicaferroviaria.blogspot.com/2023/01/llego-desde-china-una-esmeriladora-de.html
+- campo: Singularidad
+  valor: Presentada como la primera y única esmeriladora de este tipo en el país
+  estado: DATO
+  fuente: Javier Córdoba · LinkedIn + Crónica Ferroviaria
+  url: https://es.linkedin.com/pulse/llego-la-esmeriladora-de-rieles-javier-cordoba
+linea_de_tiempo:
+- fecha: '2023'
+  hito: Llega al país desde China
+  detalle: 15 de enero. Una fuente audiovisual posterior habla de marzo
+  estado: DATO
+  fuente: Javier Córdoba · LinkedIn + Crónica Ferroviaria
+  url: https://wwwcronicaferroviaria.blogspot.com/2023/01/llego-desde-china-una-esmeriladora-de.html

@@ -1,10 +1,162 @@
 codigo: '03.63'
 serie: '03'
 tipo: Ficha
-titulo: Cooper
-periodo: ''
+titulo: GE 4GE756 «Cooper» 5747 · doble cabina
+nombre_corto: Cooper 5747
+periodo: 1949–1950
 estado: en investigación
 imagen: img/0363-frente.jpg
 portada: img/0363-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: cooper
+galeria:
+- imagen: img/0363-lateral.jpg
+  leyenda: 02 · Lateral
+  ancha: true
+- imagen: img/0363-plano-lateral.jpg
+  leyenda: '03 · Plano: lateral'
+  ancha: true
+nota_galeria: Vistas y plano de archivo.tea · Reconstrucción IA.
+busqueda: general electric ge 4ge756 cooper cooper-bessemer 5747 doble cabina belgrano tapiales saldias alco 251d 165t
+datos:
+- campo: Fabricante
+  valor: General Electric, Estados Unidos
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + FCBAP
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Fabricación
+  valor: 1949–1950
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Línea
+  valor: Ferrocarril General Belgrano
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Historias del Riel
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Flota
+  valor: 70 locomotoras, numeradas 5701–5770
+  estado: ESTIMACION
+  fuente: Cuenta nuestra a partir de la numeración 5701–5770 · Ferrocarriles Argentinos Hoy
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Operador
+  valor: Ferrocarriles Argentinos
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + FCBAP
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Ejemplar
+  valor: 5747, la Cooper de doble cabina
+  estado: DATO
+  fuente: Historias del Riel + RailPictures + Mis fotos de trenes
+  url: https://www.historiasdelriel.com.ar/general-electric-cooper-ferrocarril-belgrano-segunda-parte/
+- campo: Doble cabina
+  valor: En 1986 recibió una segunda cabina, de la 5745
+  estado: DATO
+  fuente: Historias del Riel + Ferrocarriles Argentinos Hoy
+  url: https://www.historiasdelriel.com.ar/general-electric-cooper-ferrocarril-belgrano-segunda-parte/
+- campo: Motor después de 1986
+  valor: ALCo 251D, 6 cilindros en línea, en lugar del Fiat
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Potencia después de 1986
+  valor: 1.350 HP nominales a 1.100 rpm; unos 1.000 HP al gancho
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Pruebas
+  valor: Trenes de carga entre Buenos Aires y Rosario por el Belgrano
+  estado: DATO
+  fuente: RailPictures · Tapiales, 22/4/1989 + YouTube
+  url: https://www.railpictures.net/viewphoto.php?id=575754
+- campo: Zona documentada
+  valor: Cargas en Tapiales, Saldías y Sáenz/Soldati
+  estado: DATO
+  fuente: LBS en Imágenes + Mis fotos de trenes
+  url: https://misfotosdetrenes.blogspot.com/2010/03/mi-pasion-las-locomotoras.html
+- campo: Modelo
+  valor: 4GE756; el apodo viene del motor original Cooper-Bessemer
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Mis fotos de trenes
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Trocha
+  valor: 1.000 mm
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Disposición de ejes
+  valor: 'A1A-A1A: en cada bogie traccionan los ejes de las puntas'
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Motor original
+  valor: Cooper-Bessemer FVL-12T, 12 cilindros en V, turboalimentado
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Potencia original
+  valor: Unos 900 HP al gancho; 986 HP nominales
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + FCBAP
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Generador
+  valor: General Electric 5GT567 A1, 440 kW
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Motores de tracción
+  valor: 4 × General Electric 5GE756 A1, de unos 228 HP
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Peso
+  valor: 75 t; 12,5 t por eje
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Velocidad máxima
+  valor: 90 km/h
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Largo
+  valor: 14,529 m entre topes, en la versión original
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + FCBAP
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Frenos
+  valor: Westinghouse 14 EL; la versión modificada, 26 LA
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Numeración
+  valor: 5000–5069, después 5701–5770
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- campo: Uso
+  valor: Pasajeros y cargas; con la llegada de locomotoras más potentes, sobre todo cargas y maniobras
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Historias del Riel
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+linea_de_tiempo:
+- fecha: '1949'
+  hito: Las Cooper entran en servicio en la Argentina
+  estado: DATO
+  fuente: Ferrocarriles Argentinos Hoy + Catálogo de Locomotoras Diesel en Argentina
+  url: https://www.oocities.org/ferrocarrilesargentinoshoy/Historia4GE756.htm
+- fecha: '1986'
+  hito: La 5747 recibe una segunda cabina y un motor ALCo 251D
+  estado: DATO
+  fuente: Historias del Riel + Ferrocarriles Argentinos Hoy
+  url: https://www.historiasdelriel.com.ar/general-electric-cooper-ferrocarril-belgrano-segunda-parte/
+- fecha: '1989'
+  hito: Fotografiada en Tapiales
+  detalle: 22 de abril
+  estado: DATO1
+  fuente: RailPictures
+  url: https://www.railpictures.net/viewphoto.php?id=575754

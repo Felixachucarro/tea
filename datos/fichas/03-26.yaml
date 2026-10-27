@@ -1,39 +1,113 @@
 codigo: '03.26'
 serie: '03'
 tipo: Ficha
-titulo: GM G22CW 7911 «La Argentina» · Gran Capitán
-periodo: 1977–2004
+titulo: GM G22CW 7911 «La Argentina» · El Gran Capitán
+nombre_corto: G22CW 7911
+periodo: '1978'
 estado: en investigación
 imagen: img/t26.jpg
 portada: img/t26.jpg
 pie: Frente · Reconstrucción IA
-busqueda: gm g22cw 7911 la argentina gran capitan tea trenes especiales argentinos 2003
+busqueda: general motors gm emd g22cw 7911 la argentina astarsa trenes especiales argentinos gran capitan posadas lacroze urquiza
 datos:
-- campo: Modelo
-  valor: General Motors G22CW
-  estado: DATO1
-  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
-- campo: Relación con el Gran Capitán
-  valor: Locomotora del servicio
+- campo: Fabricante
+  valor: ASTARSA, San Fernando, bajo licencia de General Motors / EMD
   estado: DATO
-  fuente: Relevamiento archivo.tea
-- campo: Viaje inaugural de TEA
-  valor: 'Encabezó la vuelta del Gran Capitán: salió de Federico Lacroze el 25 de septiembre de 2003'
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
-- campo: Nombre
-  valor: «La Argentina», en la etapa de TEA
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
-- campo: Fin
-  valor: En 2004 chocó contra un camión y quedó fuera de servicio; la reemplazó la 7927 «La Victoria»
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
-- campo: Serie
-  valor: G22CW del Urquiza, 7901 a 7940, ASTARSA, 1977–1978
-  estado: VERIFICAR
-  fuente: Recopilación externa (cita La Nación, Plataforma 14, El Territorio) · falta abrir las fuentes
+  fuente: UtahRails + Flickr · Pablo Fernando Cepero
+  url: https://utahrails.net/ajkristopans/ASTILLEROS.html
+- campo: Fabricación
+  valor: 1978, entre junio y agosto; número de serie 1219211
+  estado: DATO
+  fuente: UtahRails + Flickr · Pablo Fernando Cepero
+  url: https://utahrails.net/ajkristopans/ASTILLEROS.html
+- campo: Servicio
+  valor: El Gran Capitán, Federico Lacroze–Posadas, unos 1.100 km
+  estado: DATO
+  fuente: La Nación · dos notas
+  url: https://www.lanacion.com.ar/sociedad/el-regreso-del-tren-alegro-a-la-mesopotamia-nid530519/
+- campo: Flota
+  valor: 40 G22CW para el Urquiza, 7901–7940, construidas entre septiembre de 1977 y agosto de 1978
+  estado: DATO
+  fuente: UtahRails + Entre Máquinas y Vagones
+  url: https://utahrails.net/ajkristopans/ASTILLEROS.html
+- campo: Operadores
+  valor: Ferrocarriles Argentinos (Urquiza); desde 2003, Trenes Especiales Argentinos
+  estado: DATO
+  fuente: UtahRails + La Nación + Entre Máquinas y Vagones
+  url: https://entre-maquinas-y-vagones.blogspot.com/2020/06/de-la-media-a-la-ancha-gm-g22cw-mas-de-40.html
+- campo: Ejemplar
+  valor: '7911'
+  estado: DATO
+  fuente: UtahRails + La Nación + Plataforma 14
+  url: https://plataforma14.com.ar/_WEBOLD/tea.htm
+- campo: Sobrenombre
+  valor: «La Argentina», pintado en la máquina; no es un nombre oficial
+  estado: DATO
+  fuente: Plataforma 14 + Trensim
+  url: https://plataforma14.com.ar/_WEBOLD/tea.htm
+- campo: Trocha
+  valor: 1.435 mm, la original del Urquiza
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Flickr · Pablo Fernando Cepero
+  url: https://entre-maquinas-y-vagones.blogspot.com/2020/06/de-la-media-a-la-ancha-gm-g22cw-mas-de-40.html
+- campo: Accidente
+  valor: En 2004 chocó con un camión y quedó fuera de servicio; TEA la reemplazó por la 7927
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Haciendo Vía
+  url: https://entre-maquinas-y-vagones.blogspot.com/2020/06/de-la-media-a-la-ancha-gm-g22cw-mas-de-40.html
+- campo: Modelo
+  valor: GM/EMD G22CW
+  estado: DATO
+  fuente: UtahRails + Entre Máquinas y Vagones
+  url: https://utahrails.net/ajkristopans/ASTILLEROS.html
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Co'Co'
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Motor
+  valor: EMD 12-645-E, 12 cilindros en V, dos tiempos
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Wikipedia · EMD G22C Series
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Potencia
+  valor: 1.650 HP a 900 rpm; unos 1.500 HP al gancho
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Velocidad máxima
+  valor: 100 km/h de referencia; las primeras 15 del Urquiza tenían una relación para superar los 120 km/h
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Entre Máquinas y Vagones
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Peso
+  valor: Unas 91,9 t; 14,9 t por eje
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Largo
+  valor: 15,285 m entre topes
+  estado: DATO1
+  fuente: Catálogo de Locomotoras Diesel en Argentina
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
 - campo: La estrella «TEA»
   valor: Es el logo de Trenes Especiales Argentinos; sin relación con archivo.tea
   estado: DATO
   fuente: Relevamiento archivo.tea
+linea_de_tiempo:
+- fecha: '1978'
+  hito: ASTARSA la construye para el Urquiza
+  estado: DATO
+  fuente: UtahRails + Flickr · Pablo Fernando Cepero
+  url: https://utahrails.net/ajkristopans/ASTILLEROS.html
+- fecha: '2003'
+  hito: Encabeza el regreso de El Gran Capitán a Posadas
+  detalle: 25 de septiembre, desde Federico Lacroze, después de unos diez años sin servicio
+  estado: DATO
+  fuente: La Nación · tres notas + Plataforma 14
+  url: https://www.lanacion.com.ar/sociedad/el-regreso-del-tren-alegro-a-la-mesopotamia-nid530519/
+- fecha: '2004'
+  hito: Choca con un camión y queda fuera de servicio
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Haciendo Vía
+  url: https://entre-maquinas-y-vagones.blogspot.com/2020/06/de-la-media-a-la-ancha-gm-g22cw-mas-de-40.html

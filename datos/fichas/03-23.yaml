@@ -7,6 +7,10 @@ estado: en investigación
 imagen: img/t23.jpg
 portada: img/t23.jpg
 pie: Frente · Reconstrucción IA
+galeria:
+- imagen: img/rsd16-plano.jpg
+  leyenda: 'Plano: lateral y planta, ALCo RSD-16'
+  ancha: true
 busqueda: alco rsd-16 rsd16 tren patagonico 8238 locomotora rio negro
 datos:
 - campo: Fabricante

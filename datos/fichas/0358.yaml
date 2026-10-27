@@ -1,10 +1,133 @@
 codigo: '03.58'
 serie: '03'
 tipo: Ficha
-titulo: Alsthom Sorefame
-periodo: ''
+titulo: Alsthom-Sorefame AD 30 C 1934 · Ferrobaires
+nombre_corto: Alsthom 1934
+periodo: '1981'
 estado: en investigación
 imagen: img/0358-frente.jpg
 portada: img/0358-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: alsthom sorefame
+busqueda: alsthom sorefame ad30c ad 30 c cp 1930 1934 ferrobaires mar del plata portugal inspector pepe galoni
+datos:
+- campo: Fabricante
+  valor: Sorefame, Portugal, bajo licencia de Alsthom
+  estado: DATO
+  fuente: TrainLogistic · Sorefame + Wikipedia · CP Class 1930
+  url: https://www.trainlogistic.eu/pt/Imprensa/Artigos/13_03_sorefame.htm
+- campo: Fabricación
+  valor: 1981, en Portugal
+  estado: DATO
+  fuente: TrainLogistic · Sorefame + Caminhos de Ferro
+  url: https://www.trainlogistic.eu/pt/Imprensa/Artigos/13_03_sorefame.htm
+- campo: Servicio en Argentina
+  valor: Pasajeros de Ferrobaires, entre ellos Buenos Aires–Mar del Plata
+  estado: DATO
+  fuente: RailPictures + Mis Días en la Vía
+  url: https://www.railpictures.net/photo/552873/
+- campo: Cantidad de la serie
+  valor: '17 locomotoras, 1931 a 1947; cuatro vinieron a la Argentina: 1931, 1933, 1934 y 1936'
+  estado: DATO
+  fuente: TrainLogistic · Sorefame + Entre Máquinas y Vagones
+  url: https://www.trainlogistic.eu/pt/Imprensa/Artigos/13_03_sorefame.htm
+- campo: Operador en Argentina
+  valor: Ferrobaires
+  estado: DATO
+  fuente: RailPictures + Entre Máquinas y Vagones
+  url: https://www.railpictures.net/photo/552873/
+- campo: Ejemplar
+  valor: '1934'
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + RailPictures
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alsthomsorefame-serie-cp1930.html
+- campo: Modelo
+  valor: Alsthom AD 30 C, serie CP 1930
+  estado: DATO
+  fuente: RailPictures + Medway · Álbum de Locomotivas
+  url: https://www.railpictures.net/photo/552873/
+- campo: Operador original
+  valor: CP · Caminhos de Ferro Portugueses
+  estado: DATO
+  fuente: TrainLogistic · Sorefame + Wikipedia · CP Class 1930
+  url: https://www.trainlogistic.eu/pt/Imprensa/Artigos/13_03_sorefame.htm
+- campo: Motor
+  valor: SACM AGO V12 DSHR, 12 cilindros en V, turboalimentado
+  estado: DATO
+  fuente: Medway · Álbum de Locomotivas + Wikipedia (fr) · CP série 1930
+  url: https://www.medway-iberia.com/files/upload/locomotivas/ld1900.pdf
+- campo: Potencia
+  valor: 3.300 CV nominales UIC; unos 2.260 CV continuos en las ruedas
+  estado: DATO
+  fuente: Medway · Álbum de Locomotivas + ADFER · Revista FER XXI
+  url: https://www.medway-iberia.com/files/upload/locomotivas/ld1900.pdf
+- campo: Transmisión
+  valor: Eléctrica
+  estado: DATO
+  fuente: Medway · Álbum de Locomotivas + Wikipedia (fr) · CP série 1930
+  url: https://www.medway-iberia.com/files/upload/locomotivas/ld1900.pdf
+- campo: Disposición de ejes
+  valor: Co'Co'
+  estado: DATO
+  fuente: Medway · Álbum de Locomotivas + Wikipedia (fr) · CP série 1930
+  url: https://www.medway-iberia.com/files/upload/locomotivas/ld1900.pdf
+- campo: Motores de tracción
+  valor: 6 × Alsthom/EFACEC TAO 659
+  estado: DATO
+  fuente: Medway · Álbum de Locomotivas + Wikipedia (fr) · CP série 1930
+  url: https://www.medway-iberia.com/files/upload/locomotivas/ld1900.pdf
+- campo: Alternador
+  valor: Alsthom/EFACEC AT 53
+  estado: DATO
+  fuente: Medway · Álbum de Locomotivas + Wikipedia (fr) · CP série 1930
+  url: https://www.medway-iberia.com/files/upload/locomotivas/ld1900.pdf
+- campo: Trocha
+  valor: 1.668 mm en Portugal
+  estado: DATO
+  fuente: Wikipedia (fr) + Wikipedia (es) · Serie 1930 de CP
+  url: https://es.wikipedia.org/wiki/Serie_1930_de_CP
+- campo: Velocidad máxima
+  valor: 120 km/h
+  estado: DATO
+  fuente: Wikipedia (en) + Wikipedia (es) · Serie 1930 de CP
+  url: https://es.wikipedia.org/wiki/Serie_1930_de_CP
+- campo: Peso
+  valor: Unas 117 t en servicio
+  estado: DATO
+  fuente: Medway · Álbum de Locomotivas + Wikipedia (fr) · CP série 1930
+  url: https://www.medway-iberia.com/files/upload/locomotivas/ld1900.pdf
+- campo: Largo
+  valor: 18,756 m entre topes
+  estado: DATO1
+  fuente: Wikipedia (es) · Serie 1930 de CP
+  url: https://es.wikipedia.org/wiki/Serie_1930_de_CP
+- campo: Número UIC
+  valor: 90 94 1 221934-9
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Wikipedia (fr) · CP série 1930
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alsthomsorefame-serie-cp1930.html
+- campo: Tren documentado
+  valor: Tren 306, de Mar del Plata a Plaza Constitución
+  estado: DATO
+  fuente: RailPictures + Mis Días en la Vía
+  url: https://misdiasenlavia1.blogspot.com/2010/05/excursion-los-talleres-liniers-y-una.html
+- campo: Apodo
+  valor: «Inspector Pepe Galoni»
+  estado: DATO1
+  fuente: Entre Máquinas y Vagones
+  url: https://listado-entremaquinasyvagones.blogspot.com/p/alsthomsorefame-serie-cp1930.html
+- campo: Situación posterior
+  valor: Fuera de servicio y apartada en Maldonado y Mechita; en 2011 se informó un incendio
+  estado: DATO
+  fuente: Entre Máquinas y Vagones + Crónica Ferroviaria
+  url: https://wwwcronicaferroviaria.blogspot.com/2011/09/tren-departamental-de-ferrobaires.html
+linea_de_tiempo:
+- fecha: '1981'
+  hito: Sorefame entrega las 17 locomotoras de la serie 1930 a CP
+  estado: DATO
+  fuente: TrainLogistic · Sorefame + Caminhos de Ferro
+  url: https://www.trainlogistic.eu/pt/Imprensa/Artigos/13_03_sorefame.htm
+- fecha: '2011'
+  hito: Se informa un incendio de la 1934; es trasladada hacia Mechita
+  estado: DATO1
+  fuente: Crónica Ferroviaria
+  url: https://wwwcronicaferroviaria.blogspot.com/2011/09/tren-departamental-de-ferrobaires.html

@@ -1,8 +1,115 @@
-codigo: "03.52"
-serie: "03"
+codigo: '03.52'
+serie: '03'
 tipo: Ficha
-titulo: English Electric - Serie 1400 - Línea San Martín
-periodo: "2007"
+titulo: English Electric 1400 · Línea San Martín
+nombre_corto: English Electric 1400
+periodo: 1967–1969
 estado: en investigación
 imagen: img/1000364346.png
 portada: img/1000364346-1.png
+galeria:
+- imagen: img/ee1400-ficha-tecnica-cp.jpg
+  leyenda: Ficha técnica de CP, serie 1400 · escaneo de plataforma14.com.ar
+  ancha: true
+busqueda: english electric 1400 ld 844 c sorefame cp portugal san martin lsm ugofe 1417 1418 1440 marta
+datos:
+- campo: Fabricantes
+  valor: English Electric y Sorefame
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Fabricación
+  valor: 1967–1969, la serie
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Caminhos de Ferro
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Línea
+  valor: San Martín, con UGOFE
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Future Memory Transportation + RailGallery
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Cantidad construida
+  valor: 67 locomotoras, CP 1401–1467
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Caminhos de Ferro
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Operador
+  valor: UGOFE · Línea San Martín
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Future Memory Transportation
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Ejemplar
+  valor: '1417, 1418 o 1440: las tres del San Martín. El «B447» del frente no es un número de la serie'
+  estado: VERIFICAR
+  fuente: Rieles Latinoamericanos N.º 99 + Future Memory Transportation
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Unidades del San Martín
+  valor: La 1417 formó el tren «Marta» en 2008; ese año el motor de la 1418 fue a reparación; La Nación presentó a la 1440 entre las nuevas de la línea
+  estado: DATO1
+  fuente: Haciendo Vía
+  url: https://haciendovia.blogspot.com/2008/09/marta-con-english-electric.html
+- campo: Modelo
+  valor: English Electric LD 844 C
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Future Memory Transportation
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Tipo
+  valor: Locomotora diésel-eléctrica, Bo'Bo'
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Motor
+  valor: English Electric 8CSVT, 8 cilindros en V
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Potencia
+  valor: 970 CV según la documentación argentina; otras fichas dan 1.330–1.370 CV
+  estado: VERIFICAR
+  fuente: Rieles Latinoamericanos N.º 99 + Future Memory Transportation
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Generador
+  valor: English Electric 819/9H
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Motores de tracción
+  valor: 4 × English Electric 548/3A
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Trocha
+  valor: 1.668 mm en Portugal; 1.676 mm en la Argentina
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Caminhos de Ferro
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Velocidad máxima
+  valor: 105 km/h
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Peso
+  valor: Unas 64,4 t
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Frenos
+  valor: Westinghouse, sistema doble aire/vacío
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Esfuerzo tractivo
+  valor: Unos 16.100 kgf al arranque
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: Mando múltiple
+  valor: Hasta 3 locomotoras
+  estado: DATO
+  fuente: Rieles Latinoamericanos N.º 99 + Catálogo de Locomotoras Diesel en Argentina
+  url: https://ocomboio.net/PDF/015-2006.pdf
+- campo: En la Argentina
+  valor: '11 unidades: 1405 y 1421 Ferrobaires; 1409 y 1467 TBA; 1410, 1423, 1425 y 1448 Ferrocentral; 1417, 1418 y 1440 San Martín'
+  estado: DATO
+  fuente: Future Memory Transportation + Caminhos de Ferro
+  url: https://futurememory-transportation.blogspot.com/2023/01/diesel-electric-locomotive-cp-1404-english-electric-vulcan-foundry-ld-844-c-12115003.html

@@ -1,8 +1,116 @@
-codigo: "03.45"
-serie: "03"
+codigo: '03.45'
+serie: '03'
 tipo: Ficha
-titulo: ALCO - FPD7 - 8406 - Trenes Argentinos CARGAS
-periodo: "2010"
+titulo: ALCo-MLW FPD7 8406 · Trenes Argentinos Cargas
+nombre_corto: FPD7 8406
+periodo: '1957'
 estado: en investigación
 imagen: img/1000364326.png
 portada: img/1000364326-1.png
+galeria:
+- imagen: img/0360-plano.jpg
+  leyenda: 'Plano: lateral y frente, ALCo-MLW FPD7 (librea BAP, 8410)'
+  ancha: true
+busqueda: alco mlw fpd7 fpd-7 8406 luciana san martin mendoza all america latina logistica rufino trenes argentinos cargas belgrano cargas
+datos:
+- campo: Fabricante
+  valor: Montreal Locomotive Works (MLW), Canadá, bajo licencia de ALCo
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + RailPictures
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Fabricación
+  valor: 1957, la serie argentina 8401–8425
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Línea
+  valor: San Martín
+  estado: DATO
+  fuente: RailPictures + Trenes que cuentan su historia
+  url: https://www.railpictures.net/photo/342398/
+- campo: Flota
+  valor: 25 FPD7 en la Argentina
+  estado: DATO
+  fuente: Gabriel Leiva + RailPictures
+  url: https://leivag1991vehicles.blogspot.com/2022/08/1202-locomotoras-alco-dl535-en.html
+- campo: Operador
+  valor: 'Trenes Argentinos Cargas: es la librea de la imagen; no encontramos registros de la 8406 en esta etapa'
+  estado: VERIFICAR
+  fuente: Lectura de la imagen
+- campo: Ejemplar
+  valor: '8406'
+  estado: DATO
+  fuente: RailPictures · tres fotos
+  url: https://www.railpictures.net/photo/342398/
+- campo: Modelo
+  valor: FPD7
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + RailPictures
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Motor
+  valor: ALCo 251-B, 12 cilindros en V, cuatro tiempos, turboalimentado
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Material Móvil y Componentes Ferroviarios
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Potencia
+  valor: 1.950 HP nominales a 1.000 rpm; 1.800 HP al gancho
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Material Móvil y Componentes Ferroviarios
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Motores de tracción
+  valor: 6 × General Electric 5-GE-761-A1; Co'Co'
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Material Móvil y Componentes Ferroviarios
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Material Móvil y Componentes Ferroviarios
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Velocidad máxima
+  valor: 122 km/h
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Material Móvil y Componentes Ferroviarios
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Peso
+  valor: 105 t; 17,5 t por eje
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Material Móvil y Componentes Ferroviarios
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Largo
+  valor: 17,958 m entre topes
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Material Móvil y Componentes Ferroviarios
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Esfuerzo tractivo
+  valor: 31.500 kgf inicial; 18.235 kgf continuo
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Material Móvil y Componentes Ferroviarios
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- campo: Historia de la 8406
+  valor: San Martín, con cargas en Mendoza en 1984–1985, entre ellas trenes de vagones tanque de petróleo; después, cargas con ALL
+  estado: DATO
+  fuente: RailPictures + Trenes que cuentan su historia
+  url: https://www.railpictures.net/photo/342398/
+- campo: Apodo
+  valor: «Luciana», en registros de 2015
+  estado: DATO1
+  fuente: Por las vías del país
+  url: https://porlasviasdelpais.blogspot.com/2015/02/fpd7-8406-llegando-rufino.html
+linea_de_tiempo:
+- fecha: '1957'
+  hito: Llegan las 25 FPD7 de MLW
+  estado: DATO
+  fuente: Catálogo de Locomotoras Diesel en Argentina + Gabriel Leiva
+  url: https://es.scribd.com/document/893681477/Roster-Locos-Diesel
+- fecha: '1984'
+  hito: Cargas de petróleo en Mendoza con el San Martín
+  detalle: 1984–1985
+  estado: DATO
+  fuente: RailPictures + Trenes que cuentan su historia
+  url: https://www.railpictures.net/photo/342398/
+- fecha: '2015'
+  hito: Llega a Rufino con ALL; la llaman «Luciana»
+  estado: DATO1
+  fuente: Por las vías del país
+  url: https://porlasviasdelpais.blogspot.com/2015/02/fpd7-8406-llegando-rufino.html

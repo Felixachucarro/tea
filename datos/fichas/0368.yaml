@@ -1,10 +1,113 @@
 codigo: '03.68'
 serie: '03'
 tipo: Ficha
-titulo: TBA «Pitufo»
-periodo: ''
+titulo: Materfer CML «Pitufo» 307 + 054 + 301 · Transporte Público
+nombre_corto: Materfer CML Pitufo
+periodo: '1987'
 estado: en investigación
 imagen: img/0368-frente.jpg
 portada: img/0368-frente.jpg
 pie: Frente · Reconstrucción IA
-busqueda: tba pitufo
+busqueda: materfer cml coche motor liviano pitufo 307 054 301 tba transporte publico mitre victoria capilla del señor iveco allison
+datos:
+- campo: Fabricante
+  valor: Materfer, Córdoba
+  estado: DATO
+  fuente: AFAMAC + CAFMA
+  url: https://afamac.com.ar/catalogo/asociados-afamac/materfer/
+- campo: Fabricación
+  valor: 1987, la serie
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- campo: Servicios
+  valor: Victoria–Capilla del Señor; los CML también corrieron en Merlo–Lobos
+  estado: DATO
+  fuente: Archivo General de la Nación + Rieles Virtuales
+  url: https://www.agn.gob.ar/sites/default/files/informes/informe_181_2017.pdf
+- campo: Cantidad original
+  valor: '8 unidades dobles para Ferrocarriles Argentinos: CMLU 3201/3208 + CALU 201/208'
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- campo: Operador
+  valor: TBA; después, servicios con la marca Transporte Público en la Línea Mitre
+  estado: DATO
+  fuente: Rieles Virtuales + Archivo General de la Nación
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Ejemplar
+  valor: 'Formación 307 + 054 + 301, atribuida por librea y registros: en la foto no se lee el número'
+  estado: VERIFICAR
+  fuente: Rieles Virtuales + Mis Días en la Vía + Archivo General de la Nación
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Motores de esta formación
+  valor: Dos Fiat-Iveco con cajas automáticas Allison
+  estado: DATO
+  fuente: Mis Días en la Vía + Haciendo Vía
+  url: https://misdiasenlavia1.blogspot.com/2012/06/las-capturas-de-diego-german-telesa.html
+- campo: Librea
+  valor: Azul y celeste de Transporte Público, Línea Mitre
+  estado: DATO1
+  fuente: Rieles Virtuales
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Tipo
+  valor: Coche motor liviano (CML) diésel, para ramales de poca demanda
+  estado: DATO
+  fuente: Rieles Virtuales + Desarrollo y Defensa
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Apodo
+  valor: «Pitufo»
+  estado: DATO
+  fuente: Rieles Virtuales + Gabriel Leiva
+  url: https://rieles-virtuales-2019.blogspot.com/2024/10/cochemotor-cml-materfer-pitufos.html
+- campo: Motor original
+  valor: Fiat 619, 190 HP por coche motor, en el CML1 original. La familia tuvo cambios de motor después
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Medidas
+  valor: Unos 15,83 m de largo y 2,70 m de ancho por coche
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva + Wikipedia
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Peso
+  valor: Unas 20 t por coche, en la versión original
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Bogies
+  valor: Dos de dos ejes por coche, tipo Eurofima
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Capacidad
+  valor: 56 sentados y unos 54 parados, alrededor de 110 pasajeros
+  estado: DATO
+  fuente: Desarrollo y Defensa + Gabriel Leiva
+  url: https://desarrolloydefensa.blogspot.com/2008/07/recordando-al-coche-motor-liviano.html
+- campo: Velocidad máxima
+  valor: 100 km/h
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- campo: Autonomía
+  valor: Unos 1.200 km
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- campo: Trocha
+  valor: 1.676 mm
+  estado: DATO
+  fuente: Wikipedia · Materfer + Gabriel Leiva
+  url: https://es.wikipedia.org/wiki/Materfer
+linea_de_tiempo:
+- fecha: '1987'
+  hito: Materfer produce la serie CML
+  estado: DATO
+  fuente: Wikipedia · Materfer + Desarrollo y Defensa
+  url: https://es.wikipedia.org/wiki/Materfer
+- fecha: '2013'
+  hito: El tren CML 301-054-307 figura en el ramal Victoria–Capilla del Señor
+  estado: DATO1
+  fuente: Archivo General de la Nación · informe 181/2017
+  url: https://www.agn.gob.ar/sites/default/files/informes/informe_181_2017.pdf
