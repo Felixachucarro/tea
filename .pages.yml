@@ -51,6 +51,10 @@ content:
         type: string
         required: true
         description: "Primero la carrocería o el modelo que la gente recuerda. Ej.: Nuovobus Citta · Mercedes-Benz"
+      - name: nombre_corto
+        label: Nombre corto (placas de historias)
+        type: string
+        description: "Opcional. El nombre que va en la placa para compartir en Instagram. Si queda vacío, se usa lo que está antes del primer «·» del título. Ej.: Eidan 500"
       - name: periodo
         label: Años
         type: string

@@ -1,0 +1,2 @@
+Inter e Inter Display: © The Inter Project Authors, licencia SIL Open Font License 1.1 (https://openfontlicense.org).
+logo-tea.png: logotipo de archivo.tea, para las placas de historias.

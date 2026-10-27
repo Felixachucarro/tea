@@ -11,7 +11,7 @@ Además de la portada arma:
   - sitemap.xml y robots.txt."""
 import datetime as dt, hashlib, html, json, os, re, shutil, subprocess, sys
 import yaml
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageDraw, ImageFont
 import numpy as np
 
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -115,6 +115,94 @@ def vista_previa(ruta, codigo):
     return dst
 
 
+# ---------- placas para historias de Instagram (1080×1920) ----------
+FUENTES = os.path.join(R, 'scripts', 'fuentes')
+H_TINTA, H_GRIS, H_LINEA = (30, 29, 26), (122, 122, 114), (221, 221, 214)
+# casilleros clave por serie, en el mismo orden que la ficha (sin «Ejemplar»)
+CLAVES = {'02': [('Carrocería', r'^carrocer'), ('Chasis', r'^(chasis|modelo)'), ('Motor', r'^motor'), ('Potencia', r'potencia'), ('Largo', r'(largo|distancia|batalla)')],
+          '03': [('Fabricante', r'^(fabricante|modelo|posible modelo|coche motor)'), ('Fabricación', r'^(fabricaci|llegada|primer)'), ('Línea', r'(l[ií]nea|recorrido|servicio)'), ('Flota', r'(flota|^coches|cantidad)'), ('Operador', r'^(operador|organiza)')],
+          '04': [('Motor', r'^motor'), ('Potencia', r'potencia'), ('Producción', r'(producci|fabricaci)'), ('Origen', r'(planta|origen)')],
+          '05': [('Producción', r'(producci|fabricaci|lanzamiento)'), ('Motor', r'^motor'), ('Unidades', r'(unidades|ventas)'), ('Planta', r'(planta|origen)')],
+          '06': [('Modelo', r'(modelo|veh[ií]culo)'), ('Uso', r'(uso|servicio)'), ('Años', r'(a[ñn]os|producci)')]}
+_fuentes = {}
+
+
+def fuente_h(nombre_f, t):
+    k = (nombre_f, t)
+    if k not in _fuentes: _fuentes[k] = ImageFont.truetype(os.path.join(FUENTES, nombre_f), t)
+    return _fuentes[k]
+
+
+def datos_placa(p):
+    """Hasta tres datos para la placa: los casilleros clave que tengan dato; si faltan, el período."""
+    vacio = lambda v: not v or v.strip() in ('—', '-', 'Sin fecha') 
+    usados, salida = set(), []
+    for etiqueta, patron in CLAVES.get(p['s'], []):
+        for i, r in enumerate(p['d']):
+            if i in usados or r[2] == 'SIN DATO' or vacio(r[1]): continue
+            if re.search(patron, r[0].strip().lower()):
+                usados.add(i); salida.append((etiqueta, re.sub(r'\s+', ' ', r[1]).strip())); break
+    if len(salida) < 3 and not vacio(p['a']) and p['s'] != '06': salida.insert(0, ('Período', p['a']))
+    return salida[:3]
+
+
+def partir_h(t, f, ancho):
+    lineas, l = [], ''
+    for w in t.split():
+        s_ = (l + ' ' + w).strip()
+        if f.getlength(s_) > ancho and l: lineas.append(l); l = w
+        else: l = s_
+    return lineas + [l]
+
+
+def placa_historia(p, nombre_corto):
+    """La placa para compartir: vehículo centrado, nombre corto, hasta tres datos y la firma de archivo.tea."""
+    W, H = 1080, 1920
+    im = Image.new('RGB', (W, H), 'white'); dr = ImageDraw.Draw(im)
+    logo = Image.open(os.path.join(FUENTES, 'logo-tea.png')).convert('RGBA').resize((64, 64), Image.LANCZOS)
+    im.paste(logo, ((W - 64) // 2, 1366), logo)
+    dr.text((W // 2, 1446), 'Encontrá el tuyo en', font=fuente_h('Inter-Regular.otf', 30), fill=H_GRIS, anchor='mt')
+    dr.text((W // 2, 1484), 'archivotea.ar', font=fuente_h('InterDisplay-Bold.otf', 52), fill=H_TINTA, anchor='mt')
+    datos = datos_placa(p)
+    fv, fe = fuente_h('InterDisplay-SemiBold.otf', 36), fuente_h('Inter-Medium.otf', 20)
+    col = (W - 144) // max(1, len(datos))
+    filas = []
+    for _, v in datos:
+        # lo esencial del dato: sin aclaraciones entre paréntesis ni después de «;», y cortando en comas hasta que entre en dos líneas
+        v = re.split(r'\s*[(;]', v)[0].strip().rstrip('.,: ') or v
+        while len(partir_h(v, fv, col - 24)) > 2 and ',' in v: v = v.rsplit(',', 1)[0].strip()
+        f = partir_h(v, fv, col - 24)
+        if len(f) > 2: f = f[:2]; f[1] = f[1].rstrip(',;-– ') + '…'
+        filas.append(f)
+    nmax = max((len(f) for f in filas), default=0)
+    alto_datos = nmax * 44 + 40 if datos else 0
+    fn = fuente_h('InterDisplay-ExtraBold.otf', 71); lineas = partir_h(nombre_corto, fn, 936)
+    if len(lineas) > 2: fn = fuente_h('InterDisplay-ExtraBold.otf', 58); lineas = partir_h(nombre_corto, fn, 936)[:3]
+    paso = 80 if fn.size == 71 else 66
+    texto = 36 + len(lineas) * paso + (40 + alto_datos if datos else 0)
+    z0, z1 = 250, 1325                                     # libre entre las barras de Instagram
+    hv = max(300, min(1000, z1 - z0 - texto)); k = hv / 940
+    v = Image.open(os.path.join(OUT, p['cv'])).convert('RGB').crop((0, 0, 800, 940)).resize((round(800 * k), hv), Image.LANCZOS)
+    a = np.asarray(v).astype(np.float32) / 255                       # el mismo grano que en la web
+    g = np.random.default_rng(int(hashlib.md5(p['c'].encode()).hexdigest()[:8], 16)).random(a.shape[:2], dtype=np.float32)[..., None] - .5
+    m = 4 * a * (1 - a) * (a.max(2, keepdims=True) < .96)
+    v = Image.fromarray(np.clip((a + g * m * 22 / 255 * 4) * 255, 0, 255).astype(np.uint8))
+    y = z0 + (z1 - z0 - hv - texto) // 2
+    im.paste(v, ((W - v.width) // 2, y)); y += hv + 36
+    for li in lineas: dr.text((W // 2, y), li, font=fn, fill=H_TINTA, anchor='mt'); y += paso
+    if datos:
+        y += 40
+        for i, ((e, _), f) in enumerate(zip(datos, filas)):
+            cx = 72 + col * i + col // 2; yy = y + (nmax - len(f)) * 44
+            for li in f: dr.text((cx, yy), li, font=fv, fill=H_TINTA, anchor='mt'); yy += 44
+            dr.text((cx, y + nmax * 44 + 6), e.upper(), font=fe, fill=H_GRIS, anchor='mt')
+            if i: dr.line((72 + col * i, y, 72 + col * i, y + alto_datos - 6), fill=H_LINEA, width=2)
+    dst = f'img/historias/{p["c"].replace(".", "-")}.jpg'
+    os.makedirs(os.path.join(OUT, 'img', 'historias'), exist_ok=True)
+    im.save(os.path.join(OUT, dst), quality=88)
+    return dst
+
+
 # ---------- fichas ----------
 def pieza(f):
     p = {'c': str(f['codigo']), 's': str(f['serie']), 't': str(f['titulo']).strip(), 'a': str(f.get('periodo') or 'Sin fecha').strip(),
@@ -139,6 +227,8 @@ def pieza(f):
     if p['tipo'] == 'Ficha' and orig and os.path.exists(os.path.join(R, orig)):
         p['cv'] = portada(orig)
         p['og'] = vista_previa(orig, p['c'].replace('.', '-'))
+        corto = str(f.get('nombre_corto') or '').strip() or (p['t'].split(' · ')[0] if ' · ' in p['t'] else p['t'])
+        p['hv'] = placa_historia(p, corto)
     p['_archivo'] = f['_archivo']
     return p
 
@@ -356,6 +446,7 @@ def ficha_escrita(p):
             + (f'<h2>Línea del tiempo</h2><ol>{tl}</ol>' if tl else '')
             + (f'<h2>Imágenes</h2><ul>{gal}</ul>' if gal else '')
             + (f'<p class="fe-meta">{esc(p["galnota"])}</p>' if p.get('galnota') else '')
+            + (f'<p><a href="/{p["hv"]}">Placa para compartir en historias</a></p>' if p.get('hv') else '')
             + '<p><a href="/#archivo">Ver todo el archivo</a></p></article>')
 
 
@@ -372,6 +463,23 @@ plantilla = open(os.path.join(R, 'plantilla', 'index.html'), encoding='utf-8').r
 for k in ('__HEAD__', '__BLOG__', '__DIARIO__', '__ULTIMO__', '__FICHA__'):
     assert k in plantilla, k
 base = plantilla.replace('__BLOG__', blog(), 1).replace('__DIARIO__', diario(), 1).replace('__ULTIMO__', ultimo(), 1)
+
+
+def frente_parejo(m):
+    """Frentes de la portada: cada vehículo recortado a su contorno y a la misma altura, para que apoyen parejos."""
+    ruta = m.group(1)
+    src = os.path.join(R, ruta)
+    if not os.path.exists(src): return m.group(0)
+    v = recorte(src); k = 460 / v.height
+    v = v.resize((max(1, round(v.width * k)), 460), Image.LANCZOS)
+    dst = f'img/fr/{nombre(ruta)}.webp'
+    os.makedirs(os.path.join(OUT, 'img', 'fr'), exist_ok=True)
+    v.save(os.path.join(OUT, dst), 'WEBP', quality=84, method=4)
+    return f'src="{dst}"'
+
+
+i = base.find('class="frentes"'); j = base.find('</div>', i)
+if i > 0: base = base[:i] + re.sub(r'src="(img/[^"]+)"', frente_parejo, base[i:j]) + base[j:]
 
 publicas = [{k: v for k, v in p.items() if k != '_archivo'} for p in PIEZAS]
 with open(os.path.join(OUT, 'piezas.js'), 'w', encoding='utf-8') as f:
