@@ -1,7 +1,7 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="color-scheme" content="only light"><meta name="theme-color" content="#ffffff"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><script data-goatcounter="https://archivotea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>__HEAD__
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,800;1,800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Barlow+Condensed:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,800;1,800&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Barlow:wght@400;700&display=swap">
 <style>
 /* Layout: archivo blanco y sobrio — barra fija, buscador como protagonista, grilla de fichas con franja de serie, ficha en panel. Un solo tema claro, por regla de marca (fondo blanco). */
 :root{
@@ -225,26 +225,27 @@ table.datos tr.pend td{color:var(--gris)}
 .bol-pop{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:24px max(16px,env(safe-area-inset-right,0px)) 24px max(16px,env(safe-area-inset-left,0px));background:rgba(20,18,14,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);animation:bolin .25s ease-out}
 .bol-pop[hidden]{display:none}
 @keyframes bolin{from{opacity:0}to{opacity:1}}
-.boleto-w{display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;gap:14px;width:min(560px,calc(100vw - 32px))}
+.boleto-w{position:relative;container-type:inline-size;display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;gap:14px;width:min(500px,calc(100vw - 32px))}
 .boleto-w .bol{animation:bolsube .35s ease-out}
 @keyframes bolsube{from{transform:translateY(14px) rotate(-1.5deg);opacity:0}to{transform:none;opacity:1}}
-.bol-ok{font:500 12px/1 var(--f-text);letter-spacing:.12em;text-transform:uppercase;background:#fff;color:var(--tinta,#1e1d1a);border:0;padding:14px 22px;cursor:pointer}
+.bol-x{position:absolute;top:-46px;right:0;width:36px;height:36px;border:0;border-radius:50%;background:#efe5cc;color:#2b2721;font:400 22px/1 var(--f-text);cursor:pointer;display:grid;place-items:center}
 .bol-pop .pie{color:#efe5cc!important;text-align:center;font-size:clamp(10px,2.8vw,12px)!important}
-.bol{--papel:#efe5cc;--tinta:#2b2721;container-type:inline-size;position:relative;width:100%;max-width:560px;min-width:0;aspect-ratio:2.15/1;overflow:hidden;box-sizing:border-box;padding:2.4cqw 3cqw 2.4cqw 2.6cqw;background:var(--papel);color:var(--tinta);
- display:grid;grid-template-columns:1fr auto;gap:2cqw;font-family:'Barlow Condensed','Arial Narrow',sans-serif;
- background-image:radial-gradient(rgba(120,95,50,.10) 1px,transparent 1.3px);background-size:5px 5px;filter:drop-shadow(0 6px 14px rgba(60,45,20,.12));
+/* el boleto: medidas del boceto aprobado (480 px de ancho), pasadas a unidades del contenedor */
+.bol{--papel:#efe5cc;--tinta:#2b2721;container-type:inline-size;position:relative;width:100%;max-width:500px;min-width:0;box-sizing:border-box;padding:3.33cqw 3.75cqw 3.33cqw 3.33cqw;background:var(--papel);color:var(--tinta);
+ display:grid;grid-template-columns:1fr auto;gap:2.08cqw;font-family:'Barlow','DejaVu Sans',Verdana,sans-serif;
+ background-image:radial-gradient(rgba(120,95,50,.10) 1px,transparent 1.3px);background-size:5px 5px;filter:drop-shadow(0 6px 14px rgba(60,45,20,.18));
  -webkit-mask:radial-gradient(circle 5px at 0 50%,#0000 98%,#000) 0 0/100% 14px repeat-y,radial-gradient(circle 5px at 100% 50%,#0000 98%,#000) 0 0/100% 14px repeat-y;-webkit-mask-composite:source-in;
  mask:radial-gradient(circle 5px at 0 50%,#0000 98%,#000) 0 0/100% 14px repeat-y,radial-gradient(circle 5px at 100% 50%,#0000 98%,#000) 0 0/100% 14px repeat-y;mask-composite:intersect}
-.bol .cu{border:2px solid var(--tinta);display:grid;grid-template-columns:2.8cqw 20cqw 1fr;grid-template-rows:auto auto minmax(0,1fr);min-height:0}
+.bol .cu{border:2px solid var(--tinta);display:grid;grid-template-columns:3.33cqw 21.67cqw 1fr;grid-template-rows:auto auto 1fr}
 .bol .ba{grid-row:1/4;border-right:2px solid var(--tinta);background:repeating-linear-gradient(135deg,var(--tinta) 0 3px,transparent 3px 9px)}
-.bol .t1{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:700;letter-spacing:.06em;font-size:4.6cqw;line-height:1.1;padding:.7cqw 1cqw}
-.bol .t2{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:400;font-size:2.5cqw;letter-spacing:.1em;padding:.8cqw 1cqw;text-transform:uppercase;white-space:nowrap;overflow:hidden}
-.bol .pr{border-right:2px solid var(--tinta);display:grid;justify-items:center;align-content:center;gap:.3cqw;padding:1cqw;text-align:center}
-.bol .pr small{font-size:1.9cqw;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}.bol .pr b{font-size:8.5cqw;line-height:1;font-weight:400}
-.bol .vi{display:grid;place-items:center;font-size:3.8cqw;font-weight:600;line-height:1.08;letter-spacing:.05em;text-align:center;padding:1cqw 2cqw;text-transform:uppercase}
-.bol .nu{writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;justify-content:space-between;gap:2cqw}
-.bol .nu small{font:400 2.3cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.1em}.bol .nu b{font:700 6cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.02em}
-.bol .se{position:absolute;top:-1.4cqw;left:-.6cqw;width:17cqw;mix-blend-mode:multiply;opacity:.92;pointer-events:none}
+.bol .t1{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:700;letter-spacing:.06em;font-size:4.58cqw;line-height:1.2;padding:1.25cqw .83cqw}
+.bol .t2{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:400;font-size:2.71cqw;letter-spacing:.1em;padding:1.25cqw .83cqw;text-transform:uppercase;white-space:nowrap;overflow:hidden}
+.bol .pr{border-right:2px solid var(--tinta);display:grid;justify-items:center;align-content:center;gap:.83cqw;padding:1.67cqw .83cqw;text-align:center}
+.bol .pr small{font-size:2.29cqw;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}.bol .pr b{font-size:9.58cqw;line-height:1;font-weight:400}
+.bol .vi{display:grid;place-items:center;align-content:center;font-size:4.375cqw;font-weight:400;line-height:1.14;letter-spacing:.04em;text-align:center;padding:2.5cqw 2.08cqw;text-transform:uppercase}
+.bol .nu{writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;justify-content:space-between;gap:2.08cqw}
+.bol .nu small{font:400 2.5cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.08em}.bol .nu b{font:700 6.25cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.02em}
+.bol .se{position:absolute;top:-2.08cqw;left:-.83cqw;width:23.3cqw;mix-blend-mode:multiply;opacity:.92;pointer-events:none}
 .boleto-w .pie{margin:0;font:12px var(--f-mono);color:var(--gris)}
 .b-top h1{font-size:clamp(44px,7vw,88px)}
 .act{border:1px solid var(--linea);padding:clamp(16px,2.4vw,28px);display:grid;gap:18px}
@@ -546,7 +547,7 @@ function abrir(cod){const p=PIEZAS.find(x=>x.c===cod);if(!p)return;if(p.tipo==='
 const TIT0=document.title;
 function marcar(p){document.title=p.t+' · archivo.tea';const u=urlFicha(p.c);if(location.pathname!==u){try{history.pushState(null,'',u)}catch(e){}try{window.goatcounter&&goatcounter.count&&goatcounter.count({path:u,title:document.title})}catch(e){}}}
 // boleto del blog: el total de visitas de GoatCounter (necesita «Allow adding visitor counts» en su configuración)
-function pasajero(){const el=document.getElementById('pasajero'),pop=document.getElementById('bol-pop');if(!el||!pop||el.dataset.ok)return;el.dataset.ok=1;let visto=false;try{visto=sessionStorage.getItem('boleto')==='1'}catch(e){}if(visto)return;const cerrar=()=>{pop.hidden=true;document.removeEventListener('keydown',esc)},esc=e=>{if(e.key==='Escape')cerrar()};pop.addEventListener('click',e=>{if(e.target===pop||e.target.closest('.bol-ok'))cerrar()});fetch('https://archivotea.goatcounter.com/counter/TOTAL.json').then(r=>r.ok?r.json():Promise.reject()).then(j=>{const n=parseInt(String(j.count).replace(/\D/g,''),10);if(!(n>0))return;el.textContent=String(n).padStart(6,'0');pop.hidden=false;document.addEventListener('keydown',esc);pop.querySelector('.bol-ok').focus({preventScroll:true});try{sessionStorage.setItem('boleto','1')}catch(e){}}).catch(()=>{})}
+function pasajero(){const el=document.getElementById('pasajero'),pop=document.getElementById('bol-pop');if(!el||!pop||el.dataset.ok)return;el.dataset.ok=1;let visto=false;try{visto=sessionStorage.getItem('boleto')==='1'}catch(e){}if(visto)return;const cerrar=()=>{pop.hidden=true;document.removeEventListener('keydown',esc)},esc=e=>{if(e.key==='Escape')cerrar()};pop.addEventListener('click',e=>{if(e.target===pop||e.target.closest('.bol-x'))cerrar()});fetch('https://archivotea.goatcounter.com/counter/TOTAL.json').then(r=>r.ok?r.json():Promise.reject()).then(j=>{const n=parseInt(String(j.count).replace(/\D/g,''),10);if(!(n>0))return;el.textContent=String(n).padStart(6,'0');pop.hidden=false;document.addEventListener('keydown',esc);pop.querySelector('.bol-x').focus({preventScroll:true});try{sessionStorage.setItem('boleto','1')}catch(e){}}).catch(()=>{})}
 async function descargarPlaca(b){const nombre='archivotea-'+b.dataset.c.replace('.','-')+'.jpg';b.setAttribute('aria-busy','true');
  try{const blob=await (await fetch('/'+b.dataset.hv)).blob();const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=nombre;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
  catch(e){window.open('/'+b.dataset.hv,'_blank')}finally{b.removeAttribute('aria-busy')}}
