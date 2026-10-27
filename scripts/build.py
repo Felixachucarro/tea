@@ -126,9 +126,14 @@ def pieza(f):
         p['gal'] = [[liviana(g['imagen']), g.get('leyenda', '') or ''] + ([1] if g.get('ancha') else []) for g in f['galeria'] if g.get('imagen')]
     if f.get('nota_galeria'): p['galnota'] = f['nota_galeria']
     p['buscar'] = f.get('busqueda', '') or ''
-    p['d'] = [[r['campo'], str(r['valor']).strip(), r.get('estado', 'SIN DATO'), r.get('fuente', '') or '', r.get('url', '') or ''] for r in f.get('datos') or []]
-    if f.get('linea_de_tiempo'):
-        p['tl'] = [[str(r['fecha']), r['hito'], r.get('detalle', '') or '', r.get('estado', 'SIN DATO'), r.get('fuente', '') or '', r.get('url', '') or ''] for r in f['linea_de_tiempo']]
+    # renglones vacíos o a medio cargar en el panel: se saltean con un aviso, sin frenar la web
+    datos = [r for r in f.get('datos') or [] if isinstance(r, dict) and r.get('campo') and r.get('valor') not in (None, '')]
+    hitos = [r for r in f.get('linea_de_tiempo') or [] if isinstance(r, dict) and r.get('fecha') and r.get('hito')]
+    if len(datos) < len(f.get('datos') or []) or len(hitos) < len(f.get('linea_de_tiempo') or []):
+        print(f"  aviso: {f['_archivo']} tiene renglones vacíos o incompletos; no se muestran")
+    p['d'] = [[str(r['campo']).strip(), str(r['valor']).strip(), r.get('estado') or 'SIN DATO', r.get('fuente', '') or '', r.get('url', '') or ''] for r in datos]
+    if hitos:
+        p['tl'] = [[str(r['fecha']), r['hito'], r.get('detalle', '') or '', r.get('estado') or 'SIN DATO', r.get('fuente', '') or '', r.get('url', '') or ''] for r in hitos]
     p['dec'] = f['decadas'] if f.get('decadas') else decadas(p['a'])
     orig = f.get('portada') or f.get('imagen')
     if p['tipo'] == 'Ficha' and orig and os.path.exists(os.path.join(R, orig)):
@@ -164,14 +169,70 @@ for x in sorted(os.listdir(os.path.join(R, 'notas'))):
     fm['imagenes'] = [liviana(u) for u in fm.get('imagenes') or []]
     if fm.get('estado', 'publicada') == 'publicada': NOTAS.append(fm)
 NOTAS.sort(key=lambda n: (str(n['fecha']), -n.get('orden', 0)), reverse=True)
-LOG = [(str(a['fecha']), a['area'], a['titulo'], a['detalle']) for a in leer('datos/actividad.yaml')]
+MANUAL = [(str(a['fecha']), a['area'], a['titulo'], a['detalle']) for a in leer('datos/actividad.yaml')]
+
+
+# ---------- actividad automática: sale del historial del repo ----------
+AUTO_DESDE = '2026-10-21'   # antes de esta fecha la actividad está escrita a mano en datos/actividad.yaml
+TZ = dt.timezone(dt.timedelta(hours=-3))
+
+
+def lista(nombres, n=5):
+    nombres = list(dict.fromkeys(nombres))
+    return ', '.join(nombres[:n]) + (f' y {len(nombres) - n} más' if len(nombres) > n else '')
+
+
+def actividad_git():
+    """Resume por día lo que se cargó: fichas nuevas, fichas actualizadas, notas y cambios en la web."""
+    try:
+        r = subprocess.run(['git', 'log', f'--since={AUTO_DESDE}T00:00:00-03:00', '--name-status', '-M',
+                            '--format=@@%cI'], cwd=R, capture_output=True, text=True, timeout=30)
+        if r.returncode: return []
+    except Exception:
+        return []
+    por_codigo = {f['_archivo']: f"{f['codigo']} {str(f['titulo']).strip()}" for f in FICHAS}
+    dias = {}
+    dia = None
+    for linea in r.stdout.splitlines():
+        if linea.startswith('@@'):
+            dia = dt.datetime.fromisoformat(linea[2:]).astimezone(TZ).date().isoformat(); continue
+        if not linea.strip() or dia is None or dia < AUTO_DESDE: continue
+        partes = linea.split('\t'); tipo, ruta = partes[0][0], partes[-1]
+        d = dias.setdefault(dia, {'nuevas': [], 'act': [], 'notas': [], 'web': False})
+        if ruta.startswith('datos/fichas/') and ruta.endswith('.yaml'):
+            nom = por_codigo.get(os.path.basename(ruta))
+            if not nom: continue
+            (d['nuevas'] if tipo == 'A' else d['act']).append(nom)
+        elif ruta.startswith('notas/') and ruta.endswith('.md') and tipo == 'A':
+            d['notas'].append(os.path.basename(ruta)[11:-3].replace('-', ' '))
+        elif ruta.startswith(('scripts/', 'plantilla/', '.pages.yml')):
+            d['web'] = True
+    salida = []
+    for dia, d in sorted(dias.items()):
+        nuevas = list(dict.fromkeys(d['nuevas'])); act = [x for x in dict.fromkeys(d['act']) if x not in nuevas]
+        if d['web']:
+            salida.append((dia, 'Web', 'Mejoras en la web', 'Cambios en el diseño, el panel de carga o el armado del sitio.', 1))
+        if d['notas']:
+            salida.append((dia, 'Blog', 'Nueva publicación' if len(d['notas']) == 1 else f'{len(d["notas"])} publicaciones nuevas', lista(d['notas']) + '.', len(d['notas'])))
+        if act:
+            salida.append((dia, 'Archivo', '1 ficha actualizada' if len(act) == 1 else f'{len(act)} fichas actualizadas', lista(act) + '.', len(act)))
+        if nuevas:
+            salida.append((dia, 'Archivo', '1 ficha nueva' if len(nuevas) == 1 else f'{len(nuevas)} fichas nuevas', lista(nuevas) + '.', len(nuevas)))
+    return salida
+
+
+AUTO = actividad_git()
+# orden: lo automático primero y lo destacado a mano al final del día, así aparece arriba en el diario
+LOG = sorted([x[:4] for x in AUTO] + MANUAL, key=lambda x: x[0])
+APORTES = {}
+for f, *_ in MANUAL: APORTES[f] = APORTES.get(f, 0) + 1
+for f, _, _, _, n in AUTO: APORTES[f] = APORTES.get(f, 0) + n
 SERIES = leer('datos/series.yaml')
 
 
 def blog():
-    hoy = max(dt.date.fromisoformat(f) for f, *_ in LOG)
-    cuenta = {}
-    for f, *_ in LOG: cuenta[f] = cuenta.get(f, 0) + 1
+    hoy = max([dt.date.fromisoformat(f) for f, *_ in LOG] + [dt.datetime.now(TZ).date()])
+    cuenta = APORTES
     ini = dt.date(2026, 10, 12)
     fin = max(dt.date(2027, 1, 3), hoy + dt.timedelta(days=(6 - hoy.weekday())))
     semanas = (fin - ini).days // 7 + 1
@@ -201,7 +262,7 @@ def blog():
   <section class="b-top"><p class="ante">Blog</p><h1>Lo que vamos publicando</h1>
     <p class="bajada">Las publicaciones de Instagram, completas, y todo lo que se suma al archivo día por día.</p></section>
   <section class="act" aria-labelledby="t-act">
-    <div class="act-h"><b id="t-act">{len(LOG)} aportes</b><span>en {len(cuenta)} días de trabajo · desde el 13 de octubre de 2026</span><span><span id="b-piezas">—</span> piezas en el archivo</span></div>
+    <div class="act-h"><b id="t-act">{sum(cuenta.values())} aportes</b><span>en {len(cuenta)} días de trabajo · desde el 13 de octubre de 2026</span><span><span id="b-piezas">—</span> piezas en el archivo</span></div>
     <div class="cal"><table aria-label="Actividad por día">{meses}{filas}</table></div>
     <div class="ley"><span>Menos</span><i style="background:#eef1f3"></i><i style="background:#c6dcef"></i><i style="background:#93bfe3"></i><i style="background:#68a6d5"></i><i style="background:#2f6f9f"></i><span>Más</span></div>
   </section>
@@ -349,5 +410,5 @@ def ignorar(d, nombres):
 shutil.copytree(os.path.join(R, 'img'), os.path.join(OUT, 'img'), ignore=ignorar, dirs_exist_ok=True)
 shutil.copytree(os.path.join(R, 'libreas'), os.path.join(OUT, 'libreas'), dirs_exist_ok=True)
 
-print(f'listo: {len(PIEZAS)} piezas ({len(PIEZAS)} páginas de ficha), {len(NOTAS)} notas, {len(LOG)} entradas de actividad, '
+print(f'listo: {len(PIEZAS)} piezas ({len(PIEZAS)} páginas de ficha), {len(NOTAS)} notas, {len(MANUAL)} entradas de actividad a mano + {len(AUTO)} automáticas, '
       f'{len(USADAS)} imágenes optimizadas → _sitio/')
