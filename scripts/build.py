@@ -382,13 +382,14 @@ def blog():
     return f'''<main class="wrap vista" id="v-blog" hidden>
   <section class="b-top"><p class="ante">Blog</p><h1>Lo que vamos publicando</h1>
     <p class="bajada">Las publicaciones de Instagram, completas, y todo lo que se suma al archivo día por día.</p></section>
-  <section class="boleto-w" aria-label="Boleto: cantidad de visitas al archivo">
+  <div class="bol-pop" id="bol-pop" hidden role="dialog" aria-modal="true" aria-label="Tu boleto"><section class="boleto-w">
     <div class="bol"><div class="cu"><div class="ba"></div><div class="t1">ARCHIVO.TEA</div><div class="t2">Archivo visual del transporte argentino</div>
       <div class="pr"><small>Tarifa única</small><b>$0</b><small>Acceso libre</small></div><div class="vi">El archivo<br>lo hacemos<br>entre todos</div></div>
       <div class="nu"><small>PASAJERO N.º</small><b id="pasajero">——————</b></div>
       <img class="se" src="img/sello-tea.png" alt="" width="120" height="120"></div>
     <p class="pie">Conservá este boleto hasta el final del recorrido</p>
-  </section>
+    <button class="bol-ok" type="button">Subir al blog</button>
+  </section></div>
   <section class="act" aria-labelledby="t-act">
     <div class="act-h"><b id="t-act">{sum(cuenta.values())} aportes</b><span>en {len(cuenta)} días de trabajo · desde el 13 de octubre de 2026</span><span><span id="b-piezas">—</span> piezas en el archivo</span></div>
     <div class="cal"><table aria-label="Actividad por día">{meses}{filas}</table></div>

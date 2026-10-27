@@ -222,22 +222,29 @@ table.datos tr.pend td{color:var(--gris)}
 /* blog */
 .b-top{padding-block:clamp(36px,6vw,72px) 8px;display:grid;gap:18px}
 /* boleto: el contador de visitas del blog */
-.boleto-w{display:grid;justify-items:start;gap:12px;padding-bottom:clamp(20px,3vw,32px)}
-.bol{--papel:#efe5cc;--tinta:#2b2721;container-type:inline-size;position:relative;width:min(480px,100%);box-sizing:border-box;padding:3.4cqw 3.8cqw 3.4cqw 3.4cqw;background:var(--papel);color:var(--tinta);
+.bol-pop{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:24px max(16px,env(safe-area-inset-right,0px)) 24px max(16px,env(safe-area-inset-left,0px));background:rgba(20,18,14,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);animation:bolin .25s ease-out}
+.bol-pop[hidden]{display:none}
+@keyframes bolin{from{opacity:0}to{opacity:1}}
+.boleto-w{display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;gap:14px;width:min(560px,calc(100vw - 32px))}
+.boleto-w .bol{animation:bolsube .35s ease-out}
+@keyframes bolsube{from{transform:translateY(14px) rotate(-1.5deg);opacity:0}to{transform:none;opacity:1}}
+.bol-ok{font:500 12px/1 var(--f-text);letter-spacing:.12em;text-transform:uppercase;background:#fff;color:var(--tinta,#1e1d1a);border:0;padding:14px 22px;cursor:pointer}
+.bol-pop .pie{color:#efe5cc!important;text-align:center;font-size:clamp(10px,2.8vw,12px)!important}
+.bol{--papel:#efe5cc;--tinta:#2b2721;container-type:inline-size;position:relative;width:100%;max-width:560px;min-width:0;aspect-ratio:2.15/1;overflow:hidden;box-sizing:border-box;padding:2.4cqw 3cqw 2.4cqw 2.6cqw;background:var(--papel);color:var(--tinta);
  display:grid;grid-template-columns:1fr auto;gap:2cqw;font-family:'Barlow Condensed','Arial Narrow',sans-serif;
  background-image:radial-gradient(rgba(120,95,50,.10) 1px,transparent 1.3px);background-size:5px 5px;filter:drop-shadow(0 6px 14px rgba(60,45,20,.12));
  -webkit-mask:radial-gradient(circle 5px at 0 50%,#0000 98%,#000) 0 0/100% 14px repeat-y,radial-gradient(circle 5px at 100% 50%,#0000 98%,#000) 0 0/100% 14px repeat-y;-webkit-mask-composite:source-in;
  mask:radial-gradient(circle 5px at 0 50%,#0000 98%,#000) 0 0/100% 14px repeat-y,radial-gradient(circle 5px at 100% 50%,#0000 98%,#000) 0 0/100% 14px repeat-y;mask-composite:intersect}
-.bol .cu{border:2px solid var(--tinta);display:grid;grid-template-columns:3.4cqw 22cqw 1fr;grid-template-rows:auto auto 1fr}
+.bol .cu{border:2px solid var(--tinta);display:grid;grid-template-columns:2.8cqw 20cqw 1fr;grid-template-rows:auto auto minmax(0,1fr);min-height:0}
 .bol .ba{grid-row:1/4;border-right:2px solid var(--tinta);background:repeating-linear-gradient(135deg,var(--tinta) 0 3px,transparent 3px 9px)}
-.bol .t1{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:700;letter-spacing:.06em;font-size:5.6cqw;line-height:1.15;padding:1.2cqw 1cqw}
-.bol .t2{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:400;font-size:3.1cqw;letter-spacing:.1em;padding:1.3cqw 1cqw;text-transform:uppercase;white-space:nowrap;overflow:hidden}
-.bol .pr{border-right:2px solid var(--tinta);display:grid;justify-items:center;align-content:center;gap:.6cqw;padding:2cqw 1cqw;text-align:center}
-.bol .pr small{font-size:2.6cqw;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}.bol .pr b{font-size:11cqw;line-height:1;font-weight:400}
-.bol .vi{display:grid;place-items:center;font-size:5cqw;font-weight:600;line-height:1.08;letter-spacing:.05em;text-align:center;padding:3cqw 2cqw;text-transform:uppercase}
+.bol .t1{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:700;letter-spacing:.06em;font-size:4.6cqw;line-height:1.1;padding:.7cqw 1cqw}
+.bol .t2{grid-column:2/4;border-bottom:2px solid var(--tinta);text-align:center;font-weight:400;font-size:2.5cqw;letter-spacing:.1em;padding:.8cqw 1cqw;text-transform:uppercase;white-space:nowrap;overflow:hidden}
+.bol .pr{border-right:2px solid var(--tinta);display:grid;justify-items:center;align-content:center;gap:.3cqw;padding:1cqw;text-align:center}
+.bol .pr small{font-size:1.9cqw;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}.bol .pr b{font-size:8.5cqw;line-height:1;font-weight:400}
+.bol .vi{display:grid;place-items:center;font-size:3.8cqw;font-weight:600;line-height:1.08;letter-spacing:.05em;text-align:center;padding:1cqw 2cqw;text-transform:uppercase}
 .bol .nu{writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;justify-content:space-between;gap:2cqw}
-.bol .nu small{font:400 2.8cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.1em}.bol .nu b{font:700 7cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.02em}
-.bol .se{position:absolute;top:-2cqw;left:-1cqw;width:23cqw;mix-blend-mode:multiply;opacity:.92;pointer-events:none}
+.bol .nu small{font:400 2.3cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.1em}.bol .nu b{font:700 6cqw/1 Georgia,'DejaVu Serif',serif;letter-spacing:.02em}
+.bol .se{position:absolute;top:-1.4cqw;left:-.6cqw;width:17cqw;mix-blend-mode:multiply;opacity:.92;pointer-events:none}
 .boleto-w .pie{margin:0;font:12px var(--f-mono);color:var(--gris)}
 .b-top h1{font-size:clamp(44px,7vw,88px)}
 .act{border:1px solid var(--linea);padding:clamp(16px,2.4vw,28px);display:grid;gap:18px}
@@ -539,7 +546,7 @@ function abrir(cod){const p=PIEZAS.find(x=>x.c===cod);if(!p)return;if(p.tipo==='
 const TIT0=document.title;
 function marcar(p){document.title=p.t+' · archivo.tea';const u=urlFicha(p.c);if(location.pathname!==u){try{history.pushState(null,'',u)}catch(e){}try{window.goatcounter&&goatcounter.count&&goatcounter.count({path:u,title:document.title})}catch(e){}}}
 // boleto del blog: el total de visitas de GoatCounter (necesita «Allow adding visitor counts» en su configuración)
-function pasajero(){const el=document.getElementById('pasajero');if(!el||el.dataset.ok)return;el.dataset.ok=1;fetch('https://archivotea.goatcounter.com/counter/TOTAL.json').then(r=>r.ok?r.json():Promise.reject()).then(j=>{const n=parseInt(String(j.count).replace(/\D/g,''),10);if(n>0)el.textContent=String(n).padStart(6,'0')}).catch(()=>{})}
+function pasajero(){const el=document.getElementById('pasajero'),pop=document.getElementById('bol-pop');if(!el||!pop||el.dataset.ok)return;el.dataset.ok=1;let visto=false;try{visto=sessionStorage.getItem('boleto')==='1'}catch(e){}if(visto)return;const cerrar=()=>{pop.hidden=true;document.removeEventListener('keydown',esc)},esc=e=>{if(e.key==='Escape')cerrar()};pop.addEventListener('click',e=>{if(e.target===pop||e.target.closest('.bol-ok'))cerrar()});fetch('https://archivotea.goatcounter.com/counter/TOTAL.json').then(r=>r.ok?r.json():Promise.reject()).then(j=>{const n=parseInt(String(j.count).replace(/\D/g,''),10);if(!(n>0))return;el.textContent=String(n).padStart(6,'0');pop.hidden=false;document.addEventListener('keydown',esc);pop.querySelector('.bol-ok').focus({preventScroll:true});try{sessionStorage.setItem('boleto','1')}catch(e){}}).catch(()=>{})}
 async function descargarPlaca(b){const nombre='archivotea-'+b.dataset.c.replace('.','-')+'.jpg';b.setAttribute('aria-busy','true');
  try{const blob=await (await fetch('/'+b.dataset.hv)).blob();const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=nombre;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),4000)}
  catch(e){window.open('/'+b.dataset.hv,'_blank')}finally{b.removeAttribute('aria-busy')}}
