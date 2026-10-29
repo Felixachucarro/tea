@@ -1,0 +1,18 @@
+codigo: "04.10"
+serie: "04"
+tipo: Ficha
+titulo: Mercedes Benz 1526
+nombre_corto: Mercedes Benz 1526
+estado: en investigación
+imagen: img/images (7).jpg
+portada: img/images (7)-1.jpg
+galeria:
+  - imagen: img/1 l608D moran.jpg
+    leyenda: "Planos por: camionargentino.blogspot.com/"
+    ancha: false
+  - imagen: img/img934.jpg
+    leyenda: "Planos por: camionargentino.blogspot.com/"
+    ancha: false
+  - imagen: img/images (5).jpg
+    leyenda: "Publicidad por: camionargentino.blogspot.com/"
+    ancha: false
