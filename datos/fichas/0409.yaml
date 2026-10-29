@@ -17,4 +17,15 @@ datos:
   - campo: Potencia
     valor: 354 CV (260 kW)
     estado: DATO
-    fuente: 354 CV (260 kW).
+    fuente: motorservice
+    url: https://www.catweb.ms-motorservice.com.br/detalhes.php?cw_ie_tp=0&cw_ordenacao=cw-ordena-numero-produto&cw_pgAtual=222&cw_produtoAtivo=CodigoProduto%3C!2!%3E1494&retornaJSON=true&utm_source=chatgpt.com
+  - campo: Origen
+    valor: Alemania; fabricado también en Brasil para mercados regionales.
+    estado: DATO
+    fuente: motorservice - MB brasil
+    url: https://www.mercedes-benz-trucks.com.br
+  - campo: Variantes
+    valor: LS 1935 (tractor de carretera); configuración con cabina y diferentes
+      semirremolques según el uso.
+    estado: DATO
+    fuente: DNRPA Argentina - C
