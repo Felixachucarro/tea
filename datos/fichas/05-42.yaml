@@ -1,31 +1,28 @@
-codigo: '05.42'
-serie: '05'
+codigo: "05.42"
+serie: "05"
 tipo: Ficha
 titulo: Ford Taunus
-periodo: 1974–1984 (producción argentina)
+nombre_corto: Ford Taunus
+periodo: '1974–1984'
 estado: en investigación
-imagen: img/05-42-ford-taunus.jpg
-portada: img/05-42-ford-taunus.jpg
-pie: 'Foto: pendiente'
+imagen: img/76d05c89-bebd-4a35-9aec-05a70454668e.png
+portada: img/76d05c89-bebd-4a35-9aec-05a70454668e-1.png
+pie: "Foto: pendiente"
 busqueda: ford taunus argentina
 datos:
-- campo: Producción
-  valor: 1974–1984.
-  estado: DATO
-  fuente: 'Autoweb — “Aniversario: todos los modelos que se hicieron en Pacheco”'
-  url: https://www.autoweb.com.ar/2026/09/29/aniversario-todos-los-modelos-que-se-hicieron-en-pacheco/
-- campo: Motor
-  valor: Motores nafteros Ford de cuatro cilindros 2.0 y 2.3 L; variantes según versión L, GXL, GT y coupé.
-  estado: DATO
-  fuente: Club Taunus Argentina — “Placa de identificación”
-  url: https://www.clubtaunus.com.ar/Despiece/Placa_Identificacion.htm
-- campo: Unidades
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-  url: ''
-- campo: Planta
-  valor: Centro Industrial Ford, General Pacheco, Buenos Aires.
-  estado: DATO
-  fuente: Ford Argentina — Planta Pacheco
-  url: https://www.ford.com.ar/acerca-de-ford/institucional/planta-pacheco/
+  - campo: Producción
+    valor: 1974–1984.
+    estado: DATO
+    fuente: "Autoweb — “Aniversario: todos los modelos que se hicieron en Pacheco”"
+    url: https://www.autoweb.com.ar/2026/09/29/aniversario-todos-los-modelos-que-se-hicieron-en-pacheco/
+  - campo: Motor
+    valor: Motores nafteros Ford de cuatro cilindros 2.0 y 2.3 L; variantes según
+      versión L, GXL, GT y coupé.
+    estado: DATO
+    fuente: Club Taunus Argentina — “Placa de identificación”
+    url: https://www.clubtaunus.com.ar/Despiece/Placa_Identificacion.htm
+  - campo: Planta
+    valor: Centro Industrial Ford, General Pacheco, Buenos Aires.
+    estado: DATO
+    fuente: Ford Argentina — Planta Pacheco
+    url: https://www.ford.com.ar/acerca-de-ford/institucional/planta-pacheco/
