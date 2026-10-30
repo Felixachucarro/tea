@@ -1,28 +1,31 @@
-codigo: '05.45'
-serie: '05'
+codigo: "05.45"
+serie: "05"
 tipo: Ficha
 titulo: Ford Galaxy (1994)
-periodo: '1991–1996'
+periodo: 1991–1996
 estado: en investigación
+imagen: img/05-46-fiat-128-1.jpg
+portada: img/05-46-fiat-128-2.jpg
 busqueda: ford galaxy 1994 autolatina argentina
 datos:
-- campo: Producción
-  valor: Fabricado en Argentina desde 1991; la gama se mantuvo hasta 1996.
-  estado: DATO
-  fuente: Autoweb — Los modelos de Autolatina que no tuvimos; catálogo SKF Argentina
-  url: https://www.autoweb.com.ar/2021/11/25/los-modelos-de-autolatina-que-no-tuvimos/
-- campo: Motor
-  valor: En 1994 se ofrecieron motores nafteros AP 1.8 y AP 2.0, según versión.
-  estado: DATO
-  fuente: SKF Argentina — Catálogo de aplicaciones Ford Galaxy
-  url: https://www.catalogoskf.com.ar/detail/SKF/vkc2091h
-- campo: Unidades
-  valor: No se encontró una cifra total de producción argentina verificable para el Ford Galaxy.
-  estado: SIN DATO
-  fuente: ''
-  url: ''
-- campo: Planta
-  valor: General Pacheco, provincia de Buenos Aires, dentro de la producción de Autolatina.
-  estado: DATO
-  fuente: Autotest — Volkswagen cumple 40 años en el país; Autoweb — Los modelos de Autolatina
-  url: https://autotest.com.ar/noticias/volkswagen-cumple-40-anos-en-el-pais/
+  - campo: Producción
+    valor: Fabricado en Argentina desde 1991; la gama se mantuvo hasta 1996.
+    estado: DATO
+    fuente: Autoweb — Los modelos de Autolatina que no tuvimos; catálogo SKF Argentina
+    url: https://www.autoweb.com.ar/2021/11/25/los-modelos-de-autolatina-que-no-tuvimos/
+  - campo: Motor
+    valor: En 1994 se ofrecieron motores nafteros AP 1.8 y AP 2.0, según versión.
+    estado: DATO
+    fuente: SKF Argentina — Catálogo de aplicaciones Ford Galaxy
+    url: https://www.catalogoskf.com.ar/detail/SKF/vkc2091h
+  - campo: Unidades
+    valor: No se encontró una cifra total de producción argentina verificable para
+      el Ford Galaxy.
+    estado: SIN DATO
+  - campo: Planta
+    valor: General Pacheco, provincia de Buenos Aires, dentro de la producción de
+      Autolatina.
+    estado: DATO
+    fuente: Autotest — Volkswagen cumple 40 años en el país; Autoweb — Los modelos
+      de Autolatina
+    url: https://autotest.com.ar/noticias/volkswagen-cumple-40-anos-en-el-pais/
