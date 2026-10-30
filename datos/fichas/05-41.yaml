@@ -1,28 +1,34 @@
-codigo: '05.41'
-serie: '05'
+codigo: "05.41"
+serie: "05"
 tipo: Ficha
 titulo: Renault Mégane Coupé (1996)
-periodo: Primera generación; lanzamiento del Coupé en diciembre de 1995; año de referencia 1996
+periodo: Primera generación; lanzamiento del Coupé en diciembre de 1995; año de
+  referencia 1996
 estado: en investigación
+imagen: img/05-42-ford-taunus-1.jpg
+portada: img/05-42-ford-taunus-2.jpg
 busqueda: renault megane coupe 1996
 datos:
-- campo: Producción
-  valor: Primera generación desde 1995; el Coupé se lanzó en diciembre de 1995.
-  estado: DATO
-  fuente: Motor1 — Renault Mégane I (1995–2003); The Originals Renault — Mégane Coupé
-  url: https://es.motor1.com/news/748104/renault-megane-1995-30-aniversario/
-- campo: Motor
-  valor: La gama Mégane I Coupé ofreció distintas motorizaciones de 4 cilindros; según versión, cilindradas nafteras de 1.4 a 2.0 L. La motorización de la unidad 1996 no está identificada.
-  estado: DATO
-  fuente: The Originals Renault — Mégane Coupé
-  url: https://theoriginals.renault.com/es/megane-coupe
-- campo: Unidades
-  valor: No se encontró una cifra de producción exclusiva del Mégane Coupé de 1996; Renault informa más de 5 millones para toda la familia Mégane I, no para el Coupé.
-  estado: SIN DATO
-  fuente: ''
-  url: ''
-- campo: Planta
-  valor: Para la carrocería Coupé se documenta producción en Osnabrück, Alemania, por Karmann; confirmar origen por VIN del ejemplar.
-  estado: DATO
-  fuente: Motor1 — Renault Mégane I (1995–2003)
-  url: https://es.motor1.com/news/748104/renault-megane-1995-30-aniversario/
+  - campo: Producción
+    valor: Primera generación desde 1995; el Coupé se lanzó en diciembre de 1995.
+    estado: DATO
+    fuente: Motor1 — Renault Mégane I (1995–2003); The Originals Renault — Mégane Coupé
+    url: https://es.motor1.com/news/748104/renault-megane-1995-30-aniversario/
+  - campo: Motor
+    valor: La gama Mégane I Coupé ofreció distintas motorizaciones de 4 cilindros;
+      según versión, cilindradas nafteras de 1.4 a 2.0 L. La motorización de la
+      unidad 1996 no está identificada.
+    estado: DATO
+    fuente: The Originals Renault — Mégane Coupé
+    url: https://theoriginals.renault.com/es/megane-coupe
+  - campo: Unidades
+    valor: No se encontró una cifra de producción exclusiva del Mégane Coupé de
+      1996; Renault informa más de 5 millones para toda la familia Mégane I, no
+      para el Coupé.
+    estado: SIN DATO
+  - campo: Planta
+    valor: Para la carrocería Coupé se documenta producción en Osnabrück, Alemania,
+      por Karmann; confirmar origen por VIN del ejemplar.
+    estado: DATO
+    fuente: Motor1 — Renault Mégane I (1995–2003)
+    url: https://es.motor1.com/news/748104/renault-megane-1995-30-aniversario/
