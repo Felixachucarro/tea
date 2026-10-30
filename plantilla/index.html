@@ -282,6 +282,8 @@ table.datos tr.pend td{color:var(--gris)}
 @media (max-width:640px){.log li{grid-template-columns:84px minmax(0,1fr)}.log .tag{display:none}}
 .ficha .img>img{inset:0;width:100%;height:100%;object-fit:contain;background:#fff}
 .ficha .img{background:#fff}
+/* Particulares: la foto llena el cuadro, sin margen blanco */
+.ficha[data-c^="05."] .img>img{object-fit:cover}
 
 .panel.centro{justify-content:center;align-items:center;padding:max(12px,env(safe-area-inset-top,0px)) 12px}
 .panel.centro .hoja{width:min(1200px,100%);height:min(94vh,100%);border:1px solid var(--tinta);gap:18px}
