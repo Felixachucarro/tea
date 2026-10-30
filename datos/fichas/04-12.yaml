@@ -1,0 +1,31 @@
+codigo: '04.12'
+serie: '04'
+tipo: Ficha
+titulo: Dodge Deutz 1000
+periodo: 1978–septiembre de 1981
+estado: en investigación
+imagen: img/04-12-dodge-deutz-1000.jpg
+portada: img/04-12-dodge-deutz-1000.jpg
+pie: 'Foto: pendiente'
+busqueda: dodge dd1000 deutz
+datos:
+- campo: Motor
+  valor: Deutz BF6L913, diésel turbo, 6 cilindros en línea, 6.128 cm³.
+  estado: DATO
+  fuente: Archivo de autos — “Dodge DD 1000, un camión semipesado del año 1978”
+  url: https://archivodeautos.wordpress.com/2021/04/26/dodge-dd-1000-un-camion-semipesado-del-ano-1978/
+- campo: Potencia
+  valor: 160 CV DIN. No convertir esta cifra a HP SAE sin conservar la norma de medición de la fuente.
+  estado: DATO
+  fuente: Archivo de autos — “Dodge DD 1000, un camión semipesado del año 1978”
+  url: https://archivodeautos.wordpress.com/2021/04/26/dodge-dd-1000-un-camion-semipesado-del-ano-1978/
+- campo: Producción
+  valor: Enero de 1978–septiembre de 1981; 1.908 unidades producidas.
+  estado: DATO
+  fuente: Archivo de autos — “Dodge DD 1000, un camión semipesado del año 1978”
+  url: https://archivodeautos.wordpress.com/2021/04/26/dodge-dd-1000-un-camion-semipesado-del-ano-1978/
+- campo: Origen
+  valor: Proyecto y marca de origen estadounidense; fabricado bajo licencia en Argentina por Chrysler Fevre Argentina / Volkswagen Argentina.
+  estado: DATO
+  fuente: Archivo de autos — “Dodge DD 1000, un camión semipesado del año 1978”
+  url: https://archivodeautos.wordpress.com/2021/04/26/dodge-dd-1000-un-camion-semipesado-del-ano-1978/

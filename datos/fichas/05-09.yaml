@@ -39,3 +39,23 @@ datos:
   estado: DATO1
   fuente: 16 Válvulas
   url: https://www.16valvulas.com.ar/el-renault-clio-argentino-se-despidio-despues-de-20-anos/
+- campo: Producción
+  valor: Producción local iniciada en 1996; Clio II se fabricó hasta 2016.
+  estado: DATO
+  fuente: 'Autoweb — “65 años: todos los modelos que produjo Santa Isabel”'
+  url: https://www.autoweb.com.ar/2020/03/13/65-anos-todos-los-modelos-que-produjo-santa-isabel/
+- campo: Motor
+  valor: 'Versiones argentinas iniciales: 1.4 naftero de 80 CV, 1.6 naftero de 74 CV y 1.9 diésel de 65 CV; las generaciones posteriores tuvieron otras motorizaciones.'
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Renault Clio”'
+  url: https://noticias.autocosmos.com.ar/2024/02/22/autos-clasicos-de-argentina-renault-clio
+- campo: Unidades
+  valor: 520.653 unidades Clio fabricadas en Santa Isabel (dato histórico ADEFA/Renault).
+  estado: DATO
+  fuente: ADEFA — “Renault Argentina produjo su auto Nº 3.000.000”
+  url: https://www.adefa.org.ar/es/prensa-leer?id=66&idt=2
+- campo: Planta
+  valor: Fábrica Santa Isabel, Córdoba.
+  estado: DATO
+  fuente: Renault Argentina — “Fábrica Santa Isabel”
+  url: https://www.renault.com.ar/fabrica-santa-isabel.html

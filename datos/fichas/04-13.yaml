@@ -1,0 +1,35 @@
+codigo: '04.13'
+serie: '04'
+tipo: Ficha
+titulo: Fiat 619 (1969)
+periodo: Producción argentina iniciada en 1969
+estado: en investigación
+imagen: img/04-13-fiat-619.jpg
+portada: img/04-13-fiat-619.jpg
+pie: 'Foto: pendiente'
+busqueda: Fiat 619 camión 1969 Argentina
+datos:
+- campo: Motor
+  valor: Motor Fiat diésel de 4 tiempos. No se asigna cilindrada ni código de motor a esta configuración de 1969 porque las fuentes consultadas describen variantes y etapas distintas de la familia 619.
+  estado: DATO
+  fuente: Ministerio de Economía — Industria Automotriz, del Tractor y Motores (publicación de época); Camión Argentino — Fiat 619 N/T
+  url: https://cdi.mecon.gob.ar/greenstone/collect/informac/index/assoc/HASH01dc/8eed4f32.dir/doc.pdf
+  url2: https://camionargentino.blogspot.com/2012/04/fiat-619.html
+- campo: Potencia
+  valor: 260 CV a 2.200 rpm, según la publicación técnica de época para las versiones Fiat 619/697 fabricadas localmente.
+  estado: DATO
+  fuente: Ministerio de Economía — Industria Automotriz, del Tractor y Motores (publicación de época); Camión Argentino — Fiat 619 N/T
+  url: https://cdi.mecon.gob.ar/greenstone/collect/informac/index/assoc/HASH01dc/8eed4f32.dir/doc.pdf
+  url2: https://camionargentino.blogspot.com/2012/04/fiat-619.html
+- campo: Producción
+  valor: 'La producción argentina comenzó en 1969 en el Centro Industrial Fiat Concord de Ferreyra, Córdoba. Las fuentes consultadas difieren en el mes de inicio: marzo según la publicación del Ministerio de Economía y febrero según Camión Argentino. IVECO confirma el año 1969. No se atribuye al modelo una cifra total de unidades.'
+  estado: DATO
+  fuente: Ministerio de Economía — Industria Automotriz, del Tractor y Motores (publicación de época); IVECO Argentina — Revista El Camión, N.º 10 (2019)
+  url: https://cdi.mecon.gob.ar/greenstone/collect/informac/index/assoc/HASH01dc/8eed4f32.dir/doc.pdf
+  url2: https://www.iveco.com/argentina/sala-de-prensa/Documents/Magazines/El_Camion/2020/El%20Cami%C3%B3n%2010.pdf
+- campo: Origen
+  valor: Diseño de origen italiano Fiat; fabricación argentina a cargo de Fiat Concord.
+  estado: DATO
+  fuente: Camión Argentino — Fiat 619 N/T; Celentano Camiones — Historia de Fiat en Argentina
+  url: https://camionargentino.blogspot.com/2012/04/fiat-619.html
+  url2: https://celentanocamiones.com.ar/historia.html

@@ -1,0 +1,31 @@
+codigo: '05.32'
+serie: '05'
+tipo: Ficha
+titulo: Peugeot 205
+periodo: 1983–1998 (producción mundial); no identificado como modelo de fabricación argentina
+estado: en investigación
+imagen: img/05-32-peugeot-205.jpg
+portada: img/05-32-peugeot-205.jpg
+pie: 'Foto: pendiente'
+busqueda: peugeot 205
+datos:
+- campo: Producción
+  valor: 1983–1998 a nivel mundial.
+  estado: DATO
+  fuente: 'Stellantis Media — “El Peugeot 205 cumple 40 años: el número sagrado”'
+  url: https://www.media.stellantis.com/ar-es/peugeot/press/el-peugeot-205-cumple-40-anos-el-numero-sagrado
+- campo: Motor
+  valor: 'Gama internacional: motores nafteros y diésel de distintas cilindradas; incluyó GTI 1.6/1.9 y turbodiésel. El motor del ejemplar requiere identificar su versión.'
+  estado: DATO
+  fuente: 'Stellantis Media — “El Peugeot 205 cumple 40 años: el número sagrado”'
+  url: https://www.media.stellantis.com/ar-es/peugeot/press/el-peugeot-205-cumple-40-anos-el-numero-sagrado
+- campo: Unidades
+  valor: 5.278.050 unidades producidas mundialmente; no es una cifra argentina.
+  estado: DATO
+  fuente: 'Stellantis Media — “El Peugeot 205 cumple 40 años: el número sagrado”'
+  url: https://www.media.stellantis.com/ar-es/peugeot/press/el-peugeot-205-cumple-40-anos-el-numero-sagrado
+- campo: Planta
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''

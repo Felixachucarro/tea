@@ -36,3 +36,18 @@ datos:
   estado: DATO1
   fuente: Wikipedia
   url: https://en.wikipedia.org/wiki/Fiat_147
+- campo: Producción
+  valor: 1981–1996.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Motor
+  valor: Motores nafteros 1.1 y 1.3; en la línea Spazio/Vivace se incorporó el motor Tipo 1.4 de 1.372 cm³ y 61 CV.
+  estado: DATO
+  fuente: Autos del Podio — “Fiat 147 y Spazio – Espacio, robustez y funcionalidad – Parte 2”
+  url: https://autosdelpodio.com/autos/fiat-147-y-spazio-espacio-robustez-y-funcionalidad-parte-2/
+- campo: Planta
+  valor: El Palomar, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais

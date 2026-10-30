@@ -28,3 +28,23 @@ datos:
   valor: —
   estado: SIN DATO
   fuente: Falta fuente
+- campo: Producción
+  valor: Primera generación producida desde 1998; la unidad comercializada en Argentina en 2004 corresponde a producción mexicana.
+  estado: DATO
+  fuente: Test del Ayer — Volkswagen Bora 1.8 T, Auto Test N.º 161 (marzo de 2004)
+  url: https://importados.testdelayer.com.ar/test/volkswagen-bora/volkswagen-bora-t.htm
+- campo: Motor
+  valor: La gama argentina de 2004 incluyó motores nafteros 2.0 y 1.8 turbo, según versión. La unidad exacta requiere identificar versión.
+  estado: DATO
+  fuente: Test del Ayer — Volkswagen Bora 1.8 T, Auto Test N.º 161
+  url: https://importados.testdelayer.com.ar/test/volkswagen-bora/volkswagen-bora-t.htm
+- campo: Unidades
+  valor: No se encontró una cifra pública verificable de unidades Bora comercializadas en Argentina durante 2004.
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: Puebla, México. Los Bora importados a Argentina eran producidos en México.
+  estado: DATO
+  fuente: Test del Ayer — Volkswagen Bora 1.8 T, Auto Test N.º 161
+  url: ''

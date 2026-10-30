@@ -10,3 +10,23 @@ datos:
   valor: —
   estado: SIN DATO
   fuente: No encontramos datos públicos de las flotas; hay que pedirlos o relevarlos
+- campo: Producción
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''

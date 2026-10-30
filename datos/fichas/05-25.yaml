@@ -1,0 +1,31 @@
+codigo: '05.25'
+serie: '05'
+tipo: Ficha
+titulo: Chevrolet Silverado (1980)
+periodo: Modelo año 1980; paquete Silverado de la gama Chevrolet C/K
+estado: en investigación
+imagen: img/05-25-chevrolet-silverado-1980.jpg
+portada: img/05-25-chevrolet-silverado-1980.jpg
+pie: 'Foto: pendiente'
+busqueda: chevrolet silverado 1980 c k
+datos:
+- campo: Producción
+  valor: La Silverado se ofrecía como paquete de equipamiento de la gama Chevrolet C/K desde 1975; esta ficha identifica el modelo año 1980.
+  estado: DATO
+  fuente: RPO Archive — “C/K Trucks, 1973–1982”
+  url: https://rpoarchive.com/archive/chevrolet/trucks/
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''

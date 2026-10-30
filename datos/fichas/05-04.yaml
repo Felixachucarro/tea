@@ -38,3 +38,18 @@ datos:
   valor: —
   estado: SIN DATO
   fuente: Falta fuente
+- campo: Motor
+  valor: 'Según generación: 1.6 naftero; 1.8 naftero; 1.6 16V; 1.8 16V y 1.8 turbodiésel. Las versiones XR3/Cabriolet citadas para el mercado local también incluyeron unidades brasileñas.'
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Ford Escort”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2024/04/18/autos-clasicos-de-argentina-ford-escort
+- campo: Unidades
+  valor: Aproximadamente 365.000 unidades considerando las generaciones y carrocerías fabricadas en Pacheco.
+  estado: DATO
+  fuente: 'Autoweb — “Aniversario: todos los modelos que se hicieron en Pacheco”'
+  url: https://www.autoweb.com.ar/2026/09/29/aniversario-todos-los-modelos-que-se-hicieron-en-pacheco/
+- campo: Planta
+  valor: Centro Industrial Ford, General Pacheco, Buenos Aires.
+  estado: DATO
+  fuente: Ford Argentina — Planta Pacheco
+  url: https://www.ford.com.ar/acerca-de-ford/institucional/planta-pacheco/

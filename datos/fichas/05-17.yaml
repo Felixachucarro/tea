@@ -34,3 +34,18 @@ datos:
   estado: DATO1
   fuente: Autocosmos
   url: https://noticias.autocosmos.com.ar/2024/02/15/autos-clasicos-de-argentina-peugeot-206
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: 292.656 unidades producidas en Argentina.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Planta
+  valor: Centro de Producción El Palomar, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Stellantis Media — “Planta Palomar, su historia”
+  url: https://www.media.stellantis.com/ar-es/peugeot/press/planta-palomar-su-historia

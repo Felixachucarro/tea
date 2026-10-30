@@ -1,0 +1,31 @@
+codigo: '05.27'
+serie: '05'
+tipo: Ficha
+titulo: Chevrolet Monza
+periodo: 'No determinado: falta identificar año, versión y país de origen del ejemplar'
+estado: en investigación
+imagen: img/05-27-chevrolet-monza.jpg
+portada: img/05-27-chevrolet-monza.jpg
+pie: 'Foto: pendiente'
+busqueda: chevrolet monza brasil argentina
+datos:
+- campo: Producción
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''

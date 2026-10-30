@@ -1,0 +1,31 @@
+codigo: '05.38'
+serie: '05'
+tipo: Ficha
+titulo: Renault Clio (1990)
+periodo: 1990–1998 en Argentina como modelo importado (primera generación)
+estado: en investigación
+imagen: img/05-38-renault-clio-1990.jpg
+portada: img/05-38-renault-clio-1990.jpg
+pie: 'Foto: pendiente'
+busqueda: renault clio 1990 importado francia
+datos:
+- campo: Producción
+  valor: 'Clio I: comercializado en Argentina desde 1990 como importado; fabricación nacional de Clio comenzó en 1996.'
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Renault Clio”'
+  url: https://noticias.autocosmos.com.ar/2024/02/22/autos-clasicos-de-argentina-renault-clio
+- campo: Motor
+  valor: Versión francesa inicial comercializada en Argentina con motor 1.4 L carburado de 80 CV; otras versiones dependen de año y mercado.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Renault Clio”'
+  url: https://noticias.autocosmos.com.ar/2024/02/22/autos-clasicos-de-argentina-renault-clio
+- campo: Unidades
+  valor: No se localizó cifra argentina desagregada para las unidades importadas de Clio I.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Renault Clio”'
+  url: https://noticias.autocosmos.com.ar/2024/02/22/autos-clasicos-de-argentina-renault-clio
+- campo: Planta
+  valor: No se identificó fabricación argentina de esta etapa inicial; llegó importado desde Francia.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Renault Clio”'
+  url: https://noticias.autocosmos.com.ar/2024/02/22/autos-clasicos-de-argentina-renault-clio

@@ -34,6 +34,16 @@ datos:
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=24439
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: Centro Industrial Juan Manuel Fangio, Virrey del Pino, partido de La Matanza.
+  estado: DATO
+  fuente: Mercedes-Benz Argentina — “Sobre nosotros / Historia de Mercedes-Benz Argentina”
+  url: https://www.mercedes-benz.com.ar/vans/mercedes-benz-argentina/sobre-nosotros/
 linea_de_tiempo:
 - fecha: '1996'
   hito: Primera generación

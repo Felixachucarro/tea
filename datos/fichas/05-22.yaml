@@ -1,0 +1,31 @@
+codigo: '05.22'
+serie: '05'
+tipo: Ficha
+titulo: Volkswagen Senda
+periodo: 1990–1996 (producción argentina)
+estado: en investigación
+imagen: img/05-22-volkswagen-senda.jpg
+portada: img/05-22-volkswagen-senda.jpg
+pie: 'Foto: pendiente'
+busqueda: volkswagen senda argentina
+datos:
+- campo: Producción
+  valor: 1990–1996.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: VW Gacel y Senda”'
+  url: https://noticias.autocosmos.com.ar/2024/05/30/autos-clasicos-de-argentina-vw-gacel-y-senda
+- campo: Motor
+  valor: 1.6 AP1600 naftero de 83 CV o 1.6 diésel de 54 CV, según versión.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: VW Gacel y Senda”'
+  url: https://noticias.autocosmos.com.ar/2024/05/30/autos-clasicos-de-argentina-vw-gacel-y-senda
+- campo: Unidades
+  valor: 167.314 unidades es una cifra conjunta publicada para Gacel y Senda; no está desagregada para Senda.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: VW Gacel y Senda”'
+  url: https://noticias.autocosmos.com.ar/2024/05/30/autos-clasicos-de-argentina-vw-gacel-y-senda
+- campo: Planta
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''

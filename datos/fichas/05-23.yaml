@@ -1,0 +1,31 @@
+codigo: '05.23'
+serie: '05'
+tipo: Ficha
+titulo: Dodge 1500
+periodo: 1971–1990 (producción argentina; luego Volkswagen 1500)
+estado: en investigación
+imagen: img/05-23-dodge-1500.jpg
+portada: img/05-23-dodge-1500.jpg
+pie: 'Foto: pendiente'
+busqueda: dodge 1500 volkswagen 1500 argentina
+datos:
+- campo: Producción
+  valor: 1971–1990.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Dodge/Volkswagen 1500”'
+  url: https://noticiasautocosmos.elsol.com.ar/2024/06/06/autos-clasicos-de-argentina-dodgevolkswagen-1500
+- campo: Motor
+  valor: Motores nafteros de cuatro cilindros 1.5 L y, en versiones posteriores, 1.8 L.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Dodge/Volkswagen 1500”'
+  url: https://noticiasautocosmos.elsol.com.ar/2024/06/06/autos-clasicos-de-argentina-dodgevolkswagen-1500
+- campo: Unidades
+  valor: 262.668 unidades sumando Dodge 1500 y Volkswagen 1500.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Dodge/Volkswagen 1500”'
+  url: https://noticiasautocosmos.elsol.com.ar/2024/06/06/autos-clasicos-de-argentina-dodgevolkswagen-1500
+- campo: Planta
+  valor: Planta de San Justo, provincia de Buenos Aires.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Dodge/Volkswagen 1500”'
+  url: https://noticiasautocosmos.elsol.com.ar/2024/06/06/autos-clasicos-de-argentina-dodgevolkswagen-1500

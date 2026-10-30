@@ -1,0 +1,31 @@
+codigo: '05.48'
+serie: '05'
+tipo: Ficha
+titulo: Fiat Duna
+periodo: 1987–30 de diciembre de 2000 (última unidad)
+estado: en investigación
+imagen: img/05-48-fiat-duna.jpg
+portada: img/05-48-fiat-duna.jpg
+pie: 'Foto: pendiente'
+busqueda: fiat duna argentina
+datos:
+- campo: Producción
+  valor: 1987–2000/2001 según fuente y criterio de cierre; Stellantis resume 1987–2001.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Motor
+  valor: Motores nafteros 1.3, 1.4 y 1.6 L; diésel 1.3 y 1.7 L según versiones y años.
+  estado: DATO
+  fuente: Fiat Duna — “Un poco de historia” (comunidad técnica)
+  url: https://www.fiatduna.com.ar/un-poco-de-historia-vt43.html
+- campo: Unidades
+  valor: 257.559 unidades según Stellantis; una fuente comunitaria indica 257.599. Se conserva la cifra del fabricante y se deja constancia de la discrepancia.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Planta
+  valor: El Palomar, Berazategui y Ferreyra (Córdoba), según etapas productivas.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais

@@ -1,0 +1,31 @@
+codigo: '05.34'
+serie: '05'
+tipo: Ficha
+titulo: Renault 9
+periodo: 1987–1996 (producción argentina)
+estado: en investigación
+imagen: img/05-34-renault-9.jpg
+portada: img/05-34-renault-9.jpg
+pie: 'Foto: pendiente'
+busqueda: renault 9 argentina
+datos:
+- campo: Producción
+  valor: 1987–1996.
+  estado: DATO
+  fuente: 'Autoweb — “65 años: todos los modelos que produjo Santa Isabel”'
+  url: https://www.autoweb.com.ar/2020/03/13/65-anos-todos-los-modelos-que-produjo-santa-isabel/
+- campo: Motor
+  valor: Motor 1.4 L inicialmente; desde el restyling de 1990, versiones con motor 1.6 L.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Renault 9 y 11”'
+  url: https://noticias.autocosmos.com.ar/2024/05/09/autos-clasicos-de-argentina-renault-9-y-11
+- campo: Unidades
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: Fábrica Santa Isabel, Córdoba.
+  estado: DATO
+  fuente: Renault Argentina — “Fábrica Santa Isabel”
+  url: https://www.renault.com.ar/fabrica-santa-isabel.html

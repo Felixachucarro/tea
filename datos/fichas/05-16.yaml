@@ -34,3 +34,13 @@ datos:
   estado: DATO1
   fuente: Autoweb
   url: https://www.autoweb.com.ar/?p=40383
+- campo: Motor
+  valor: 'Para la generación vigente en 2022: naftero 1.6 de 114 CV y diésel 1.5 de 89 CV, según versión. No representa todas las motorizaciones históricas.'
+  estado: DATO
+  fuente: Autoweb — “Renault festeja los 50.000 nuevos Kangoo producidos en Santa Isabel”
+  url: https://www.autoweb.com.ar/2022/06/17/renault-festeja-los-50-000-nuevos-kangoo-producidos-en-santa-isabel/
+- campo: Planta
+  valor: Fábrica Santa Isabel, Córdoba.
+  estado: DATO
+  fuente: Renault Argentina — “Fábrica Santa Isabel”
+  url: https://www.renault.com.ar/fabrica-santa-isabel.html

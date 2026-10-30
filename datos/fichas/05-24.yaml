@@ -1,0 +1,31 @@
+codigo: '05.24'
+serie: '05'
+tipo: Ficha
+titulo: Peugeot 504
+periodo: 1969–1999 (producción argentina)
+estado: en investigación
+imagen: img/05-24-peugeot-504.jpg
+portada: img/05-24-peugeot-504.jpg
+pie: 'Foto: pendiente'
+busqueda: peugeot 504 argentina
+datos:
+- campo: Producción
+  valor: 1969–1999.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: 398.311 unidades producidas en Argentina.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Planta
+  valor: Berazategui hasta 1980; producción posterior trasladada al Centro de Producción El Palomar.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/

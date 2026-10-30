@@ -1,0 +1,31 @@
+codigo: '04.21'
+serie: '04'
+tipo: Ficha
+titulo: Mercedes-Benz L 1214
+periodo: 1989–1999 para la aplicación L 1214 documentada en catálogo de componentes; imagen de referencia identifica la familia de cabina frontal
+estado: en investigación
+imagen: img/04.21-mercedes-benz-l-1214.jpg
+portada: img/04.21-mercedes-benz-l-1214.jpg
+pie: 'Foto: pendiente'
+busqueda: mercedes benz l1214 om366 1214 1718 1721
+datos:
+- campo: Motor
+  valor: Mercedes-Benz OM 366, diésel, 6 cilindros en línea, 6,0 L.
+  estado: DATO
+  fuente: Motorservice — Catálogo de aplicaciones Mercedes-Benz L 1214
+  url: https://catweb.ms-motorservice.com.br/detalhes.php?cw_ie_tp=0&cw_pgAtual=228&cw_produtoAtivo=CodigoProduto%3C%212%21%3E1114&retornaJSON=1%2C1%2C1%2C1
+- campo: Potencia
+  valor: 136 CV para la aplicación L 1214 con motor OM 366.
+  estado: DATO
+  fuente: Motorservice — Catálogo de aplicaciones Mercedes-Benz L 1214
+  url: https://catweb.ms-motorservice.com.br/detalhes.php?cw_ie_tp=0&cw_pgAtual=228&cw_produtoAtivo=CodigoProduto%3C%212%21%3E1114&retornaJSON=1%2C1%2C1%2C1
+- campo: Producción
+  valor: La aplicación L 1214 aparece catalogada entre 1989 y 1999; no equivale necesariamente al período de producción de todas las variantes regionales.
+  estado: DATO
+  fuente: Motorservice — Catálogo de aplicaciones Mercedes-Benz L 1214
+  url: https://catweb.ms-motorservice.com.br/detalhes.php?cw_ie_tp=0&cw_pgAtual=228&cw_produtoAtivo=CodigoProduto%3C%212%21%3E1114&retornaJSON=1%2C1%2C1%2C1
+- campo: Origen
+  valor: Diseño de la marca Mercedes-Benz, de origen alemán. La imagen compartida presenta una cabina de la familia 1214/1718/1721; no permite determinar por sí sola el país de fabricación del ejemplar.
+  estado: DATO
+  fuente: Motorservice — Catálogo de aplicaciones Mercedes-Benz
+  url: https://catweb.ms-motorservice.com.br/detalhes.php?cw_ie_tp=0&cw_pgAtual=228&cw_produtoAtivo=CodigoProduto%3C%212%21%3E1114&retornaJSON=1%2C1%2C1%2C1

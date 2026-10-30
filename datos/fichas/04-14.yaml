@@ -1,0 +1,31 @@
+codigo: '04.14'
+serie: '04'
+tipo: Ficha
+titulo: Ford 7000
+periodo: 1974–1983
+estado: en investigación
+imagen: img/04-14-ford-7000.jpg
+portada: img/04-14-ford-7000.jpg
+pie: 'Foto: pendiente'
+busqueda: ford 7000 f7000
+datos:
+- campo: Motor
+  valor: Perkins 6-354 (5.800 cm³, 6 cilindros); Deutz F6L913 disponible como opción.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-7000”
+  url: https://camionargentino.blogspot.com/2012/05/ford-f-7000.html
+- campo: Potencia
+  valor: 'Perkins: 140 HP SAE. Deutz opcional: 130 CV DIN.'
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-7000”
+  url: https://camionargentino.blogspot.com/2012/05/ford-f-7000.html
+- campo: Producción
+  valor: 1974–1983. La fuente consultada describe este intervalo para F-7000.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-7000”
+  url: https://camionargentino.blogspot.com/2012/05/ford-f-7000.html
+- campo: Origen
+  valor: Diseño de origen estadounidense; fabricación en General Pacheco, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-7000”
+  url: https://camionargentino.blogspot.com/2012/05/ford-f-7000.html

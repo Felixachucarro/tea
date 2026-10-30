@@ -1,0 +1,31 @@
+codigo: '05.33'
+serie: '05'
+tipo: Ficha
+titulo: Peugeot 504 Pick-up
+periodo: 1981–1999 (producción argentina)
+estado: en investigación
+imagen: img/05-33-peugeot-504-pick-up.jpg
+portada: img/05-33-peugeot-504-pick-up.jpg
+pie: 'Foto: pendiente'
+busqueda: peugeot 504 pickup argentina
+datos:
+- campo: Producción
+  valor: 1981–1999.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: 91.532 unidades.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Planta
+  valor: Centro de Producción El Palomar, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Stellantis Media — “Planta Palomar, su historia”
+  url: https://www.media.stellantis.com/ar-es/peugeot/press/planta-palomar-su-historia

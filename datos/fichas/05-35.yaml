@@ -1,0 +1,31 @@
+codigo: '05.35'
+serie: '05'
+tipo: Ficha
+titulo: Renault Fuego
+periodo: 1982–9 de septiembre de 1992 (producción argentina)
+estado: en investigación
+imagen: img/05-35-renault-fuego.jpg
+portada: img/05-35-renault-fuego.jpg
+pie: 'Foto: pendiente'
+busqueda: renault fuego argentina
+datos:
+- campo: Producción
+  valor: 1 de julio de 1982–9 de septiembre de 1992.
+  estado: DATO
+  fuente: Cámara del Comercio Automotor — “Un ícono celebra su 40º Aniversario”
+  url: https://cca.org.ar/un-icono-celebra-su-40o-aniversario/
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: 19.952 unidades de todas las versiones fabricadas en Argentina.
+  estado: DATO
+  fuente: Cámara del Comercio Automotor — “Un ícono celebra su 40º Aniversario”
+  url: https://cca.org.ar/un-icono-celebra-su-40o-aniversario/
+- campo: Planta
+  valor: Fábrica Santa Isabel, Córdoba.
+  estado: DATO
+  fuente: Cámara del Comercio Automotor — “Un ícono celebra su 40º Aniversario”
+  url: https://cca.org.ar/un-icono-celebra-su-40o-aniversario/

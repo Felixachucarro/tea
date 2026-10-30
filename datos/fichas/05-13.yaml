@@ -34,3 +34,23 @@ datos:
   estado: DATO1
   fuente: Wikipedia (lista)
   url: https://en.wikipedia.org/wiki/Ford_Motor_Argentina
+- campo: Producción
+  valor: 'Primera generación lanzada en 1996 en Europa y fabricada en Brasil desde 1997; año de referencia del ejemplar: 1999.'
+  estado: DATO
+  fuente: Ford Ka — documentación de identificación vehicular; catálogo de motores Endura-E
+  url: https://pt.scribd.com/doc/22433161/Apostila-Identificacao-Veicular
+- campo: Motor
+  valor: Endura-E naftero, 1.3 L, 4 cilindros. La documentación VIN de Ford Brasil identifica esta motorización para el Ka de ese período.
+  estado: DATO
+  fuente: Documentación de identificación vehicular Ford Brasil
+  url: https://pt.scribd.com/doc/22433161/Apostila-Identificacao-Veicular
+- campo: Unidades
+  valor: No se encontró una cifra de producción total específica para el Ford Ka año 1999.
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: São Bernardo do Campo, estado de São Paulo, Brasil (código de planta B en la identificación VIN Ford Brasil).
+  estado: DATO
+  fuente: Documentación de identificación vehicular Ford Brasil
+  url: https://pt.scribd.com/doc/22433161/Apostila-Identificacao-Veicular

@@ -38,3 +38,13 @@ datos:
   valor: —
   estado: SIN DATO
   fuente: Falta fuente
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: Complejo Automotor de Alvear, Santa Fe.
+  estado: DATO
+  fuente: Autoweb — “General Motors festeja los 25 años de su planta de Alvear”
+  url: https://www.autoweb.com.ar/2022/12/01/general-motors-festeja-los-25-anos-de-su-planta-de-alvear/

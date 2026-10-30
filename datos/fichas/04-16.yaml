@@ -1,0 +1,31 @@
+codigo: '04.16'
+serie: '04'
+tipo: Ficha
+titulo: Ford F-700 (1982)
+periodo: 1982–1990 (familia F-700/F-7000; verificar denominación de la unidad)
+estado: en investigación
+imagen: img/04-16-ford-f-700-1982.jpg
+portada: img/04-16-ford-f-700-1982.jpg
+pie: 'Foto: pendiente'
+busqueda: ford f700 1982
+datos:
+- campo: Motor
+  valor: Perkins I6 5,8 L (354), 6 cilindros; Deutz F6L913 como alternativa en determinadas versiones.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-700/F-7000 (1982-1990)”
+  url: https://camionargentino.blogspot.com/2012/07/ford-f-7000-1982-1990.html
+- campo: Potencia
+  valor: 'Perkins: 140 HP SAE a 2.800 rpm; Deutz opcional: 130 CV a 2.800 rpm.'
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-700/F-7000 (1982-1990)”
+  url: https://camionargentino.blogspot.com/2012/07/ford-f-7000-1982-1990.html
+- campo: Producción
+  valor: La generación F-700/F-7000 se documenta entre 1982 y 1990; no se encontró una serie separada exclusiva del F-700 1982.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-700/F-7000 (1982-1990)”
+  url: https://camionargentino.blogspot.com/2012/07/ford-f-7000-1982-1990.html
+- campo: Origen
+  valor: Diseño de origen estadounidense; fabricación en General Pacheco, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-700/F-7000 (1982-1990)”
+  url: https://camionargentino.blogspot.com/2012/07/ford-f-7000-1982-1990.html

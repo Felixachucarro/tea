@@ -1,0 +1,31 @@
+codigo: '04.19'
+serie: '04'
+tipo: Ficha
+titulo: Iveco Daily 59.12 (2000)
+periodo: 2000; denominación Turbo Daily 59.12 documentada en registros argentinos
+estado: en investigación
+imagen: img/04.19-iveco-daily-59-12-2000.jpg
+portada: img/04.19-iveco-daily-59-12-2000.jpg
+pie: 'Foto: pendiente'
+busqueda: iveco turbo daily 59.12 2000 2.8
+datos:
+- campo: Motor
+  valor: Sofim 8140.43, diésel turbo, 4 cilindros, 2.798 cm³. La ficha de esta motorización corresponde a Daily 59-12 Turbo.
+  estado: DATO
+  fuente: MANN-FILTER — Catálogo Daily II 59-12 Turbo
+  url: https://www.mann-filter.com/ar-es/catalogo/resultados-de-busqueda/producto.html/cf1150_mann-filter.html
+- campo: Potencia
+  valor: 122 CV (90 kW). Dato de la variante 59-12 Turbo fabricada entre 1996 y 1999; confirmar correspondencia exacta con la unidad año 2000.
+  estado: DATO
+  fuente: MANN-FILTER — Catálogo Daily II 59-12 Turbo
+  url: https://www.mann-filter.com/ar-es/catalogo/resultados-de-busqueda/producto.html/cf1150_mann-filter.html
+- campo: Producción
+  valor: La denominación Turbo Daily 59.12 figura en registros oficiales argentinos de valuación para el año 2000; no se encontró volumen total de fabricación.
+  estado: DATO
+  fuente: Gobierno de la Ciudad de Buenos Aires — Anexo de valuación fiscal 2009
+  url: https://documentosboletinoficial.buenosaires.gob.ar/publico/20091211ax.pdf
+- campo: Origen
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''

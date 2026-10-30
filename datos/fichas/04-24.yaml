@@ -1,0 +1,31 @@
+codigo: '04.24'
+serie: '04'
+tipo: Ficha
+titulo: Chevrolet 814 (1975)
+periodo: 1974–1978; año de referencia 1975
+estado: en investigación
+imagen: img/04.24-chevrolet-814-1975.jpg
+portada: img/04.24-chevrolet-814-1975.jpg
+pie: 'Foto: pendiente'
+busqueda: chevrolet 814 1975 bedford 350h
+datos:
+- campo: Motor
+  valor: Bedford 350H diésel, 4 tiempos, 6 cilindros en línea, 5.755 cm³.
+  estado: DATO
+  fuente: Camión Argentino — Chevrolet 814
+  url: https://camionargentino.blogspot.com/2012/10/chevrolet-814.html
+- campo: Potencia
+  valor: 137 HP a 3.000 rpm.
+  estado: DATO
+  fuente: Camión Argentino — Chevrolet 814
+  url: https://camionargentino.blogspot.com/2012/10/chevrolet-814.html
+- campo: Producción
+  valor: Fabricación entre 1974 y 1978; el modelo 814 dio continuidad al C-70 en la renovación de la gama Chevrolet de 1974.
+  estado: DATO
+  fuente: Camión Argentino — Chevrolet 814
+  url: https://camionargentino.blogspot.com/2012/10/chevrolet-814.html
+- campo: Origen
+  valor: Diseño de origen estadounidense; fabricado en la Planta General Motors, partido de San Martín, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Camión Argentino — Chevrolet 814
+  url: https://camionargentino.blogspot.com/2012/10/chevrolet-814.html

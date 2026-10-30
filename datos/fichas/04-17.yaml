@@ -1,0 +1,31 @@
+codigo: '04.17'
+serie: '04'
+tipo: Ficha
+titulo: Ford Cargo 1722
+periodo: 1999–2000 (fabricación argentina del 1722 en General Pacheco); el 1722E corresponde a una evolución posterior
+estado: en investigación
+imagen: img/04-17-ford-cargo-1722.jpg
+portada: img/04-17-ford-cargo-1722.jpg
+pie: 'Foto: pendiente'
+busqueda: ford cargo 1722 1722e
+datos:
+- campo: Motor
+  valor: 'Para la variante 1722E documentada: Cummins ISBe6, diésel, 6 cilindros en línea, 5,9 L. No extrapolar a todos los 1722.'
+  estado: DATO
+  fuente: Ford Cargo — Manual del Propietario (ficha técnica 1722E)
+  url: https://manualzz.com/doc/5334922/ford-cargo-manual-del-propietario-manual-del-propietario
+- campo: Potencia
+  valor: 220 CV (162 kW) a 2.500 rpm para la versión 1722E documentada.
+  estado: DATO
+  fuente: Ford Cargo — Manual del Propietario (ficha técnica 1722E)
+  url: https://manualzz.com/doc/5334922/ford-cargo-manual-del-propietario-manual-del-propietario
+- campo: Producción
+  valor: Fabricación argentina del 1722 en General Pacheco entre 1999 y 2000; el abastecimiento posterior continuó desde Brasil.
+  estado: DATO
+  fuente: 'Zabala Repuestos — “Ford Cargo 1722 y 1722E: historia de un protagonista del transporte argentino”'
+  url: https://zabalarepuestos.net/blog%20HTMLs/historia-ford-cargo-1722-1722e.html
+- campo: Origen
+  valor: 'Origen de las unidades fabricadas localmente: Argentina (General Pacheco, 1999–2000); unidades posteriores importadas desde Brasil. Identificar cada ejemplar por chasis.'
+  estado: DATO
+  fuente: 'Zabala Repuestos — “Ford Cargo 1722 y 1722E: historia de un protagonista del transporte argentino”'
+  url: https://zabalarepuestos.net/blog%20HTMLs/historia-ford-cargo-1722-1722e.html

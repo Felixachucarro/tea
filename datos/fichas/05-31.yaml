@@ -1,0 +1,31 @@
+codigo: '05.31'
+serie: '05'
+tipo: Ficha
+titulo: Peugeot 306
+periodo: 1996–2001 (producción argentina)
+estado: en investigación
+imagen: img/05-31-peugeot-306.jpg
+portada: img/05-31-peugeot-306.jpg
+pie: 'Foto: pendiente'
+busqueda: peugeot 306 argentina
+datos:
+- campo: Producción
+  valor: 1996–2001.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Peugeot 306”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2024/07/04/autos-clasicos-de-argentina-peugeot-306
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: '50.159 unidades: 47.710 sedán de cuatro puertas y 2.449 hatchback de cinco puertas.'
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Planta
+  valor: Planta de El Palomar, provincia de Buenos Aires.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Peugeot 306”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2024/07/04/autos-clasicos-de-argentina-peugeot-306

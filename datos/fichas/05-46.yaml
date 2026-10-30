@@ -1,0 +1,31 @@
+codigo: '05.46'
+serie: '05'
+tipo: Ficha
+titulo: Fiat 128
+periodo: 1971–1990
+estado: en investigación
+imagen: img/05-46-fiat-128.jpg
+portada: img/05-46-fiat-128.jpg
+pie: 'Foto: pendiente'
+busqueda: fiat 128 argentina
+datos:
+- campo: Producción
+  valor: 1971–1990.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: 255.110 unidades.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Planta
+  valor: El Palomar, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais

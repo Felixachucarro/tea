@@ -34,3 +34,23 @@ datos:
   estado: DATO
   fuente: Parabrisas · Wikipedia
   url: https://parabrisas.perfil.com/noticias/novedades/ford-ecosport-cinco-datos-curiosos-argentina-historia-autos-suv.phtml
+- campo: Producción
+  valor: Primera generación producida entre 2003 y 2012; llegó al mercado argentino en 2003.
+  estado: DATO
+  fuente: Autotest — A 20 años de su lanzamiento, la Ford EcoSport dice adiós
+  url: https://autotest.com.ar/noticias/20-anos-lanzamiento-ford-ecosport-adios/
+- campo: Motor
+  valor: 'Gama inicial: 1.6 naftero de 98 CV, 2.0 naftero de 143 CV y 1.4 TDCi diésel de 68 CV, según versión.'
+  estado: DATO
+  fuente: Autotest — A 20 años de su lanzamiento, la Ford EcoSport dice adiós
+  url: https://autotest.com.ar/noticias/20-anos-lanzamiento-ford-ecosport-adios/
+- campo: Unidades
+  valor: No se encontró una cifra verificable de unidades de primera generación producidas específicamente para Argentina.
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: Camaçari, estado de Bahía, Brasil.
+  estado: DATO
+  fuente: Ámbito — Presentó Ford el EcoSport; Autotest — historia de primera generación
+  url: https://www.ambito.com/suplementos/presento-ford-el-ecosport-n3226912

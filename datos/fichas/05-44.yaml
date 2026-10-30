@@ -1,0 +1,31 @@
+codigo: '05.44'
+serie: '05'
+tipo: Ficha
+titulo: Ford Escort
+periodo: 1987–2002 (registro repetido del modelo Escort)
+estado: en investigación
+imagen: img/05-44-ford-escort.jpg
+portada: img/05-44-ford-escort.jpg
+pie: 'Foto: pendiente'
+busqueda: ford escort argentina
+datos:
+- campo: Producción
+  valor: 1987–2002 (período agregado; registro duplicado en el documento de origen).
+  estado: DATO
+  fuente: 'Autoweb — “Aniversario: todos los modelos que se hicieron en Pacheco”'
+  url: https://www.autoweb.com.ar/2026/09/29/aniversario-todos-los-modelos-que-se-hicieron-en-pacheco/
+- campo: Motor
+  valor: 'Según generación: 1.6, 1.8 naftero, 1.6 16V, 1.8 16V y 1.8 turbodiésel. Este registro se conserva separado por su código original; no implica una generación diferente identificada.'
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Ford Escort”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2024/04/18/autos-clasicos-de-argentina-ford-escort
+- campo: Unidades
+  valor: Aproximadamente 365.000 unidades considerando las generaciones y carrocerías fabricadas en Pacheco.
+  estado: DATO
+  fuente: 'Autoweb — “Aniversario: todos los modelos que se hicieron en Pacheco”'
+  url: https://www.autoweb.com.ar/2026/09/29/aniversario-todos-los-modelos-que-se-hicieron-en-pacheco/
+- campo: Planta
+  valor: Centro Industrial Ford, General Pacheco, Buenos Aires.
+  estado: DATO
+  fuente: Ford Argentina — Planta Pacheco
+  url: https://www.ford.com.ar/acerca-de-ford/institucional/planta-pacheco/

@@ -1,0 +1,34 @@
+codigo: '04.20'
+serie: '04'
+tipo: Ficha
+titulo: Mercedes-Benz 710
+periodo: La ficha técnica consultada corresponde al L 710 Euro III; años del ejemplar no indicados
+estado: en investigación
+imagen: img/04-20-mercedes-benz-710.jpg
+portada: img/04-20-mercedes-benz-710.jpg
+pie: 'Foto: pendiente'
+busqueda: mercedes benz l710
+datos:
+- campo: Motor
+  valor: 'Para la versión L 710 Euro III: Mercedes-Benz OM 364 LA, 4 cilindros en línea, 3.972 cm³, turbocooler.'
+  estado: DATO
+  fuente: Integral Mercedes — Ficha técnica Mercedes-Benz L 710
+  url: https://www.integralmercedes.com.ar/wp-content/uploads/2017/10/l710.pdf
+- campo: Potencia
+  valor: 115 CV (85 kW) a 2.400 rpm para la versión L 710 Euro III, conforme ISO 1585.
+  estado: DATO
+  fuente: Integral Mercedes — Ficha técnica Mercedes-Benz L 710
+  url: https://www.integralmercedes.com.ar/wp-content/uploads/2017/10/l710.pdf
+- campo: Producción
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Origen
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+galeria:
+- imagen: img/04-20-mercedes-benz-710-02.jpg
+  leyenda: '02 · Trasera · Foto: pendiente'

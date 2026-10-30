@@ -1,0 +1,61 @@
+codigo: '05.21'
+serie: '05'
+tipo: Ficha
+titulo: Renault 12
+nombre_corto: Renault 12
+periodo: 1971-1994
+estado: publicada
+imagen: img/Renault 12 clásico en blanco y negro-1.png
+portada: img/Renault 12 clásico en blanco y negro-2.png
+galeria:
+- imagen: img/ika-renault-12-1.jpg
+  leyenda: 'Ika - renault: frente - Foto: test del ayer'
+  ancha: false
+- imagen: img/ika-renault-12-14.jpg
+  leyenda: 'Ika - renault: parte trasera - Foto: test del ayer'
+  ancha: false
+- imagen: img/ika-renault-12-13.jpg
+  leyenda: 'Ika - renault: vista 3/4- Foto: test del ayer'
+  ancha: false
+- imagen: img/ika-renault-12-16.jpg
+  leyenda: 'Ika - renault: plano detalle faros- Foto: test del ayer'
+  ancha: false
+- imagen: img/ika-renault-12.jpg
+  leyenda: 'Ika - renault: lateral - Foto: test del ayer'
+  ancha: false
+- imagen: img/images (3).jpg
+  leyenda: 'plano frontal y lateral Ika - Foto: test del ayer'
+  ancha: false
+- imagen: img/publicidad_renault_12_octubre_1972.jpg
+  leyenda: 'Fuente: Revista Mecánica Popular - Volumen 25 - Octubre 1972 - Número 10'
+  ancha: false
+- imagen: img/publicidad_renault_12_ts_octubre_1977-01g (1).jpg
+  leyenda: 'Fuente: Revista Mecánica Popular - Volumen 30 - Octubre 1977 - Número 10'
+  ancha: false
+- imagen: img/diario.jpg
+  leyenda: '"Venga y Pruebe - El Poder del Diseño. maneje el Renault 12", Concesionario IKA - Renault  TEOSIL S.R.L.  - San Martin 860 - Presidencia Roque Sáenz Peña. En: Diario "El Territorio", 1972.   Archivo Histórico de la Provincia del Chaco "Monseñor José Alumni" '
+  ancha: false
+- imagen: img/publicidad-renault-12-vuelta-a-la-america-del-sur-clarin-27-set-1978.webp
+  leyenda: '"Venga y Pruebe - El Poder del Diseño. maneje el Renault 12", Concesionario IKA - Renault  TEOSIL S.R.L.  - San Martin 860 - Presidencia Roque Sáenz Peña. En: Diario "El Territorio", 1972.   Archivo Histórico de la Provincia del Chaco "Monseñor José Alumni"  - fuente: archivodeautos'
+  ancha: false
+nota_galeria: Archivodeautos, Testdelayer, autoweb
+busqueda: renault 12, alto auto, los repuestos, son baratos
+datos:
+- campo: Motor
+  valor: "\tNafta, 4 cilindros en línea"
+  estado: DATO
+  fuente: Archivo de autos - autoWeb
+  url: https://www.autoweb.com.ar/2021/05/13/el-renault-12-argentino-cumple-50-anos/?utm_source=chatgpt.com
+- campo: Planta
+  valor: "Industrias Kaiser Argentina (IKA-Renault). \nPlanta industrial: Santa Isabel, provincia de Córdoba."
+  estado: DATO
+  fuente: autoweb
+- campo: Producción
+  valor: 444.045 unidades.
+  estado: DATO
+  fuente: Autoweb
+- campo: Unidades
+  valor: 444.045 unidades producidas en Santa Isabel.
+  estado: DATO
+  fuente: 'Clarín — “Renault 12: un clásico que conquistó a las familias argentinas”'
+  url: https://www.clarin.com/autos/renault-12-clasico-conquisto-familias-argentinas_0_dOf4T9c5M.amp.html

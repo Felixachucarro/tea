@@ -1,0 +1,31 @@
+codigo: '05.47'
+serie: '05'
+tipo: Ficha
+titulo: Fiat 600
+periodo: 1960–1982
+estado: en investigación
+imagen: img/05-47-fiat-600.jpg
+portada: img/05-47-fiat-600.jpg
+pie: 'Foto: pendiente'
+busqueda: fiat 600 fitito argentina
+datos:
+- campo: Producción
+  valor: 1960–1982.
+  estado: DATO
+  fuente: Universidad Nacional de Córdoba — “Motor Fiat 600”
+  url: https://fcefyn.unc.edu.ar/facultad/general/museos-fcefyn/museo-cientifico-tecnologico/colecciones/motores-automotrices/motor-fiat-600/
+- campo: Motor
+  valor: Motor inicial de cuatro cilindros, 633 cm³ y 21,5 CV; la familia nacional evolucionó luego a motores de mayor cilindrada según versión.
+  estado: DATO
+  fuente: Universidad Nacional de Córdoba — “Motor Fiat 600”
+  url: https://fcefyn.unc.edu.ar/facultad/general/museos-fcefyn/museo-cientifico-tecnologico/colecciones/motores-automotrices/motor-fiat-600/
+- campo: Unidades
+  valor: 294.197 unidades producidas en Argentina.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Planta
+  valor: Planta de Fiat en Caseros, provincia de Buenos Aires; posteriormente la producción de carrocerías Fiat se trasladó a El Palomar.
+  estado: DATO
+  fuente: Universidad Nacional de Córdoba — “Motor Fiat 600”
+  url: https://fcefyn.unc.edu.ar/facultad/general/museos-fcefyn/museo-cientifico-tecnologico/colecciones/motores-automotrices/motor-fiat-600/

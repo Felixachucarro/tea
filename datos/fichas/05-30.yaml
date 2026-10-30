@@ -1,0 +1,31 @@
+codigo: '05.30'
+serie: '05'
+tipo: Ficha
+titulo: Peugeot 505
+periodo: 1981–1995 (producción argentina)
+estado: en investigación
+imagen: img/05-30-peugeot-505.jpg
+portada: img/05-30-peugeot-505.jpg
+pie: 'Foto: pendiente'
+busqueda: peugeot 505 argentina
+datos:
+- campo: Producción
+  valor: 1981–1995.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Motor
+  valor: 'Opciones argentinas: 2.0 L de 96/100 CV; 2.0 inyección de 113 CV; 2.3 turbodiésel de 80 CV; 2.5 turbodiésel de 95 CV; 2.2 inyección multipunto de 130 CV.'
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Peugeot 505”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2024/10/17/autos-clasicos-de-argentina-peugeot-505
+- campo: Unidades
+  valor: 91.500 unidades, aproximadamente.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Planta
+  valor: Centro de Producción El Palomar, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Stellantis Media — “Planta Palomar, su historia”
+  url: https://www.media.stellantis.com/ar-es/peugeot/press/planta-palomar-su-historia

@@ -39,6 +39,21 @@ datos:
   estado: DATO1
   fuente: Autocosmos
   url: https://noticias.autocosmos.com.ar/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- campo: Producción
+  valor: 1961–1996.
+  estado: DATO
+  fuente: Ford Argentina — “65 años fabricando futuro”
+  url: https://www.fromtheroad.ford.com/ar/es/articles/2026/65-anos-fabricando-futuro--ford-celebro-el-aniversario-de-la-pla
+- campo: Motor
+  valor: 'La gama argentina tuvo distintas mecánicas según generación: motores Ford nafteros de 6 cilindros y V8; diésel Perkins y MWM. No corresponde asignar una sola mecánica a toda la serie.'
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Ford F-100”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2024/09/26/autos-clasicos-de-argentina-ford-f-100
+- campo: Planta
+  valor: Centro Industrial Ford, General Pacheco, Buenos Aires.
+  estado: DATO
+  fuente: Ford Argentina — Planta Pacheco
+  url: https://www.ford.com.ar/acerca-de-ford/institucional/planta-pacheco/
 linea_de_tiempo:
 - fecha: '1959'
   hito: «Loba»

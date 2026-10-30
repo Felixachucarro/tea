@@ -39,6 +39,26 @@ datos:
   estado: DATO1
   fuente: Parabrisas
   url: https://parabrisas.perfil.com/noticias/novedades/a31-ford-celebra-los-30-anos-de-la-ranger-un-breve-repaso-de-su-historia-autos-argentina.phtml
+- campo: Producción
+  valor: Comenzó en Pacheco en 1996.
+  estado: DATO
+  fuente: Ford Argentina — “Ford Argentina celebra la producción de la Ranger 900.000 en Planta Pacheco”
+  url: https://www.ford.com.ar/acerca-de-ford/novedades/2020/ford-argentina-celebra-produccion-de-ranger-900000-en-planta-pacheco/
+- campo: Motor
+  valor: 'Motores según generación: naftero 2.3; diésel 2.5 y 2.8; PowerStroke 3.0; Puma 2.2 y 3.2; nueva generación con 2.0 Panther y 3.0 V6 Lion según versión.'
+  estado: DATO
+  fuente: Autocosmos — “Ford celebró los 30 años de la Ranger en Argentina”
+  url: https://noticias.autocosmos.com.ar/2025/08/04/ford-celebro-los-30-anos-de-la-ranger-en-argentina
+- campo: Unidades
+  valor: 900.000 unidades producidas en Pacheco al 4/9/2020.
+  estado: DATO
+  fuente: Ford Argentina — “Ford Argentina celebra la producción de la Ranger 900.000 en Planta Pacheco”
+  url: https://www.ford.com.ar/acerca-de-ford/novedades/2020/ford-argentina-celebra-produccion-de-ranger-900000-en-planta-pacheco/
+- campo: Planta
+  valor: Centro Industrial Ford, General Pacheco, Buenos Aires.
+  estado: DATO
+  fuente: Ford Argentina — “Ford Argentina celebra la producción de la Ranger 900.000 en Planta Pacheco”
+  url: https://www.ford.com.ar/acerca-de-ford/novedades/2020/ford-argentina-celebra-produccion-de-ranger-900000-en-planta-pacheco/
 linea_de_tiempo:
 - fecha: '1995'
   hito: Llega importada

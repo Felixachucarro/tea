@@ -1,0 +1,31 @@
+codigo: '04.15'
+serie: '04'
+tipo: Ficha
+titulo: Ford F-700 (1973)
+periodo: '1973'
+estado: en investigación
+imagen: img/04-15-ford-f-700-1973.jpg
+portada: img/04-15-ford-f-700-1973.jpg
+pie: 'Foto: pendiente'
+busqueda: ford f700 1973
+datos:
+- campo: Motor
+  valor: Perkins 6-354, diésel, 6 cilindros en línea, 5.800 cm³.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-700”
+  url: https://camionargentino.blogspot.com/2012/07/ford-f-700-1973.html?showComment=1558492084786
+- campo: Potencia
+  valor: 135 HP a 2.800 rpm.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-700”
+  url: https://camionargentino.blogspot.com/2012/07/ford-f-700-1973.html?showComment=1558492084786
+- campo: Producción
+  valor: 1973; la variante artillera se fabricó menos de un año calendario.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-700”
+  url: https://camionargentino.blogspot.com/2012/07/ford-f-700-1973.html?showComment=1558492084786
+- campo: Origen
+  valor: Diseño de origen estadounidense; fabricación en General Pacheco, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Camión Argentino — “Ford F-700”
+  url: https://camionargentino.blogspot.com/2012/07/ford-f-700-1973.html?showComment=1558492084786

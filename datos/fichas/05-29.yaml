@@ -1,0 +1,31 @@
+codigo: '05.29'
+serie: '05'
+tipo: Ficha
+titulo: Peugeot 404
+periodo: 1962–1980 (producción argentina)
+estado: en investigación
+imagen: img/05-29-peugeot-404.jpg
+portada: img/05-29-peugeot-404.jpg
+pie: 'Foto: pendiente'
+busqueda: peugeot 404 argentina
+datos:
+- campo: Producción
+  valor: 1962–1980.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: 151.732 unidades para el Peugeot 404 argentino.
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/
+- campo: Planta
+  valor: Planta de Berazategui, Buenos Aires (fabricación previa al traslado de producción de Peugeot a Palomar en 1980).
+  estado: DATO
+  fuente: 'Autoweb — “2008 nacional: todos los Peugeot que se hicieron en la Argentina”'
+  url: https://www.autoweb.com.ar/2024/04/26/2008-nacional-todos-los-peugeot-que-se-hicieron-en-la-argentina/

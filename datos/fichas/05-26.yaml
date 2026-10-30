@@ -1,0 +1,31 @@
+codigo: '05.26'
+serie: '05'
+tipo: Ficha
+titulo: Chevrolet Chevy
+periodo: 1969–1978 (producción argentina)
+estado: en investigación
+imagen: img/05-26-chevrolet-chevy.jpg
+portada: img/05-26-chevrolet-chevy.jpg
+pie: 'Foto: pendiente'
+busqueda: chevrolet chevy argentina 1969 1978
+datos:
+- campo: Producción
+  valor: 1969–1978.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Chevrolet Chevy”'
+  url: https://noticias.autocosmos.com.ar/2025/07/17/autos-clasicos-de-argentina-chevrolet-chevy
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''

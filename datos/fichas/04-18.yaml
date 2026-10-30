@@ -1,0 +1,31 @@
+codigo: '04.18'
+serie: '04'
+tipo: Ficha
+titulo: Ford F-14000 (1999)
+periodo: 1998–2005 comercializado en Argentina; fabricación brasileña desde fines de 1998
+estado: en investigación
+imagen: img/04.18-ford-f-14000-1999.jpg
+portada: img/04.18-ford-f-14000-1999.jpg
+pie: 'Foto: pendiente'
+busqueda: ford f14000 1999 cummins 6bt brasil
+datos:
+- campo: Motor
+  valor: Cummins 6BT AA, diésel turbo con intercooler, 6 cilindros en línea, 5.883 cm³.
+  estado: DATO
+  fuente: El Camionero — Ford F-14000
+  url: https://camionauta.blogspot.com/2016/01/ford-f-14000.html
+- campo: Potencia
+  valor: 162 CV a 2.600 rpm.
+  estado: DATO
+  fuente: El Camionero — Ford F-14000
+  url: https://camionauta.blogspot.com/2016/01/ford-f-14000.html
+- campo: Producción
+  valor: La fuente indica comercialización en Argentina entre 1998 y 2005. No informa cantidad de unidades ni fechas exactas de fabricación en Brasil.
+  estado: DATO
+  fuente: El Camionero — Ford F-14000
+  url: https://camionauta.blogspot.com/2016/01/ford-f-14000.html
+- campo: Origen
+  valor: Brasil. La renovación de la línea convencional Ford se realizó en Brasil a fines de 1998.
+  estado: DATO
+  fuente: El Camionero — Ford F-14000
+  url: ''

@@ -1,0 +1,31 @@
+codigo: '05.40'
+serie: '05'
+tipo: Ficha
+titulo: Renault 4
+periodo: 26 de septiembre de 1963–29 de diciembre de 1987 (producción argentina)
+estado: en investigación
+imagen: img/05-40-renault-4.jpg
+portada: img/05-40-renault-4.jpg
+pie: 'Foto: pendiente'
+busqueda: renault 4 argentina
+datos:
+- campo: Producción
+  valor: 1963–1987.
+  estado: DATO
+  fuente: Renault Argentina — “Historia del Renault 4 en Argentina”
+  url: https://prensa.renault.com.ar/comunicado/historia-del-renault-4-en-argentina
+- campo: Motor
+  valor: Motor Ventoux 801-02 de 845 cm³ y 33 HP; desde 1984, versiones GTL/F4 con motor 1.118 cm³ y 51 CV.
+  estado: DATO
+  fuente: Renault Argentina — “Historia del Renault 4 en Argentina”
+  url: https://prensa.renault.com.ar/comunicado/historia-del-renault-4-en-argentina
+- campo: Unidades
+  valor: 157.315 unidades de todas las versiones fabricadas en Argentina.
+  estado: DATO
+  fuente: Renault Argentina — “Historia del Renault 4 en Argentina”
+  url: https://prensa.renault.com.ar/comunicado/historia-del-renault-4-en-argentina
+- campo: Planta
+  valor: Fábrica Santa Isabel, Córdoba.
+  estado: DATO
+  fuente: Renault Argentina — “Historia del Renault 4 en Argentina”
+  url: https://prensa.renault.com.ar/comunicado/historia-del-renault-4-en-argentina

@@ -33,3 +33,23 @@ datos:
   valor: —
   estado: SIN DATO
   fuente: Falta fuente
+- campo: Producción
+  valor: Golf II fabricado entre 1983 y 1992; Volkswagen informa 6,3 millones de unidades producidas de esta generación.
+  estado: DATO
+  fuente: Volkswagen Newsroom — Vehicle data Golf II; Volkswagen — 40 aniversario del Golf
+  url: https://www.volkswagen-newsroom.com/en/vehicle-data-golf-2-profile-19471
+- campo: Motor
+  valor: La gama Golf II incluyó motores nafteros 1.3, 1.6 y 1.8, además de diésel 1.6 y 1.6 GTD. La motorización del ejemplar de 1990 no se identifica sin versión específica.
+  estado: DATO
+  fuente: Volkswagen Newsroom — Vehicle data Golf II
+  url: https://www.volkswagen-newsroom.com/en/vehicle-data-golf-2-profile-19471
+- campo: Unidades
+  valor: 6,3 millones de unidades Golf II producidas mundialmente.
+  estado: DATO
+  fuente: Volkswagen — 40 aniversario del Golf
+  url: https://uploads.vw-mms.de/system/production/files/vwn/003/050/file/07fde9b757bb5189e052a1d06818f8955bb9ae81/40_aniversario_del_Golf_ES.pdf?1530366206=
+- campo: Planta
+  valor: Producción internacional en distintas plantas de Volkswagen; no se puede asignar una planta única sin identificar el VIN o país de origen del ejemplar.
+  estado: DATO
+  fuente: Volkswagen Newsroom — Vehicle data Golf II
+  url: https://www.volkswagen-newsroom.com/en/vehicle-data-golf-2-profile-19471

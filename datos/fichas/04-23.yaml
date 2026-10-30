@@ -1,0 +1,31 @@
+codigo: '04.23'
+serie: '04'
+tipo: Ficha
+titulo: Dodge D-200 (1969)
+periodo: 1967–1979; año de referencia 1969
+estado: en investigación
+imagen: img/04.23-dodge-d-200-1969.jpg
+portada: img/04.23-dodge-d-200-1969.jpg
+pie: 'Foto: pendiente'
+busqueda: dodge d200 1969 argentina slant six
+datos:
+- campo: Motor
+  valor: Chrysler Slant Six RG 225, naftero, 6 cilindros en línea inclinados, 3.687 cm³.
+  estado: DATO
+  fuente: Automóviles y Vehículos — Ficha histórica Dodge D-200; Archivo de autos — Producción de camionetas 1969
+  url: https://archivodeautos.wordpress.com/2022/08/07/comparacion-de-la-produccion-de-camionetas-en-argentina-1960-1970/
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Producción
+  valor: 1.369 unidades Dodge D-200 registradas en Argentina durante 1969.
+  estado: DATO
+  fuente: Archivo de autos — Comparación de la producción de camionetas en Argentina (1960–1970)
+  url: https://archivodeautos.wordpress.com/2022/08/07/comparacion-de-la-produccion-de-camionetas-en-argentina-1960-1970/
+- campo: Origen
+  valor: Diseño de origen estadounidense; producción local por Chrysler-Fevre Argentina.
+  estado: DATO
+  fuente: Dodge D Series — Historia de fabricación argentina
+  url: ''

@@ -39,6 +39,21 @@ datos:
   estado: DATO1
   fuente: Wikipedia
   url: https://es.wikipedia.org/wiki/Volkswagen_Gol
+- campo: Producción
+  valor: El G1 se lanzó en Argentina importado en 1991; el G2 comenzó a fabricarse en Pacheco en 1995.
+  estado: DATO
+  fuente: La Nación — “La saga del VW Gol”
+  url: https://www.lanacion.com.ar/autos/al-volante/la-saga-del-vw-gol-nid1919697/
+- campo: Motor
+  valor: 'G1 argentino: 1.6 de 82 CV inicialmente; luego 1.8 de 97 CV y GTi 2.0 de 120 CV. G2 y siguientes tuvieron otras motorizaciones.'
+  estado: DATO
+  fuente: La Nación — “La saga del VW Gol”
+  url: https://www.lanacion.com.ar/autos/al-volante/la-saga-del-vw-gol-nid1919697/
+- campo: Planta
+  valor: 'G1: importado de Brasil. G2: primera generación fabricada por Volkswagen en General Pacheco.'
+  estado: DATO
+  fuente: La Nación — “La saga del VW Gol”
+  url: https://www.lanacion.com.ar/autos/al-volante/la-saga-del-vw-gol-nid1919697/
 linea_de_tiempo:
 - fecha: '1980'
   hito: Lanzamiento en Brasil

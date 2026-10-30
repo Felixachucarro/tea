@@ -28,3 +28,18 @@ datos:
   valor: —
   estado: SIN DATO
   fuente: Falta fuente
+- campo: Producción
+  valor: Inicio de producción en 1998; el Partner familiar se incorporó en 1999.
+  estado: DATO
+  fuente: Stellantis Media — “Planta Palomar, su historia”
+  url: https://www.media.stellantis.com/ar-es/peugeot/press/planta-palomar-su-historia
+- campo: Motor
+  valor: 'Ficha técnica argentina actual: 1.6 nafta de 1.587 cm³ y 115 CV; 1.6 HDi diésel de 1.560 cm³ y 92 CV. Estas especificaciones no deben extrapolarse a todas las generaciones.'
+  estado: DATO
+  fuente: Peugeot Argentina — Ficha técnica Partner
+  url: https://www.peugeot.com.ar/content/dam/peugeot/argentina/b2c/our-range/partner-vu/fichas-tecnicas/Peugeot-Ficha-Partner-Junio.pdf
+- campo: Planta
+  valor: Centro de Producción El Palomar, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Stellantis Media — “Planta Palomar, su historia”
+  url: https://www.media.stellantis.com/ar-es/peugeot/press/planta-palomar-su-historia

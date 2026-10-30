@@ -1,0 +1,31 @@
+codigo: '05.39'
+serie: '05'
+tipo: Ficha
+titulo: Renault Trafic
+periodo: 1985–2002 (producción argentina)
+estado: en investigación
+imagen: img/05-39-renault-trafic.jpg
+portada: img/05-39-renault-trafic.jpg
+pie: 'Foto: pendiente'
+busqueda: renault trafic argentina
+datos:
+- campo: Producción
+  valor: 1985–2002.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Renault Trafic”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2025/01/23/autos-clasicos-de-argentina-renault-trafic
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Planta
+  valor: Fábrica Santa Isabel, Córdoba.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: Renault Trafic”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2025/01/23/autos-clasicos-de-argentina-renault-trafic

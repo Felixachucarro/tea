@@ -1,0 +1,31 @@
+codigo: '05.49'
+serie: '05'
+tipo: Ficha
+titulo: Fiat Fiorino
+periodo: 1989–1995 (producción argentina de la primera serie)
+estado: en investigación
+imagen: img/05-49-fiat-fiorino.jpg
+portada: img/05-49-fiat-fiorino.jpg
+pie: 'Foto: pendiente'
+busqueda: fiat fiorino argentina
+datos:
+- campo: Producción
+  valor: 1989–1995.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Unidades
+  valor: 25.035 unidades del Fiorino furgón.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Planta
+  valor: El Palomar, provincia de Buenos Aires.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais

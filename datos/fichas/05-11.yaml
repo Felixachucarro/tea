@@ -39,3 +39,18 @@ datos:
   estado: DATO1
   fuente: Autocosmos
   url: https://noticias.autocosmos.com.ar/2024/05/16/autos-clasicos-de-argentina-fiat-palio-y-siena
+- campo: Motor
+  valor: Motores nafteros de 1.3, 1.4 y 1.6 L según año/versión; algunas versiones regionales ofrecieron diésel. Confirmar variante concreta para una ficha de unidad.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: FIAT Palio y Siena”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2024/05/16/autos-clasicos-de-argentina-fiat-palio-y-siena
+- campo: Unidades
+  valor: 153.988 unidades de la línea Palio consignada por Stellantis para Argentina.
+  estado: DATO
+  fuente: Stellantis Media — “Fiat celebra sus 100 años de historia en el país”
+  url: https://www.media.stellantis.com/ar-es/fiat/press/fiat-celebra-sus-100-anos-de-historia-en-el-pais
+- campo: Planta
+  valor: Planta Ferreyra, Córdoba.
+  estado: DATO
+  fuente: 'Autocosmos — “Autos Clásicos de Argentina: FIAT Palio y Siena”'
+  url: https://especiales.autocosmos.com.ar/autos-clasicos-argentina/noticias/2024/05/16/autos-clasicos-de-argentina-fiat-palio-y-siena

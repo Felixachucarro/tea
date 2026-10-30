@@ -1,0 +1,31 @@
+codigo: '04.22'
+serie: '04'
+tipo: Ficha
+titulo: Iveco Cavallino 320
+periodo: 'No determinado: año de fabricación de la unidad no identificado'
+estado: en investigación
+imagen: img/04-22-iveco-cavallino-320.jpg
+portada: img/04-22-iveco-cavallino-320.jpg
+pie: 'Foto: pendiente'
+busqueda: iveco cavallino 320
+datos:
+- campo: Motor
+  valor: IVECO FPT Cursor 8, diésel, 6 cilindros en línea, 7,8 L, turbo e intercooler.
+  estado: DATO
+  fuente: IVECO Brasil — Ficha técnica Cavallino
+  url: https://www.iveco.com/brasil/collections/technical_sheets/Documents/Produtos/IvecoCavallino_1009.pdf
+- campo: Potencia
+  valor: 320 CV a 2.400 rpm.
+  estado: DATO
+  fuente: IVECO Brasil — Ficha técnica Cavallino
+  url: https://www.iveco.com/brasil/collections/technical_sheets/Documents/Produtos/IvecoCavallino_1009.pdf
+- campo: Producción
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+  url: ''
+- campo: Origen
+  valor: Modelo desarrollado para el mercado brasileño; la ficha de fábrica consultada es de IVECO Brasil. Origen de una unidad argentina concreta no determinado.
+  estado: DATO
+  fuente: IVECO Brasil — Ficha técnica Cavallino
+  url: https://www.iveco.com/brasil/collections/technical_sheets/Documents/Produtos/IvecoCavallino_1009.pdf

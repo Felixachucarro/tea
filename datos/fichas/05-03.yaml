@@ -36,3 +36,16 @@ datos:
   estado: DATO1
   fuente: Autocosmos
   url: https://noticias.autocosmos.com.ar/2024/05/23/autos-clasicos-de-argentina-ford-sierra
+- campo: Motor
+  valor: Motores nafteros 1.6 y 2.0 L según versión; la identificación exacta requiere año y versión.
+  estado: DATO
+  fuente: Ford Sierra Net — Identificación de vehículos Sierra
+  url: https://fordsierranet.com.ar/Identificacion.htm
+- campo: Planta
+  valor: Centro Industrial Ford, General Pacheco, Buenos Aires.
+  estado: DATO
+  fuente: Ford Argentina — Planta Pacheco
+  url: https://www.ford.com.ar/acerca-de-ford/institucional/planta-pacheco/
+imagen: img/05-03-ford-sierra.jpg
+portada: img/05-03-ford-sierra.jpg
+pie: 'Foto: pendiente'

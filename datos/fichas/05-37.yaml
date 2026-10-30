@@ -1,0 +1,31 @@
+codigo: '05.37'
+serie: '05'
+tipo: Ficha
+titulo: Renault 11
+periodo: 1984–1994 (producción argentina)
+estado: en investigación
+imagen: img/05-37-renault-11.jpg
+portada: img/05-37-renault-11.jpg
+pie: 'Foto: pendiente'
+busqueda: renault 11 argentina
+datos:
+- campo: Producción
+  valor: 1984–1994.
+  estado: DATO
+  fuente: Autoweb — “A 35 años de la llegada del Renault 11”
+  url: https://www.autoweb.com.ar/2019/11/04/a-35-anos-de-la-llegada-del-renault-11/
+- campo: Motor
+  valor: Motor 1.4 L (60, 72 o 95 CV según versión, incluido Turbo); desde 1990 se ofreció 1.6 L de 78 CV.
+  estado: DATO
+  fuente: Autoweb — “A 35 años de la llegada del Renault 11”
+  url: https://www.autoweb.com.ar/2019/11/04/a-35-anos-de-la-llegada-del-renault-11/
+- campo: Unidades
+  valor: Más de 79.000 unidades fabricadas en Santa Isabel.
+  estado: DATO
+  fuente: Autoweb — “A 35 años de la llegada del Renault 11”
+  url: https://www.autoweb.com.ar/2019/11/04/a-35-anos-de-la-llegada-del-renault-11/
+- campo: Planta
+  valor: Fábrica Santa Isabel, Córdoba.
+  estado: DATO
+  fuente: Renault Argentina — “Fábrica Santa Isabel”
+  url: https://www.renault.com.ar/fabrica-santa-isabel.html
