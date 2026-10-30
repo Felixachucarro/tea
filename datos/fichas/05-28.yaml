@@ -1,31 +1,30 @@
-codigo: '05.28'
-serie: '05'
+codigo: "05.28"
+serie: "05"
 tipo: Ficha
-titulo: Chevrolet Chevy (1995) — J. M. Traverso
-periodo: '1995'
+titulo: Chevrolet Chevy (1997) — J. M. Traverso
+nombre_corto: "Chevy 1997 - J. M. Traverso "
+periodo: "1997"
 estado: en investigación
 imagen: img/05-28-chevrolet-chevy-1995-j-m-traverso.jpg
 portada: img/05-28-chevrolet-chevy-1995-j-m-traverso.jpg
-pie: 'Foto: pendiente'
+pie: "Foto: pendiente"
 busqueda: chevrolet tc traverso 1995
 datos:
-- campo: Producción
-  valor: 'Año del vehículo: 1995; no es una serie de producción comercial.'
-  estado: DATO
-  fuente: Museo Juan Manuel Fangio — “Chevrolet TC – Juan María Traverso”
-  url: https://www.museofangio.com/es/visita-virtual/museo-fangio/15-nuevos-campeones/62-chevrolet-tc-juan-maria-traverso
-- campo: Motor
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-  url: ''
-- campo: Unidades
-  valor: 'No corresponde como serie de producción comercial: ficha del Museo Fangio identifica un ejemplar de competición inventariado como N.º 35.'
-  estado: DATO
-  fuente: Museo Juan Manuel Fangio — “Chevrolet TC – Juan María Traverso”
-  url: https://www.museofangio.com/es/visita-virtual/museo-fangio/15-nuevos-campeones/62-chevrolet-tc-juan-maria-traverso
-- campo: Planta
-  valor: Vehículo de competición conservado en el Museo Juan Manuel Fangio; constructor/preparador de la unidad no identificado en la ficha consultada.
-  estado: DATO
-  fuente: Museo Juan Manuel Fangio — “Chevrolet TC – Juan María Traverso”
-  url: https://www.museofangio.com/es/visita-virtual/museo-fangio/15-nuevos-campeones/62-chevrolet-tc-juan-maria-traverso
+  - campo: Producción
+    valor: "Año del vehículo: 1995; no es una serie de producción comercial."
+    estado: DATO
+    fuente: Museo Juan Manuel Fangio — “Chevrolet TC – Juan María Traverso”
+    url: https://www.museofangio.com/es/visita-virtual/museo-fangio/15-nuevos-campeones/62-chevrolet-tc-juan-maria-traverso
+  - campo: Unidades
+    valor: "No corresponde como serie de producción comercial: ficha del Museo
+      Fangio identifica un ejemplar de competición inventariado como N.º 35."
+    estado: DATO
+    fuente: Museo Juan Manuel Fangio — “Chevrolet TC – Juan María Traverso”
+    url: https://www.museofangio.com/es/visita-virtual/museo-fangio/15-nuevos-campeones/62-chevrolet-tc-juan-maria-traverso
+  - campo: Planta
+    valor: Vehículo de competición conservado en el Museo Juan Manuel Fangio;
+      constructor/preparador de la unidad no identificado en la ficha
+      consultada.
+    estado: DATO
+    fuente: Museo Juan Manuel Fangio — “Chevrolet TC – Juan María Traverso”
+    url: https://www.museofangio.com/es/visita-virtual/museo-fangio/15-nuevos-campeones/62-chevrolet-tc-juan-maria-traverso
