@@ -1,0 +1,39 @@
+codigo: '02.18'
+serie: '02'
+tipo: Ficha
+titulo: El Detalle OA 101 · Línea 103
+periodo: ''
+estado: en investigación
+imagen: img/0218-01.jpg
+portada: img/0218-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: el detalle oa 101   linea 103 el detalle oa 101 deutz bf6l 913c interno 27 103
+datos:
+- campo: Carrocería
+  valor: El Detalle OA 101
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: Deutz BF6L 913C
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 27
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '103'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

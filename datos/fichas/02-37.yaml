@@ -1,0 +1,43 @@
+codigo: '02.37'
+serie: '02'
+tipo: Ficha
+titulo: Marcopolo Paradiso 1150 GV · Chevallier
+periodo: ''
+estado: en investigación
+imagen: img/0237-01.jpg
+portada: img/0237-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: marcopolo paradiso 1150 gv   chevallier marcopolo paradiso 1150 gv mercedes-benz o 400 rse interno 127 chevallier   costera media y larga distancia
+datos:
+- campo: Carrocería
+  valor: Marcopolo Paradiso 1150 GV
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz O 400 RSE
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 127
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Chevallier · Costera
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Servicio
+  valor: Media y larga distancia
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

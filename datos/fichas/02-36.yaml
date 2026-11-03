@@ -1,0 +1,53 @@
+codigo: '02.36'
+serie: '02'
+tipo: Ficha
+titulo: Toyota Coaster · Línea 141
+periodo: '1995'
+estado: en investigación
+imagen: img/0236-01.jpg
+portada: img/0236-01.jpg
+pie: 'Frente · Foto: pendiente'
+galeria:
+- imagen: img/0236-01.jpg
+  leyenda: '01 · Frente · Foto: pendiente'
+- imagen: img/0236-02.jpg
+  leyenda: '02 · Interno 1014 · Foto: Rodrigo Chamorro · BusArg.com.ar'
+  ancha: true
+busqueda: toyota coaster   linea 141 toyota coaster toyota coaster toyota 1hz 140 cv a 4.000 rpm 6.990 mm   ancho 2.025 mm interno 1008 141 grupo plaza 1995
+datos:
+- campo: Carrocería
+  valor: Toyota Coaster
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: Toyota Coaster
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: Toyota 1HZ
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Potencia
+  valor: 140 CV a 4.000 rpm
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Largo
+  valor: 6.990 mm · ancho 2.025 mm
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Ejemplar documentado
+  valor: Interno 1008
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '141'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Grupo Plaza
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Año
+  valor: '1995'
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

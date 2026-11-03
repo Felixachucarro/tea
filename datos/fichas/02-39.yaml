@@ -1,0 +1,39 @@
+codigo: '02.39'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Tronador · Línea 581 (Mar del Plata)
+periodo: ''
+estado: en investigación
+imagen: img/0239-01.jpg
+portada: img/0239-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: metalpar tronador   linea 581 (mar del plata) metalpar tronador mercedes-benz of 1418 interno 174 581   mar del plata
+datos:
+- campo: Carrocería
+  valor: Metalpar Tronador
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OF 1418
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 174
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: 581 · Mar del Plata
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

@@ -1,0 +1,43 @@
+codigo: '02.35'
+serie: '02'
+tipo: Ficha
+titulo: Ottaviano · Transporte escolar
+periodo: ''
+estado: en investigación
+imagen: img/0235-01.jpg
+portada: img/0235-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: ottaviano   transporte escolar ottaviano mercedes-benz 1621 transporte escolar ex linea 314
+datos:
+- campo: Carrocería
+  valor: Ottaviano
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: Mercedes-Benz 1621
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Servicio
+  valor: Transporte escolar
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Historia
+  valor: Ex línea 314
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

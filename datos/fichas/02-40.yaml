@@ -1,0 +1,43 @@
+codigo: '02.40'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Tronador I · Línea 10 (Córdoba)
+periodo: ''
+estado: en investigación
+imagen: img/0240-01.jpg
+portada: img/0240-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: metalpar tronador i   linea 10 (cordoba) metalpar tronador i mercedes-benz of 1722 10   cordoba coniferal s.a.
+datos:
+- campo: Carrocería
+  valor: Metalpar Tronador I
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OF 1722
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: 10 · Córdoba
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Coniferal S.A.
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

@@ -1,0 +1,39 @@
+codigo: '02.25'
+serie: '02'
+tipo: Ficha
+titulo: Marcopolo Torino · Línea 203
+periodo: ''
+estado: en investigación
+imagen: img/0225-01.jpg
+portada: img/0225-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: marcopolo torino   linea 203 marcopolo torino mercedes-benz o 500 u interno 4492 203
+datos:
+- campo: Carrocería
+  valor: Marcopolo Torino
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz O 500 U
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 4492
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '203'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

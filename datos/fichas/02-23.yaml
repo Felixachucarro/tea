@@ -1,0 +1,43 @@
+codigo: '02.23'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz O 371 RSD · Línea 194
+periodo: ''
+estado: en investigación
+imagen: img/0223-01.jpg
+portada: img/0223-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: mercedes-benz o 371 rsd   linea 194 mercedes-benz o 371 rsd 194   la plata – buenos aires chevallier   costera
+datos:
+- campo: Carrocería
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Chasis
+  valor: Mercedes-Benz O 371 RSD
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: 194 · La Plata – Buenos Aires
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Chevallier · Costera
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

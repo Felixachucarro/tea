@@ -1,0 +1,49 @@
+codigo: '02.52'
+serie: '02'
+tipo: Ficha
+titulo: Italbus Bello III · Santa Ana (Jujuy)
+periodo: '2015'
+estado: en investigación
+imagen: img/0252-01.jpg
+portada: img/0252-01.jpg
+pie: 'Frente · Foto: pendiente'
+galeria:
+- imagen: img/0252-01.jpg
+  leyenda: '01 · Frente · Foto: pendiente'
+- imagen: img/0252-02.jpg
+  leyenda: 02 · Plano CNRT · tres puertas
+  ancha: true
+busqueda: italbus bello iii   santa ana (jujuy) italbus bello iii mercedes-benz of 1621 mercedes-benz of 1621 208 cv (153 kw) a 2.200 rpm 11.555 mm   ancho maximo 2.600 mm interno 749 santa ana   jujuy 2015
+datos:
+- campo: Carrocería
+  valor: Italbus Bello III
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OF 1621
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: Mercedes-Benz OF 1621
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Potencia
+  valor: 208 CV (153 kW) a 2.200 rpm
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Largo
+  valor: 11.555 mm · ancho máximo 2.600 mm
+  estado: DATO1
+  fuente: Plano CNRT
+- campo: Ejemplar documentado
+  valor: Interno 749
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: Santa Ana · Jujuy
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Año
+  valor: '2015'
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

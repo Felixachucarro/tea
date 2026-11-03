@@ -1,0 +1,39 @@
+codigo: '02.41'
+serie: '02'
+tipo: Ficha
+titulo: El Detalle OA 101 · Línea 20 (Córdoba)
+periodo: ''
+estado: en investigación
+imagen: img/0241-01.jpg
+portada: img/0241-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: el detalle oa 101   linea 20 (cordoba) el detalle oa 101   primera generacion interno 23 20   cordoba
+datos:
+- campo: Carrocería
+  valor: El Detalle OA 101 · primera generación
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 23
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: 20 · Córdoba
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

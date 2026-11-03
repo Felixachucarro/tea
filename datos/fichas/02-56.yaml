@@ -1,0 +1,39 @@
+codigo: '02.56'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Tronador I · Línea 108 (Corrientes)
+periodo: ''
+estado: en investigación
+imagen: img/0256-01.jpg
+portada: img/0256-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: metalpar tronador i   linea 108 (corrientes) metalpar tronador i interno 808 108   corrientes
+datos:
+- campo: Carrocería
+  valor: Metalpar Tronador I
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 808
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: 108 · Corrientes
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

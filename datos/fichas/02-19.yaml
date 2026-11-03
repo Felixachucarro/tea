@@ -1,0 +1,39 @@
+codigo: '02.19'
+serie: '02'
+tipo: Ficha
+titulo: Ottaviano · Línea 103
+periodo: ''
+estado: en investigación
+imagen: img/0219-01.jpg
+portada: img/0219-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: ottaviano   linea 103 ottaviano mercedes-benz oh 1621 l interno 34 103
+datos:
+- campo: Carrocería
+  valor: Ottaviano
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OH 1621 L
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 34
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '103'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

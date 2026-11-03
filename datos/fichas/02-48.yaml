@@ -1,0 +1,43 @@
+codigo: '02.48'
+serie: '02'
+tipo: Ficha
+titulo: La Favorita · La Comarca (Tucumán)
+periodo: ''
+estado: en investigación
+imagen: img/0248-01.jpg
+portada: img/0248-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: la favorita   la comarca (tucuman) la favorita tucuman la comarca
+datos:
+- campo: Carrocería
+  valor: La Favorita
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: Tucumán
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: La Comarca
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

@@ -1,0 +1,43 @@
+codigo: '02.47'
+serie: '02'
+tipo: Ficha
+titulo: La Favorita · Ceferino (Viedma)
+periodo: ''
+estado: en investigación
+imagen: img/0247-01.jpg
+portada: img/0247-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: la favorita   ceferino (viedma) la favorita viedma, rio negro ceferino
+datos:
+- campo: Carrocería
+  valor: La Favorita
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: Viedma, Río Negro
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Ceferino
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

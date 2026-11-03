@@ -1,0 +1,39 @@
+codigo: '02.29'
+serie: '02'
+tipo: Ficha
+titulo: Ugarte Americano · Línea 341
+periodo: ''
+estado: en investigación
+imagen: img/0229-01.jpg
+portada: img/0229-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: ugarte americano   linea 341 ugarte americano mercedes-benz of 1418 341
+datos:
+- campo: Carrocería
+  valor: Ugarte Americano
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OF 1418
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: '341'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

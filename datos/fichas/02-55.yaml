@@ -1,0 +1,43 @@
+codigo: '02.55'
+serie: '02'
+tipo: Ficha
+titulo: Bimet Corwin Corbus · T.I.C.S.A. (Corrientes–Chaco)
+periodo: ''
+estado: en investigación
+imagen: img/0255-01.jpg
+portada: img/0255-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: bimet corwin corbus   t.i.c.s.a. (corrientes–chaco) bimet corwin corbus mercedes-benz oh 1315 corrientes – chaco t.i.c.s.a.
+datos:
+- campo: Carrocería
+  valor: Bimet Corwin Corbus
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OH 1315
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: Corrientes – Chaco
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: T.I.C.S.A.
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

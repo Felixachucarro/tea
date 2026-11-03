@@ -1,0 +1,43 @@
+codigo: '02.27'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Tronador II · Línea 319
+periodo: ''
+estado: en investigación
+imagen: img/0227-01.jpg
+portada: img/0227-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: metalpar tronador ii   linea 319 metalpar tronador ii interno 116 319 el villarino s.a.
+datos:
+- campo: Carrocería
+  valor: Metalpar Tronador II
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 116
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '319'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: El Villarino S.A.
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

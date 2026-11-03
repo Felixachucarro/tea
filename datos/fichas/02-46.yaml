@@ -1,0 +1,43 @@
+codigo: '02.46'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Tronador II · EMTU (Santa Rosa)
+periodo: ''
+estado: en investigación
+imagen: img/0246-01.jpg
+portada: img/0246-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: metalpar tronador ii   emtu (santa rosa) metalpar tronador ii santa rosa, la pampa emtu
+datos:
+- campo: Carrocería
+  valor: Metalpar Tronador II
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: Santa Rosa, La Pampa
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: EMTU
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

@@ -1,0 +1,39 @@
+codigo: '02.26'
+serie: '02'
+tipo: Ficha
+titulo: Nuovobus Citta · Línea 273
+periodo: ''
+estado: en investigación
+imagen: img/0226-01.jpg
+portada: img/0226-01.jpg
+pie: 'Frente · Foto: Buses de Villa Rosa'
+busqueda: nuovobus citta   linea 273 nuovobus citta mercedes-benz oh 1621 l-sb 273
+datos:
+- campo: Carrocería
+  valor: Nuovobus Citta
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OH 1621 L-SB
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: '273'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

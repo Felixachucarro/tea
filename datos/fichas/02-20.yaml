@@ -1,0 +1,39 @@
+codigo: '02.20'
+serie: '02'
+tipo: Ficha
+titulo: TATSA Puma D10.5 · Línea 103
+periodo: ''
+estado: en investigación
+imagen: img/0220-01.jpg
+portada: img/0220-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: tatsa puma d10.5   linea 103 tatsa puma d10.5 deutz interno 4 103
+datos:
+- campo: Carrocería
+  valor: TATSA Puma D10.5
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: Deutz
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 4
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '103'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

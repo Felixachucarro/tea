@@ -1,0 +1,39 @@
+codigo: '02.38'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Tronador II · Línea 221 (Mar del Plata)
+periodo: ''
+estado: en investigación
+imagen: img/0238-01.jpg
+portada: img/0238-01.jpg
+pie: 'Frente · Foto: Transporte Argentino'
+busqueda: metalpar tronador ii   linea 221 (mar del plata) metalpar tronador ii mercedes-benz of 1722 interno 113 221   mar del plata
+datos:
+- campo: Carrocería
+  valor: Metalpar Tronador II
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OF 1722
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 113
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: 221 · Mar del Plata
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

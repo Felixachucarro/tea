@@ -1,0 +1,39 @@
+codigo: '02.44'
+serie: '02'
+tipo: Ficha
+titulo: La Favorita · Línea 13 (Santa Fe)
+periodo: ''
+estado: en investigación
+imagen: img/0244-01.jpg
+portada: img/0244-01.jpg
+pie: 'Frente · Foto: pendiente'
+busqueda: la favorita   linea 13 (santa fe) la favorita 13   santa fe
+datos:
+- campo: Carrocería
+  valor: La Favorita
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: 13 · Santa Fe
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
