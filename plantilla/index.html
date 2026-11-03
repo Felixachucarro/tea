@@ -346,9 +346,21 @@ table.datos tr.pend td{color:var(--gris)}
 .fe dd small{display:block;font:11px var(--f-mono);color:var(--gris);margin-top:2px}
 .fe ol{margin:0;padding-left:18px;display:grid;gap:6px}.fe h2{margin:10px 0 0;font:500 11px var(--f-text);letter-spacing:.1em;text-transform:uppercase;color:var(--gris)}
 @media (max-width:640px){.fe dl div{grid-template-columns:1fr}}
+
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+#carga{position:fixed;inset:0;z-index:100;background:#fff;display:grid;place-items:center;transition:opacity .7s ease,visibility .7s ease}
+#carga.fuera{opacity:0;visibility:hidden}
+#carga svg{width:clamp(80px,11vw,116px);height:auto}
+#carga circle{stroke-dasharray:1;stroke-dashoffset:1;transform-box:view-box;transform-origin:625.9px 600.4px;animation:carga-aro 1.6s cubic-bezier(.65,0,.35,1) forwards}
+#carga circle+circle{animation-delay:.18s}
+#carga path{opacity:0;animation:carga-letras .8s ease .5s forwards}
+@keyframes carga-aro{from{stroke-dashoffset:1;transform:rotate(-140deg)}to{stroke-dashoffset:0;transform:rotate(0)}}
+@keyframes carga-letras{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){#carga circle,#carga path{animation:none;stroke-dashoffset:0;opacity:1}}
 /* Home institucional */
 .hm-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,460px);gap:clamp(28px,6vw,80px);align-items:end;padding-block:clamp(40px,6vw,88px) clamp(32px,5vw,64px)}
-.hm-hero h1{font:800 clamp(38px,5.6vw,76px)/1 var(--f-display);letter-spacing:-.035em;margin:18px 0 24px;text-wrap:balance}
+.hm-hero h1{font:800 clamp(32px,4.8vw,66px)/1 var(--f-display);letter-spacing:-.035em;margin:18px 0 24px;text-wrap:balance}
 .hm-lead{font-size:clamp(17px,1.5vw,20px);line-height:1.55;max-width:610px;margin:0}
 .hm-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
 .hm-pieza{display:block;border:1px solid var(--linea);text-decoration:none;color:inherit;background:#fff}
@@ -377,7 +389,7 @@ table.datos tr.pend td{color:var(--gris)}
 .hm-veh{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(10px,1.5vw,20px)}
 .hm-veh a{display:flex;flex-direction:column;border:1px solid var(--linea);text-decoration:none;color:inherit;background:#fff}
 .hm-veh .dn{font:400 11px var(--f-mono);color:var(--gris);padding:10px 14px;border-bottom:1px solid var(--linea);text-transform:uppercase;letter-spacing:.06em;margin:0}
-.hm-veh .im{height:clamp(150px,17vw,250px);display:grid;place-items:center;padding:18px}
+.hm-veh .im{height:clamp(170px,18vw,260px);display:grid;place-items:center;padding:14px 12px 26px}
 .hm-veh img{max-height:100%;max-width:100%;width:auto;height:auto;object-fit:contain}
 .hm-veh .cap{border-top:1px solid var(--linea);padding:12px 14px;font:400 12px/1.45 var(--f-mono);color:var(--gris);margin-top:auto}
 .hm-veh .cap b{display:block;color:var(--tinta);font-weight:400}
@@ -389,7 +401,7 @@ table.datos tr.pend td{color:var(--gris)}
 .hm-puertas p{margin:0;color:var(--gris);font-size:15px}
 .hm-puertas a{display:inline-block;margin-top:18px;font:500 13px var(--f-text);letter-spacing:.05em;text-transform:uppercase;color:var(--tinta)}
 .pie-inst{margin-top:clamp(64px,8vw,110px);background:#fff;border:0;padding:0;display:block;font:400 16px/1.5 var(--f-text);color:var(--tinta)}
-.pie-inst .wrap{padding-block:clamp(36px,5vw,64px) 36px}
+.pie-inst .wrap:not(.franja){padding-block:clamp(36px,5vw,64px) 36px}
 .pi-main{display:grid;grid-template-columns:96px minmax(0,1fr) minmax(0,280px);gap:clamp(20px,4vw,48px);align-items:start}
 .pi-main img{width:96px;height:auto}
 .pi-f{font:800 clamp(26px,3vw,40px)/1.2 var(--f-display);letter-spacing:-.015em;margin:0;color:var(--tinta)}
@@ -404,6 +416,10 @@ table.datos tr.pend td{color:var(--gris)}
 @media (max-width:560px){.hm-veh{grid-template-columns:repeat(2,minmax(0,1fr))}.hm-veh a:nth-child(n+3){display:none}.hm-tabla table{min-width:0;font-size:13px}.hm-tabla th{font-size:9px;letter-spacing:.03em}.hm-tabla td:first-child{font-size:15px}.hm-tabla td .c{width:28px}.hm-tabla th:last-child,.hm-tabla td:last-child{display:none}}
 </style>
 
+<div id="carga" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="191.4 166.0 868.9 868.9" aria-hidden="true">  <circle pathLength="1" cx="625.9" cy="600.4" r="413.9" fill="none" stroke="#68A6D5" stroke-width="41.1"/> <circle pathLength="1" cx="625.9" cy="600.4" r="338.8" fill="none" stroke="#68A6D5" stroke-width="39.5"/> <path fill="#1E1D1A" fill-rule="evenodd" d="M731.8 327.0 L731.2 327.8 L731.2 872.0 L731.8 872.8 L732.8 872.8 L752.8 863.0 L768.0 854.5 L784.8 844.0 L786.0 842.0 L786.0 730.2 L786.8 637.5 L788.0 636.5 L855.8 636.5 L857.0 637.5 L857.0 766.5 L857.2 767.0 L858.0 767.0 L869.5 749.8 L881.0 731.2 L903.8 691.0 L908.8 668.0 L911.8 646.8 L913.2 631.0 L914.0 606.5 L912.8 578.8 L910.8 561.2 L906.8 537.8 L900.8 513.8 L895.8 498.0 L887.8 477.2 L876.8 455.0 L865.8 436.5 L850.5 415.2 L838.8 401.5 L820.2 383.0 L805.2 370.0 L787.0 356.2 L767.8 344.0 L749.5 334.2 L732.8 327.0Z M787.8 412.2 L788.2 412.2 L795.0 419.5 L803.0 429.5 L814.8 446.2 L822.8 460.0 L828.0 470.5 L834.0 484.2 L844.0 513.5 L847.8 527.0 L851.0 541.5 L855.0 564.8 L857.2 585.8 L857.0 587.0 L856.0 587.8 L792.8 588.0 L788.0 587.8 L786.8 586.5 L787.0 413.2Z M526.0 326.5 L509.5 333.0 L496.5 339.0 L480.5 347.2 L466.5 355.5 L444.8 370.8 L433.8 379.8 L424.0 388.5 L412.5 400.0 L404.0 409.5 L396.5 418.5 L386.0 432.5 L374.2 450.5 L368.0 461.5 L360.0 478.0 L357.0 485.8 L357.8 486.8 L406.8 486.5 L408.2 484.2 L413.0 473.8 L419.5 462.0 L425.8 452.2 L427.0 451.8 L427.5 452.5 L426.8 487.5 L426.2 588.2 L426.2 797.0 L426.8 809.8 L427.2 810.8 L448.5 830.0 L463.2 841.8 L476.8 851.2 L478.0 850.8 L478.2 531.2 L479.2 407.0 L481.2 404.8 L496.0 395.5 L526.5 379.8 L527.0 378.8 L527.0 327.5Z M618.5 309.8 L600.2 310.8 L582.5 312.8 L558.8 317.2 L553.8 318.5 L552.8 319.5 L552.2 426.8 L552.2 883.0 L552.8 884.0 L564.5 887.8 L572.8 889.8 L589.5 892.8 L607.0 894.5 L628.5 895.0 L649.2 893.8 L664.0 891.8 L684.2 887.8 L701.8 882.5 L702.5 881.5 L702.5 836.0 L702.0 835.2 L701.0 835.2 L687.8 840.0 L672.2 844.0 L661.8 846.0 L646.2 848.0 L637.8 848.5 L622.8 848.5 L607.5 847.0 L605.8 845.5 L605.5 639.0 L606.5 637.8 L609.2 637.5 L686.5 637.2 L687.0 634.0 L687.0 588.8 L686.0 587.8 L613.0 588.0 L606.2 587.8 L605.0 586.5 L605.0 362.8 L606.8 361.2 L623.5 360.0 L638.2 360.0 L651.5 360.8 L664.2 362.2 L678.5 364.8 L693.0 368.5 L700.5 371.0 L702.0 371.0 L702.5 370.2 L702.5 320.0 L701.0 318.8 L688.2 316.0 L661.2 311.8 L634.0 309.8Z"/> </svg></div>
+<script>(function(){var c=document.getElementById('carga'),t0=Date.now(),hecho=0;try{if(sessionStorage.getItem('tea-carga')){c.remove();return}sessionStorage.setItem('tea-carga','1')}catch(e){}
+function fin(){if(hecho++)return;setTimeout(function(){c.classList.add('fuera');setTimeout(function(){c.remove()},800)},Math.max(0,1700-(Date.now()-t0)))}
+if(document.readyState==='complete')fin();else addEventListener('load',fin);setTimeout(fin,5000)})();</script>
 <header class="top"><div class="wrap barra">
   <a class="marca" href="#inicio" aria-label="archivo.tea, inicio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="191.4 166.0 868.9 868.9" role="img" aria-label="T.E.A. logotipo, letras negras"> <title>T.E.A. logotipo, letras negras</title> <circle cx="625.9" cy="600.4" r="413.9" fill="none" stroke="#68A6D5" stroke-width="41.1"/> <circle cx="625.9" cy="600.4" r="338.8" fill="none" stroke="#68A6D5" stroke-width="39.5"/> <path fill="#1E1D1A" fill-rule="evenodd" d="M731.8 327.0 L731.2 327.8 L731.2 872.0 L731.8 872.8 L732.8 872.8 L752.8 863.0 L768.0 854.5 L784.8 844.0 L786.0 842.0 L786.0 730.2 L786.8 637.5 L788.0 636.5 L855.8 636.5 L857.0 637.5 L857.0 766.5 L857.2 767.0 L858.0 767.0 L869.5 749.8 L881.0 731.2 L903.8 691.0 L908.8 668.0 L911.8 646.8 L913.2 631.0 L914.0 606.5 L912.8 578.8 L910.8 561.2 L906.8 537.8 L900.8 513.8 L895.8 498.0 L887.8 477.2 L876.8 455.0 L865.8 436.5 L850.5 415.2 L838.8 401.5 L820.2 383.0 L805.2 370.0 L787.0 356.2 L767.8 344.0 L749.5 334.2 L732.8 327.0Z M787.8 412.2 L788.2 412.2 L795.0 419.5 L803.0 429.5 L814.8 446.2 L822.8 460.0 L828.0 470.5 L834.0 484.2 L844.0 513.5 L847.8 527.0 L851.0 541.5 L855.0 564.8 L857.2 585.8 L857.0 587.0 L856.0 587.8 L792.8 588.0 L788.0 587.8 L786.8 586.5 L787.0 413.2Z M526.0 326.5 L509.5 333.0 L496.5 339.0 L480.5 347.2 L466.5 355.5 L444.8 370.8 L433.8 379.8 L424.0 388.5 L412.5 400.0 L404.0 409.5 L396.5 418.5 L386.0 432.5 L374.2 450.5 L368.0 461.5 L360.0 478.0 L357.0 485.8 L357.8 486.8 L406.8 486.5 L408.2 484.2 L413.0 473.8 L419.5 462.0 L425.8 452.2 L427.0 451.8 L427.5 452.5 L426.8 487.5 L426.2 588.2 L426.2 797.0 L426.8 809.8 L427.2 810.8 L448.5 830.0 L463.2 841.8 L476.8 851.2 L478.0 850.8 L478.2 531.2 L479.2 407.0 L481.2 404.8 L496.0 395.5 L526.5 379.8 L527.0 378.8 L527.0 327.5Z M618.5 309.8 L600.2 310.8 L582.5 312.8 L558.8 317.2 L553.8 318.5 L552.8 319.5 L552.2 426.8 L552.2 883.0 L552.8 884.0 L564.5 887.8 L572.8 889.8 L589.5 892.8 L607.0 894.5 L628.5 895.0 L649.2 893.8 L664.0 891.8 L684.2 887.8 L701.8 882.5 L702.5 881.5 L702.5 836.0 L702.0 835.2 L701.0 835.2 L687.8 840.0 L672.2 844.0 L661.8 846.0 L646.2 848.0 L637.8 848.5 L622.8 848.5 L607.5 847.0 L605.8 845.5 L605.5 639.0 L606.5 637.8 L609.2 637.5 L686.5 637.2 L687.0 634.0 L687.0 588.8 L686.0 587.8 L613.0 588.0 L606.2 587.8 L605.0 586.5 L605.0 362.8 L606.8 361.2 L623.5 360.0 L638.2 360.0 L651.5 360.8 L664.2 362.2 L678.5 364.8 L693.0 368.5 L700.5 371.0 L702.0 371.0 L702.5 370.2 L702.5 320.0 L701.0 318.8 L688.2 316.0 L661.2 311.8 L634.0 309.8Z"/> </svg> archivo.tea</a>
   <nav class="menu" aria-label="Secciones">
@@ -459,15 +475,6 @@ __ESTADO__
   <section class="h-sec" id="ultimo" aria-labelledby="t-ult">
     <header><span class="num">02</span><h2 id="t-ult">Último publicado</h2></header>
     __ULTIMO__
-  </section>
-
-  <section class="h-sec" id="diario" aria-labelledby="t-dia">
-    <header><span class="num">03</span><h2 id="t-dia">Diario de desarrollo</h2></header>
-    <div class="cuerpo">
-      <p>El archivo se construye a la vista. Esto es lo que fue pasando.</p>
-      <p><a href="#blog">Ver toda la actividad en el blog →</a></p>
-      <ol class="diario" reversed>__DIARIO__</ol>
-    </div>
   </section>
 
 </main>
@@ -630,10 +637,11 @@ document.addEventListener('keydown',e=>{const r=e.target.closest&&e.target.close
 $('#q').addEventListener('input',e=>{q=e.target.value;render();});
 filtros();render();
 function home(){const P=c=>PIEZAS.find(p=>p.c===c&&(p.cover||p.img));const azar=a=>a[Math.floor(Math.random()*a.length)];
- const HERO=['03.14','03.07','03.57','02.02','04.01','05.47','05.26','05.29'].map(P).filter(Boolean);
+ const HERO=['03.14','02.36','03.26'].map(P).filter(Boolean);
  const h=azar(HERO),el=$('#hm-pieza');if(h&&el){el.href=urlFicha(h.c);el.innerHTML=`<span class="hm-im"><img src="${h.cover||h.img}" alt="${h.t}, vista frontal"></span><span class="hm-pie"><b>${h.c} · ${h.t.split(' · ')[0]}</b><span>${h.ig&&/IA/.test(h.ig)?'Reconstrucción IA · ':''}Pieza al azar</span></span>`;}
  const usados=new Set([h&&h.c]);const tomar=(lista,n)=>{const l=lista.map(P).filter(p=>p&&!usados.has(p.c)).sort(()=>Math.random()-.5).slice(0,n);l.forEach(p=>usados.add(p.c));return l};
- const fila=[...tomar(['02.52','02.54','02.40','02.42','02.38','02.47','02.53','02.55'],2),...tomar(['03.24','03.29','03.43','03.08'],1),...tomar(['04.02','04.13','04.12'],1),...tomar(['05.43','05.24','05.47','05.29','05.26'],1)];
+ const DARSENA=['02.18','03.57','04.12','03.79','02.33'];/* para rotar todo el archivo: PIEZAS.filter(p=>p.tipo==='Ficha'&&(p.cv||p.img)).map(p=>p.c) */
+ const fila=DARSENA.map(P).filter(Boolean);
  const v=$('#hm-veh');if(v)v.innerHTML=fila.map((p,i)=>`<a href="${urlFicha(p.c)}"><p class="dn">Dársena ${i+1}</p><span class="im"><img src="${p.cv||p.cover||p.img}" alt="${p.t}" loading="lazy"></span><span class="cap"><b>${p.c} · ${p.t.split(' · ')[0]}</b>${p.t.includes(' · ')?p.t.split(' · ').slice(1).join(' · '):(p.a||'')}</span></a>`).join('');}
 home();series();addEventListener('hashchange',ruta);addEventListener('popstate',ruta);ruta();$('#b-piezas').textContent=PIEZAS.length;
 </script>

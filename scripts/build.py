@@ -648,7 +648,7 @@ def fecha_git(ruta):
 
 # ---------- armado ----------
 plantilla = open(os.path.join(R, 'plantilla', 'index.html'), encoding='utf-8').read()
-for k in ('__HEAD__', '__BLOG__', '__DIARIO__', '__ULTIMO__', '__FICHA__', '__ESTADO__'):
+for k in ('__HEAD__', '__BLOG__', '__ULTIMO__', '__FICHA__', '__ESTADO__'):
     assert k in plantilla, k
 base = plantilla.replace('__BLOG__', blog(), 1).replace('__DIARIO__', diario(), 1).replace('__ULTIMO__', ultimo(), 1).replace('__ESTADO__', estado(), 1)
 
