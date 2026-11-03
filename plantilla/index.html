@@ -346,6 +346,62 @@ table.datos tr.pend td{color:var(--gris)}
 .fe dd small{display:block;font:11px var(--f-mono);color:var(--gris);margin-top:2px}
 .fe ol{margin:0;padding-left:18px;display:grid;gap:6px}.fe h2{margin:10px 0 0;font:500 11px var(--f-text);letter-spacing:.1em;text-transform:uppercase;color:var(--gris)}
 @media (max-width:640px){.fe dl div{grid-template-columns:1fr}}
+/* Home institucional */
+.hm-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,460px);gap:clamp(28px,6vw,80px);align-items:end;padding-block:clamp(40px,6vw,88px) clamp(32px,5vw,64px)}
+.hm-hero h1{font:800 clamp(38px,5.6vw,76px)/1 var(--f-display);letter-spacing:-.035em;margin:18px 0 24px;text-wrap:balance}
+.hm-lead{font-size:clamp(17px,1.5vw,20px);line-height:1.55;max-width:610px;margin:0}
+.hm-btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.hm-pieza{display:block;border:1px solid var(--linea);text-decoration:none;color:inherit;background:#fff}
+.hm-pieza .hm-im{display:grid;place-items:center;aspect-ratio:1/1;padding:8%}
+.hm-pieza img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block}
+.hm-pie{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--linea);padding:12px 16px;font:400 12px var(--f-mono);color:var(--gris)}
+.hm-pie b{font-weight:400;color:var(--tinta)}
+.hm-estado{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:clamp(24px,6vw,80px);border-top:3px solid var(--tinta);padding-top:28px}
+.hm-estado h2{font:800 30px/1.1 var(--f-display);letter-spacing:-.02em;margin:0}
+.hm-estado .fecha{font:400 12px var(--f-mono);color:var(--gris);margin:8px 0 0}
+.hm-estado .nota{font-size:14px;color:var(--gris);margin:16px 0 0}
+.hm-tabla{overflow-x:auto}
+.hm-tabla table{width:100%;border-collapse:collapse;font:400 14px var(--f-mono);min-width:520px}
+.hm-tabla th{font:400 11px var(--f-mono);color:var(--gris);text-transform:uppercase;letter-spacing:.06em;text-align:left;padding:0 0 10px;border-bottom:1px solid var(--tinta)}
+.hm-tabla td{padding:13px 8px 13px 0;border-bottom:1px solid var(--linea)}
+.hm-tabla td:first-child{font:700 18px var(--f-display)}
+.hm-tabla td .c{font:400 12px var(--f-mono);color:var(--gris);display:inline-block;width:40px}
+.hm-tabla .bar{display:block;height:4px;background:var(--linea);position:relative;width:min(180px,100%)}
+.hm-tabla .bar::after{content:"";position:absolute;inset:0 auto 0 0;width:var(--p);background:var(--tinta)}
+.hm-tabla tr.tot td{border-bottom:0;padding-top:16px}
+.hm-tabla tr.tot td:last-child{color:var(--gris);font-size:12px}
+.hm-darsena{padding-top:clamp(56px,7vw,96px)}
+.hm-dh{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:24px}
+.hm-dh h2{font:800 clamp(28px,3vw,36px)/1 var(--f-display);letter-spacing:-.025em;margin:0}
+.hm-dh a{font:400 13px var(--f-mono);color:var(--tinta)}
+.hm-veh{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(10px,1.5vw,20px)}
+.hm-veh a{display:flex;flex-direction:column;border:1px solid var(--linea);text-decoration:none;color:inherit;background:#fff}
+.hm-veh .dn{font:400 11px var(--f-mono);color:var(--gris);padding:10px 14px;border-bottom:1px solid var(--linea);text-transform:uppercase;letter-spacing:.06em;margin:0}
+.hm-veh .im{height:clamp(150px,17vw,250px);display:grid;place-items:center;padding:18px}
+.hm-veh img{max-height:100%;max-width:100%;width:auto;height:auto;object-fit:contain}
+.hm-veh .cap{border-top:1px solid var(--linea);padding:12px 14px;font:400 12px/1.45 var(--f-mono);color:var(--gris);margin-top:auto}
+.hm-veh .cap b{display:block;color:var(--tinta);font-weight:400}
+.hm-puertas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:clamp(56px,7vw,96px);border-top:1px solid var(--tinta)}
+.hm-puertas>div{padding:28px 32px 36px 0;margin-right:32px;border-right:1px solid var(--linea)}
+.hm-puertas>div:last-child{border:0;margin:0}
+.hm-n{font:400 12px var(--f-mono);color:var(--gris);margin:0}
+.hm-puertas h3{font:700 24px var(--f-display);margin:8px 0}
+.hm-puertas p{margin:0;color:var(--gris);font-size:15px}
+.hm-puertas a{display:inline-block;margin-top:18px;font:500 13px var(--f-text);letter-spacing:.05em;text-transform:uppercase;color:var(--tinta)}
+.pie-inst{margin-top:clamp(64px,8vw,110px);background:#fff;border:0;padding:0;display:block;font:400 16px/1.5 var(--f-text);color:var(--tinta)}
+.pie-inst .wrap{padding-block:clamp(36px,5vw,64px) 36px}
+.pi-main{display:grid;grid-template-columns:96px minmax(0,1fr) minmax(0,280px);gap:clamp(20px,4vw,48px);align-items:start}
+.pi-main img{width:96px;height:auto}
+.pi-f{font:800 clamp(26px,3vw,40px)/1.2 var(--f-display);letter-spacing:-.015em;margin:0;color:var(--tinta)}
+.pi-f em{font-style:normal;color:#3b8bd0}
+.pi-s{margin:16px 0 0;color:var(--gris)}
+.pi-s a{color:var(--tinta);font-weight:500}
+.pi-main ul{list-style:none;margin:0;padding:0;font:400 13px/2 var(--f-mono);color:var(--gris)}
+.pi-main ul a{color:var(--tinta)}
+.pi-base{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;border-top:1px solid var(--linea);margin-top:44px;padding-top:20px;font:400 12px var(--f-mono);color:var(--gris)}
+@media (max-width:980px){.hm-veh{grid-template-columns:repeat(3,minmax(0,1fr))}.hm-veh a:nth-child(n+4){display:none}}
+@media (max-width:860px){.hm-hero,.hm-estado{grid-template-columns:1fr}.hm-pieza{max-width:460px}.hm-puertas{grid-template-columns:1fr}.hm-puertas>div{border-right:0;border-bottom:1px solid var(--linea);margin-right:0;padding-right:0}.pi-main{grid-template-columns:64px minmax(0,1fr)}.pi-main img{width:64px}.pi-main ul{grid-column:1/-1}}
+@media (max-width:560px){.hm-veh{grid-template-columns:repeat(2,minmax(0,1fr))}.hm-veh a:nth-child(n+3){display:none}.hm-tabla table{min-width:0;font-size:13px}.hm-tabla th{font-size:9px;letter-spacing:.03em}.hm-tabla td:first-child{font-size:15px}.hm-tabla td .c{width:28px}.hm-tabla th:last-child,.hm-tabla td:last-child{display:none}}
 </style>
 
 <header class="top"><div class="wrap barra">
@@ -359,24 +415,29 @@ table.datos tr.pend td{color:var(--gris)}
 </div><div class="wrap franja" aria-hidden="true"><i></i><i></i></div></header>
 
 <main class="wrap vista" id="v-inicio">
-  <section class="h-apertura" aria-labelledby="h-tit">
-    <p class="ante">archivo.tea · Archivo visual e histórico</p>
-    <h1 id="h-tit">Los vehículos que nos llevaron todos los días</h1>
-    <div class="frentes" aria-label="Algunos frentes del archivo"><figure><img src="img/c0201.jpg" alt="LO 1114 · 1970, vista frontal"><figcaption>LO 1114 · 1970</figcaption></figure><figure><img src="img/c0307.jpg" alt="Gran Capitán, vista frontal"><figcaption>Gran Capitán</figcaption></figure><figure><img src="img/c0402.jpg" alt="Scania L 111 «Yacaré», vista frontal"><figcaption>Scania L 111 «Yacaré»</figcaption></figure><figure><img src="img/c0301.jpg" alt="Subte · Línea H, vista frontal"><figcaption>Subte · Línea H</figcaption></figure><figure><img src="img/c0202.jpg" alt="El Detalle OA 101 · 1987, vista frontal"><figcaption>El Detalle OA 101 · 1987</figcaption></figure></div>
+  <section class="hm-hero" aria-labelledby="h-tit">
+    <div class="hm-txt">
+      <p class="ante">Fondo documental · 1913–2026</p>
+      <h1 id="h-tit">Archivo visual y documental del transporte argentino</h1>
+      <p class="hm-lead">archivo.tea documenta el transporte argentino como parte de su historia social. Proyecto colectivo de investigación y conservación, de acceso público y sin fines comerciales.</p>
+      <div class="hm-btns"><a class="btn" href="#archivo" style="text-decoration:none">Explorar el archivo</a><a class="btn sec" href="#metodo" style="text-decoration:none">Cómo trabajamos</a></div>
+    </div>
+    <a class="hm-pieza" id="hm-pieza" href="/archivo/03-07/"><span class="hm-im"><img src="img/c0307.jpg" alt="Tren Gran Capitán, vista frontal"></span><span class="hm-pie"><b>03.07 · Tren Gran Capitán</b><span>Pieza al azar</span></span></a>
+  </section>
+__ESTADO__
+  <section class="hm-darsena" aria-labelledby="t-dar">
+    <div class="hm-dh"><h2 id="t-dar">Dársena</h2><a href="#archivo">Ver todas las piezas →</a></div>
+    <div class="hm-veh" id="hm-veh"></div>
   </section>
 
-  <section class="h-sec" id="que-es" aria-labelledby="t-que">
-    <header><span class="num">01</span><h2 id="t-que">Qué es</h2></header>
-    <div class="cuerpo">
-      <p class="lead">archivo.tea es un archivo visual e histórico del transporte en Argentina: colectivos, trenes, subtes y camiones que forman parte de la vida diaria.</p>
-      <p>Con el tiempo se suman los autos y utilitarios particulares y los vehículos del Estado. Entran los que marcaron la calle: los más fabricados o vendidos en el país, los que trabajaron todos los días y los que quedaron en la memoria colectiva.</p>
-      <p>Cada vehículo tiene su ficha: cuándo se fabricó, dónde, cuántos hubo, qué lo hacía distinto y en qué historias aparece. Lo dibujamos de frente y de costado, siempre a la misma escala, para poder compararlos entre sí.</p>
-      <p>Es un proyecto abierto y sin fines comerciales. Crece con lo que se investiga y con lo que la comunidad aporta: fotos, boletos, recuerdos y correcciones.</p>
-    </div>
+  <section class="hm-puertas" aria-label="Por dónde empezar">
+    <div><p class="hm-n">01</p><h3>Recorrer</h3><p>Buscá por modelo, línea, década o serie. Cada ficha muestra qué está verificado y qué falta.</p><a href="#archivo">Ir al archivo</a></div>
+    <div><p class="hm-n">02</p><h3>Aportar</h3><p>Fotos, boletos, folletos, datos o recuerdos. Todo material se acredita y se publica con tu permiso.</p><a href="mailto:aportes@archivotea.ar">aportes@archivotea.ar</a></div>
+    <div><p class="hm-n">03</p><h3>Instituciones y prensa</h3><p>Museos, ferroclubes, empresas y medios: método de trabajo, uso del material y contacto.</p><a href="documentos/archivo-tea-presentacion.pdf" target="_blank" rel="noopener">Presentación del proyecto</a></div>
   </section>
 
   <section class="h-sec" id="metodo" aria-labelledby="t-met">
-    <header><span class="num">02</span><h2 id="t-met">Cómo trabajamos</h2></header>
+    <header><span class="num">01</span><h2 id="t-met">Cómo trabajamos</h2></header>
     <div class="cuerpo">
       <p class="lead">Cada dato lleva su fuente. Lo que no está confirmado, lo decimos.</p>
       <div class="tres">
@@ -396,12 +457,12 @@ table.datos tr.pend td{color:var(--gris)}
     </div>
   </section>
   <section class="h-sec" id="ultimo" aria-labelledby="t-ult">
-    <header><span class="num">03</span><h2 id="t-ult">Último publicado</h2></header>
+    <header><span class="num">02</span><h2 id="t-ult">Último publicado</h2></header>
     __ULTIMO__
   </section>
 
   <section class="h-sec" id="diario" aria-labelledby="t-dia">
-    <header><span class="num">04</span><h2 id="t-dia">Diario de desarrollo</h2></header>
+    <header><span class="num">03</span><h2 id="t-dia">Diario de desarrollo</h2></header>
     <div class="cuerpo">
       <p>El archivo se construye a la vista. Esto es lo que fue pasando.</p>
       <p><a href="#blog">Ver toda la actividad en el blog →</a></p>
@@ -409,14 +470,6 @@ table.datos tr.pend td{color:var(--gris)}
     </div>
   </section>
 
-  <section class="h-sec" id="participar" aria-labelledby="t-par">
-    <header><span class="num">05</span><h2 id="t-par">Participar</h2></header>
-    <div class="cuerpo">
-      <p class="lead">¿Tenés una foto, un boleto, un folleto o una historia arriba de un colectivo, un tren o un camión?</p>
-      <p>Mandalo por mensaje directo en Instagram a <a href="https://www.instagram.com/archivo.tea/" target="_blank" rel="noopener">@archivo.tea</a>. Todo lo que se publique lleva el nombre de quien lo aportó. Si encontrás un error en una ficha, también: lo corregimos y lo contamos.</p>
-      <a class="btn sec" href="#archivo">Explorar el archivo</a>
-    </div>
-  </section>
 </main>
 __BLOG__<main class="wrap vista" id="v-archivo" hidden>
 __FICHA__  <div class="migas"><span>archivo.tea</span><span>Archivo</span><span id="migas-n">— piezas</span></div>
@@ -436,7 +489,12 @@ __FICHA__  <div class="migas"><span>archivo.tea</span><span>Archivo</span><span 
   <section class="indice" id="indice" hidden aria-live="polite"></section>
 </main>
 
-<footer class="wrap"><span>archivo.tea · Transporte en Argentina</span><span>Versión beta · Octubre 2026 · Sin fines comerciales</span></footer>
+<footer class="pie-inst"><div class="wrap franja" aria-hidden="true"><i></i><i></i></div><div class="wrap">
+  <div class="pi-main"><img src="img/logo-tea.png" alt="archivo.tea" width="96" height="96">
+    <div><p class="pi-f">La memoria del transporte es <em>colectiva</em>. Este archivo también.</p><p class="pi-s">¿Tenés fotos, boletos, folletos o datos? Escribinos a <a href="mailto:aportes@archivotea.ar">aportes@archivotea.ar</a></p></div>
+    <ul><li><a href="#archivo">Archivo</a> · <a href="libreas/index.html">Tu bondi</a> · <a href="#metodo">Método</a></li><li><a href="documentos/archivo-tea-presentacion.pdf" target="_blank" rel="noopener">Instituciones y prensa</a></li><li><a href="https://www.instagram.com/archivo.tea/" target="_blank" rel="noopener">Instagram · @archivo.tea</a></li></ul></div>
+  <div class="pi-base"><span>archivo.tea · archivotea.ar</span><span>DATO · DATO¹ · VERIFICAR · ESTIMACIÓN · SIN DATO</span><span>Proyecto colectivo sin fines comerciales</span></div>
+</div></footer>
 
 <div class="panel" id="panel" hidden>
   <article class="hoja" role="dialog" aria-modal="true" aria-labelledby="p-tit" id="hoja"></article>
@@ -571,6 +629,12 @@ document.addEventListener('click',e=>{const cmp=e.target.closest('.hist .compart
 document.addEventListener('keydown',e=>{const r=e.target.closest&&e.target.closest('.indice tr[data-c]');if(r&&e.key==='Enter')abrir(r.dataset.c);if(e.key==='Escape'&&!$('#panel').hidden)cerrar();if(e.key==='/'&&!$('#v-archivo').hidden&&document.activeElement!==$('#q')){e.preventDefault();$('#q').focus();}});
 $('#q').addEventListener('input',e=>{q=e.target.value;render();});
 filtros();render();
-series();addEventListener('hashchange',ruta);addEventListener('popstate',ruta);ruta();$('#b-piezas').textContent=PIEZAS.length;
+function home(){const P=c=>PIEZAS.find(p=>p.c===c&&(p.cover||p.img));const azar=a=>a[Math.floor(Math.random()*a.length)];
+ const HERO=['03.14','03.07','03.57','02.02','04.01','05.47','05.26','05.29'].map(P).filter(Boolean);
+ const h=azar(HERO),el=$('#hm-pieza');if(h&&el){el.href=urlFicha(h.c);el.innerHTML=`<span class="hm-im"><img src="${h.cover||h.img}" alt="${h.t}, vista frontal"></span><span class="hm-pie"><b>${h.c} · ${h.t.split(' · ')[0]}</b><span>${h.ig&&/IA/.test(h.ig)?'Reconstrucción IA · ':''}Pieza al azar</span></span>`;}
+ const usados=new Set([h&&h.c]);const tomar=(lista,n)=>{const l=lista.map(P).filter(p=>p&&!usados.has(p.c)).sort(()=>Math.random()-.5).slice(0,n);l.forEach(p=>usados.add(p.c));return l};
+ const fila=[...tomar(['02.52','02.54','02.40','02.42','02.38','02.47','02.53','02.55'],2),...tomar(['03.24','03.29','03.43','03.08'],1),...tomar(['04.02','04.13','04.12'],1),...tomar(['05.43','05.24','05.47','05.29','05.26'],1)];
+ const v=$('#hm-veh');if(v)v.innerHTML=fila.map((p,i)=>`<a href="${urlFicha(p.c)}"><p class="dn">Dársena ${i+1}</p><span class="im"><img src="${p.cv||p.cover||p.img}" alt="${p.t}" loading="lazy"></span><span class="cap"><b>${p.c} · ${p.t.split(' · ')[0]}</b>${p.t.includes(' · ')?p.t.split(' · ').slice(1).join(' · '):(p.a||'')}</span></a>`).join('');}
+home();series();addEventListener('hashchange',ruta);addEventListener('popstate',ruta);ruta();$('#b-piezas').textContent=PIEZAS.length;
 </script>
 </html>

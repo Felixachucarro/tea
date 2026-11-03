@@ -544,6 +544,27 @@ def ultimo():
     </div>'''
 
 
+def estado():
+    fichas = [p for p in PIEZAS if p.get('tipo') == 'Ficha']
+    filas, tc, tk = '', 0, 0
+    for s, nom in (('03', 'Trenes y subtes'), ('02', 'Colectivos'), ('05', 'Particulares'), ('04', 'Camiones'), ('06', 'Estatales')):
+        ps = [p for p in fichas if p['s'] == s]
+        if not ps: continue
+        k = sum(1 for p in ps if p['est'] == 'Publicado'); tc += len(ps); tk += k
+        filas += (f'<tr><td><span class="c">{s}</span>{nom}</td><td>{len(ps)}</td><td>{k}</td><td>{len(ps) - k}</td>'
+                  f'<td><i class="bar" style="--p:{round(100 * k / len(ps))}%"></i></td></tr>')
+    datos = sum(1 for p in fichas for r in p['d'] if r[2] != 'SIN DATO' and (r[3] or r[4]))
+    meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+    hoy = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3)))
+    cifra = f'+{datos // 100 * 100:,}'.replace(',', '.')
+    return f'''  <section class="hm-estado" aria-labelledby="t-est">
+    <div><h2 id="t-est">Estado del archivo</h2><p class="fecha">Actualizado al {hoy.day} de {meses[hoy.month - 1]} de {hoy.year}</p>
+      <p class="nota">Una ficha está completa cuando tiene verificados todos sus datos clave. El resto sigue en investigación y se puede aportar.</p></div>
+    <div class="hm-tabla"><table><thead><tr><th>Serie</th><th>Fichas</th><th>Completas</th><th>En investigación</th><th></th></tr></thead><tbody>
+{filas}<tr class="tot"><td>Total</td><td>{tc}</td><td>{tk}</td><td>{tc - tk}</td><td>{cifra} datos con fuente</td></tr></tbody></table></div>
+  </section>'''
+
+
 # ---------- cabeceras, datos estructurados y páginas de ficha ----------
 def slug(p): return p['c'].replace('.', '-')
 def url_ficha(p): return f'{SITIO}/archivo/{slug(p)}/'
@@ -627,9 +648,9 @@ def fecha_git(ruta):
 
 # ---------- armado ----------
 plantilla = open(os.path.join(R, 'plantilla', 'index.html'), encoding='utf-8').read()
-for k in ('__HEAD__', '__BLOG__', '__DIARIO__', '__ULTIMO__', '__FICHA__'):
+for k in ('__HEAD__', '__BLOG__', '__DIARIO__', '__ULTIMO__', '__FICHA__', '__ESTADO__'):
     assert k in plantilla, k
-base = plantilla.replace('__BLOG__', blog(), 1).replace('__DIARIO__', diario(), 1).replace('__ULTIMO__', ultimo(), 1)
+base = plantilla.replace('__BLOG__', blog(), 1).replace('__DIARIO__', diario(), 1).replace('__ULTIMO__', ultimo(), 1).replace('__ESTADO__', estado(), 1)
 
 
 def frente_parejo(m):
@@ -684,6 +705,8 @@ def ignorar(d, nombres):
     return [n for n in nombres if f'{rel}/{n}' in USADAS and f'{rel}/{n}' not in fijas]
 shutil.copytree(os.path.join(R, 'img'), os.path.join(OUT, 'img'), ignore=ignorar, dirs_exist_ok=True)
 shutil.copytree(os.path.join(R, 'libreas'), os.path.join(OUT, 'libreas'), dirs_exist_ok=True)
+if os.path.isdir(os.path.join(R, 'documentos')):
+    shutil.copytree(os.path.join(R, 'documentos'), os.path.join(OUT, 'documentos'), dirs_exist_ok=True)
 
 print(f'listo: {len(PIEZAS)} piezas ({len(PIEZAS)} páginas de ficha), {len(NOTAS)} notas, {len(MANUAL)} entradas de actividad a mano + {len(AUTO)} automáticas, '
       f'{len(USADAS)} imágenes optimizadas → _sitio/')
