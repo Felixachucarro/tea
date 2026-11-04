@@ -37,3 +37,9 @@ datos:
   valor: 104 · Corrientes
   estado: VERIFICAR
   fuente: Documento de trabajo archivo.tea (sin fuente citada)
+galeria:
+- imagen: img/0257-01.jpg
+  leyenda: '01 · Frente · Foto: pendiente'
+- imagen: img/plano-tronador1-2p.jpg
+  leyenda: 02 · Plano lateral · Tronador I, 2 puertas · archivo.tea
+  ancha: true

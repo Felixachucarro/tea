@@ -1,41 +1,157 @@
-codigo: "02.18"
-serie: "02"
+codigo: '02.18'
+serie: '02'
 tipo: Ficha
 titulo: El Detalle OA 105 · Línea 103
 nombre_corto: El Detalle OA 105 · Línea 103
-periodo: "1994"
+periodo: '1994'
 estado: en investigación
 imagen: img/0218-01.jpg
 portada: img/0218-01.jpg
-pie: "Frente · Foto: pendiente"
-nota_galeria: "Reconstrucción IA imagen Transporte Argentino Retro "
+pie: 'Frente · Foto: pendiente'
+nota_galeria: 'Reconstrucción IA imagen Transporte Argentino Retro '
 busqueda: el detalle oa 101   linea 103 el detalle oa 101 deutz bf6l 913c interno 27 103
 datos:
-  - campo: Carrocería
-    valor: El Detalle OA 101
-    estado: DATO1
-    fuente: Relevamiento fotográfico archivo.tea
-  - campo: Motor
-    valor: Cummins 6 CTTA 8,3
-    estado: DATO1
-  - campo: Potencia
-    valor: "(HP): 217 @ 2700"
-    estado: DATO1
-    url: Camion Argentino
-  - campo: Medidas
-    valor: |-
-      Largo (mm): 11961
-      Ancho (mm): 2500
-      Alto (mm): 2825
-      Distancia entre ejes (mm): 5050/6050
-      Despeje al suelo (mm): 380
-    estado: DATO1
-    fuente: camion argentino
-  - campo: Ejemplar documentado
-    valor: Interno 27
-    estado: DATO1
-    fuente: Transporte Argentino Retro (foto)
-  - campo: Línea
-    valor: "103"
-    estado: DATO1
-    fuente: Transporte Argentino Retro (foto)
+- campo: Carrocería
+  valor: El Detalle OA 105 · colectivo sobre bastidor
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Motor
+  valor: Cummins 6 CTTA 8,3 · diésel 4 tiempos, turbocompresor, trasero
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Potencia
+  valor: 217 HP a 2.700 rpm
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Medidas
+  valor: 'Largo (mm): 11961
+
+    Ancho (mm): 2500
+
+    Alto (mm): 2825
+
+    Distancia entre ejes (mm): 5050/6050
+
+    Despeje al suelo (mm): 380'
+  estado: DATO1
+  fuente: camion argentino
+- campo: Ejemplar documentado
+  valor: Interno 27
+  estado: DATO1
+  fuente: Transporte Argentino Retro (foto)
+- campo: Línea
+  valor: '103'
+  estado: DATO1
+  fuente: Transporte Argentino Retro (foto)
+- campo: Largo
+  valor: 11.961 mm
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Lugar de fabricación
+  valor: Km 3,5 Ruta 197, Carupá, Tigre, Buenos Aires
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Producción
+  valor: 1994–2000
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Origen
+  valor: Argentina
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Puertas
+  valor: 2/3
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Cilindrada
+  valor: 8.300 cm³ · 6 cilindros en línea, verticales
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Diámetro x carrera
+  valor: 114 x 135 mm
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Par motor
+  valor: 800 Nm a 1.400 rpm
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Combustible
+  valor: Gasoil · inyección directa, bomba inyectora Bosch lineal mecánica
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Filtro de aire
+  valor: Seco, elementos filtrantes de papel micrométrico y cartucho de seguridad
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Refrigeración
+  valor: Circulación de agua con radiador aspirado; control de temperatura por válvula termostática
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Consumo
+  valor: 0,33 l/km interurbano (grupo 5) · 0,60 l/km urbano (grupo 8)
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Tracción
+  valor: 2WD trasera
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Caja de velocidades
+  valor: Automática de mando electrónico con retardador hidráulico · 4 adelante + marcha atrás
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Relación final
+  valor: 5,55:1
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Frenos
+  valor: Disco delanteros / tambor traseros · a aire efecto directo, doble circuito
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Suspensión delantera
+  valor: Neumática, con 2 amortiguadores y barras reactoras
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Suspensión trasera
+  valor: Neumática, con 4 amortiguadores, barras reactoras y estabilizadora
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Dirección
+  valor: ZF 8062 asistida hidráulicamente
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Llantas y neumáticos
+  valor: Discos de 7,5 x 22,5″ · 275/80 R 22,5″
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Sistema eléctrico
+  valor: 24 V · baterías 2 x 12 V
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Capacidad de combustible
+  valor: 220 l
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Cárter de aceite
+  valor: 16,5 l
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Líquido refrigerante
+  valor: 28 l
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Ancho
+  valor: 2.500 mm
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Alto
+  valor: 2.825 mm
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Distancia entre ejes
+  valor: 5.050 / 6.050 mm
+  estado: DATO1
+  fuente: Camión Argentino
+- campo: Despeje al suelo
+  valor: 380 mm
+  estado: DATO1
+  fuente: Camión Argentino

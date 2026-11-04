@@ -1,0 +1,51 @@
+codigo: '03.81'
+serie: '03'
+tipo: Ficha
+titulo: General Electric C22-7i 2002 · Ferrosur Roca
+periodo: '1999'
+estado: en investigación
+imagen: img/0381-01.jpg
+portada: img/0381-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+busqueda: general electric c22-7i 2002 ferrosur roca general electric 1999, en campinas, brasil 4 unidades en el país, numeradas 2000 a 2003 ferrosur roca 2002 general electric c22-7i 1999, como unidades 0 km 2.200 hp 117 t
+datos:
+- campo: Fabricante
+  valor: General Electric
+  estado: DATO1
+  fuente: Transporte Argentino
+- campo: Fabricación
+  valor: 1999, en Campinas, Brasil
+  estado: DATO1
+  fuente: Transporte Argentino
+- campo: Líneas
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Flota
+  valor: 4 unidades en el país, numeradas 2000 a 2003
+  estado: DATO1
+  fuente: Transporte Argentino
+- campo: Operador
+  valor: Ferrosur Roca
+  estado: DATO1
+  fuente: Transporte Argentino
+- campo: Ejemplar
+  valor: '2002'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Modelo
+  valor: General Electric C22-7i
+  estado: DATO1
+  fuente: Transporte Argentino
+- campo: Incorporación
+  valor: 1999, como unidades 0 km
+  estado: DATO1
+  fuente: Transporte Argentino
+- campo: Potencia
+  valor: 2.200 HP
+  estado: DATO1
+  fuente: Transporte Argentino
+- campo: Peso
+  valor: 117 t
+  estado: DATO1
+  fuente: Transporte Argentino

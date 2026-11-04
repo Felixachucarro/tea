@@ -1,0 +1,43 @@
+codigo: '02.76'
+serie: '02'
+tipo: Ficha
+titulo: Mercedes-Benz LO 1114 · Unidad de auxilio · Línea 103
+periodo: ''
+estado: en investigación
+imagen: img/0276-01.jpg
+portada: img/0276-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de Ciudad de Bondis
+busqueda: mercedes-benz lo 1114 unidad de auxilio línea 103 mercedes-benz lo 1114 103 unidad de auxilio de la línea
+datos:
+- campo: Carrocería
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Chasis
+  valor: Mercedes-Benz LO 1114
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Línea
+  valor: '103'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Uso
+  valor: Unidad de auxilio de la línea
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

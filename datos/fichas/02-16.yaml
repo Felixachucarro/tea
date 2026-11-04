@@ -37,3 +37,9 @@ datos:
   valor: 10 · Wilde – Palermo
   estado: DATO1
   fuente: Relevamiento fotográfico archivo.tea
+galeria:
+- imagen: img/0216-01.jpg
+  leyenda: '01 · Frente · Foto: pendiente'
+- imagen: img/plano-tronador1-3p.jpg
+  leyenda: 02 · Plano lateral derecho · 3 puertas
+  ancha: true

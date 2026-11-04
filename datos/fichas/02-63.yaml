@@ -7,7 +7,7 @@ estado: en investigación
 imagen: img/0263-01.jpg
 portada: img/0263-01.jpg
 pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
-busqueda: la favorita gr linea 40 (bariloche) la favorita gr interno 11 40 san carlos de bariloche mi bus
+busqueda: la favorita gr linea 40 (bariloche) la favorita gr interno 7 40 san carlos de bariloche mi bus
 datos:
 - campo: Carrocería
   valor: La Favorita GR
@@ -30,9 +30,9 @@ datos:
   estado: SIN DATO
   fuente: ''
 - campo: Ejemplar documentado
-  valor: Interno 11
-  estado: VERIFICAR
-  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+  valor: Interno 7
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
 - campo: Línea
   valor: 40 · San Carlos de Bariloche
   estado: DATO1

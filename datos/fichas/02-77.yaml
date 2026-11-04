@@ -1,0 +1,43 @@
+codigo: '02.77'
+serie: '02'
+tipo: Ficha
+titulo: La Favorita · Mercedes-Benz OH 1621 · Línea 371
+periodo: ''
+estado: en investigación
+imagen: img/0277-01.jpg
+portada: img/0277-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de Transporte Argentino Retro (Facebook)
+busqueda: la favorita mercedes-benz oh 1621 línea 371 la favorita mercedes-benz oh 1621 interno 4 371 e.c.s.f.
+datos:
+- campo: Carrocería
+  valor: La Favorita
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: Mercedes-Benz OH 1621
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 4
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '371'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: E.C.S.F.
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

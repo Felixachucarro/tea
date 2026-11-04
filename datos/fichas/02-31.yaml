@@ -13,6 +13,9 @@ galeria:
 - imagen: img/0231-02.jpg
   leyenda: 02 · Laterales y frentes
   ancha: true
+- imagen: img/plano-tronador1-2p.jpg
+  leyenda: 03 · Plano lateral · Tronador I, 2 puertas · archivo.tea
+  ancha: true
 busqueda: metalpar tronador i   linea 720 metalpar tronador i mercedes-benz of 1418 720 motsa
 datos:
 - campo: Carrocería
