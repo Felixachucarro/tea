@@ -1,39 +1,26 @@
-codigo: '02.28'
-serie: '02'
+codigo: "02.28"
+serie: "02"
 tipo: Ficha
 titulo: Nuovobus Menghi · Línea 341
-periodo: ''
 estado: en investigación
 imagen: img/0228-01.jpg
 portada: img/0228-01.jpg
-pie: 'Frente · Foto: pendiente'
+pie: "Frente · Foto: pendiente"
 busqueda: nuovobus menghi   linea 341 nuovobus menghi agrale ma 15.0 interno 144 341
 datos:
-- campo: Carrocería
-  valor: Nuovobus Menghi
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
-- campo: Chasis
-  valor: Agrale MA 15.0
-  estado: VERIFICAR
-  fuente: Documento de trabajo archivo.tea (sin fuente citada)
-- campo: Motor
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Potencia
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Largo
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Ejemplar documentado
-  valor: Interno 144
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
-- campo: Línea
-  valor: '341'
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
+  - campo: Carrocería
+    valor: Nuovobus Menghi
+    estado: DATO1
+    fuente: Relevamiento fotográfico archivo.tea
+  - campo: Chasis
+    valor: Agrale MA 15.0
+    estado: VERIFICAR
+    fuente: Documento de trabajo archivo.tea (sin fuente citada)
+  - campo: Ejemplar documentado
+    valor: "Interno 106 "
+    estado: DATO1
+    fuente: Relevamiento fotográfico archivo.tea
+  - campo: Línea
+    valor: "341"
+    estado: DATO1
+    fuente: Relevamiento fotográfico archivo.tea
