@@ -1,0 +1,43 @@
+codigo: '02.68'
+serie: '02'
+tipo: Ficha
+titulo: Peveri Bala · Línea 343 (ramal 289)
+periodo: ''
+estado: en investigación
+imagen: img/0268-01.jpg
+portada: img/0268-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de Transporte Retro Argentino
+busqueda: peveri bala línea 343 (ramal 289) peveri bala mercedes-benz oh 1621 l interno 181 343 liniers – tigre, ramal 289 compañía noroeste s.a.
+datos:
+- campo: Carrocería
+  valor: Peveri Bala
+  estado: DATO1
+  fuente: Transporte Retro Argentino
+- campo: Chasis
+  valor: Mercedes-Benz OH 1621 L
+  estado: DATO1
+  fuente: Transporte Retro Argentino
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 181
+  estado: DATO1
+  fuente: Transporte Retro Argentino
+- campo: Línea
+  valor: 343 · Liniers – Tigre, ramal 289
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Compañía Noroeste S.A.
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

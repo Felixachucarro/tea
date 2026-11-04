@@ -1,0 +1,56 @@
+codigo: '02.70'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Iguazú II · Mercedes-Benz OH 1718 L · Línea 34
+periodo: ''
+estado: en investigación
+imagen: img/0270-01.jpg
+portada: img/0270-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+galeria:
+- imagen: img/0270-01.jpg
+  leyenda: '01 · Frente · Reconstrucción IA · foto de origen: pendiente'
+- imagen: img/0270-02.jpg
+  leyenda: 02 · Lateral derecho · Reconstrucción IA
+  ancha: true
+- imagen: img/0270-03.jpg
+  leyenda: '03 · Plano: lateral derecho'
+  ancha: true
+busqueda: metalpar iguazú ii mercedes-benz oh 1718 l línea 34 metalpar iguazú ii mercedes-benz oh 1718 l 11.800 mm 6.200 mm interno 20 34 liniers – palermo juan b. justo s.a.
+datos:
+- campo: Carrocería
+  valor: Metalpar Iguazú II
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OH 1718 L
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: 11.800 mm
+  estado: DATO1
+  fuente: Plano de carrocería · relevamiento archivo.tea
+- campo: Distancia entre ejes
+  valor: 6.200 mm
+  estado: DATO1
+  fuente: Plano de carrocería · relevamiento archivo.tea
+- campo: Ejemplar documentado
+  valor: Interno 20
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: 34 · Liniers – Palermo
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Juan B. Justo S.A.
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

@@ -1,0 +1,39 @@
+codigo: '02.69'
+serie: '02'
+tipo: Ficha
+titulo: Splendid · Mercedes-Benz OH 1320 · Línea 60
+periodo: ''
+estado: en investigación
+imagen: img/0269-01.jpg
+portada: img/0269-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de MaquetasCalibus2021
+busqueda: splendid mercedes-benz oh 1320 línea 60 splendid mercedes-benz oh 1320 interno 54 60 constitución – tigre – escobar, ramal 1 escobar
+datos:
+- campo: Carrocería
+  valor: Splendid
+  estado: DATO1
+  fuente: MaquetasCalibus2021
+- campo: Chasis
+  valor: Mercedes-Benz OH 1320
+  estado: DATO1
+  fuente: MaquetasCalibus2021
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 54
+  estado: DATO1
+  fuente: MaquetasCalibus2021
+- campo: Línea
+  valor: 60 · Constitución – Tigre – Escobar, ramal 1 Escobar
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

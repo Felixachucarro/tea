@@ -1,0 +1,43 @@
+codigo: '02.73'
+serie: '02'
+tipo: Ficha
+titulo: Bimet Corwin · Mercedes-Benz OF 1621 · Línea 501
+periodo: ''
+estado: en investigación
+imagen: img/0273-01.jpg
+portada: img/0273-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de Buses de Villa Rosa
+busqueda: bimet corwin mercedes-benz of 1621 línea 501 bimet corwin mercedes-benz of 1621 interno 269 501 moreno – la perlita, ramal r25 la perlita s.a.
+datos:
+- campo: Carrocería
+  valor: Bimet Corwin
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OF 1621
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 269
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: 501 · Moreno – La Perlita, ramal R25
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: La Perlita S.A.
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

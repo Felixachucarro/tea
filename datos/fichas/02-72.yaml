@@ -1,0 +1,43 @@
+codigo: '02.72'
+serie: '02'
+tipo: Ficha
+titulo: El Detalle OA 105 · Línea 84
+periodo: ''
+estado: en investigación
+imagen: img/0272-01.jpg
+portada: img/0272-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de Infobae
+busqueda: el detalle oa 105 línea 84 el detalle oa 105 interno 104 84 constitución – del parque general tomás guido s.a.
+datos:
+- campo: Carrocería
+  valor: El Detalle OA 105
+  estado: DATO1
+  fuente: Infobae
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 104
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: 84 · Constitución – Del Parque
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: General Tomás Guido S.A.
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
