@@ -1,0 +1,44 @@
+codigo: '05.50'
+serie: '05'
+tipo: Ficha
+titulo: IKA Torino
+periodo: '1966'
+estado: en investigación
+imagen: img/0550-01.jpg
+portada: img/0550-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+galeria:
+- imagen: img/0550-01.jpg
+  leyenda: '01 · Frente · Reconstrucción IA · foto de origen: pendiente'
+- imagen: img/0550-02.jpg
+  leyenda: 02 · Campeón del Turismo Carretera 1967 · Reconstrucción IA
+- imagen: img/0550-03.jpg
+  leyenda: 03 · Campeón del Turismo Carretera 1968 · Reconstrucción IA
+- imagen: img/0550-04.jpg
+  leyenda: '04 · Publicidad de época · Fuente: Wikipedia'
+busqueda: ika torino 1966 campeon en 1967 y 1968
+datos:
+- campo: Producción
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Unidades
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Planta
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Lanzamiento
+  valor: '1966'
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Turismo Carretera
+  valor: Campeón en 1967 y 1968
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)

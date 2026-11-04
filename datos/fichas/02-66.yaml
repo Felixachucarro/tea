@@ -1,0 +1,43 @@
+codigo: '02.66'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Tronador II · Mi Bus (Villa La Angostura)
+periodo: ''
+estado: en investigación
+imagen: img/0266-01.jpg
+portada: img/0266-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de todobondi_arg e Ignacio U.
+busqueda: metalpar tronador ii mi bus (villa la angostura) metalpar tronador ii mercedes-benz of 1519 interno 94 mi bus villa la angostura, neuquen
+datos:
+- campo: Carrocería
+  valor: Metalpar Tronador II
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz OF 1519
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 94
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Mi Bus
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Servicio
+  valor: Villa La Angostura, Neuquén
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

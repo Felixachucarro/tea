@@ -1,0 +1,43 @@
+codigo: '02.63'
+serie: '02'
+tipo: Ficha
+titulo: La Favorita GR · Línea 40 (Bariloche)
+periodo: ''
+estado: en investigación
+imagen: img/0263-01.jpg
+portada: img/0263-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+busqueda: la favorita gr linea 40 (bariloche) la favorita gr interno 11 40 san carlos de bariloche mi bus
+datos:
+- campo: Carrocería
+  valor: La Favorita GR
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 11
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Línea
+  valor: 40 · San Carlos de Bariloche
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Operador
+  valor: Mi Bus
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

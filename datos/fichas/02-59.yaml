@@ -1,0 +1,39 @@
+codigo: '02.59'
+serie: '02'
+tipo: Ficha
+titulo: El Detalle · Línea 132
+periodo: ''
+estado: en investigación
+imagen: img/0259-01.jpg
+portada: img/0259-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+busqueda: el detalle linea 132 el detalle interno 102 132
+datos:
+- campo: Carrocería
+  valor: El Detalle
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 102
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '132'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

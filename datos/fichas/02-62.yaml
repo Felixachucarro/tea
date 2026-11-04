@@ -1,0 +1,39 @@
+codigo: '02.62'
+serie: '02'
+tipo: Ficha
+titulo: Metalpar Iguazú I articulado · Línea 34
+periodo: ''
+estado: en investigación
+imagen: img/0262-01.jpg
+portada: img/0262-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+busqueda: metalpar iguazu i articulado linea 34 metalpar iguazu i, articulado mercedes-benz o 500 ua interno 43 34 liniers – palermo
+datos:
+- campo: Carrocería
+  valor: Metalpar Iguazú I, articulado
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Chasis
+  valor: Mercedes-Benz O 500 UA
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 43
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: 34 · Liniers – Palermo
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

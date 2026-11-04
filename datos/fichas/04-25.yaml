@@ -1,0 +1,35 @@
+codigo: '04.25'
+serie: '04'
+tipo: Ficha
+titulo: Volkswagen 17-220
+periodo: ''
+estado: en investigación
+imagen: img/0425-01.jpg
+portada: img/0425-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+busqueda: volkswagen 17-220 cummins 6ctaa 219 cv din a 2.200 rpm 16.800 kg maxion, compartido con el ford cargo 1722 en la epoca de autolatina
+datos:
+- campo: Motor
+  valor: Cummins 6CTAA
+  estado: DATO1
+  fuente: Publicidad de época · @retropublicidades
+- campo: Potencia
+  valor: 219 CV DIN a 2.200 rpm
+  estado: DATO1
+  fuente: Publicidad de época · @retropublicidades
+- campo: Producción
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Origen
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Peso bruto vehicular
+  valor: 16.800 kg
+  estado: DATO1
+  fuente: Publicidad de época · @retropublicidades
+- campo: Chasis
+  valor: Maxion, compartido con el Ford Cargo 1722 en la época de Autolatina
+  estado: VERIFICAR
+  fuente: Aporte de Marcelino UB (@marcee._ub)

@@ -1,0 +1,39 @@
+codigo: '02.64'
+serie: '02'
+tipo: Ficha
+titulo: Scania K113 · General Urquiza
+periodo: ''
+estado: en investigación
+imagen: img/0264-01.jpg
+portada: img/0264-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de revista Parabrisas
+busqueda: scania k113 general urquiza aerobus scania k113 interno 252 general urquiza s.r.l.
+datos:
+- campo: Carrocería
+  valor: Aerobus
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: Scania K113
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 252
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Operador
+  valor: General Urquiza S.R.L.
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

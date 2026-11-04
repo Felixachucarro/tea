@@ -1,0 +1,43 @@
+codigo: '02.65'
+serie: '02'
+tipo: Ficha
+titulo: Cametal CX40 · Chevallier (Córdoba)
+periodo: ''
+estado: en investigación
+imagen: img/0265-01.jpg
+portada: img/0265-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+busqueda: cametal cx40 chevallier (cordoba) cametal cx40 interno 3 chevallier cordoba
+datos:
+- campo: Carrocería
+  valor: Cametal CX40
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Chasis
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 3
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Operador
+  valor: Chevallier
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Servicio
+  valor: Córdoba
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea

@@ -1,0 +1,43 @@
+codigo: '02.61'
+serie: '02'
+tipo: Ficha
+titulo: Scania-Vabis · Línea 132
+periodo: '1966'
+estado: en investigación
+imagen: img/0261-01.jpg
+portada: img/0261-01.jpg
+pie: Frente · Reconstrucción IA a partir de foto de revista Colectibondi
+busqueda: scania-vabis linea 132 alcorta (recarrozado) scania-vabis interno 57 132 1966
+datos:
+- campo: Carrocería
+  valor: Alcorta (recarrozado)
+  estado: DATO1
+  fuente: Revista Colectibondi
+- campo: Chasis
+  valor: Scania-Vabis
+  estado: DATO1
+  fuente: Revista Colectibondi
+- campo: Motor
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Potencia
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Largo
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Ejemplar documentado
+  valor: Interno 57
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Línea
+  valor: '132'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Año
+  valor: '1966'
+  estado: DATO1
+  fuente: Revista Colectibondi

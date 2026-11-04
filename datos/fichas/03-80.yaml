@@ -1,0 +1,39 @@
+codigo: '03.80'
+serie: '03'
+tipo: Ficha
+titulo: Vulcan Foundry 3925 · Ferroclub Escalada
+periodo: ''
+estado: en investigación
+imagen: img/0380-01.jpg
+portada: img/0380-01.jpg
+pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+busqueda: vulcan foundry 3925 ferroclub escalada vulcan foundry ferroclub escalada (preservacion) 3925 locomotora a vapor
+datos:
+- campo: Fabricante
+  valor: Vulcan Foundry
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Fabricación
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Líneas
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Flota
+  valor: ''
+  estado: SIN DATO
+  fuente: ''
+- campo: Operador
+  valor: Ferroclub Escalada (preservación)
+  estado: VERIFICAR
+  fuente: Documento de trabajo archivo.tea (sin fuente citada)
+- campo: Ejemplar
+  valor: '3925'
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
+- campo: Tipo
+  valor: Locomotora a vapor
+  estado: DATO1
+  fuente: Relevamiento fotográfico archivo.tea
