@@ -1,39 +1,41 @@
-codigo: '02.18'
-serie: '02'
+codigo: "02.18"
+serie: "02"
 tipo: Ficha
-titulo: El Detalle OA 101 · Línea 103
-periodo: ''
+titulo: El Detalle OA 105 · Línea 103
+nombre_corto: El Detalle OA 105 · Línea 103
+periodo: "1994"
 estado: en investigación
 imagen: img/0218-01.jpg
 portada: img/0218-01.jpg
-pie: 'Frente · Foto: pendiente'
+pie: "Frente · Foto: pendiente"
+nota_galeria: "Reconstrucción IA imagen Transporte Argentino Retro "
 busqueda: el detalle oa 101   linea 103 el detalle oa 101 deutz bf6l 913c interno 27 103
 datos:
-- campo: Carrocería
-  valor: El Detalle OA 101
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
-- campo: Chasis
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Motor
-  valor: Deutz BF6L 913C
-  estado: VERIFICAR
-  fuente: Documento de trabajo archivo.tea (sin fuente citada)
-- campo: Potencia
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Largo
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Ejemplar documentado
-  valor: Interno 27
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
-- campo: Línea
-  valor: '103'
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
+  - campo: Carrocería
+    valor: El Detalle OA 101
+    estado: DATO1
+    fuente: Relevamiento fotográfico archivo.tea
+  - campo: Motor
+    valor: Cummins 6 CTTA 8,3
+    estado: DATO1
+  - campo: Potencia
+    valor: "(HP): 217 @ 2700"
+    estado: DATO1
+    url: Camion Argentino
+  - campo: Medidas
+    valor: |-
+      Largo (mm): 11961
+      Ancho (mm): 2500
+      Alto (mm): 2825
+      Distancia entre ejes (mm): 5050/6050
+      Despeje al suelo (mm): 380
+    estado: DATO1
+    fuente: camion argentino
+  - campo: Ejemplar documentado
+    valor: Interno 27
+    estado: DATO1
+    fuente: Transporte Argentino Retro (foto)
+  - campo: Línea
+    valor: "103"
+    estado: DATO1
+    fuente: Transporte Argentino Retro (foto)

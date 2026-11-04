@@ -1,39 +1,46 @@
-codigo: '02.59'
-serie: '02'
+codigo: "02.59"
+serie: "02"
 tipo: Ficha
-titulo: El Detalle · Línea 132
-periodo: ''
+titulo: Línea 132 · El Detalle OA 105 ·
+nombre_corto: "Línea 132 · El Detalle OA 105 "
+periodo: "1994 "
 estado: en investigación
-imagen: img/0259-01.jpg
-portada: img/0259-01.jpg
-pie: 'Frente · Reconstrucción IA · foto de origen: pendiente'
+imagen: img/Linea 132 - El Detalle - Interno 102.png
+portada: img/Linea 132 - El Detalle - Interno 102-1.png
+pie: "Frente · Reconstrucción IA · foto de origen: Vias y buses (facebook)"
+galeria:
+  - imagen: img/ELDETALLE_03.jpg
+    leyenda: "Folleto - El detalle - Autor: Camionargentino"
+    ancha: false
 busqueda: el detalle linea 132 el detalle interno 102 132
 datos:
-- campo: Carrocería
-  valor: El Detalle
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
-- campo: Chasis
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Motor
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Potencia
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Largo
-  valor: ''
-  estado: SIN DATO
-  fuente: ''
-- campo: Ejemplar documentado
-  valor: Interno 102
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
-- campo: Línea
-  valor: '132'
-  estado: DATO1
-  fuente: Relevamiento fotográfico archivo.tea
+  - campo: Carrocería
+    valor: "El Detalle OA 105 - colectivo sobre bastidor. Puertas: 2/3"
+    estado: DATO
+    fuente: Relevamiento fotográfico archivo.tea
+    url: "1994"
+  - campo: Motor
+    valor: " Cummins 6 CTTA 8,3"
+    estado: DATO
+    fuente: "Camion Argentino "
+  - campo: Potencia
+    valor: "(HP): 217 @ 2700"
+    estado: DATO1
+    fuente: camionargentino
+  - campo: Medidas
+    valor: |-
+      Largo (mm): 11961
+      Ancho (mm): 2500
+      Alto (mm): 2825
+      Distancia entre ejes (mm): 5050/6050
+      Despeje al suelo (mm): 380
+    estado: DATO1
+    fuente: camion argentino
+  - campo: Línea
+    valor: "132"
+    estado: DATO1
+    fuente: Relevamiento fotográfico archivo.tea
+  - campo: Ejemplar
+    valor: Interno 102
+    estado: DATO
+    fuente: Vias y buses (foto)
